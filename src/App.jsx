@@ -985,6 +985,7 @@ function DailyMovements({ query, onOpenEtf }) {
     [baseRows],
   );
   const stockFlowRows = useMemo(() => buildStockFlowRows(baseRows), [baseRows]);
+  const sourceHealthRows = dailyMovementMeta.sourceHealth || [];
 
   useEffect(() => {
     if (dateOptions.length && !dateOptions.includes(date)) setDate(dateOptions[0]);
@@ -1107,6 +1108,10 @@ function DailyMovements({ query, onOpenEtf }) {
                   </td>
                   <td>
                     <a href={row.sourceUrl} target="_blank" rel="noreferrer">{row.source}</a>
+                    <span className={`source-status source-status-${row.verificationStatus || "fallback"}`}>
+                      {row.verificationLabel || "待核對"}
+                    </span>
+                    {row.primarySource && <small>{row.primarySource}</small>}
                     {row.snapshotDate && row.snapshotDate !== row.toDate && <small>快照 {row.snapshotDate}</small>}
                   </td>
                 </tr>
@@ -1130,6 +1135,10 @@ function DailyMovements({ query, onOpenEtf }) {
         </div>
         <div className="source-method-grid">
           <div>
+            <strong>來源規則</strong>
+            <span>{dailyMovementMeta.sourcePolicy}</span>
+          </div>
+          <div>
             <strong>機器來源</strong>
             <span>{dailyMovementMeta.source}</span>
             <a href={dailyMovementMeta.sourceUrl} target="_blank" rel="noreferrer">{dailyMovementMeta.sourceUrl}</a>
@@ -1142,6 +1151,28 @@ function DailyMovements({ query, onOpenEtf }) {
             <strong>價值排序</strong>
             <span>{dailyMovementMeta.note}</span>
           </div>
+        </div>
+        <div className="source-health-grid">
+          {sourceHealthRows.map((item) => (
+            <article className={`source-health-card source-health-${item.status || "fallback"}`} key={item.etfCode}>
+              <div className="source-health-card-head">
+                <strong className="mono">{item.etfCode}</strong>
+                <span className={`source-status source-status-${item.status || "fallback"}`}>{item.statusLabel}</span>
+              </div>
+              <b>{item.issuer} · {item.etfName}</b>
+              <small>{item.previousDate || "前日未定"} → {item.latestDate || "當日未定"} · 持股 {item.holdingCount || 0} 檔</small>
+              <a href={item.sourceUrl || dailyMovementMeta.sourceUrl} target="_blank" rel="noreferrer">{item.primarySource}</a>
+              <span>二次查核：{item.secondarySource || "待補來源"}</span>
+              {item.fallbackReason && <span className="source-fallback-reason">{item.fallbackReason}</span>}
+              {!!item.notes?.length && (
+                <div className="source-health-notes">
+                  {item.notes.map((note) => (
+                    <span key={note}>{note}</span>
+                  ))}
+                </div>
+              )}
+            </article>
+          ))}
         </div>
       </section>
     </div>
