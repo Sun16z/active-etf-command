@@ -719,6 +719,123 @@ function buildDailyBrief(rows, summaries, date) {
   return parts.length ? parts.join("；") : "該日未匯入可比較的換股事件";
 }
 
+function buildStockFlowRows(rows) {
+  const byStock = new Map();
+  rows.forEach((row) => {
+    const current =
+      byStock.get(row.stockCode) ||
+      {
+        stockCode: row.stockCode,
+        stockName: row.stockName,
+        industry: row.industry,
+        buyValueYi: 0,
+        sellValueYi: 0,
+        netValueYi: 0,
+        totalValueYi: 0,
+        buyEtfs: new Set(),
+        sellEtfs: new Set(),
+        rows: 0,
+      };
+    if (["新增", "加碼"].includes(row.typeLabel)) {
+      current.buyValueYi += Math.max(0, row.estimatedValueYi);
+      current.buyEtfs.add(row.etfCode);
+    }
+    if (["刪除", "減碼"].includes(row.typeLabel)) {
+      current.sellValueYi += Math.min(0, row.estimatedValueYi);
+      current.sellEtfs.add(row.etfCode);
+    }
+    current.netValueYi += row.estimatedValueYi;
+    current.totalValueYi += Math.abs(row.estimatedValueYi);
+    current.rows += 1;
+    byStock.set(row.stockCode, current);
+  });
+
+  return [...byStock.values()]
+    .map((row) => ({
+      ...row,
+      buyEtfs: [...row.buyEtfs].sort(),
+      sellEtfs: [...row.sellEtfs].sort(),
+      buyValueYi: Number(row.buyValueYi.toFixed(2)),
+      sellValueYi: Number(row.sellValueYi.toFixed(2)),
+      netValueYi: Number(row.netValueYi.toFixed(2)),
+      totalValueYi: Number(row.totalValueYi.toFixed(2)),
+    }))
+    .filter((row) => row.totalValueYi > 0)
+    .sort((a, b) => b.totalValueYi - a.totalValueYi || Math.abs(b.netValueYi) - Math.abs(a.netValueYi));
+}
+
+function MovementLeaderBoard({ title, rows, tone, emptyText, onOpenEtf }) {
+  return (
+    <section className={`movement-board movement-board-${tone}`}>
+      <div className="movement-board-head">
+        <h3>{title}</h3>
+        <span>{rows.length} 筆</span>
+      </div>
+      <div className="movement-board-list">
+        {rows.slice(0, 6).map((row, index) => (
+          <button type="button" className="movement-board-row" key={`${title}-${row.id}`} onClick={() => onOpenEtf(row.etfCode)}>
+            <b>{index + 1}</b>
+            <div>
+              <strong>{row.stockName}</strong>
+              <small>{row.etfCode} · {row.typeLabel} · {row.industry}</small>
+            </div>
+            <span className={tone === "buy" ? "up" : "down"}>{formatMovementValue(row.estimatedValueYi)}</span>
+          </button>
+        ))}
+        {!rows.length && <div className="empty-line">{emptyText}</div>}
+      </div>
+    </section>
+  );
+}
+
+function EtfNetFlowBoard({ rows, onOpenEtf }) {
+  return (
+    <section className="movement-board movement-board-net">
+      <div className="movement-board-head">
+        <h3>ETF 淨流向</h3>
+        <span>{rows.length} 檔</span>
+      </div>
+      <div className="movement-board-list">
+        {rows.slice(0, 6).map((summary, index) => (
+          <button type="button" className="movement-board-row" key={`${summary.date}-${summary.etfCode}`} onClick={() => onOpenEtf(summary.etfCode)}>
+            <b>{index + 1}</b>
+            <div>
+              <strong>{summary.etfCode}</strong>
+              <small>加碼 {summary.addCount} · 減碼 {summary.cutCount} · 權重 {summary.weightOnlyCount}</small>
+            </div>
+            <span className={summary.netValueYi >= 0 ? "up" : "down"}>{formatMovementValue(summary.netValueYi)}</span>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function StockFlowBoard({ rows }) {
+  return (
+    <section className="movement-board movement-board-stock">
+      <div className="movement-board-head">
+        <h3>個股同步流向</h3>
+        <span>{rows.length} 檔</span>
+      </div>
+      <div className="movement-board-list">
+        {rows.slice(0, 6).map((row, index) => (
+          <div className="movement-board-row stock-flow-row" key={row.stockCode}>
+            <b>{index + 1}</b>
+            <div>
+              <strong>{row.stockName}</strong>
+              <small>
+                買 {row.buyEtfs.join("、") || "無"} · 賣 {row.sellEtfs.join("、") || "無"}
+              </small>
+            </div>
+            <span className={row.netValueYi >= 0 ? "up" : "down"}>{formatMovementValue(row.netValueYi)}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function DailyMovements({ query, onOpenEtf }) {
   const dateOptions = useMemo(() => [...(dailyMovementMeta.dates || [])].reverse(), []);
   const etfOptions = useMemo(() => [...(dailyMovementMeta.etfCodes || [])], []);
@@ -727,8 +844,19 @@ function DailyMovements({ query, onOpenEtf }) {
   const [typeMode, setTypeMode] = useState("all");
   const [sortMode, setSortMode] = useState("value");
 
-  const filteredRows = useMemo(() => {
+  const baseRows = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
+    return dailyMovements
+      .filter((row) => row.date === date)
+      .filter((row) => etfCode === "all" || row.etfCode === etfCode)
+      .filter((row) => {
+        if (!normalizedQuery) return true;
+        const haystack = `${row.etfCode} ${row.etfName} ${row.stockCode} ${row.stockName} ${row.industry} ${row.typeLabel}`.toLowerCase();
+        return haystack.includes(normalizedQuery);
+      });
+  }, [date, etfCode, query]);
+
+  const filteredRows = useMemo(() => {
     const matchesType = (row) => {
       if (typeMode === "buy") return ["新增", "加碼"].includes(row.typeLabel);
       if (typeMode === "sell") return ["刪除", "減碼"].includes(row.typeLabel);
@@ -740,17 +868,10 @@ function DailyMovements({ query, onOpenEtf }) {
       weight: (a, b) => Math.abs(b.weightDelta) - Math.abs(a.weightDelta),
       shares: (a, b) => Math.abs(b.deltaLots) - Math.abs(a.deltaLots),
     };
-    return dailyMovements
-      .filter((row) => row.date === date)
-      .filter((row) => etfCode === "all" || row.etfCode === etfCode)
+    return baseRows
       .filter(matchesType)
-      .filter((row) => {
-        if (!normalizedQuery) return true;
-        const haystack = `${row.etfCode} ${row.etfName} ${row.stockCode} ${row.stockName} ${row.industry} ${row.typeLabel}`.toLowerCase();
-        return haystack.includes(normalizedQuery);
-      })
       .sort(comparators[sortMode] || comparators.value);
-  }, [date, etfCode, query, sortMode, typeMode]);
+  }, [baseRows, sortMode, typeMode]);
 
   const dateSummaries = useMemo(
     () =>
@@ -764,6 +885,15 @@ function DailyMovements({ query, onOpenEtf }) {
   const sellValue = filteredRows.filter((row) => row.estimatedValueYi < 0).reduce((sum, row) => sum + row.estimatedValueYi, 0);
   const stockCount = new Set(filteredRows.map((row) => row.stockCode)).size;
   const dailyBrief = buildDailyBrief(filteredRows, dateSummaries, date);
+  const buyLeaders = useMemo(
+    () => baseRows.filter((row) => ["新增", "加碼"].includes(row.typeLabel)).sort((a, b) => b.absEstimatedValueYi - a.absEstimatedValueYi),
+    [baseRows],
+  );
+  const sellLeaders = useMemo(
+    () => baseRows.filter((row) => ["刪除", "減碼"].includes(row.typeLabel)).sort((a, b) => b.absEstimatedValueYi - a.absEstimatedValueYi),
+    [baseRows],
+  );
+  const stockFlowRows = useMemo(() => buildStockFlowRows(baseRows), [baseRows]);
 
   useEffect(() => {
     if (dateOptions.length && !dateOptions.includes(date)) setDate(dateOptions[0]);
@@ -820,6 +950,13 @@ function DailyMovements({ query, onOpenEtf }) {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="daily-radar-grid">
+        <MovementLeaderBoard title="加碼價值榜" rows={buyLeaders} tone="buy" emptyText="這個日期沒有加碼資料" onOpenEtf={onOpenEtf} />
+        <MovementLeaderBoard title="減碼價值榜" rows={sellLeaders} tone="sell" emptyText="這個日期沒有減碼資料" onOpenEtf={onOpenEtf} />
+        <EtfNetFlowBoard rows={dateSummaries} onOpenEtf={onOpenEtf} />
+        <StockFlowBoard rows={stockFlowRows} />
       </section>
 
       <section className="daily-summary-grid">

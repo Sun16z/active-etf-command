@@ -227,6 +227,122 @@ button {
   gap: 10px;
 }
 
+.daily-radar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.movement-board {
+  display: grid;
+  gap: 10px;
+  min-height: 270px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 250, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.movement-board-buy {
+  border-color: rgba(35, 116, 90, 0.28);
+}
+
+.movement-board-sell {
+  border-color: rgba(180, 71, 63, 0.28);
+}
+
+.movement-board-net {
+  border-color: rgba(181, 129, 22, 0.3);
+}
+
+.movement-board-stock {
+  border-color: rgba(20, 108, 124, 0.28);
+}
+
+.movement-board-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.movement-board-head h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.movement-board-head span {
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--surface-alt);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.movement-board-list {
+  display: grid;
+  gap: 7px;
+}
+
+.movement-board-row {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(238, 245, 242, 0.42);
+  text-align: left;
+}
+
+.movement-board-row:hover {
+  border-color: rgba(20, 108, 124, 0.42);
+  background: rgba(214, 237, 241, 0.35);
+}
+
+.movement-board-row > b {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 253, 250, 0.9);
+  font-size: 12px;
+}
+
+.movement-board-row div {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.movement-board-row strong,
+.movement-board-row small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.movement-board-row small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.movement-board-row > span {
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.stock-flow-row {
+  cursor: default;
+}
+
 .daily-summary-card {
   display: grid;
   gap: 8px;
@@ -4287,6 +4403,7 @@ button {
   }
 
   .daily-summary-grid,
+  .daily-radar-grid,
   .source-method-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4355,6 +4472,7 @@ button {
   .metrics-strip,
   .refresh-priority-panel,
   .crowding-alert-grid,
+  .daily-radar-grid,
   .daily-summary-grid,
   .source-method-grid,
   .flow-command-strip,
@@ -4600,6 +4718,14 @@ button {
 
   .data-refresh-queue {
     grid-template-columns: 1fr;
+  }
+
+  .movement-board-row {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .movement-board-row > span {
+    grid-column: 2 / -1;
   }
 
   .weight-row {
