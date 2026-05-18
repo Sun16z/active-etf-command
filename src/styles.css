@@ -227,6 +227,171 @@ button {
   gap: 10px;
 }
 
+.daily-chart-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1.15fr) minmax(0, 0.9fr);
+  gap: 10px;
+}
+
+.movement-chart-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 350px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 250, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.movement-chart-buy {
+  border-color: rgba(35, 116, 90, 0.3);
+}
+
+.movement-chart-sell {
+  border-color: rgba(180, 71, 63, 0.3);
+}
+
+.movement-chart-net {
+  border-color: rgba(20, 108, 124, 0.28);
+}
+
+.movement-chart-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.movement-chart-head h3 {
+  margin: 2px 0 0;
+  font-size: 18px;
+}
+
+.movement-chart-head small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.movement-bar-list,
+.movement-net-chart {
+  display: grid;
+  gap: 9px;
+}
+
+.movement-bar-row {
+  display: grid;
+  grid-template-columns: minmax(122px, 0.76fr) minmax(130px, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.movement-bar-label {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.movement-bar-label b,
+.movement-bar-label small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.movement-bar-label small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.movement-bar-track,
+.net-chart-track {
+  position: relative;
+  min-height: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(217, 210, 198, 0.85);
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.08)),
+    var(--surface-alt);
+}
+
+.movement-bar-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--bar-width);
+  min-width: 4px;
+  border-radius: inherit;
+}
+
+.movement-bar-buy {
+  background: linear-gradient(90deg, rgba(35, 116, 90, 0.55), rgba(35, 116, 90, 0.95));
+}
+
+.movement-bar-sell {
+  background: linear-gradient(90deg, rgba(180, 71, 63, 0.52), rgba(180, 71, 63, 0.95));
+}
+
+.movement-bar-row > strong {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.net-chart-row {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  background: transparent;
+  text-align: left;
+}
+
+.net-chart-row:hover .net-chart-track {
+  border-color: rgba(20, 108, 124, 0.42);
+}
+
+.net-chart-track::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: rgba(111, 118, 111, 0.32);
+}
+
+.net-chart-track i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--bar-width) / 2);
+  min-width: 3px;
+}
+
+.net-chart-track .net-positive {
+  left: 50%;
+  border-radius: 0 999px 999px 0;
+  background: linear-gradient(90deg, rgba(35, 116, 90, 0.5), rgba(35, 116, 90, 0.95));
+}
+
+.net-chart-track .net-negative {
+  right: 50%;
+  border-radius: 999px 0 0 999px;
+  background: linear-gradient(90deg, rgba(180, 71, 63, 0.95), rgba(180, 71, 63, 0.5));
+}
+
+.net-chart-row > b {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 .daily-radar-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -4402,6 +4567,7 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .daily-chart-grid,
   .daily-summary-grid,
   .daily-radar-grid,
   .source-method-grid {
@@ -4472,6 +4638,7 @@ button {
   .metrics-strip,
   .refresh-priority-panel,
   .crowding-alert-grid,
+  .daily-chart-grid,
   .daily-radar-grid,
   .daily-summary-grid,
   .source-method-grid,
@@ -4726,6 +4893,23 @@ button {
 
   .movement-board-row > span {
     grid-column: 2 / -1;
+  }
+
+  .movement-bar-row {
+    grid-template-columns: 1fr;
+  }
+
+  .movement-bar-row > strong {
+    justify-self: end;
+  }
+
+  .net-chart-row {
+    grid-template-columns: 58px minmax(0, 1fr);
+  }
+
+  .net-chart-row > b {
+    grid-column: 2 / -1;
+    justify-self: end;
   }
 
   .weight-row {

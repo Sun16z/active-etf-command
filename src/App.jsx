@@ -700,6 +700,11 @@ function formatMovementValue(value) {
   return `${sign}${formatYi(numeric, Math.abs(numeric) >= 10 ? 1 : 2)}`;
 }
 
+function barPercent(value, maxValue, min = 3) {
+  const max = Math.max(Math.abs(maxValue || 0), 0.01);
+  return Math.max(min, Math.min(100, (Math.abs(value || 0) / max) * 100));
+}
+
 function buildDailyBrief(rows, summaries, date) {
   const leadingBuy = rows.find((row) => row.estimatedValueYi > 0);
   const leadingSell = rows.find((row) => row.estimatedValueYi < 0);
@@ -836,6 +841,92 @@ function StockFlowBoard({ rows }) {
   );
 }
 
+function MovementBarList({ title, rows, tone, valueKey = "estimatedValueYi", labelKey = "stockName", subLabel }) {
+  const maxValue = Math.max(...rows.map((row) => Math.abs(Number(row[valueKey] || 0))), 0);
+
+  return (
+    <section className={`movement-chart-card movement-chart-${tone}`}>
+      <div className="movement-chart-head">
+        <div>
+          <span className="eyebrow">{tone === "buy" ? "Buy Value" : tone === "sell" ? "Sell Value" : "Net Flow"}</span>
+          <h3>{title}</h3>
+        </div>
+        <small>依估算金額排序</small>
+      </div>
+      <div className="movement-bar-list">
+        {rows.slice(0, 8).map((row, index) => {
+          const value = Number(row[valueKey] || 0);
+          const percent = barPercent(value, maxValue);
+          return (
+            <div className="movement-bar-row" key={`${title}-${row.id || row.etfCode || row.stockCode}-${index}`}>
+              <div className="movement-bar-label">
+                <b>{row[labelKey]}</b>
+                <small>{subLabel(row)}</small>
+              </div>
+              <div className="movement-bar-track" aria-label={`${row[labelKey]} ${formatMovementValue(value)}`}>
+                <span className={`movement-bar-fill movement-bar-${value >= 0 ? "buy" : "sell"}`} style={{ "--bar-width": `${percent}%` }} />
+              </div>
+              <strong className={value >= 0 ? "up" : "down"}>{formatMovementValue(value)}</strong>
+            </div>
+          );
+        })}
+        {!rows.length && <div className="empty-line">這個條件下沒有可畫圖的資料</div>}
+      </div>
+    </section>
+  );
+}
+
+function NetFlowBarChart({ rows, onOpenEtf }) {
+  const maxValue = Math.max(...rows.map((row) => Math.abs(Number(row.netValueYi || 0))), 0);
+
+  return (
+    <section className="movement-chart-card movement-chart-net">
+      <div className="movement-chart-head">
+        <div>
+          <span className="eyebrow">ETF Net Flow</span>
+          <h3>ETF 淨加減碼長條</h3>
+        </div>
+        <small>正值偏加碼，負值偏減碼</small>
+      </div>
+      <div className="movement-net-chart">
+        {rows.slice(0, 10).map((row, index) => {
+          const value = Number(row.netValueYi || 0);
+          const percent = barPercent(value, maxValue, 4);
+          return (
+            <button className="net-chart-row" type="button" key={`${row.date}-${row.etfCode}-${index}`} onClick={() => onOpenEtf(row.etfCode)}>
+              <span className="mono">{row.etfCode}</span>
+              <div className="net-chart-track">
+                <i className={value >= 0 ? "net-positive" : "net-negative"} style={{ "--bar-width": `${percent}%` }} />
+              </div>
+              <b className={value >= 0 ? "up" : "down"}>{formatMovementValue(value)}</b>
+            </button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function DailyMovementCharts({ buyLeaders, sellLeaders, dateSummaries, onOpenEtf }) {
+  return (
+    <section className="daily-chart-grid">
+      <MovementBarList
+        title="加碼價值長條"
+        rows={buyLeaders}
+        tone="buy"
+        subLabel={(row) => `${row.etfCode} · ${row.typeLabel} · ${formatPct(row.weightDelta)}`}
+      />
+      <MovementBarList
+        title="減碼價值長條"
+        rows={sellLeaders}
+        tone="sell"
+        subLabel={(row) => `${row.etfCode} · ${row.typeLabel} · ${formatPct(row.weightDelta)}`}
+      />
+      <NetFlowBarChart rows={dateSummaries} onOpenEtf={onOpenEtf} />
+    </section>
+  );
+}
+
 function DailyMovements({ query, onOpenEtf }) {
   const dateOptions = useMemo(() => [...(dailyMovementMeta.dates || [])].reverse(), []);
   const etfOptions = useMemo(() => [...(dailyMovementMeta.etfCodes || [])], []);
@@ -951,6 +1042,8 @@ function DailyMovements({ query, onOpenEtf }) {
           </div>
         </div>
       </section>
+
+      <DailyMovementCharts buyLeaders={buyLeaders} sellLeaders={sellLeaders} dateSummaries={dateSummaries} onOpenEtf={onOpenEtf} />
 
       <section className="daily-radar-grid">
         <MovementLeaderBoard title="加碼價值榜" rows={buyLeaders} tone="buy" emptyText="這個日期沒有加碼資料" onOpenEtf={onOpenEtf} />
