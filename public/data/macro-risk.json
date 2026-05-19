@@ -1,53 +1,27 @@
 {
   "meta": {
-    "generatedAt": "2026-05-19T17:22:43.322Z",
+    "generatedAt": "2026-05-19T20:13:30.690Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 41.9,
-      "label": "觀察",
-      "tone": "neutral",
-      "meaning": "中性觀察",
-      "highest": "巴菲特現金水位",
+      "score": 31.5,
+      "label": "低壓力",
+      "tone": "up",
+      "meaning": "壓力尚低",
+      "highest": "美國國債水位",
       "interpretation": "分數越高代表宏觀壓力、信用壓力或大資金防守越強；此區偏向提前示警，需搭配價格趨勢確認。"
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-05-19T17:22:43.322Z",
+    "generatedAt": "2026-05-19T20:13:30.690Z",
     "summary": {
-      "score": 41.9,
-      "label": "觀察",
-      "tone": "neutral",
-      "meaning": "中性觀察",
-      "highest": "巴菲特現金水位",
+      "score": 31.5,
+      "label": "低壓力",
+      "tone": "up",
+      "meaning": "壓力尚低",
+      "highest": "美國國債水位",
       "interpretation": "分數越高代表宏觀壓力、信用壓力或大資金防守越強；此區偏向提前示警，需搭配價格趨勢確認。"
     },
     "indicators": [
-      {
-        "id": "berkshire-cash",
-        "name": "巴菲特現金水位",
-        "category": "大資金防守",
-        "value": "$390.7B，較前期 +$21.6B",
-        "score": 74.7,
-        "label": "警戒",
-        "tone": "down",
-        "meaning": "壓力升溫，需要降低追高衝動",
-        "asOf": "2026-03-31",
-        "checkedAt": "2026-05-19T17:22:43.322Z",
-        "cadence": "季度申報；系統每日檢查 SEC 新檔",
-        "sourceLabel": "SEC Berkshire Hathaway 10-Q",
-        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
-        "explain": "Berkshire 現金與短期美國國庫券水位偏高，代表長線資金保持防守與等待可部署機會。",
-        "components": [
-          {
-            "label": "現金及約當現金",
-            "value": "$51.5B"
-          },
-          {
-            "label": "短期美國國庫券",
-            "value": "$339.3B"
-          }
-        ]
-      },
       {
         "id": "us-debt",
         "name": "美國國債水位",
@@ -58,7 +32,7 @@
         "tone": "down",
         "meaning": "壓力升溫，需要降低追高衝動",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-19T17:22:42.712Z",
+        "checkedAt": "2026-05-19T20:13:30.424Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -84,7 +58,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-18",
-        "checkedAt": "2026-05-19T17:22:42.177Z",
+        "checkedAt": "2026-05-19T20:13:30.689Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -100,7 +74,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-08",
-        "checkedAt": "2026-05-19T17:22:42.177Z",
+        "checkedAt": "2026-05-19T20:13:30.689Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -116,15 +90,31 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-08",
-        "checkedAt": "2026-05-19T17:22:42.177Z",
+        "checkedAt": "2026-05-19T20:13:30.689Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
         "explain": "金融壓力指數上行代表市場資金、信用與利率壓力擴散。"
+      },
+      {
+        "id": "berkshire-cash",
+        "name": "巴菲特現金水位",
+        "category": "大資金防守",
+        "value": "資料抓取失敗",
+        "score": null,
+        "label": "資料不足",
+        "tone": "neutral",
+        "meaning": "資料不足",
+        "asOf": null,
+        "checkedAt": "2026-05-19T20:13:30.689Z",
+        "cadence": "依來源更新",
+        "sourceLabel": "資料不足，無法確認",
+        "sourceUrl": null,
+        "explain": "Berkshire SEC submissions HTTP 403"
       }
     ],
     "sourceHealth": {
-      "parsed": 5,
+      "parsed": 4,
       "total": 5
     }
   }
