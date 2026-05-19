@@ -1,0 +1,1480 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-19T17:22:43.757Z",
+    "source": "us-market-radar memoryMarket pipeline",
+    "summary": {
+      "status": "pass",
+      "score": 85.4,
+      "label": "AI 記憶體偏熱",
+      "headline": "HBM 是 AI 主線，DRAM / NAND 是供給排擠與資料中心擴張的放大器。",
+      "interpretation": "優先看 HBM 供應商、封裝產能與 HBM4 進度；DDR5 與 NAND 價格代表 AI demand 擴散到通用伺服器與儲存鏈。",
+      "cycleRiskScore": 34,
+      "cycleRiskLabel": "暫無崩盤背離",
+      "cycleRiskTone": "up",
+      "topCycleAlert": "尚未出現價格/股價崩盤背離",
+      "failedSources": 0,
+      "proxySymbols": [
+        "000660.KS",
+        "MU",
+        "005930.KS",
+        "WDC"
+      ],
+      "proxyNote": "Yahoo Finance supplier basket proxy; not a DDR/HBM/NAND exchange futures contract"
+    }
+  },
+  "memoryMarket": {
+    "generatedAt": "2026-05-19T17:22:43.353Z",
+    "summary": {
+      "status": "pass",
+      "score": 85.4,
+      "label": "AI 記憶體偏熱",
+      "headline": "HBM 是 AI 主線，DRAM / NAND 是供給排擠與資料中心擴張的放大器。",
+      "interpretation": "優先看 HBM 供應商、封裝產能與 HBM4 進度；DDR5 與 NAND 價格代表 AI demand 擴散到通用伺服器與儲存鏈。",
+      "cycleRiskScore": 34,
+      "cycleRiskLabel": "暫無崩盤背離",
+      "cycleRiskTone": "up",
+      "topCycleAlert": "尚未出現價格/股價崩盤背離",
+      "failedSources": 0,
+      "proxySymbols": [
+        "000660.KS",
+        "MU",
+        "005930.KS",
+        "WDC"
+      ],
+      "proxyNote": "Yahoo Finance supplier basket proxy; not a DDR/HBM/NAND exchange futures contract"
+    },
+    "stages": [
+      {
+        "id": "hbm",
+        "label": "HBM",
+        "rank": 1,
+        "score": 100,
+        "tone": "up",
+        "metric": "代理20日 +38.47%",
+        "detail": "AI 訓練與推論 decode 的高頻寬核心，供應商往 HBM4 / HBM4e 競爭。",
+        "components": [
+          "HBM3e",
+          "HBM4",
+          "CoWoS/TSV",
+          "AI GPU/ASIC"
+        ],
+        "sourceLabel": "TrendForce HBM Market Bulletin",
+        "sourceUrl": "https://www.trendforce.com/research/download/RP260513PF3",
+        "sourceAsOf": "2026-05-12T16:00:00.000Z"
+      },
+      {
+        "id": "dram",
+        "label": "DRAM / DDR5",
+        "rank": 2,
+        "score": 70.3,
+        "tone": "up",
+        "metric": "DDR5 現貨 41.167 USD",
+        "detail": "HBM 擠壓傳統 DRAM 產能，DDR5 受 AI 推論與通用伺服器拉動。",
+        "components": [
+          "DDR5",
+          "Server RDIMM",
+          "DDR4 legacy",
+          "PC/手機降規"
+        ],
+        "sourceLabel": "TrendForce DRAM Spot Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "sourceAsOf": "2026-05-19T10:10:00.000Z"
+      },
+      {
+        "id": "nand",
+        "label": "NAND / SSD",
+        "rank": 3,
+        "score": 86,
+        "tone": "up",
+        "metric": "NAND 合約 17.725 USD",
+        "detail": "AI 資料中心帶動 enterprise SSD 與高效儲存，消費端承受成本壓力。",
+        "components": [
+          "Enterprise SSD",
+          "QLC/TLC",
+          "eMMC/UFS",
+          "Wafer"
+        ],
+        "sourceLabel": "TrendForce NAND Flash Contract Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
+        "sourceAsOf": "2026-03-31T01:00:00.000Z"
+      }
+    ],
+    "priceCards": [
+      {
+        "id": "dram-ddr5-spot",
+        "chain": "DRAM",
+        "kind": "現貨報價",
+        "label": "DDR5 16Gb 4800/5600",
+        "unit": "USD",
+        "latest": 41.167,
+        "high": 52.5,
+        "low": 30,
+        "changePct": 1.15,
+        "score": 56.6,
+        "tone": "neutral",
+        "priority": 2,
+        "series": [
+          {
+            "time": "2026-04-20T10:10:00.000Z",
+            "value": 40.699
+          },
+          {
+            "time": "2026-04-21T10:10:00.000Z",
+            "value": 40.796
+          },
+          {
+            "time": "2026-04-22T10:10:00.000Z",
+            "value": 40.884
+          },
+          {
+            "time": "2026-04-23T10:10:00.000Z",
+            "value": 40.955
+          },
+          {
+            "time": "2026-04-24T10:10:00.000Z",
+            "value": 41.004
+          },
+          {
+            "time": "2026-04-25T10:10:00.000Z",
+            "value": 41.026
+          },
+          {
+            "time": "2026-04-26T10:10:00.000Z",
+            "value": 41.02
+          },
+          {
+            "time": "2026-04-27T10:10:00.000Z",
+            "value": 40.991
+          },
+          {
+            "time": "2026-04-28T10:10:00.000Z",
+            "value": 40.941
+          },
+          {
+            "time": "2026-04-29T10:10:00.000Z",
+            "value": 40.879
+          },
+          {
+            "time": "2026-04-30T10:10:00.000Z",
+            "value": 40.813
+          },
+          {
+            "time": "2026-05-01T10:10:00.000Z",
+            "value": 40.753
+          },
+          {
+            "time": "2026-05-02T10:10:00.000Z",
+            "value": 40.706
+          },
+          {
+            "time": "2026-05-03T10:10:00.000Z",
+            "value": 40.679
+          },
+          {
+            "time": "2026-05-04T10:10:00.000Z",
+            "value": 40.678
+          },
+          {
+            "time": "2026-05-05T10:10:00.000Z",
+            "value": 40.704
+          },
+          {
+            "time": "2026-05-06T10:10:00.000Z",
+            "value": 40.756
+          },
+          {
+            "time": "2026-05-07T10:10:00.000Z",
+            "value": 40.831
+          },
+          {
+            "time": "2026-05-08T10:10:00.000Z",
+            "value": 40.92
+          },
+          {
+            "time": "2026-05-09T10:10:00.000Z",
+            "value": 41.018
+          },
+          {
+            "time": "2026-05-10T10:10:00.000Z",
+            "value": 41.114
+          },
+          {
+            "time": "2026-05-11T10:10:00.000Z",
+            "value": 41.2
+          },
+          {
+            "time": "2026-05-12T10:10:00.000Z",
+            "value": 41.268
+          },
+          {
+            "time": "2026-05-13T10:10:00.000Z",
+            "value": 41.313
+          },
+          {
+            "time": "2026-05-14T10:10:00.000Z",
+            "value": 41.331
+          },
+          {
+            "time": "2026-05-15T10:10:00.000Z",
+            "value": 41.322
+          },
+          {
+            "time": "2026-05-16T10:10:00.000Z",
+            "value": 41.288
+          },
+          {
+            "time": "2026-05-17T10:10:00.000Z",
+            "value": 41.237
+          },
+          {
+            "time": "2026-05-18T10:10:00.000Z",
+            "value": 41.173
+          },
+          {
+            "time": "2026-05-19T10:10:00.000Z",
+            "value": 41.108
+          }
+        ],
+        "historyStatus": "latest-plus-change",
+        "sourceLabel": "TrendForce DRAM Spot Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "sourceAsOf": "2026-05-19T10:10:00.000Z",
+        "checkedAt": "2026-05-19T17:22:43.353Z"
+      },
+      {
+        "id": "dram-ddr5-contract",
+        "chain": "DRAM",
+        "kind": "合約價",
+        "label": "DDR5 8GB SO-DIMM",
+        "unit": "USD",
+        "latest": 75,
+        "high": 78.5,
+        "low": 72.5,
+        "changePct": 0,
+        "score": 55,
+        "tone": "neutral",
+        "priority": 3,
+        "series": [
+          {
+            "time": "2026-03-02T06:00:00.000Z",
+            "value": 75
+          },
+          {
+            "time": "2026-03-03T06:00:00.000Z",
+            "value": 75.147
+          },
+          {
+            "time": "2026-03-04T06:00:00.000Z",
+            "value": 75.278
+          },
+          {
+            "time": "2026-03-05T06:00:00.000Z",
+            "value": 75.379
+          },
+          {
+            "time": "2026-03-06T06:00:00.000Z",
+            "value": 75.437
+          },
+          {
+            "time": "2026-03-07T06:00:00.000Z",
+            "value": 75.448
+          },
+          {
+            "time": "2026-03-08T06:00:00.000Z",
+            "value": 75.409
+          },
+          {
+            "time": "2026-03-09T06:00:00.000Z",
+            "value": 75.325
+          },
+          {
+            "time": "2026-03-10T06:00:00.000Z",
+            "value": 75.206
+          },
+          {
+            "time": "2026-03-11T06:00:00.000Z",
+            "value": 75.064
+          },
+          {
+            "time": "2026-03-12T06:00:00.000Z",
+            "value": 74.914
+          },
+          {
+            "time": "2026-03-13T06:00:00.000Z",
+            "value": 74.774
+          },
+          {
+            "time": "2026-03-14T06:00:00.000Z",
+            "value": 74.659
+          },
+          {
+            "time": "2026-03-15T06:00:00.000Z",
+            "value": 74.582
+          },
+          {
+            "time": "2026-03-16T06:00:00.000Z",
+            "value": 74.55
+          },
+          {
+            "time": "2026-03-17T06:00:00.000Z",
+            "value": 74.568
+          },
+          {
+            "time": "2026-03-18T06:00:00.000Z",
+            "value": 74.634
+          },
+          {
+            "time": "2026-03-19T06:00:00.000Z",
+            "value": 74.74
+          },
+          {
+            "time": "2026-03-20T06:00:00.000Z",
+            "value": 74.874
+          },
+          {
+            "time": "2026-03-21T06:00:00.000Z",
+            "value": 75.023
+          },
+          {
+            "time": "2026-03-22T06:00:00.000Z",
+            "value": 75.168
+          },
+          {
+            "time": "2026-03-23T06:00:00.000Z",
+            "value": 75.296
+          },
+          {
+            "time": "2026-03-24T06:00:00.000Z",
+            "value": 75.39
+          },
+          {
+            "time": "2026-03-25T06:00:00.000Z",
+            "value": 75.442
+          },
+          {
+            "time": "2026-03-26T06:00:00.000Z",
+            "value": 75.445
+          },
+          {
+            "time": "2026-03-27T06:00:00.000Z",
+            "value": 75.399
+          },
+          {
+            "time": "2026-03-28T06:00:00.000Z",
+            "value": 75.309
+          },
+          {
+            "time": "2026-03-29T06:00:00.000Z",
+            "value": 75.185
+          },
+          {
+            "time": "2026-03-30T06:00:00.000Z",
+            "value": 75.041
+          },
+          {
+            "time": "2026-03-31T06:00:00.000Z",
+            "value": 74.892
+          }
+        ],
+        "historyStatus": "latest-plus-change",
+        "sourceLabel": "TrendForce DRAM Contract Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "sourceAsOf": "2026-03-31T06:00:00.000Z",
+        "checkedAt": "2026-05-19T17:22:43.353Z"
+      },
+      {
+        "id": "dram-ddr4-spot",
+        "chain": "DRAM",
+        "kind": "現貨報價",
+        "label": "DDR4 16Gb 3200",
+        "unit": "USD",
+        "latest": 58.238,
+        "high": 70,
+        "low": 33,
+        "changePct": 0,
+        "score": 55,
+        "tone": "neutral",
+        "priority": 4,
+        "series": [
+          {
+            "time": "2026-04-20T10:10:00.000Z",
+            "value": 58.238
+          },
+          {
+            "time": "2026-04-21T10:10:00.000Z",
+            "value": 58.352
+          },
+          {
+            "time": "2026-04-22T10:10:00.000Z",
+            "value": 58.454
+          },
+          {
+            "time": "2026-04-23T10:10:00.000Z",
+            "value": 58.532
+          },
+          {
+            "time": "2026-04-24T10:10:00.000Z",
+            "value": 58.578
+          },
+          {
+            "time": "2026-04-25T10:10:00.000Z",
+            "value": 58.586
+          },
+          {
+            "time": "2026-04-26T10:10:00.000Z",
+            "value": 58.556
+          },
+          {
+            "time": "2026-04-27T10:10:00.000Z",
+            "value": 58.491
+          },
+          {
+            "time": "2026-04-28T10:10:00.000Z",
+            "value": 58.398
+          },
+          {
+            "time": "2026-04-29T10:10:00.000Z",
+            "value": 58.287
+          },
+          {
+            "time": "2026-04-30T10:10:00.000Z",
+            "value": 58.171
+          },
+          {
+            "time": "2026-05-01T10:10:00.000Z",
+            "value": 58.063
+          },
+          {
+            "time": "2026-05-02T10:10:00.000Z",
+            "value": 57.974
+          },
+          {
+            "time": "2026-05-03T10:10:00.000Z",
+            "value": 57.913
+          },
+          {
+            "time": "2026-05-04T10:10:00.000Z",
+            "value": 57.889
+          },
+          {
+            "time": "2026-05-05T10:10:00.000Z",
+            "value": 57.903
+          },
+          {
+            "time": "2026-05-06T10:10:00.000Z",
+            "value": 57.954
+          },
+          {
+            "time": "2026-05-07T10:10:00.000Z",
+            "value": 58.036
+          },
+          {
+            "time": "2026-05-08T10:10:00.000Z",
+            "value": 58.14
+          },
+          {
+            "time": "2026-05-09T10:10:00.000Z",
+            "value": 58.256
+          },
+          {
+            "time": "2026-05-10T10:10:00.000Z",
+            "value": 58.369
+          },
+          {
+            "time": "2026-05-11T10:10:00.000Z",
+            "value": 58.468
+          },
+          {
+            "time": "2026-05-12T10:10:00.000Z",
+            "value": 58.541
+          },
+          {
+            "time": "2026-05-13T10:10:00.000Z",
+            "value": 58.581
+          },
+          {
+            "time": "2026-05-14T10:10:00.000Z",
+            "value": 58.584
+          },
+          {
+            "time": "2026-05-15T10:10:00.000Z",
+            "value": 58.548
+          },
+          {
+            "time": "2026-05-16T10:10:00.000Z",
+            "value": 58.478
+          },
+          {
+            "time": "2026-05-17T10:10:00.000Z",
+            "value": 58.382
+          },
+          {
+            "time": "2026-05-18T10:10:00.000Z",
+            "value": 58.27
+          },
+          {
+            "time": "2026-05-19T10:10:00.000Z",
+            "value": 58.154
+          }
+        ],
+        "historyStatus": "latest-plus-change",
+        "sourceLabel": "TrendForce DRAM Spot Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "sourceAsOf": "2026-05-19T10:10:00.000Z",
+        "checkedAt": "2026-05-19T17:22:43.353Z"
+      },
+      {
+        "id": "dram-ddr4-contract",
+        "chain": "DRAM",
+        "kind": "合約價",
+        "label": "DDR4 16GB SO-DIMM",
+        "unit": "USD",
+        "latest": 170,
+        "high": 175,
+        "low": 140,
+        "changePct": 3.03,
+        "score": 59.2,
+        "tone": "neutral",
+        "priority": 5,
+        "series": [
+          {
+            "time": "2026-03-02T06:00:00.000Z",
+            "value": 165
+          },
+          {
+            "time": "2026-03-03T06:00:00.000Z",
+            "value": 165.507
+          },
+          {
+            "time": "2026-03-04T06:00:00.000Z",
+            "value": 165.976
+          },
+          {
+            "time": "2026-03-05T06:00:00.000Z",
+            "value": 166.376
+          },
+          {
+            "time": "2026-03-06T06:00:00.000Z",
+            "value": 166.681
+          },
+          {
+            "time": "2026-03-07T06:00:00.000Z",
+            "value": 166.878
+          },
+          {
+            "time": "2026-03-08T06:00:00.000Z",
+            "value": 166.962
+          },
+          {
+            "time": "2026-03-09T06:00:00.000Z",
+            "value": 166.945
+          },
+          {
+            "time": "2026-03-10T06:00:00.000Z",
+            "value": 166.846
+          },
+          {
+            "time": "2026-03-11T06:00:00.000Z",
+            "value": 166.696
+          },
+          {
+            "time": "2026-03-12T06:00:00.000Z",
+            "value": 166.53
+          },
+          {
+            "time": "2026-03-13T06:00:00.000Z",
+            "value": 166.386
+          },
+          {
+            "time": "2026-03-14T06:00:00.000Z",
+            "value": 166.297
+          },
+          {
+            "time": "2026-03-15T06:00:00.000Z",
+            "value": 166.294
+          },
+          {
+            "time": "2026-03-16T06:00:00.000Z",
+            "value": 166.395
+          },
+          {
+            "time": "2026-03-17T06:00:00.000Z",
+            "value": 166.608
+          },
+          {
+            "time": "2026-03-18T06:00:00.000Z",
+            "value": 166.929
+          },
+          {
+            "time": "2026-03-19T06:00:00.000Z",
+            "value": 167.341
+          },
+          {
+            "time": "2026-03-20T06:00:00.000Z",
+            "value": 167.819
+          },
+          {
+            "time": "2026-03-21T06:00:00.000Z",
+            "value": 168.327
+          },
+          {
+            "time": "2026-03-22T06:00:00.000Z",
+            "value": 168.83
+          },
+          {
+            "time": "2026-03-23T06:00:00.000Z",
+            "value": 169.291
+          },
+          {
+            "time": "2026-03-24T06:00:00.000Z",
+            "value": 169.678
+          },
+          {
+            "time": "2026-03-25T06:00:00.000Z",
+            "value": 169.968
+          },
+          {
+            "time": "2026-03-26T06:00:00.000Z",
+            "value": 170.147
+          },
+          {
+            "time": "2026-03-27T06:00:00.000Z",
+            "value": 170.215
+          },
+          {
+            "time": "2026-03-28T06:00:00.000Z",
+            "value": 170.184
+          },
+          {
+            "time": "2026-03-29T06:00:00.000Z",
+            "value": 170.076
+          },
+          {
+            "time": "2026-03-30T06:00:00.000Z",
+            "value": 169.921
+          },
+          {
+            "time": "2026-03-31T06:00:00.000Z",
+            "value": 169.756
+          }
+        ],
+        "historyStatus": "latest-plus-change",
+        "sourceLabel": "TrendForce DRAM Contract Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "sourceAsOf": "2026-03-31T06:00:00.000Z",
+        "checkedAt": "2026-05-19T17:22:43.353Z"
+      },
+      {
+        "id": "nand-contract",
+        "chain": "NAND",
+        "kind": "合約價",
+        "label": "NAND 128Gb 16Gx8 MLC",
+        "unit": "USD",
+        "latest": 17.725,
+        "high": 17.9,
+        "low": 17.45,
+        "changePct": 39.95,
+        "score": 100,
+        "tone": "up",
+        "priority": 6,
+        "series": [
+          {
+            "time": "2026-03-02T01:00:00.000Z",
+            "value": 12.665
+          },
+          {
+            "time": "2026-03-03T01:00:00.000Z",
+            "value": 12.875
+          },
+          {
+            "time": "2026-03-04T01:00:00.000Z",
+            "value": 13.08
+          },
+          {
+            "time": "2026-03-05T01:00:00.000Z",
+            "value": 13.278
+          },
+          {
+            "time": "2026-03-06T01:00:00.000Z",
+            "value": 13.467
+          },
+          {
+            "time": "2026-03-07T01:00:00.000Z",
+            "value": 13.643
+          },
+          {
+            "time": "2026-03-08T01:00:00.000Z",
+            "value": 13.809
+          },
+          {
+            "time": "2026-03-09T01:00:00.000Z",
+            "value": 13.963
+          },
+          {
+            "time": "2026-03-10T01:00:00.000Z",
+            "value": 14.11
+          },
+          {
+            "time": "2026-03-11T01:00:00.000Z",
+            "value": 14.251
+          },
+          {
+            "time": "2026-03-12T01:00:00.000Z",
+            "value": 14.39
+          },
+          {
+            "time": "2026-03-13T01:00:00.000Z",
+            "value": 14.531
+          },
+          {
+            "time": "2026-03-14T01:00:00.000Z",
+            "value": 14.678
+          },
+          {
+            "time": "2026-03-15T01:00:00.000Z",
+            "value": 14.835
+          },
+          {
+            "time": "2026-03-16T01:00:00.000Z",
+            "value": 15.002
+          },
+          {
+            "time": "2026-03-17T01:00:00.000Z",
+            "value": 15.18
+          },
+          {
+            "time": "2026-03-18T01:00:00.000Z",
+            "value": 15.37
+          },
+          {
+            "time": "2026-03-19T01:00:00.000Z",
+            "value": 15.57
+          },
+          {
+            "time": "2026-03-20T01:00:00.000Z",
+            "value": 15.776
+          },
+          {
+            "time": "2026-03-21T01:00:00.000Z",
+            "value": 15.986
+          },
+          {
+            "time": "2026-03-22T01:00:00.000Z",
+            "value": 16.195
+          },
+          {
+            "time": "2026-03-23T01:00:00.000Z",
+            "value": 16.399
+          },
+          {
+            "time": "2026-03-24T01:00:00.000Z",
+            "value": 16.596
+          },
+          {
+            "time": "2026-03-25T01:00:00.000Z",
+            "value": 16.783
+          },
+          {
+            "time": "2026-03-26T01:00:00.000Z",
+            "value": 16.958
+          },
+          {
+            "time": "2026-03-27T01:00:00.000Z",
+            "value": 17.121
+          },
+          {
+            "time": "2026-03-28T01:00:00.000Z",
+            "value": 17.275
+          },
+          {
+            "time": "2026-03-29T01:00:00.000Z",
+            "value": 17.42
+          },
+          {
+            "time": "2026-03-30T01:00:00.000Z",
+            "value": 17.56
+          },
+          {
+            "time": "2026-03-31T01:00:00.000Z",
+            "value": 17.7
+          }
+        ],
+        "historyStatus": "latest-plus-change",
+        "sourceLabel": "TrendForce NAND Flash Contract Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
+        "sourceAsOf": "2026-03-31T01:00:00.000Z",
+        "checkedAt": "2026-05-19T17:22:43.353Z"
+      }
+    ],
+    "chartSeries": [
+      {
+        "id": "hbm-proxy",
+        "label": "HBM 供應商代理指數",
+        "chain": "HBM",
+        "kind": "市場代理",
+        "color": "#2357b6",
+        "points": [
+          {
+            "time": "2026-02-19T20:00:00.000Z",
+            "value": 100
+          },
+          {
+            "time": "2026-02-20T20:00:00.000Z",
+            "value": 103.21
+          },
+          {
+            "time": "2026-02-23T20:00:00.000Z",
+            "value": 102.87
+          },
+          {
+            "time": "2026-02-24T20:00:00.000Z",
+            "value": 105.33
+          },
+          {
+            "time": "2026-02-25T20:00:00.000Z",
+            "value": 107.81
+          },
+          {
+            "time": "2026-02-26T20:00:00.000Z",
+            "value": 111.44
+          },
+          {
+            "time": "2026-02-27T20:00:00.000Z",
+            "value": 109.33
+          },
+          {
+            "time": "2026-03-02T20:00:00.000Z",
+            "value": 97.93
+          },
+          {
+            "time": "2026-03-03T20:00:00.000Z",
+            "value": 98.36
+          },
+          {
+            "time": "2026-03-04T20:00:00.000Z",
+            "value": 94.12
+          },
+          {
+            "time": "2026-03-05T20:00:00.000Z",
+            "value": 99.71
+          },
+          {
+            "time": "2026-03-06T20:00:00.000Z",
+            "value": 96.1
+          },
+          {
+            "time": "2026-03-09T20:00:00.000Z",
+            "value": 92.85
+          },
+          {
+            "time": "2026-03-10T20:00:00.000Z",
+            "value": 99.91
+          },
+          {
+            "time": "2026-03-11T20:00:00.000Z",
+            "value": 102.14
+          },
+          {
+            "time": "2026-03-12T20:00:00.000Z",
+            "value": 99.56
+          },
+          {
+            "time": "2026-03-13T20:00:00.000Z",
+            "value": 100.23
+          },
+          {
+            "time": "2026-03-16T20:00:00.000Z",
+            "value": 105.19
+          },
+          {
+            "time": "2026-03-17T20:00:00.000Z",
+            "value": 108.06
+          },
+          {
+            "time": "2026-03-18T20:00:00.000Z",
+            "value": 112.95
+          },
+          {
+            "time": "2026-03-19T20:00:00.000Z",
+            "value": 109.36
+          },
+          {
+            "time": "2026-03-20T20:00:00.000Z",
+            "value": 106.51
+          },
+          {
+            "time": "2026-03-23T20:00:00.000Z",
+            "value": 100.63
+          },
+          {
+            "time": "2026-03-24T20:00:00.000Z",
+            "value": 102.78
+          },
+          {
+            "time": "2026-03-25T20:00:00.000Z",
+            "value": 101.89
+          },
+          {
+            "time": "2026-03-26T20:00:00.000Z",
+            "value": 95.47
+          },
+          {
+            "time": "2026-03-27T20:00:00.000Z",
+            "value": 95.68
+          },
+          {
+            "time": "2026-03-30T20:00:00.000Z",
+            "value": 89.18
+          },
+          {
+            "time": "2026-03-31T20:00:00.000Z",
+            "value": 87.31
+          },
+          {
+            "time": "2026-04-01T20:00:00.000Z",
+            "value": 96.76
+          },
+          {
+            "time": "2026-04-02T20:00:00.000Z",
+            "value": 92.5
+          },
+          {
+            "time": "2026-04-03T20:00:00.000Z",
+            "value": 97.99
+          },
+          {
+            "time": "2026-04-06T20:00:00.000Z",
+            "value": 97.64
+          },
+          {
+            "time": "2026-04-07T20:00:00.000Z",
+            "value": 99.53
+          },
+          {
+            "time": "2026-04-08T20:00:00.000Z",
+            "value": 109.16
+          },
+          {
+            "time": "2026-04-09T20:00:00.000Z",
+            "value": 108.08
+          },
+          {
+            "time": "2026-04-10T20:00:00.000Z",
+            "value": 109.65
+          },
+          {
+            "time": "2026-04-13T20:00:00.000Z",
+            "value": 110.37
+          },
+          {
+            "time": "2026-04-14T20:00:00.000Z",
+            "value": 117.19
+          },
+          {
+            "time": "2026-04-15T20:00:00.000Z",
+            "value": 118.3
+          },
+          {
+            "time": "2026-04-16T20:00:00.000Z",
+            "value": 119.75
+          },
+          {
+            "time": "2026-04-17T20:00:00.000Z",
+            "value": 118.66
+          },
+          {
+            "time": "2026-04-20T20:00:00.000Z",
+            "value": 119.66
+          },
+          {
+            "time": "2026-04-21T20:00:00.000Z",
+            "value": 123.02
+          },
+          {
+            "time": "2026-04-22T20:00:00.000Z",
+            "value": 125.92
+          },
+          {
+            "time": "2026-04-23T20:00:00.000Z",
+            "value": 126.8
+          },
+          {
+            "time": "2026-04-24T20:00:00.000Z",
+            "value": 127.33
+          },
+          {
+            "time": "2026-04-27T20:00:00.000Z",
+            "value": 132.85
+          },
+          {
+            "time": "2026-04-28T20:00:00.000Z",
+            "value": 131.02
+          },
+          {
+            "time": "2026-04-29T20:00:00.000Z",
+            "value": 133
+          },
+          {
+            "time": "2026-04-30T20:00:00.000Z",
+            "value": 132.79
+          },
+          {
+            "time": "2026-05-01T20:00:00.000Z",
+            "value": 135.08
+          },
+          {
+            "time": "2026-05-04T20:00:00.000Z",
+            "value": 145.72
+          },
+          {
+            "time": "2026-05-05T20:00:00.000Z",
+            "value": 155.79
+          },
+          {
+            "time": "2026-05-06T20:00:00.000Z",
+            "value": 164.13
+          },
+          {
+            "time": "2026-05-07T20:00:00.000Z",
+            "value": 164.76
+          },
+          {
+            "time": "2026-05-08T20:00:00.000Z",
+            "value": 174.05
+          },
+          {
+            "time": "2026-05-11T20:00:00.000Z",
+            "value": 189.06
+          },
+          {
+            "time": "2026-05-12T20:00:00.000Z",
+            "value": 183.31
+          },
+          {
+            "time": "2026-05-13T20:00:00.000Z",
+            "value": 192.86
+          },
+          {
+            "time": "2026-05-14T20:00:00.000Z",
+            "value": 191.58
+          },
+          {
+            "time": "2026-05-15T20:00:00.000Z",
+            "value": 178.29
+          },
+          {
+            "time": "2026-05-18T20:00:00.000Z",
+            "value": 176.16
+          },
+          {
+            "time": "2026-05-19T20:00:00.000Z",
+            "value": 170.35
+          }
+        ],
+        "sourceLabel": "Yahoo Finance supplier basket",
+        "sourceUrl": "https://finance.yahoo.com/",
+        "historyStatus": "real-market-proxy"
+      },
+      {
+        "id": "dram-contract-index",
+        "label": "DRAM / DDR5 合約報價指數",
+        "chain": "DRAM",
+        "kind": "合約與現貨",
+        "color": "#107c5c",
+        "points": [
+          {
+            "time": "2026-04-20T10:10:00.000Z",
+            "value": 100,
+            "rawValue": 40.699
+          },
+          {
+            "time": "2026-04-21T10:10:00.000Z",
+            "value": 100.24,
+            "rawValue": 40.796
+          },
+          {
+            "time": "2026-04-22T10:10:00.000Z",
+            "value": 100.45,
+            "rawValue": 40.884
+          },
+          {
+            "time": "2026-04-23T10:10:00.000Z",
+            "value": 100.63,
+            "rawValue": 40.955
+          },
+          {
+            "time": "2026-04-24T10:10:00.000Z",
+            "value": 100.75,
+            "rawValue": 41.004
+          },
+          {
+            "time": "2026-04-25T10:10:00.000Z",
+            "value": 100.8,
+            "rawValue": 41.026
+          },
+          {
+            "time": "2026-04-26T10:10:00.000Z",
+            "value": 100.79,
+            "rawValue": 41.02
+          },
+          {
+            "time": "2026-04-27T10:10:00.000Z",
+            "value": 100.72,
+            "rawValue": 40.991
+          },
+          {
+            "time": "2026-04-28T10:10:00.000Z",
+            "value": 100.59,
+            "rawValue": 40.941
+          },
+          {
+            "time": "2026-04-29T10:10:00.000Z",
+            "value": 100.44,
+            "rawValue": 40.879
+          },
+          {
+            "time": "2026-04-30T10:10:00.000Z",
+            "value": 100.28,
+            "rawValue": 40.813
+          },
+          {
+            "time": "2026-05-01T10:10:00.000Z",
+            "value": 100.13,
+            "rawValue": 40.753
+          },
+          {
+            "time": "2026-05-02T10:10:00.000Z",
+            "value": 100.02,
+            "rawValue": 40.706
+          },
+          {
+            "time": "2026-05-03T10:10:00.000Z",
+            "value": 99.95,
+            "rawValue": 40.679
+          },
+          {
+            "time": "2026-05-04T10:10:00.000Z",
+            "value": 99.95,
+            "rawValue": 40.678
+          },
+          {
+            "time": "2026-05-05T10:10:00.000Z",
+            "value": 100.01,
+            "rawValue": 40.704
+          },
+          {
+            "time": "2026-05-06T10:10:00.000Z",
+            "value": 100.14,
+            "rawValue": 40.756
+          },
+          {
+            "time": "2026-05-07T10:10:00.000Z",
+            "value": 100.32,
+            "rawValue": 40.831
+          },
+          {
+            "time": "2026-05-08T10:10:00.000Z",
+            "value": 100.54,
+            "rawValue": 40.92
+          },
+          {
+            "time": "2026-05-09T10:10:00.000Z",
+            "value": 100.78,
+            "rawValue": 41.018
+          },
+          {
+            "time": "2026-05-10T10:10:00.000Z",
+            "value": 101.02,
+            "rawValue": 41.114
+          },
+          {
+            "time": "2026-05-11T10:10:00.000Z",
+            "value": 101.23,
+            "rawValue": 41.2
+          },
+          {
+            "time": "2026-05-12T10:10:00.000Z",
+            "value": 101.4,
+            "rawValue": 41.268
+          },
+          {
+            "time": "2026-05-13T10:10:00.000Z",
+            "value": 101.51,
+            "rawValue": 41.313
+          },
+          {
+            "time": "2026-05-14T10:10:00.000Z",
+            "value": 101.55,
+            "rawValue": 41.331
+          },
+          {
+            "time": "2026-05-15T10:10:00.000Z",
+            "value": 101.53,
+            "rawValue": 41.322
+          },
+          {
+            "time": "2026-05-16T10:10:00.000Z",
+            "value": 101.45,
+            "rawValue": 41.288
+          },
+          {
+            "time": "2026-05-17T10:10:00.000Z",
+            "value": 101.32,
+            "rawValue": 41.237
+          },
+          {
+            "time": "2026-05-18T10:10:00.000Z",
+            "value": 101.16,
+            "rawValue": 41.173
+          },
+          {
+            "time": "2026-05-19T10:10:00.000Z",
+            "value": 101,
+            "rawValue": 41.108
+          }
+        ],
+        "sourceLabel": "TrendForce DRAM Spot Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "historyStatus": "latest-plus-change"
+      },
+      {
+        "id": "nand-contract-index",
+        "label": "NAND 合約報價指數",
+        "chain": "NAND",
+        "kind": "合約價",
+        "color": "#a86812",
+        "points": [
+          {
+            "time": "2026-03-02T01:00:00.000Z",
+            "value": 100,
+            "rawValue": 12.665
+          },
+          {
+            "time": "2026-03-03T01:00:00.000Z",
+            "value": 101.66,
+            "rawValue": 12.875
+          },
+          {
+            "time": "2026-03-04T01:00:00.000Z",
+            "value": 103.28,
+            "rawValue": 13.08
+          },
+          {
+            "time": "2026-03-05T01:00:00.000Z",
+            "value": 104.84,
+            "rawValue": 13.278
+          },
+          {
+            "time": "2026-03-06T01:00:00.000Z",
+            "value": 106.33,
+            "rawValue": 13.467
+          },
+          {
+            "time": "2026-03-07T01:00:00.000Z",
+            "value": 107.72,
+            "rawValue": 13.643
+          },
+          {
+            "time": "2026-03-08T01:00:00.000Z",
+            "value": 109.03,
+            "rawValue": 13.809
+          },
+          {
+            "time": "2026-03-09T01:00:00.000Z",
+            "value": 110.25,
+            "rawValue": 13.963
+          },
+          {
+            "time": "2026-03-10T01:00:00.000Z",
+            "value": 111.41,
+            "rawValue": 14.11
+          },
+          {
+            "time": "2026-03-11T01:00:00.000Z",
+            "value": 112.52,
+            "rawValue": 14.251
+          },
+          {
+            "time": "2026-03-12T01:00:00.000Z",
+            "value": 113.62,
+            "rawValue": 14.39
+          },
+          {
+            "time": "2026-03-13T01:00:00.000Z",
+            "value": 114.73,
+            "rawValue": 14.531
+          },
+          {
+            "time": "2026-03-14T01:00:00.000Z",
+            "value": 115.89,
+            "rawValue": 14.678
+          },
+          {
+            "time": "2026-03-15T01:00:00.000Z",
+            "value": 117.13,
+            "rawValue": 14.835
+          },
+          {
+            "time": "2026-03-16T01:00:00.000Z",
+            "value": 118.45,
+            "rawValue": 15.002
+          },
+          {
+            "time": "2026-03-17T01:00:00.000Z",
+            "value": 119.86,
+            "rawValue": 15.18
+          },
+          {
+            "time": "2026-03-18T01:00:00.000Z",
+            "value": 121.36,
+            "rawValue": 15.37
+          },
+          {
+            "time": "2026-03-19T01:00:00.000Z",
+            "value": 122.94,
+            "rawValue": 15.57
+          },
+          {
+            "time": "2026-03-20T01:00:00.000Z",
+            "value": 124.56,
+            "rawValue": 15.776
+          },
+          {
+            "time": "2026-03-21T01:00:00.000Z",
+            "value": 126.22,
+            "rawValue": 15.986
+          },
+          {
+            "time": "2026-03-22T01:00:00.000Z",
+            "value": 127.87,
+            "rawValue": 16.195
+          },
+          {
+            "time": "2026-03-23T01:00:00.000Z",
+            "value": 129.48,
+            "rawValue": 16.399
+          },
+          {
+            "time": "2026-03-24T01:00:00.000Z",
+            "value": 131.04,
+            "rawValue": 16.596
+          },
+          {
+            "time": "2026-03-25T01:00:00.000Z",
+            "value": 132.51,
+            "rawValue": 16.783
+          },
+          {
+            "time": "2026-03-26T01:00:00.000Z",
+            "value": 133.9,
+            "rawValue": 16.958
+          },
+          {
+            "time": "2026-03-27T01:00:00.000Z",
+            "value": 135.18,
+            "rawValue": 17.121
+          },
+          {
+            "time": "2026-03-28T01:00:00.000Z",
+            "value": 136.4,
+            "rawValue": 17.275
+          },
+          {
+            "time": "2026-03-29T01:00:00.000Z",
+            "value": 137.54,
+            "rawValue": 17.42
+          },
+          {
+            "time": "2026-03-30T01:00:00.000Z",
+            "value": 138.65,
+            "rawValue": 17.56
+          },
+          {
+            "time": "2026-03-31T01:00:00.000Z",
+            "value": 139.76,
+            "rawValue": 17.7
+          }
+        ],
+        "sourceLabel": "TrendForce NAND Flash Contract Price",
+        "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
+        "historyStatus": "latest-plus-change"
+      }
+    ],
+    "cycleAlerts": [
+      {
+        "id": "cycle-stable",
+        "title": "尚未出現價格/股價崩盤背離",
+        "body": "目前公開價格與供應商代理沒有同時觸發轉弱條件；仍需持續看 TrendForce 更新、HBM 供應商指引與代理股價斜率。",
+        "score": 34,
+        "severity": "low",
+        "tone": "up",
+        "metric": "價 13.7% / 股 38.47%",
+        "meaning": "沒有頂部確認警訊。",
+        "sourceLabel": "TrendForce + Yahoo Finance",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "asOf": "2026-05-19T20:00:00.000Z"
+      }
+    ],
+    "sources": [
+      {
+        "id": "trendforce-hbm-bulletin",
+        "label": "TrendForce HBM Market Bulletin",
+        "url": "https://www.trendforce.com/research/download/RP260513PF3",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-05-12T16:00:00.000Z",
+        "note": "Monthly HBM bulletin; public page shows highlights, full PDF requires purchase or membership"
+      },
+      {
+        "id": "trendforce-dram-spot",
+        "label": "TrendForce DRAM Spot Price",
+        "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-05-19T10:10:00.000Z",
+        "note": "TrendForce public price table"
+      },
+      {
+        "id": "trendforce-dram-contract",
+        "label": "TrendForce DRAM Contract Price",
+        "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-03-31T06:00:00.000Z",
+        "note": "TrendForce public price table"
+      },
+      {
+        "id": "trendforce-nand-contract",
+        "label": "TrendForce NAND Flash Contract Price",
+        "url": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-03-31T01:00:00.000Z",
+        "note": "TrendForce public price table"
+      },
+      {
+        "id": "trendforce-memory-wall",
+        "label": "TrendForce Memory Wall Insight",
+        "url": "https://www.trendforce.com.tw/insights/memory-wall",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-01-15T16:00:00.000Z",
+        "note": "HBM / DDR5 / AI inference chain thesis"
+      },
+      {
+        "id": "trendforce-2q26-price-forecast",
+        "label": "TrendForce 2Q26 Memory Price Forecast",
+        "url": "https://www.trendforce.com/presscenter/news/20260331-12995.html",
+        "status": "pass",
+        "checkedAt": "2026-05-19T17:22:43.353Z",
+        "sourceAsOf": "2026-03-30T16:00:00.000Z",
+        "note": "DRAM 58-63% QoQ; NAND 70-75% QoQ forecast context"
+      }
+    ],
+    "caveats": [
+      "TrendForce 公開頁提供最新價、漲跌幅與部分走勢入口；完整歷史圖與報告細項需要登入、會員或付費權限。",
+      "資料不足，無法確認有可公開自動抓取的 DDR / NAND / HBM 標準交易所期貨；本頁的期貨欄位以市場代理指數標示。",
+      "HBM 沒有公開逐日合約價表，需用 TrendForce bulletin、供應商股價代理、AI GPU/ASIC 出貨與封裝產能交叉確認。"
+    ]
+  }
+}
