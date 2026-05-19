@@ -1,0 +1,13 @@
+:root {
+  --command-bg: #0d1117;
+  --command-text: #c9d1d9;
+  --command-muted: #8b949e;
+  --command-red: #f85149;
+  --command-yellow: #d29922;
+  --command-green: #3fb950;
+  --command-border: rgba(201, 209, 217, 0.16);
+  --command-panel: #111820;
+  --command-font: "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --command-gap: 8px;
+  --command-radius: 6px;
+}
