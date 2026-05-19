@@ -4,10 +4,12 @@ import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, "..");
-const defaultEventsDir = path.resolve(projectRoot, "../tw_shortterm_screener/data/cache/intraday_events");
-const eventsDir = process.env.INTRADAY_EVENTS_DIR
-  ? path.resolve(process.env.INTRADAY_EVENTS_DIR)
-  : defaultEventsDir;
+const candidateEventsDirs = [
+  process.env.INTRADAY_EVENTS_DIR,
+  path.resolve(projectRoot, "../tw_shortterm_screener/data/cache/intraday_events"),
+  "/Users/justin/tw_shortterm_screener_runtime/data/cache/intraday_events",
+  "/Users/justin/Documents/chatgpt/tw_shortterm_screener/data/cache/intraday_events",
+].filter(Boolean);
 const optional = process.argv.includes("--optional");
 
 function parseCsvLine(line) {
@@ -135,14 +137,29 @@ function aggregate(records) {
 
 async function main() {
   let dirEntries = [];
+  let eventsDir = "";
+  let readError = null;
   try {
-    dirEntries = await readdir(eventsDir);
+    for (const candidateDir of candidateEventsDirs) {
+      try {
+        dirEntries = await readdir(candidateDir);
+        eventsDir = candidateDir;
+        readError = null;
+        break;
+      } catch (error) {
+        readError = error;
+      }
+    }
   } catch (error) {
+    readError = error;
+  }
+
+  if (!eventsDir) {
     if (optional) {
-      console.warn(`Intraday import skipped: ${error.message}`);
+      console.warn(`Intraday import skipped: ${readError?.message || "No intraday event directory found"}`);
       return;
     }
-    throw error;
+    throw readError || new Error("No intraday event directory found");
   }
 
   const files = dirEntries

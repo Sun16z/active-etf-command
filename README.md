@@ -2,6 +2,16 @@
 
 台灣主動 ETF 研究工作台，定位為獨立網站：整合每日換股查詢、ETF 評分、持股變化、共識加減碼、台積電 25% 上限壓力測試與報告中心。
 
+## Merge status
+
+`us-market-radar` 已合併進本站。本站現在同時承接：
+
+- ETF 工作台：台股主動 ETF PCF diff、持股追蹤、台積電條款警示。
+- SEC Hunter：13F、Form 4、13D/G 題材雷達。
+- 連動雷達：macro risk、memory market、台美類股連動。
+
+舊站 `us-market-radar` 已退役並導向本站。
+
 ## 核心工作流
 
 - 每日變化：依日期、ETF、加碼 / 減碼 / 權重變動查詢主動式 ETF 持倉變化。
@@ -34,6 +44,18 @@ npm run refresh:data
 ```bash
 npm run import:daily
 ```
+
+## Local schedule
+
+每日自動排程（台北時間 18:00）由 `com.justin.activeetf.refresh.plist` 搭配 `scripts/run_daily_refresh.sh` 執行。launchd 實際執行目錄是 `/Users/justin/active_etf_command_runtime`，避免 macOS 背景程序被 Documents 權限擋住。
+
+安裝或重裝本機排程：
+
+```bash
+scripts/install_daily_refresh_agent.sh
+```
+
+排程日誌在 runtime 的 `outputs/daily_refresh_logs/`。
 
 ## Deploy
 
