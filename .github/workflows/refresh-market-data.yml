@@ -1,0 +1,58 @@
+name: Refresh US Market Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # SEC Hunter freshness target: every 30 minutes.
+    - cron: "15,45 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-market-data
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  SEC_USER_AGENT: active-etf-command/0.1 GitHub Actions Justin justin@example.invalid
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Refresh US market data
+        run: npm run refresh:market
+
+      - name: Commit data snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            public/data/sec-smart-money.json \
+            public/data/macro-risk.json \
+            public/data/memory-market.json \
+            src/features/sec/data/smartMoney.js \
+            src/features/macro/data/macroRisk.js \
+            src/features/memory/data/memoryMarket.js
+          if git diff --cached --quiet; then
+            echo "No US market data changes"
+          else
+            git commit -m "chore(data): refresh us market snapshots"
+            git push
+          fi

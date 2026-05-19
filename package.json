@@ -16,7 +16,8 @@
     "prebuild": "node scripts/importEtfUniverse.mjs --optional && node scripts/importDailyMovements.mjs --optional && node scripts/importIntradayAttacks.mjs --optional",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "refresh:market": "npm run import:sec && npm run import:macro && npm run import:memory"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.2",
