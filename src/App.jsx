@@ -52,11 +52,13 @@ import { EtfTable } from "./components/EtfTable";
 import { MetricTile } from "./components/MetricTile";
 import { ProgressRail, Sparkline, WeightBars } from "./components/MiniCharts";
 import { SecHunterView } from "./features/sec/components/SecHunterView";
+import { LinkageRadarView } from "./features/linkage/components/LinkageRadarView";
 
 const navItems = [
   ["dashboard", "總控台", BarChart3],
   ["daily", "每日變化", ArrowLeftRight],
   ["sec", "SEC Hunter", ShieldCheck],
+  ["linkage", "連動雷達", Target],
   ["matrix", "ETF 矩陣", ListFilter],
   ["flow", "共識資金流", Radar],
   ["attack", "盤中攻擊", Zap],
@@ -420,6 +422,7 @@ function App() {
         )}
         {view === "daily" && <DailyMovements query={query} onOpenEtf={openEtf} />}
         {view === "sec" && <SecHunterView />}
+        {view === "linkage" && <LinkageRadarView />}
         {view === "matrix" && (
           <Matrix
             rows={filtered}
@@ -455,6 +458,7 @@ function viewTitle(view) {
     dashboard: "盤後總控",
     daily: "每日換股雷達",
     sec: "SEC Hunter",
+    linkage: "台美連動雷達",
     matrix: "ETF 評分矩陣",
     flow: "共識加減碼雷達",
     attack: "盤中攻擊交集",
