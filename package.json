@@ -9,6 +9,7 @@
     "import:etfs": "node scripts/importEtfUniverse.mjs",
     "import:daily": "node scripts/importDailyMovements.mjs",
     "import:intraday": "node scripts/importIntradayAttacks.mjs",
+    "import:sec": "node scripts/sec/importSmartMoney.mjs",
     "refresh:data": "npm run import:etfs && npm run import:daily && npm run import:intraday",
     "prebuild": "node scripts/importEtfUniverse.mjs --optional && node scripts/importDailyMovements.mjs --optional && node scripts/importIntradayAttacks.mjs --optional",
     "build": "vite build",
