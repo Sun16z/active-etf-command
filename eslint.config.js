@@ -29,4 +29,10 @@ export default [
       "react/jsx-uses-vars": "error",
     },
   },
+  {
+    files: ["scripts/**/*.js", "scripts/**/*.mjs", "src/features/**/server/**/*.js", "test/**/*.mjs"],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
 ];

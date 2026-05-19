@@ -595,11 +595,11 @@ function nextForm13fDeadline(now = new Date()) {
   if (!today) return { deadline: null, quarter: null, daysUntil: null, reportDate: null };
   const candidates = [];
   for (const year of [today.getUTCFullYear() - 1, today.getUTCFullYear(), today.getUTCFullYear() + 1]) {
-    for (const [quarter, month, day, reportMonth, reportDay] of [
-      ["1Q", 3, 31, 5, 15],
-      ["2Q", 6, 30, 8, 14],
-      ["3Q", 9, 30, 11, 14],
-      ["4Q", 12, 31, 2, 14],
+    for (const [quarter, month, day] of [
+      ["1Q", 3, 31],
+      ["2Q", 6, 30],
+      ["3Q", 9, 30],
+      ["4Q", 12, 31],
     ]) {
       const quarterEnd = new Date(Date.UTC(year, month - 1, day));
       const deadline = addDays(quarterEnd, 45);
