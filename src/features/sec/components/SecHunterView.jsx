@@ -76,8 +76,8 @@ export function SecHunterView() {
             <span>原因</span>
             <span>時間</span>
           </div>
-          {alerts.slice(0, 10).map((alert) => (
-            <div className="data-audit-row" key={alert.id || alert.title}>
+          {alerts.slice(0, 10).map((alert, index) => (
+            <div className="data-audit-row" key={`${alert.id || alert.title}-${index}`}>
               <b>{alert.severity || "info"}</b>
               <strong>{alert.title}</strong>
               <small>{alert.body || alert.reason || "SEC filing alert"}</small>
@@ -128,8 +128,8 @@ export function SecHunterView() {
             <span>分數</span>
             <span>時間</span>
           </div>
-          {topTransactions.map((tx) => (
-            <div className="data-audit-row" key={`${tx.accessionNumber}-${tx.ownerName}-${tx.ticker}`}>
+          {topTransactions.map((tx, index) => (
+            <div className="data-audit-row" key={`${tx.accessionNumber}-${tx.ownerName}-${tx.ticker}-${index}`}>
               <strong>{tx.ticker}</strong>
               <span>{tx.ownerName}</span>
               <b>{formatUsd(tx.value)}</b>
