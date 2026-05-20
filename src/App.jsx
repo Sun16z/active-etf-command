@@ -367,6 +367,18 @@ function App() {
           <small className={`source-status source-status-${etfFreshness.status}`}>{etfFreshness.label}</small>
           <small>{snapshotMeta.source || "Live ETF feed"}</small>
         </div>
+
+        <a
+          href="https://etfmap.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "flex", alignItems: "center", gap: "6px", margin: "8px 12px", padding: "7px 12px", borderRadius: "8px", fontSize: "12px", fontWeight: 500, color: "#a78bfa", background: "rgba(139,92,246,0.1)", border: "1px solid rgba(139,92,246,0.25)", textDecoration: "none", transition: "background 0.15s" }}
+          onMouseEnter={e => e.currentTarget.style.background = "rgba(139,92,246,0.18)"}
+          onMouseLeave={e => e.currentTarget.style.background = "rgba(139,92,246,0.1)"}
+        >
+          <span>🗺️</span>
+          <span>ETF 產業地圖</span>
+        </a>
       </aside>
 
       <section className="workspace">
