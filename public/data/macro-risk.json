@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-05-21T18:23:24.894Z",
+    "generatedAt": "2026-05-21T20:22:56.491Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 32.9,
+      "score": 32.8,
       "label": "低壓力",
       "tone": "up",
       "meaning": "壓力尚低",
@@ -12,9 +12,9 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-05-21T18:23:24.894Z",
+    "generatedAt": "2026-05-21T20:22:56.491Z",
     "summary": {
-      "score": 32.9,
+      "score": 32.8,
       "label": "低壓力",
       "tone": "up",
       "meaning": "壓力尚低",
@@ -26,13 +26,13 @@
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$39.07T，約 30 交易日變化 +$54.6B",
-        "score": 73.9,
+        "value": "$39.05T，約 30 交易日變化 +$49.4B",
+        "score": 73.4,
         "label": "警戒",
         "tone": "down",
         "meaning": "壓力升溫，需要降低追高衝動",
-        "asOf": "2026-05-19",
-        "checkedAt": "2026-05-21T18:23:24.626Z",
+        "asOf": "2026-05-20",
+        "checkedAt": "2026-05-21T20:22:56.491Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -44,7 +44,7 @@
           },
           {
             "label": "政府內部持有",
-            "value": "$7.71T"
+            "value": "$7.69T"
           }
         ]
       },
@@ -58,7 +58,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-20",
-        "checkedAt": "2026-05-21T18:23:24.893Z",
+        "checkedAt": "2026-05-21T20:22:56.140Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -74,7 +74,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-21T18:23:24.893Z",
+        "checkedAt": "2026-05-21T20:22:56.141Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -90,7 +90,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-21T18:23:24.893Z",
+        "checkedAt": "2026-05-21T20:22:56.141Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -106,7 +106,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-05-21T18:23:24.893Z",
+        "checkedAt": "2026-05-21T20:22:56.491Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
