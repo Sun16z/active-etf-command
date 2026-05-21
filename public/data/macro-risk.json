@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-20T22:55:10.238Z",
+    "generatedAt": "2026-05-21T00:28:14.337Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": 33.2,
@@ -12,7 +12,7 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-05-20T22:55:10.238Z",
+    "generatedAt": "2026-05-21T00:28:14.337Z",
     "summary": {
       "score": 33.2,
       "label": "低壓力",
@@ -32,7 +32,7 @@
         "tone": "down",
         "meaning": "壓力升溫，需要降低追高衝動",
         "asOf": "2026-05-19",
-        "checkedAt": "2026-05-20T22:55:10.238Z",
+        "checkedAt": "2026-05-21T00:28:13.912Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -58,7 +58,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-19",
-        "checkedAt": "2026-05-20T22:55:10.163Z",
+        "checkedAt": "2026-05-21T00:28:14.337Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -74,7 +74,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-20T22:55:10.163Z",
+        "checkedAt": "2026-05-21T00:28:14.337Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -90,7 +90,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-20T22:55:10.163Z",
+        "checkedAt": "2026-05-21T00:28:14.337Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -106,7 +106,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-05-20T22:55:10.238Z",
+        "checkedAt": "2026-05-21T00:28:14.337Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
