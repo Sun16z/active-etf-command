@@ -3,9 +3,6 @@ name: Build and publish site
 on:
   push:
     branches: ["main"]
-  schedule:
-    # 17:30 Asia/Taipei = 09:30 UTC
-    - cron: "30 9 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,7 +16,6 @@ concurrency:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-  ACTIVE_ETF_SCOPE: "tw-equity"
 
 jobs:
   build:
@@ -34,8 +30,6 @@ jobs:
           cache: npm
       - name: Install
         run: npm ci
-      - name: Refresh ETF data (TW active equity ETFs)
-        run: npm run refresh:data
       - name: Build
         run: npm run build
       - name: Upload artifact
