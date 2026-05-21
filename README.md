@@ -39,23 +39,17 @@ http://127.0.0.1:5176/
 npm run refresh:data
 ```
 
+匯出核心資料庫快照（手動）：
+
+```bash
+npm run export:core-db
+```
+
 單獨更新每日變化資料：
 
 ```bash
 npm run import:daily
 ```
-
-## Local schedule
-
-每日自動排程（台北時間 18:00）由 `com.justin.activeetf.refresh.plist` 搭配 `scripts/run_daily_refresh.sh` 執行。launchd 實際執行目錄是 `/Users/justin/active_etf_command_runtime`，避免 macOS 背景程序被 Documents 權限擋住。
-
-安裝或重裝本機排程：
-
-```bash
-scripts/install_daily_refresh_agent.sh
-```
-
-排程日誌在 runtime 的 `outputs/daily_refresh_logs/`。
 
 ## Deploy
 
@@ -72,7 +66,7 @@ scripts/install_daily_refresh_agent.sh
 - 單檔資料可信度：ETF 詳情頁集中顯示 ETF 快照日、完整持股數、持股來源、latestDiff 區間與盤中攻擊快取狀態，判斷刷新優先順序，並可一鍵複製 `npm run refresh:data` 更新指令。
 - ETF 資料健康：總控台標示 ETF 快照是否為今日、是否有匯入失敗檔。
 - 真實資料品質雷達：集中顯示 ETF 快照、匯入覆蓋、核心欄位完整度與盤中攻擊快取狀態。
-- 全站刷新優先級：總控台彙總 ETF 快照與攻擊快取狀態，顯示 ETF 最近生成、攻擊檔更新與下一次 19:00 排程，直接判斷是否建議執行 `npm run refresh:data`，並可預覽、複製 Telegram / Threads 狀態摘要。
+- 全站刷新優先級：總控台彙總 ETF 快照與攻擊快取狀態，顯示 ETF 最近生成、攻擊檔更新與下一次 17:30 排程，直接判斷是否建議執行 `npm run refresh:data`，並可預覽、複製 Telegram / Threads 狀態摘要。
 - 全 ETF 真實資料稽核：總控台逐檔列出資料日、完整持股筆數、持股來源、latestDiff 區間、攻擊命中與擁擠分數，可切換待處理 / 全部 / 已核對，依投信官方、持股包或缺 latestDiff 篩選，直接開啟來源頁；面板會自動整理快照刷新、高風險複核、持股包複核與補 latestDiff 的優先序，可複製稽核摘要或指定 ETF 刷新命令，並在本機保留固定紀錄加最近 5 筆指定刷新命令紀錄、刷新前後差異狀態、逐檔欄位變化明細，以及 Telegram / Threads 差異摘要預覽與複製；紀錄可單筆刪除、固定保留或清空未固定項目。
 - 高擁擠 ETF 警示榜：總控台列出擁擠分數最高且命中攻擊量的 ETF，可切換全部、高擁擠、攻擊命中，點選即可查看詳情、一鍵複製 Telegram 清單，並直接開啟完整擁擠風險矩陣。
 - 風險持股 Top 5：總控台列出攻擊命中與擁擠熱區持股最多的 ETF，可切換全部、攻擊、熱區榜單，點代表持股可套用完整持股搜尋，一鍵複製 Telegram 清單，並可開啟完整風險持股排序矩陣。
@@ -103,8 +97,8 @@ scripts/install_daily_refresh_agent.sh
 - 摘要資料時戳：貼文與對比摘要會標示盤中攻擊資料是否為今日或過期快取。
 - 摘要格式切換：同一檔 ETF 可輸出 Telegram 交易卡、Threads 短文或長版研究稿。
 - 攻擊更新入口：盤中攻擊頁顯示目前來源檔、修改時間與可複製的完整匯入指令。
-- ETF 異動日曆：報告中心顯示下一次 19:00 刷新、ETF 快照、latestDiff 區間與盤中攻擊快取。
-- ETF 異動日曆摘要：報告中心可用 Telegram / Threads 兩種格式，切換最新區間 / 全部區間，預覽並一鍵複製下一次 19:00 排程、ETF 快照、latestDiff 區間與盤中攻擊快取摘要。
+- ETF 異動日曆：報告中心顯示下一次 17:30 刷新、ETF 快照、latestDiff 區間與盤中攻擊快取。
+- ETF 異動日曆摘要：報告中心可用 Telegram / Threads 兩種格式，切換最新區間 / 全部區間，預覽並一鍵複製下一次 17:30 排程、ETF 快照、latestDiff 區間與盤中攻擊快取摘要。
 - 投信風格分群：報告中心依投信彙總 AUM、經理人、台股/海外/債券配置、台積電平均權重與異動活躍度，並可依 AUM、異動、台積電集中與收益占比排序。
 - ETF 雙檔對比：在詳情卡比較指揮分、AUM、台積電權重、盤中攻擊分與折溢價差值。
 - 對比摘要複製：把雙檔 ETF 差異整理成可貼的研究摘要。
@@ -147,3 +141,24 @@ npm run import:intraday
 ```bash
 npm run refresh:data
 ```
+
+`npm run refresh:data` 會自動輸出核心資料庫快照到：
+
+- `outputs/core_db/daily/YYYY-MM-DD/manifest.json`
+- `outputs/core_db/daily/YYYY-MM-DD/etf_universe.json`
+- `outputs/core_db/daily/YYYY-MM-DD/daily_movements.json`
+- `outputs/core_db/daily/YYYY-MM-DD/daily_etf_summaries.json`
+- `outputs/core_db/daily/YYYY-MM-DD/intraday_attacks.json`
+- `outputs/core_db/daily/YYYY-MM-DD/theme_risk.json`
+- `outputs/core_db/latest/*.json`（最新覆蓋）
+- `outputs/core_db/latest_manifest.json`（最新索引）
+
+每日本機資料刷新排程（台北時間 17:30）由 `com.justin.activeetf.refresh.plist` 搭配 `scripts/run_daily_refresh.sh` 執行。launchd 實際執行目錄是 `/Users/justin/active_etf_command_runtime`，避免 macOS 背景程序被 Documents 權限擋住。完整的網站部署、Telegram 通知、文章與圖片產出由 Codex 每日 17:30 的 `ETF 每日網站更新與發文` 任務串接。
+
+安裝或重裝本機排程：
+
+```bash
+scripts/install_daily_refresh_agent.sh
+```
+
+排程日誌在 runtime 的 `outputs/daily_refresh_logs/`。

@@ -8,6 +8,7 @@ import {
   CalendarClock,
   Check,
   Copy,
+  Flame,
   Database,
   Eye,
   Gauge,
@@ -25,9 +26,12 @@ import {
   WalletCards,
   Zap,
 } from "lucide-react";
+import { SecHunterView } from "./features/sec/components/SecHunterView";
+import { LinkageRadarView } from "./features/linkage/components/LinkageRadarView";
 import { etfs, reports, snapshotMeta, watchlist } from "./data/etfUniverse";
 import { dailyEtfSummaries, dailyMovementMeta, dailyMovements } from "./data/dailyMovements";
 import { intradayAttackMeta, intradayAttacks } from "./data/intradayAttacks";
+import { themeRiskMeta, themeRiskRows } from "./data/themeRisk";
 import {
   adjustedAttackScore,
   attackWeightLabel,
@@ -51,12 +55,11 @@ import {
 import { EtfTable } from "./components/EtfTable";
 import { MetricTile } from "./components/MetricTile";
 import { ProgressRail, Sparkline, WeightBars } from "./components/MiniCharts";
-import { SecHunterView } from "./features/sec/components/SecHunterView";
-import { LinkageRadarView } from "./features/linkage/components/LinkageRadarView";
 
 const navItems = [
   ["dashboard", "總控台", BarChart3],
   ["daily", "每日變化", ArrowLeftRight],
+  ["theme", "主題風險", Flame],
   ["sec", "SEC Hunter", ShieldCheck],
   ["linkage", "連動雷達", Target],
   ["matrix", "ETF 矩陣", ListFilter],
@@ -227,12 +230,13 @@ function taipeiClockParts(now = new Date()) {
 
 function nextDailyRefresh(now = new Date()) {
   const clock = taipeiClockParts(now);
-  const nextDate = clock.hour >= 19 ? addDaysToDateString(clock.date, 1) : clock.date;
+  const refreshPassed = clock.hour > 17 || (clock.hour === 17 && clock.minute >= 30);
+  const nextDate = refreshPassed ? addDaysToDateString(clock.date, 1) : clock.date;
   const isToday = nextDate === clock.date;
 
   return {
-    value: `${nextDate} 19:00`,
-    detail: isToday ? "今日台北 19:00 重抓 ETF 與攻擊資料。" : `今日 19:00 已過，下一次為 ${nextDate} 19:00。`,
+    value: `${nextDate} 17:30`,
+    detail: isToday ? "今日台北 17:30 重抓 ETF 與攻擊資料。" : `今日 17:30 已過，下一次為 ${nextDate} 17:30。`,
     tone: isToday ? "cyan" : "gold",
   };
 }
@@ -367,18 +371,6 @@ function App() {
           <small className={`source-status source-status-${etfFreshness.status}`}>{etfFreshness.label}</small>
           <small>{snapshotMeta.source || "Live ETF feed"}</small>
         </div>
-
-        <a
-          href="https://etfmap.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ display: "flex", alignItems: "center", gap: "6px", margin: "8px 12px", padding: "7px 12px", borderRadius: "8px", fontSize: "12px", fontWeight: 500, color: "#a78bfa", background: "rgba(139,92,246,0.1)", border: "1px solid rgba(139,92,246,0.25)", textDecoration: "none", transition: "background 0.15s" }}
-          onMouseEnter={e => e.currentTarget.style.background = "rgba(139,92,246,0.18)"}
-          onMouseLeave={e => e.currentTarget.style.background = "rgba(139,92,246,0.1)"}
-        >
-          <span>🗺️</span>
-          <span>ETF 產業地圖</span>
-        </a>
       </aside>
 
       <section className="workspace">
@@ -433,6 +425,7 @@ function App() {
           />
         )}
         {view === "daily" && <DailyMovements query={query} onOpenEtf={openEtf} />}
+        {view === "theme" && <ThemeRisk query={query} />}
         {view === "sec" && <SecHunterView />}
         {view === "linkage" && <LinkageRadarView />}
         {view === "matrix" && (
@@ -469,6 +462,7 @@ function viewTitle(view) {
   return {
     dashboard: "盤後總控",
     daily: "每日換股雷達",
+    theme: "DRAM/HBM 主題風險",
     sec: "SEC Hunter",
     linkage: "台美連動雷達",
     matrix: "ETF 評分矩陣",
@@ -1197,6 +1191,243 @@ function DailyMovements({ query, onOpenEtf }) {
       </section>
     </div>
   );
+}
+
+const themeMarketFilters = [
+  ["all", "全部"],
+  ["美股", "美股"],
+  ["台股", "台股"],
+];
+const themeHeatFilters = [
+  ["all", "全部"],
+  ["極熱", "極熱"],
+  ["過熱", "過熱"],
+  ["觀察", "觀察"],
+];
+const themeSortModes = [
+  ["risk", "回檔風險"],
+  ["overheat", "過熱程度"],
+  ["demand", "需求強度"],
+];
+
+function ThemeRisk({ query }) {
+  const [marketMode, setMarketMode] = useState("all");
+  const [heatMode, setHeatMode] = useState("all");
+  const [sortMode, setSortMode] = useState("risk");
+  const normalizedQuery = query.trim().toLowerCase();
+  const rows = useMemo(() => {
+    const comparators = {
+      risk: (a, b) => b.pullbackRiskScore - a.pullbackRiskScore,
+      overheat: (a, b) => b.overheatScore - a.overheatScore,
+      demand: (a, b) => b.demandScore - a.demandScore,
+    };
+    return themeRiskRows
+      .filter((row) => marketMode === "all" || row.market === marketMode)
+      .filter((row) => heatMode === "all" || row.overheatLabel === heatMode)
+      .filter((row) => {
+        if (!normalizedQuery) return true;
+        const haystack = `${row.name} ${row.code} ${row.market} ${row.theme} ${row.overheatLabel} ${row.pullbackRiskLabel}`.toLowerCase();
+        return haystack.includes(normalizedQuery);
+      })
+      .sort(comparators[sortMode] || comparators.risk);
+  }, [heatMode, marketMode, normalizedQuery, sortMode]);
+  const topRows = rows.slice(0, 6);
+  const highRiskRows = themeRiskRows.filter((row) => row.pullbackRiskLabel === "高");
+
+  return (
+    <div className="theme-risk-layout">
+      <section className="metrics-strip">
+        <MetricTile icon={CalendarClock} label="資料日期" value={themeRiskMeta.asOf || "-"} sub={`產生 ${formatTaipeiDateTime(themeRiskMeta.generatedAt)}`} tone="gold" />
+        <MetricTile icon={Flame} label="過熱名單" value={`${themeRiskMeta.hotCount} 檔`} sub={`${themeRiskMeta.rowCount} 檔 DRAM/HBM 與 AI 硬體`} tone="red" />
+        <MetricTile icon={AlertTriangle} label="高回檔風險" value={`${themeRiskMeta.highRiskCount} 檔`} sub={highRiskRows.map((row) => row.displayName).slice(0, 2).join("、") || "目前無高風險"} tone="red" />
+        <MetricTile icon={Database} label="資料狀態" value={themeRiskMeta.status === "verified" ? "完整" : "部分"} sub={`${themeRiskMeta.verifiedCount}/${themeRiskMeta.rowCount} 檔有日線資料`} tone={themeRiskMeta.status === "verified" ? "green" : "gold"} />
+      </section>
+
+      <section className="panel theme-command-panel">
+        <div className="section-head">
+          <div>
+            <span className="eyebrow">Theme Risk Monitor</span>
+            <h2>記憶體需求與短線過熱監控</h2>
+          </div>
+          <span className={`source-status source-status-${themeRiskMeta.status}`}>{themeRiskMeta.modelVersion}</span>
+        </div>
+        <p className="theme-brief">{themeRiskMeta.summary} 需求強不代表看空，這個欄位用來提醒追價與回吐風險。</p>
+        <div className="daily-controls">
+          <div className="segmented">
+            {themeMarketFilters.map(([key, label]) => (
+              <button className={marketMode === key ? "active" : ""} key={key} type="button" onClick={() => setMarketMode(key)}>
+                {label}
+              </button>
+            ))}
+          </div>
+          <div className="segmented">
+            {themeHeatFilters.map(([key, label]) => (
+              <button className={heatMode === key ? "active" : ""} key={key} type="button" onClick={() => setHeatMode(key)}>
+                {label}
+              </button>
+            ))}
+          </div>
+          <div className="segmented">
+            {themeSortModes.map(([key, label]) => (
+              <button className={sortMode === key ? "active" : ""} key={key} type="button" onClick={() => setSortMode(key)}>
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="theme-risk-grid">
+        {topRows.map((row) => (
+          <article className={`theme-risk-card theme-risk-card-${themeTone(row)}`} key={row.code}>
+            <div className="theme-risk-card-head">
+              <div>
+                <strong>{row.displayName}</strong>
+                <span>{row.market} · {row.theme}</span>
+              </div>
+              <b>{row.pullbackRiskLabel}</b>
+            </div>
+            <div className="theme-score-row">
+              <ThemeScore label="需求" value={row.demandScore} text={row.demandLabel} tone="green" />
+              <ThemeScore label="過熱" value={row.overheatScore} text={row.overheatLabel} tone={themeTone(row)} />
+              <ThemeScore label="回檔" value={row.pullbackRiskScore} text={row.pullbackRiskLabel} tone={riskTone(row.pullbackRiskLabel)} />
+            </div>
+            <p>{row.trendLabel}</p>
+            <small>{themeTechnicalLine(row)}</small>
+          </article>
+        ))}
+      </section>
+
+      <section className="panel">
+        <div className="section-head">
+          <div>
+            <span className="eyebrow">Risk Table</span>
+            <h2>股票與 ETF 監控明細</h2>
+          </div>
+          <span className="badge">{rows.length} 筆</span>
+        </div>
+        <div className="table-wrap theme-risk-table-wrap">
+          <table className="etf-table theme-risk-table">
+            <thead>
+              <tr>
+                <th>股票</th>
+                <th>需求</th>
+                <th>過熱</th>
+                <th>回檔風險</th>
+                <th>技術狀態</th>
+                <th>ETF 資金</th>
+                <th>結論</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row) => (
+                <tr key={row.code}>
+                  <td>
+                    <strong>{row.displayName}</strong>
+                    <small>{row.market} · {row.theme} · {row.asOf || "資料不足"}</small>
+                  </td>
+                  <td><ThemePill tone="green" label={row.demandLabel} score={row.demandScore} /></td>
+                  <td><ThemePill tone={themeTone(row)} label={row.overheatLabel} score={row.overheatScore} /></td>
+                  <td><ThemePill tone={riskTone(row.pullbackRiskLabel)} label={row.pullbackRiskLabel} score={row.pullbackRiskScore} /></td>
+                  <td>
+                    <span>{themeTechnicalLine(row)}</span>
+                    <small>{row.notes?.join("、") || "未觸發額外警示"}</small>
+                  </td>
+                  <td>
+                    <b className={row.flow.netValueYi >= 0 ? "up" : "down"}>{formatMovementValue(row.flow.netValueYi)}</b>
+                    <small>近 5 交易日 · {row.flow.rows} 筆 ETF 異動</small>
+                  </td>
+                  <td>
+                    <strong>{row.trendLabel}</strong>
+                    <small>{row.status === "verified" ? themeRiskMeta.source : "資料不足，無法確認完整技術分數"}</small>
+                  </td>
+                </tr>
+              ))}
+              {!rows.length && (
+                <tr>
+                  <td colSpan="7"><div className="empty-line">目前條件下沒有主題風險資料</div></td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="panel source-method-panel">
+        <div className="section-head">
+          <div>
+            <span className="eyebrow">Method</span>
+            <h2>監控口徑</h2>
+          </div>
+        </div>
+        <div className="source-method-grid">
+          <div>
+            <strong>需求強度</strong>
+            <span>用題材基礎分、20 日趨勢與主動 ETF 近 5 交易日持股異動合成。</span>
+          </div>
+          <div>
+            <strong>過熱程度</strong>
+            <span>用 RSI、20 日漲幅、月線乖離與成交量比率合成。</span>
+          </div>
+          <div>
+            <strong>回檔風險</strong>
+            <span>用過熱分、單日跌幅、跌破 5 日均線與放量下跌合成。</span>
+          </div>
+          <div>
+            <strong>資料來源</strong>
+            <span>{themeRiskMeta.source}</span>
+            <span>JSON：public/data/theme-risk-latest.json</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function ThemeScore({ label, value, text, tone }) {
+  return (
+    <div className={`theme-score theme-score-${tone}`}>
+      <span>{label}</span>
+      <strong>{text}</strong>
+      <small>{formatRiskScore(value)}</small>
+    </div>
+  );
+}
+
+function ThemePill({ tone, label, score }) {
+  return (
+    <span className={`theme-pill theme-pill-${tone}`}>
+      {label}
+      <b>{formatRiskScore(score)}</b>
+    </span>
+  );
+}
+
+function formatRiskScore(value) {
+  return Number.isFinite(Number(value)) ? Number(value).toFixed(1) : "NA";
+}
+
+function themeTone(row) {
+  if (row.overheatLabel === "極熱") return "red";
+  if (row.overheatLabel === "過熱") return "gold";
+  return "cyan";
+}
+
+function riskTone(label) {
+  if (label === "高") return "red";
+  if (label === "中高") return "gold";
+  if (label === "中") return "cyan";
+  return "green";
+}
+
+function signedPct(value) {
+  if (!Number.isFinite(Number(value))) return "NA";
+  const number = Number(value);
+  return `${number > 0 ? "+" : ""}${number.toFixed(2)}%`;
+}
+
+function themeTechnicalLine(row) {
+  return `RSI ${formatRiskScore(row.rsi14)}｜20日 ${signedPct(row.pct20)}｜日變動 ${signedPct(row.dayPct)}`;
 }
 
 function buildCrowdingAlerts(crowdingProfiles) {

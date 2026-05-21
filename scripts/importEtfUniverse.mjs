@@ -9,6 +9,7 @@ const etfInfoHubUrl = "https://www.etfinfo.tw/etf";
 const etfInfoActiveUrl = "https://www.etfinfo.tw/etf/{code}/active";
 const optional = process.argv.includes("--optional");
 const defaultScope = process.env.ACTIVE_ETF_SCOPE || "all";
+const fetchTimeoutMs = Number(process.env.ACTIVE_ETF_FETCH_TIMEOUT_MS || 30_000);
 const requestedCodes = (process.env.ACTIVE_ETF_CODES || "")
   .split(",")
   .map((code) => code.trim().toUpperCase())
@@ -51,6 +52,7 @@ function parseCsvLine(line) {
 
 async function fetchText(url, referer) {
   const response = await fetch(url, {
+    signal: AbortSignal.timeout(fetchTimeoutMs),
     headers: {
       "Accept": "text/html,application/json",
       "User-Agent": "Mozilla/5.0 ActiveETFCommand/1.0",
