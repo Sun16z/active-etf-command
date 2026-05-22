@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { access, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { access, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -1815,7 +1815,8 @@ async function main() {
     generatedAt: new Date().toISOString(),
     reportDate,
     asOf: dates.includes(reportDate) ? reportDate : dates.at(-1) || snapshotMeta.asOf,
-    latestCapturedDate: capturedDates.at(-1) || "",
+    latestCapturedDate: dates.at(-1) || "",
+    latestCapturedDateAll: capturedDates.at(-1) || "",
     nextPcfDate: nextPcfDates.at(-1) || "",
     fromDate: dates[0] || "",
     toDate: dates.at(-1) || "",
@@ -1843,8 +1844,242 @@ async function main() {
     note: "異動金額為公開快照差異估算，適合用於價值順位比較，不等於基金實際成交價或成交時間。若投信於晚間揭露下一交易日 PCF，該資料只進 nextPcfMovements。",
   };
 
+  await writeDailyReports({
+    reportDate: meta.reportDate,
+    generatedAt: meta.generatedAt,
+    etfs,
+    snapshotMeta,
+    sourceHealth,
+    rows,
+  });
+
   await writeFile(path.join(projectRoot, "src/data/dailyMovements.js"), serializeModule({ meta, rows, summaries, nextPcfRows, nextPcfSummaries, allRows }));
   console.log(`Imported ${rows.length} daily movement rows; reportDate=${meta.reportDate}; asOf=${meta.asOf}; latestCaptured=${meta.latestCapturedDate || "n/a"}; nextPcfRows=${nextPcfRows.length}; etfs=${etfCodes.length}`);
+}
+
+async function writeDailyReports({ reportDate, generatedAt, etfs, snapshotMeta, sourceHealth, rows }) {
+  const reportsDir = path.join(projectRoot, "outputs", "reports");
+  await access(reportsDir).catch(() => mkdir(reportsDir, { recursive: true }));
+
+  const universeByCode = new Map(etfs.map((row) => [normalizeCode(row.code), row]));
+  const healthByCode = new Map(sourceHealth.map((row) => [normalizeCode(row.etfCode), row]));
+
+  const allUniverseCodes = [...universeByCode.keys()].sort();
+  const completionRows = allUniverseCodes.map((code) => {
+    const uni = universeByCode.get(code) || {};
+    const health = healthByCode.get(code);
+    if (!health) {
+      return {
+        etfCode: code,
+        etfName: String(uni.name || ""),
+        issuer: String(uni.issuer || ""),
+        completion: "未納入今日日變動來源健康表",
+        status: "not_in_scope",
+        statusLabel: "not_in_scope",
+        primarySource: "",
+        sourceUrl: "",
+        downloadedUrl: "",
+        latestDate: "",
+        previousDate: "",
+        holdingCount: "",
+        blocker: "待確認是否屬於同一批可比對ETF範圍",
+      };
+    }
+
+    const completion =
+      health.status === "verified"
+        ? "完成（前後日皆可比對）"
+        : health.status === "warning"
+          ? "部分完成（當日可抓，前日待補或用備援）"
+          : "待確認";
+
+    return {
+      etfCode: health.etfCode,
+      etfName: health.etfName,
+      issuer: (health.issuer || "").replace("投信", ""),
+      completion,
+      status: health.status,
+      statusLabel: health.statusLabel,
+      primarySource: health.primarySource,
+      sourceUrl: health.sourceUrl,
+      downloadedUrl: health.downloadedUrl || "",
+      latestDate: health.latestDate,
+      previousDate: health.previousDate || "",
+      holdingCount: health.holdingCount,
+      blocker: health.fallbackUsed ? health.fallbackReason || "" : "",
+    };
+  });
+
+  const csvHeader = [
+    "etfCode",
+    "etfName",
+    "issuer",
+    "completion",
+    "status",
+    "statusLabel",
+    "primarySource",
+    "sourceUrl",
+    "downloadedUrl",
+    "latestDate",
+    "previousDate",
+    "holdingCount",
+    "blocker",
+  ];
+  const csvBody = completionRows
+    .map((row) => csvHeader.map((key) => csvEscape(row[key] ?? "")).join(","))
+    .join("\n");
+  await writeFile(path.join(reportsDir, `${reportDate}_etf_download_completion.csv`), `${csvHeader.join(",")}\n${csvBody}\n`);
+
+  const counts = {
+    complete: completionRows.filter((row) => String(row.completion).startsWith("完成")).length,
+    partial: completionRows.filter((row) => String(row.completion).startsWith("部分完成")).length,
+    pending: completionRows.filter((row) => String(row.completion).includes("待確認")).length,
+  };
+
+  const mdLines = [];
+  mdLines.push("# ETF下載完成度（最新刷新）", "");
+  mdLines.push(`- 匯入時間：${generatedAt}`);
+  mdLines.push(`- ETF總數：${completionRows.length}`);
+  mdLines.push(`- 完成：${counts.complete}`);
+  mdLines.push(`- 部分完成：${counts.partial}`);
+  mdLines.push(`- 待確認範圍：${counts.pending}`, "");
+  mdLines.push("| ETF | 名稱 | 完成度 | 來源 | 最新日 | 前一日 | 卡點 |");
+  mdLines.push("|---|---|---|---|---|---|---|");
+  for (const row of completionRows) {
+    mdLines.push(
+      `| ${row.etfCode} | ${row.etfName || "-"} | ${row.completion} | ${row.primarySource || "-"} | ${row.latestDate || "-"} | ${row.previousDate || "-"} | ${row.blocker || "-"} |`,
+    );
+  }
+  await writeFile(path.join(reportsDir, `${reportDate}_etf_download_completion.md`), `${mdLines.join("\n")}\n`);
+
+  const mdUrlLines = [];
+  mdUrlLines.push("# ETF下載完成度（含來源URL）", "");
+  mdUrlLines.push(`- 匯入時間：${generatedAt}`);
+  mdUrlLines.push(`- reportDate：${reportDate}`);
+  mdUrlLines.push(`- universeSnapshotAsOf：${String(snapshotMeta?.asOf || "")}`, "");
+  mdUrlLines.push("| ETF | 名稱 | 主要來源 | sourceUrl | downloadedUrl | 最新日 | 前一日 | fallback |");
+  mdUrlLines.push("|---|---|---|---|---|---|---|---|");
+  for (const row of completionRows) {
+    const health = healthByCode.get(normalizeCode(row.etfCode));
+    mdUrlLines.push(
+      `| ${row.etfCode} | ${row.etfName || "-"} | ${row.primarySource || "-"} | ${row.sourceUrl || "-"} | ${row.downloadedUrl || "-"} | ${row.latestDate || "-"} | ${row.previousDate || "-"} | ${health?.fallbackUsed ? "Y" : "N"} |`,
+    );
+  }
+  await writeFile(path.join(reportsDir, `${reportDate}_etf_download_completion_with_urls.md`), `${mdUrlLines.join("\n")}\n`);
+
+  await writeTargetEtfHoldingChanges({ reportDate, rows, reportsDir });
+}
+
+async function writeTargetEtfHoldingChanges({ reportDate, rows, reportsDir }) {
+  const targetCodes = ["00981A", "00991A", "00403A"];
+  const todayRows = rows.filter((row) => row.reportDate === reportDate && row.date === reportDate && row.reportEligible);
+  const byEtf = new Map();
+  for (const code of targetCodes) byEtf.set(code, []);
+  for (const row of todayRows) {
+    const code = normalizeCode(row.etfCode);
+    if (byEtf.has(code)) byEtf.get(code).push(row);
+  }
+
+  const summaryHeader = [
+    "etfCode",
+    "etfName",
+    "fromDate",
+    "toDate",
+    "totalChanges",
+    "added",
+    "increased",
+    "decreased",
+    "removed",
+    "weight",
+    "shareChanged",
+    "weightOnly",
+    "sourceUrl",
+  ];
+  const summaryRows = [];
+
+  const detailHeader = [
+    "etfCode",
+    "etfName",
+    "fromDate",
+    "toDate",
+    "stockCode",
+    "stockName",
+    "typeLabel",
+    "oldWeight",
+    "newWeight",
+    "weightDelta",
+    "deltaLots",
+    "estimatedValueYi",
+    "sourceUrl",
+    "verificationLabel",
+  ];
+  const detailRows = [];
+
+  for (const [code, changes] of byEtf.entries()) {
+    if (changes.length === 0) continue;
+    const sample = changes[0];
+    const counts = { added: 0, increased: 0, decreased: 0, removed: 0, weightOnly: 0, shareChanged: 0, weight: 0 };
+    for (const row of changes) {
+      if (row.type === "added") counts.added += 1;
+      if (row.type === "increased") counts.increased += 1;
+      if (row.type === "decreased") counts.decreased += 1;
+      if (row.type === "removed") counts.removed += 1;
+      const sharesDelta = Number(row.sharesDelta || 0);
+      if (sharesDelta !== 0) counts.shareChanged += 1;
+      if (sharesDelta === 0 && Math.abs(Number(row.weightDelta || 0)) > 0) counts.weightOnly += 1;
+      if (Math.abs(Number(row.weightDelta || 0)) > 0) counts.weight += 1;
+
+      detailRows.push({
+        etfCode: row.etfCode,
+        etfName: row.etfName,
+        fromDate: row.fromDate,
+        toDate: row.toDate,
+        stockCode: row.stockCode,
+        stockName: row.stockName,
+        typeLabel: row.typeLabel,
+        oldWeight: row.oldWeight,
+        newWeight: row.newWeight,
+        weightDelta: row.weightDelta,
+        deltaLots: row.deltaLots,
+        estimatedValueYi: row.estimatedValueYi,
+        sourceUrl: row.sourceUrl,
+        verificationLabel: row.verificationLabel,
+      });
+    }
+
+    summaryRows.push({
+      etfCode: code,
+      etfName: sample.etfName,
+      fromDate: sample.fromDate,
+      toDate: sample.toDate,
+      totalChanges: changes.length,
+      ...counts,
+      sourceUrl: sample.sourceUrl,
+    });
+  }
+
+  const summaryCsv =
+    `${summaryHeader.join(",")}\n` +
+    summaryRows.map((row) => summaryHeader.map((key) => csvEscape(row[key] ?? "")).join(",")).join("\n") +
+    "\n";
+  await writeFile(path.join(reportsDir, `${reportDate}_target_etf_holding_changes_summary.csv`), summaryCsv);
+
+  const detailCsv =
+    `${detailHeader.join(",")}\n` +
+    detailRows.map((row) => detailHeader.map((key) => csvEscape(row[key] ?? "")).join(",")).join("\n") +
+    "\n";
+  await writeFile(path.join(reportsDir, `${reportDate}_target_etf_holding_changes_detail.csv`), detailCsv);
+
+  await writeFile(
+    path.join(reportsDir, `${reportDate}_target_etf_holding_changes.json`),
+    JSON.stringify({ reportDate, targetCodes, summary: summaryRows, detail: detailRows }, null, 2) + "\n",
+  );
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  if (text.includes("\"") || text.includes(",") || text.includes("\n")) return `"${text.replaceAll("\"", "\"\"")}"`;
+  return text;
 }
 
 main().catch((error) => {
