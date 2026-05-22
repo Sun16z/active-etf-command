@@ -1,0 +1,350 @@
+version: "1.0"
+# 輪動鏈知識庫 — stage 的進入條件一旦上線請鎖版本
+# 修改必須留 changelog，「沒發生的案例」同樣要記錄
+# stage 進入條件必須量化 — 不能是主觀判斷
+
+chains:
+  - id: passive_components_hike
+    name: 被動元件漲價週期
+    description: 上游原物料漲 → 日系大廠漲價 → 台廠龍頭 → 代理商 → 應用端
+    stages:
+      - stage: 1
+        name: 原物料上漲
+        description: 白銀或銅周漲 > 5%，上游成本壓力形成
+        entry_condition:
+          type: commodity_change
+          symbols: ["SI=F", "HG=F"]
+          period: week
+          threshold_pct: 5
+        stocks: []
+        typical_duration_days: 30
+
+      - stage: 2
+        name: 日系大廠漲價
+        description: 村田或太陽誘電股價 1 日漲 > 2%（市場 pricing 漲價預期）
+        entry_condition:
+          type: overseas_price_change
+          symbols: ["6981.T", "6976.T"]
+          period: day
+          threshold_pct: 2
+        stocks: []
+        typical_duration_days: 14
+        sample_events:
+          - "2025-05-01: 太陽誘電對 MLCC/電感喊漲 1%"
+          - "2025-04: 村田 4 月先漲"
+
+      - stage: 3
+        name: 台廠龍頭啟動
+        description: 國巨或華新科 5 日漲幅 > 8%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["2327", "2492"]
+          period_days: 5
+          threshold_pct: 8
+        stocks:
+          - code: "2327"
+            name: 國巨
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 40
+          - code: "2492"
+            name: 華新科
+            typical_gain_pct_min: 12
+            typical_gain_pct_max: 35
+        typical_duration_days: 14
+
+      - stage: 4
+        name: 代理商/配件廠接棒
+        description: 台廠龍頭啟動後 1-2 週，代理商跟進
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["8043", "3014"]
+          period_days: 5
+          threshold_pct: 15
+        lag_from_prev_stage_days_min: 7
+        lag_from_prev_stage_days_max: 14
+        stocks:
+          - code: "8043"
+            name: 蜜望實
+            typical_gain_pct_min: 30
+            typical_gain_pct_max: 100
+          - code: "3014"
+            name: 聯陽
+            typical_gain_pct_min: 20
+            typical_gain_pct_max: 60
+          - code: "2375"
+            name: 凱美
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+        typical_duration_days: 14
+
+      - stage: 5
+        name: 應用端/電源廠
+        description: 下游應用端受成本傳導影響
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["3043", "6196"]
+          period_days: 5
+          threshold_pct: 10
+        lag_from_prev_stage_days_min: 14
+        lag_from_prev_stage_days_max: 28
+        stocks:
+          - code: "3043"
+            name: 科風
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+          - code: "6196"
+            name: 帆宣
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+        typical_duration_days: 14
+
+      - stage: 6
+        name: 退場訊號
+        entry_condition:
+          type: exit_signal
+        exit_signals:
+          - label: 外資連續賣超 5 日（龍頭股）
+            type: foreign_sell_consecutive
+            days: 5
+            stocks: ["2327", "2492"]
+          - label: 代理商 EPS 公布後利多出盡
+            type: earnings_release
+            stocks: ["8043"]
+          - label: 原物料漲幅放緩（周跌 > 2%）
+            type: commodity_change
+            symbols: ["SI=F", "HG=F"]
+            period: week
+            threshold_pct: -2
+        stocks: []
+
+    historical_cycles:
+      - period: "2018-Q2"
+        description: "超級週期：國巨 +180%"
+        duration_days: 90
+        note: "白銀周漲 12% 觸發，最大一次"
+        result: hit
+      - period: "2024-Q4"
+        description: "小型週期：國巨 +25%"
+        duration_days: 30
+        note: "村田漲價觸發"
+        result: hit
+      - period: "2023-Q1"
+        description: "偽訊號：白銀周漲 6% 但未傳導至台廠"
+        duration_days: 0
+        note: "銅價同期下跌，傳導未發生"
+        result: miss
+
+  - id: dram_cycle
+    name: 記憶體景氣循環
+    description: DRAM 合約價月增 → MU 上修 → 台股記憶體 → 通路商 → 封測
+    stages:
+      - stage: 1
+        name: DRAM 合約價月增
+        description: DRAM 現貨/合約價連續 2 個月正增長（人工確認）
+        entry_condition:
+          type: manual
+          description: "需人工查 DRAMeXchange / TrendForce 確認"
+        stocks: []
+
+      - stage: 2
+        name: 海外龍頭上修財測
+        description: MU 股價 1 個月漲 > 10%（市場 pricing 景氣回升）
+        entry_condition:
+          type: overseas_price_change
+          symbols: ["MU"]
+          period: month
+          threshold_pct: 10
+        stocks: []
+
+      - stage: 3
+        name: 台股記憶體模組
+        description: 南亞科或華邦電 5 日漲 > 8%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["2344", "2408"]
+          period_days: 5
+          threshold_pct: 8
+        stocks:
+          - code: "2344"
+            name: 華邦電
+            typical_gain_pct_min: 20
+            typical_gain_pct_max: 60
+          - code: "2408"
+            name: 南亞科
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+
+      - stage: 4
+        name: DRAM 通路商
+        description: 威剛或群聯 5 日漲 > 10%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["3260", "8299"]
+          period_days: 5
+          threshold_pct: 10
+        lag_from_prev_stage_days_min: 5
+        lag_from_prev_stage_days_max: 14
+        stocks:
+          - code: "3260"
+            name: 威剛
+            typical_gain_pct_min: 20
+            typical_gain_pct_max: 80
+          - code: "8299"
+            name: 群聯
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+
+      - stage: 5
+        name: 封測
+        description: 力成 5 日漲 > 8%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["6239"]
+          period_days: 5
+          threshold_pct: 8
+        lag_from_prev_stage_days_min: 7
+        lag_from_prev_stage_days_max: 21
+        stocks:
+          - code: "6239"
+            name: 力成
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 45
+
+      - stage: 6
+        name: 退場訊號
+        entry_condition:
+          type: exit_signal
+        exit_signals:
+          - label: DRAM 合約價漲幅放緩連續 3 個月
+            type: manual
+          - label: MU 財報下修或 guidance 保守
+            type: manual
+        stocks: []
+
+    historical_cycles:
+      - period: "2023-Q3"
+        description: "AI 伺服器帶動 HBM 需求，MU +80%"
+        duration_days: 120
+        result: hit
+      - period: "2022-Q4"
+        description: "景氣下行，MU 月跌 > 20%，逆向訊號"
+        duration_days: 0
+        result: miss
+
+  - id: ai_server_cycle
+    name: AI 伺服器需求週期
+    description: NVDA 重要發布 → 台積電/先進封裝 → ABF 載板 → 散熱 → 電源
+    stages:
+      - stage: 1
+        name: NVDA 重大發布或財測上修
+        description: NVDA 1 週漲 > 8%（市場消化重要利多）
+        entry_condition:
+          type: overseas_price_change
+          symbols: ["NVDA"]
+          period: week
+          threshold_pct: 8
+        stocks: []
+
+      - stage: 2
+        name: 台積電/先進封裝
+        description: 台積電 5 日漲 > 5%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["2330"]
+          period_days: 5
+          threshold_pct: 5
+        stocks:
+          - code: "2330"
+            name: 台積電
+            typical_gain_pct_min: 8
+            typical_gain_pct_max: 25
+          - code: "3711"
+            name: 日月光投控
+            typical_gain_pct_min: 8
+            typical_gain_pct_max: 20
+
+      - stage: 3
+        name: ABF 載板
+        description: 南電或欣興 5 日漲 > 8%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["8046", "3037"]
+          period_days: 5
+          threshold_pct: 8
+        lag_from_prev_stage_days_min: 3
+        lag_from_prev_stage_days_max: 10
+        stocks:
+          - code: "8046"
+            name: 南電
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+          - code: "3037"
+            name: 欣興
+            typical_gain_pct_min: 12
+            typical_gain_pct_max: 40
+
+      - stage: 4
+        name: 散熱族群
+        description: 奇鋐或超眾 5 日漲 > 10%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["3017", "6230"]
+          period_days: 5
+          threshold_pct: 10
+        lag_from_prev_stage_days_min: 5
+        lag_from_prev_stage_days_max: 14
+        stocks:
+          - code: "3017"
+            name: 奇鋐
+            typical_gain_pct_min: 20
+            typical_gain_pct_max: 60
+          - code: "6230"
+            name: 超眾
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 45
+
+      - stage: 5
+        name: 電源供應器
+        description: 台達電或旭隼 5 日漲 > 8%
+        entry_condition:
+          type: stock_gain
+          stock_codes: ["2308", "6409"]
+          period_days: 5
+          threshold_pct: 8
+        lag_from_prev_stage_days_min: 7
+        lag_from_prev_stage_days_max: 21
+        stocks:
+          - code: "2308"
+            name: 台達電
+            typical_gain_pct_min: 10
+            typical_gain_pct_max: 35
+          - code: "6409"
+            name: 旭隼
+            typical_gain_pct_min: 15
+            typical_gain_pct_max: 50
+
+      - stage: 6
+        name: 退場訊號
+        entry_condition:
+          type: exit_signal
+        exit_signals:
+          - label: NVDA 財測不如預期
+            type: manual
+          - label: 主要 CSP 資本支出指引保守
+            type: manual
+          - label: 台積電外資連續 5 日賣超
+            type: foreign_sell_consecutive
+            days: 5
+            stocks: ["2330"]
+        stocks: []
+
+    historical_cycles:
+      - period: "2023-Q1"
+        description: "ChatGPT 引爆，NVDA +200%，台積電+40%"
+        duration_days: 180
+        result: hit
+      - period: "2024-Q2"
+        description: "Blackwell 延遲傳言，修正後再噴"
+        duration_days: 60
+        note: "修正期間持有者痛苦，但最終仍 hit"
+        result: hit

@@ -1,0 +1,1035 @@
+export const rotationSignalsData = {
+  "meta": {
+    "generatedAt": "2026-05-20T07:57:02.548Z",
+    "source": "ETF map rotation knowledge + active-etf-command marketData",
+    "summary": {
+      "status": "pass",
+      "activeCount": 2,
+      "watchCount": 1,
+      "chainCount": 3,
+      "sourceHealth": {
+        "status": "pass",
+        "liveCount": 24,
+        "fallbackCount": 0,
+        "totalCount": 24,
+        "successRatio": 100,
+        "latestAsOf": "2026-05-20T07:46:52.000Z",
+        "checkedAt": "2026-05-20T07:57:03.783Z",
+        "provider": "Yahoo Finance chart endpoint; Alpaca/Polygon reserved for production real-time feed"
+      },
+      "note": "輪動訊號以 Yahoo chart endpoint 估算，人工事件與 DRAM 現貨/合約價需另行確認。"
+    }
+  },
+  "rotation": {
+    "generatedAt": "2026-05-20T07:57:02.548Z",
+    "summary": {
+      "status": "pass",
+      "activeCount": 2,
+      "watchCount": 1,
+      "chainCount": 3,
+      "sourceHealth": {
+        "status": "pass",
+        "liveCount": 24,
+        "fallbackCount": 0,
+        "totalCount": 24,
+        "successRatio": 100,
+        "latestAsOf": "2026-05-20T07:46:52.000Z",
+        "checkedAt": "2026-05-20T07:57:03.783Z",
+        "provider": "Yahoo Finance chart endpoint; Alpaca/Polygon reserved for production real-time feed"
+      },
+      "note": "輪動訊號以 Yahoo chart endpoint 估算，人工事件與 DRAM 現貨/合約價需另行確認。"
+    },
+    "active": [
+      {
+        "id": "passive_components_hike",
+        "name": "被動元件漲價週期",
+        "description": "上游原物料漲 -> 日系大廠漲價 -> 台廠龍頭 -> 代理商 -> 應用端",
+        "status": "active",
+        "confidence": "high",
+        "currentStage": 4,
+        "totalStages": 4,
+        "triggeredCount": 3,
+        "historicalHitRate": 67,
+        "sampleSize": 3,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "原物料上漲",
+            "triggered": false,
+            "thresholdPct": 5,
+            "conditionType": "commodity_change",
+            "priceData": [
+              {
+                "symbol": "SI=F",
+                "name": "Silver Futures",
+                "changePct": -15.3,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T07:46:52.000Z"
+              },
+              {
+                "symbol": "HG=F",
+                "name": "Copper Futures",
+                "changePct": -6.28,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T07:46:43.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "SI=F",
+              "name": "Silver Futures",
+              "changePct": -15.3,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T07:46:52.000Z"
+            }
+          },
+          {
+            "stage": 2,
+            "name": "日系大廠漲價",
+            "triggered": true,
+            "thresholdPct": 2,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "6981.T",
+                "name": "Murata",
+                "changePct": -2.76,
+                "period": "1d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T06:15:00.000Z"
+              },
+              {
+                "symbol": "6976.T",
+                "name": "Taiyo Yuden",
+                "changePct": 13.76,
+                "period": "1d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T06:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6976.T",
+              "name": "Taiyo Yuden",
+              "changePct": 13.76,
+              "period": "1d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T06:15:00.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "台廠龍頭啟動",
+            "triggered": true,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2327",
+                "name": "國巨",
+                "changePct": 23.81,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "2492",
+                "name": "華新科",
+                "changePct": 21,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2327",
+              "name": "國巨",
+              "changePct": 23.81,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "代理商/配件廠接棒",
+            "triggered": true,
+            "thresholdPct": 15,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "8043",
+                "name": "蜜望實",
+                "changePct": 15.77,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "3014",
+                "name": "聯陽",
+                "changePct": 0.36,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "8043",
+              "name": "蜜望實",
+              "changePct": 15.77,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": null,
+        "threadsDraft": "被動元件漲價週期 有輪動訊號嗎？\n\n第2棒 日系大廠漲價: Taiyo Yuden +13.76%/1d\n第3棒 台廠龍頭啟動: 國巨 +23.81%/5d\n第4棒 代理商/配件廠接棒: 蜜望實 +15.77%/5d\n\n下一棒觀察: 待確認\n歷史命中 67% (n=3)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      },
+      {
+        "id": "dram_cycle",
+        "name": "記憶體景氣循環",
+        "description": "DRAM 合約價月增 -> MU 上修 -> 台股記憶體 -> 通路商 -> 封測",
+        "status": "active",
+        "confidence": "low",
+        "currentStage": 2,
+        "totalStages": 5,
+        "triggeredCount": 1,
+        "historicalHitRate": 50,
+        "sampleSize": 2,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "DRAM 合約價月增",
+            "triggered": false,
+            "thresholdPct": null,
+            "conditionType": "manual",
+            "priceData": [],
+            "manual": true,
+            "note": "需人工查 DRAMeXchange / TrendForce 確認"
+          },
+          {
+            "stage": 2,
+            "name": "海外龍頭上修財測",
+            "triggered": true,
+            "thresholdPct": 10,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "MU",
+                "name": "Micron",
+                "changePct": 55.49,
+                "period": "20d",
+                "sourceStatus": "recent",
+                "asOf": "2026-05-19T23:59:59.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "MU",
+              "name": "Micron",
+              "changePct": 55.49,
+              "period": "20d",
+              "sourceStatus": "recent",
+              "asOf": "2026-05-19T23:59:59.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "台股記憶體模組",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2344",
+                "name": "華邦電",
+                "changePct": -5.33,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "2408",
+                "name": "南亞科",
+                "changePct": -14.33,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2408",
+              "name": "南亞科",
+              "changePct": -14.33,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "DRAM 通路商",
+            "triggered": false,
+            "thresholdPct": 10,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "3260",
+                "name": "威剛",
+                "changePct": -6.57,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "8299",
+                "name": "群聯",
+                "changePct": -13.55,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "8299",
+              "name": "群聯",
+              "changePct": -13.55,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 5,
+            "name": "封測",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "6239",
+                "name": "力成",
+                "changePct": 1.08,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6239",
+              "name": "力成",
+              "changePct": 1.08,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": {
+          "stage": 3,
+          "name": "台股記憶體模組",
+          "entryCondition": {
+            "type": "stock_gain",
+            "stockCodes": [
+              "2344",
+              "2408"
+            ],
+            "periodDays": 5,
+            "thresholdPct": 8
+          },
+          "stocks": [
+            {
+              "code": "2344",
+              "name": "華邦電",
+              "typicalGainPctMin": 20,
+              "typicalGainPctMax": 60
+            },
+            {
+              "code": "2408",
+              "name": "南亞科",
+              "typicalGainPctMin": 15,
+              "typicalGainPctMax": 50
+            }
+          ]
+        },
+        "threadsDraft": "記憶體景氣循環 有輪動訊號嗎？\n\n第2棒 海外龍頭上修財測: Micron +55.49%/20d\n\n下一棒觀察: 華邦電 2344 / 南亞科 2408\n歷史命中 50% (n=2)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      }
+    ],
+    "watch": [
+      {
+        "id": "ai_server_cycle",
+        "name": "AI 伺服器需求週期",
+        "description": "NVDA 重要發布 -> 台積電/先進封裝 -> ABF 載板 -> 散熱 -> 電源",
+        "status": "watch",
+        "confidence": "watch",
+        "currentStage": null,
+        "totalStages": 5,
+        "triggeredCount": 0,
+        "historicalHitRate": 100,
+        "sampleSize": 2,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "NVDA 重大發布或財測上修",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "changePct": -0.08,
+                "period": "5d",
+                "sourceStatus": "recent",
+                "asOf": "2026-05-19T23:59:59.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "NVDA",
+              "name": "NVIDIA",
+              "changePct": -0.08,
+              "period": "5d",
+              "sourceStatus": "recent",
+              "asOf": "2026-05-19T23:59:59.000Z"
+            }
+          },
+          {
+            "stage": 2,
+            "name": "台積電/先進封裝",
+            "triggered": false,
+            "thresholdPct": 5,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2330",
+                "name": "台積電",
+                "changePct": -1.58,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2330",
+              "name": "台積電",
+              "changePct": -1.58,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "ABF 載板",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "8046",
+                "name": "南電",
+                "changePct": -5.8,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "3037",
+                "name": "欣興",
+                "changePct": -7.74,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "3037",
+              "name": "欣興",
+              "changePct": -7.74,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "散熱族群",
+            "triggered": false,
+            "thresholdPct": 10,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "3017",
+                "name": "奇鋐",
+                "changePct": -9.48,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "6230",
+                "name": "超眾",
+                "changePct": -12.41,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6230",
+              "name": "超眾",
+              "changePct": -12.41,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 5,
+            "name": "電源供應器",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2308",
+                "name": "台達電",
+                "changePct": -11.55,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "6409",
+                "name": "旭隼",
+                "changePct": -11.29,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2308",
+              "name": "台達電",
+              "changePct": -11.55,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": {
+          "stage": 1,
+          "name": "NVDA 重大發布或財測上修",
+          "entryCondition": {
+            "type": "overseas_price_change",
+            "symbols": [
+              "NVDA"
+            ],
+            "period": "week",
+            "thresholdPct": 8
+          },
+          "stocks": []
+        },
+        "threadsDraft": "AI 伺服器需求週期 有輪動訊號嗎？\n\n目前尚未觸發量化條件。\n\n下一棒觀察: 待確認\n歷史命中 100% (n=2)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      }
+    ],
+    "rows": [
+      {
+        "id": "passive_components_hike",
+        "name": "被動元件漲價週期",
+        "description": "上游原物料漲 -> 日系大廠漲價 -> 台廠龍頭 -> 代理商 -> 應用端",
+        "status": "active",
+        "confidence": "high",
+        "currentStage": 4,
+        "totalStages": 4,
+        "triggeredCount": 3,
+        "historicalHitRate": 67,
+        "sampleSize": 3,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "原物料上漲",
+            "triggered": false,
+            "thresholdPct": 5,
+            "conditionType": "commodity_change",
+            "priceData": [
+              {
+                "symbol": "SI=F",
+                "name": "Silver Futures",
+                "changePct": -15.3,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T07:46:52.000Z"
+              },
+              {
+                "symbol": "HG=F",
+                "name": "Copper Futures",
+                "changePct": -6.28,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T07:46:43.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "SI=F",
+              "name": "Silver Futures",
+              "changePct": -15.3,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T07:46:52.000Z"
+            }
+          },
+          {
+            "stage": 2,
+            "name": "日系大廠漲價",
+            "triggered": true,
+            "thresholdPct": 2,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "6981.T",
+                "name": "Murata",
+                "changePct": -2.76,
+                "period": "1d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T06:15:00.000Z"
+              },
+              {
+                "symbol": "6976.T",
+                "name": "Taiyo Yuden",
+                "changePct": 13.76,
+                "period": "1d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T06:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6976.T",
+              "name": "Taiyo Yuden",
+              "changePct": 13.76,
+              "period": "1d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T06:15:00.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "台廠龍頭啟動",
+            "triggered": true,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2327",
+                "name": "國巨",
+                "changePct": 23.81,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "2492",
+                "name": "華新科",
+                "changePct": 21,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2327",
+              "name": "國巨",
+              "changePct": 23.81,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "代理商/配件廠接棒",
+            "triggered": true,
+            "thresholdPct": 15,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "8043",
+                "name": "蜜望實",
+                "changePct": 15.77,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "3014",
+                "name": "聯陽",
+                "changePct": 0.36,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "8043",
+              "name": "蜜望實",
+              "changePct": 15.77,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": null,
+        "threadsDraft": "被動元件漲價週期 有輪動訊號嗎？\n\n第2棒 日系大廠漲價: Taiyo Yuden +13.76%/1d\n第3棒 台廠龍頭啟動: 國巨 +23.81%/5d\n第4棒 代理商/配件廠接棒: 蜜望實 +15.77%/5d\n\n下一棒觀察: 待確認\n歷史命中 67% (n=3)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      },
+      {
+        "id": "dram_cycle",
+        "name": "記憶體景氣循環",
+        "description": "DRAM 合約價月增 -> MU 上修 -> 台股記憶體 -> 通路商 -> 封測",
+        "status": "active",
+        "confidence": "low",
+        "currentStage": 2,
+        "totalStages": 5,
+        "triggeredCount": 1,
+        "historicalHitRate": 50,
+        "sampleSize": 2,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "DRAM 合約價月增",
+            "triggered": false,
+            "thresholdPct": null,
+            "conditionType": "manual",
+            "priceData": [],
+            "manual": true,
+            "note": "需人工查 DRAMeXchange / TrendForce 確認"
+          },
+          {
+            "stage": 2,
+            "name": "海外龍頭上修財測",
+            "triggered": true,
+            "thresholdPct": 10,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "MU",
+                "name": "Micron",
+                "changePct": 55.49,
+                "period": "20d",
+                "sourceStatus": "recent",
+                "asOf": "2026-05-19T23:59:59.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "MU",
+              "name": "Micron",
+              "changePct": 55.49,
+              "period": "20d",
+              "sourceStatus": "recent",
+              "asOf": "2026-05-19T23:59:59.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "台股記憶體模組",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2344",
+                "name": "華邦電",
+                "changePct": -5.33,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "2408",
+                "name": "南亞科",
+                "changePct": -14.33,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2408",
+              "name": "南亞科",
+              "changePct": -14.33,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "DRAM 通路商",
+            "triggered": false,
+            "thresholdPct": 10,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "3260",
+                "name": "威剛",
+                "changePct": -6.57,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "8299",
+                "name": "群聯",
+                "changePct": -13.55,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "8299",
+              "name": "群聯",
+              "changePct": -13.55,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 5,
+            "name": "封測",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "6239",
+                "name": "力成",
+                "changePct": 1.08,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6239",
+              "name": "力成",
+              "changePct": 1.08,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": {
+          "stage": 3,
+          "name": "台股記憶體模組",
+          "entryCondition": {
+            "type": "stock_gain",
+            "stockCodes": [
+              "2344",
+              "2408"
+            ],
+            "periodDays": 5,
+            "thresholdPct": 8
+          },
+          "stocks": [
+            {
+              "code": "2344",
+              "name": "華邦電",
+              "typicalGainPctMin": 20,
+              "typicalGainPctMax": 60
+            },
+            {
+              "code": "2408",
+              "name": "南亞科",
+              "typicalGainPctMin": 15,
+              "typicalGainPctMax": 50
+            }
+          ]
+        },
+        "threadsDraft": "記憶體景氣循環 有輪動訊號嗎？\n\n第2棒 海外龍頭上修財測: Micron +55.49%/20d\n\n下一棒觀察: 華邦電 2344 / 南亞科 2408\n歷史命中 50% (n=2)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      },
+      {
+        "id": "ai_server_cycle",
+        "name": "AI 伺服器需求週期",
+        "description": "NVDA 重要發布 -> 台積電/先進封裝 -> ABF 載板 -> 散熱 -> 電源",
+        "status": "watch",
+        "confidence": "watch",
+        "currentStage": null,
+        "totalStages": 5,
+        "triggeredCount": 0,
+        "historicalHitRate": 100,
+        "sampleSize": 2,
+        "stages": [
+          {
+            "stage": 1,
+            "name": "NVDA 重大發布或財測上修",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "overseas_price_change",
+            "priceData": [
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "changePct": -0.08,
+                "period": "5d",
+                "sourceStatus": "recent",
+                "asOf": "2026-05-19T23:59:59.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "NVDA",
+              "name": "NVIDIA",
+              "changePct": -0.08,
+              "period": "5d",
+              "sourceStatus": "recent",
+              "asOf": "2026-05-19T23:59:59.000Z"
+            }
+          },
+          {
+            "stage": 2,
+            "name": "台積電/先進封裝",
+            "triggered": false,
+            "thresholdPct": 5,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2330",
+                "name": "台積電",
+                "changePct": -1.58,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2330",
+              "name": "台積電",
+              "changePct": -1.58,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 3,
+            "name": "ABF 載板",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "8046",
+                "name": "南電",
+                "changePct": -5.8,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "3037",
+                "name": "欣興",
+                "changePct": -7.74,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "3037",
+              "name": "欣興",
+              "changePct": -7.74,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 4,
+            "name": "散熱族群",
+            "triggered": false,
+            "thresholdPct": 10,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "3017",
+                "name": "奇鋐",
+                "changePct": -9.48,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "6230",
+                "name": "超眾",
+                "changePct": -12.41,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "6230",
+              "name": "超眾",
+              "changePct": -12.41,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          },
+          {
+            "stage": 5,
+            "name": "電源供應器",
+            "triggered": false,
+            "thresholdPct": 8,
+            "conditionType": "stock_gain",
+            "priceData": [
+              {
+                "symbol": "2308",
+                "name": "台達電",
+                "changePct": -11.55,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              },
+              {
+                "symbol": "6409",
+                "name": "旭隼",
+                "changePct": -11.29,
+                "period": "5d",
+                "sourceStatus": "live",
+                "asOf": "2026-05-20T05:15:00.000Z"
+              }
+            ],
+            "best": {
+              "symbol": "2308",
+              "name": "台達電",
+              "changePct": -11.55,
+              "period": "5d",
+              "sourceStatus": "live",
+              "asOf": "2026-05-20T05:15:00.000Z"
+            }
+          }
+        ],
+        "nextStage": {
+          "stage": 1,
+          "name": "NVDA 重大發布或財測上修",
+          "entryCondition": {
+            "type": "overseas_price_change",
+            "symbols": [
+              "NVDA"
+            ],
+            "period": "week",
+            "thresholdPct": 8
+          },
+          "stocks": []
+        },
+        "threadsDraft": "AI 伺服器需求週期 有輪動訊號嗎？\n\n目前尚未觸發量化條件。\n\n下一棒觀察: 待確認\n歷史命中 100% (n=2)\n\n資料來源: Yahoo chart endpoint + 本地輪動知識庫。人工事件仍需最後確認。"
+      }
+    ]
+  }
+};

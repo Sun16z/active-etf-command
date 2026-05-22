@@ -1,0 +1,124 @@
+version: "1.0"
+# 先行指標知識庫 — 由你親自維護，這是 17 年市場經驗的結晶
+# 修改前請 git commit，保留完整 changelog
+
+commodities:
+  - id: silver
+    name: 白銀
+    symbol: "SI=F"
+    affects_sectors: [被動元件, 太陽能, 半導體導線]
+    lag_days_min: 30
+    lag_days_max: 90
+    trigger:
+      type: price_change
+      period: week
+      threshold_pct: 5
+    historical_hit_rate: 0.65
+    note: "週漲幅 > 5% 啟動被動元件上游成本壓力"
+
+  - id: copper
+    name: 銅
+    symbol: "HG=F"
+    affects_sectors: [電線電纜, 被動元件, 電動車]
+    lag_days_min: 14
+    lag_days_max: 45
+    trigger:
+      type: price_change
+      period: week
+      threshold_pct: 4
+    historical_hit_rate: 0.58
+    note: "銅價周漲 > 4% 電線電纜/車用先行"
+
+  - id: gold
+    name: 黃金
+    symbol: "GC=F"
+    affects_sectors: [封測導線, 高階IC]
+    lag_days_min: 60
+    lag_days_max: 120
+    trigger:
+      type: price_change
+      period: month
+      threshold_pct: 8
+    historical_hit_rate: 0.45
+    note: "月漲 > 8% 封測導線成本傳導"
+
+overseas_companies:
+  - id: murata
+    name: 村田製作所
+    symbol: "6981.T"
+    sector: 被動元件
+    event_type: price_hike
+    news_keywords: [漲價, 調漲, "price increase", "price hike", MLCC]
+    affects_tw_codes: ["2327", "2492", "2375", "8043"]
+    lag_days_min: 1
+    lag_days_max: 7
+    historical_hit_rate: 0.82
+    note: "命中率最高的單一先行指標"
+    sample_events:
+      - date: "2018-04"
+        description: "村田漲 → 國巨 +180% in 3M（超級週期）"
+      - date: "2024-11"
+        description: "村田漲 → 國巨 +25% in 1M"
+
+  - id: taiyo_yuden
+    name: 太陽誘電
+    symbol: "6976.T"
+    sector: 被動元件
+    event_type: price_hike
+    news_keywords: [漲價, 調漲, MLCC, 電感, 電容]
+    affects_tw_codes: ["2327", "2492", "8043"]
+    lag_days_min: 1
+    lag_days_max: 5
+    historical_hit_rate: 0.75
+    note: "村田+太陽誘電同步漲價訊號更強"
+    sample_events:
+      - date: "2025-05-01"
+        description: "太陽誘電 5/1 起對 MLCC/電感等喊漲 1%"
+
+  - id: micron
+    name: 美光
+    symbol: "MU"
+    sector: 記憶體
+    event_type: earnings_beat
+    news_keywords: [上修, 財測, guidance, outlook, DRAM, HBM]
+    affects_tw_codes: ["2408", "2344", "8299", "3260"]
+    lag_days_min: 1
+    lag_days_max: 3
+    historical_hit_rate: 0.78
+    note: "財報週期最強先行"
+
+  - id: nvidia
+    name: 輝達
+    symbol: "NVDA"
+    sector: AI/GPU
+    event_type: product_announcement
+    news_keywords: [GTC, Blackwell, NVLink, GB200, announcement, capex]
+    affects_tw_codes: ["2330", "8046", "3037"]
+    secondary_affects_tw_codes: ["3017", "6230", "2308"]
+    secondary_lag_min: 5
+    secondary_lag_max: 15
+    lag_days_min: 1
+    lag_days_max: 5
+    historical_hit_rate: 0.71
+
+  - id: sk_hynix
+    name: SK 海力士
+    symbol: "000660.KS"
+    sector: 記憶體/HBM
+    event_type: capex_expansion
+    news_keywords: [HBM, 擴產, capex, 投資]
+    affects_tw_codes: ["2330", "6239", "3711"]
+    lag_days_min: 3
+    lag_days_max: 10
+    historical_hit_rate: 0.62
+
+  - id: tesla
+    name: 特斯拉
+    symbol: "TSLA"
+    sector: 電動車
+    event_type: delivery_data
+    news_keywords: [交車, 交付, delivery, 銷量]
+    affects_tw_codes: ["8046", "6213", "3018"]
+    lag_days_min: 1
+    lag_days_max: 5
+    historical_hit_rate: 0.55
