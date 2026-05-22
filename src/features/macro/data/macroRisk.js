@@ -1,6 +1,6 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-05-21T23:30:05.723Z",
+    "generatedAt": "2026-05-22T01:58:07.050Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": 32.8,
@@ -12,7 +12,7 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-05-21T23:30:05.723Z",
+    "generatedAt": "2026-05-22T01:58:07.050Z",
     "summary": {
       "score": 32.8,
       "label": "低壓力",
@@ -32,7 +32,7 @@ export const macroRiskData = {
         "tone": "down",
         "meaning": "壓力升溫，需要降低追高衝動",
         "asOf": "2026-05-20",
-        "checkedAt": "2026-05-21T23:30:02.395Z",
+        "checkedAt": "2026-05-22T01:58:06.572Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-20",
-        "checkedAt": "2026-05-21T23:30:05.723Z",
+        "checkedAt": "2026-05-22T01:58:07.050Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -74,7 +74,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-21T23:30:05.723Z",
+        "checkedAt": "2026-05-22T01:58:07.050Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -90,7 +90,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-05-15",
-        "checkedAt": "2026-05-21T23:30:05.723Z",
+        "checkedAt": "2026-05-22T01:58:07.050Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -106,7 +106,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-05-21T23:30:05.723Z",
+        "checkedAt": "2026-05-22T01:58:07.050Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
