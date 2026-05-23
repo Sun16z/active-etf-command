@@ -6,7 +6,7 @@ export const snapshotMeta = {
   "sourceUrl": "https://www.etfinfo.tw/etf",
   "sourceNote": "Live import from each ETF active page: latestMarket, holdings, latestDiff.",
   "scope": "all",
-  "generatedAt": "2026-05-22T09:38:26.074Z",
+  "generatedAt": "2026-05-23T09:33:09.042Z",
   "failedCodes": []
 };
 
@@ -1220,7 +1220,7 @@ export const etfs = [
     "issuerSite": "https://www.capitalfund.com.tw/etf",
     "trailingYield": 7.01,
     "returnStats": {
-      "return1Y": 139.87,
+      "return1Y": 141.79,
       "return3Y": null,
       "return5Y": null
     },
@@ -1819,289 +1819,612 @@ export const etfs = [
     "sourceUrl": "https://www.etfinfo.tw/etf/00992A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 7.7295,
+    "tsmcWeight": 7.5207,
     "tsmcShares": 1761000,
-    "tsmcHeadroomYi": 87.7,
+    "tsmcHeadroomYi": 88.8,
     "holdings": [
       [
         "2330",
         "台積電",
-        7.7295,
+        7.5207,
         1761000
       ],
       [
         "3037",
         "欣興",
-        5.1693,
+        5.3312,
         2902000
       ],
       [
         "2383",
         "台光電",
-        4.948,
+        5.0807,
         536000
-      ],
-      [
-        "2345",
-        "智邦",
-        4.9399,
-        1012000
       ],
       [
         "6669",
         "緯穎",
-        4.892,
+        4.8656,
         465000
       ],
       [
-        "3661",
-        "世芯-KY",
-        3.7942,
-        393000
+        "2345",
+        "智邦",
+        4.734,
+        1012000
       ],
       [
         "6223",
         "旺矽",
-        3.7699,
+        3.8746,
         339000
-      ],
-      [
-        "3443",
-        "創意",
-        3.589,
-        360000
       ],
       [
         "8996",
         "高力",
-        3.5405,
+        3.7425,
         1689000
       ],
       [
-        "2059",
-        "川湖",
-        3.4492,
-        358000
+        "3661",
+        "世芯-KY",
+        3.6433,
+        393000
+      ],
+      [
+        "3443",
+        "創意",
+        3.5044,
+        360000
       ],
       [
         "3105",
         "穩懋",
-        3.2637,
+        3.4524,
         3433000
       ],
       [
-        "7769",
-        "鴻勁",
-        2.9307,
-        194000
+        "2059",
+        "川湖",
+        3.4511,
+        358000
       ],
       [
         "8046",
         "南電",
-        2.8457,
+        2.9328,
         1658000
       ],
       [
         "3665",
         "貿聯-KY",
-        2.8292,
+        2.8106,
         667000
-      ],
-      [
-        "6515",
-        "穎崴",
-        2.8265,
-        151000
       ],
       [
         "6510",
         "精測",
-        2.7825,
+        2.7213,
         422000
-      ],
-      [
-        "3017",
-        "奇鋐",
-        2.4603,
-        501000
       ],
       [
         "2455",
         "全新",
-        2.3788,
+        2.5169,
         3127000
+      ],
+      [
+        "6515",
+        "穎崴",
+        2.488,
+        151000
+      ],
+      [
+        "3017",
+        "奇鋐",
+        2.4148,
+        501000
       ],
       [
         "8299",
         "群聯",
-        2.2474,
+        2.2504,
         489000
       ],
       [
         "3533",
         "嘉澤",
-        2.0873,
+        2.0323,
         420000
-      ],
-      [
-        "6584",
-        "南俊國際",
-        1.9233,
-        1437000
-      ],
-      [
-        "3081",
-        "聯亞",
-        1.911,
-        380000
-      ],
-      [
-        "2454",
-        "聯發科",
-        1.9005,
-        272000
       ],
       [
         "3163",
         "波若威",
-        1.8984,
+        2.0015,
         923000
+      ],
+      [
+        "2454",
+        "聯發科",
+        1.9884,
+        272000
+      ],
+      [
+        "7769",
+        "鴻勁",
+        1.9617,
+        134000
+      ],
+      [
+        "3081",
+        "聯亞",
+        1.9503,
+        380000
       ],
       [
         "2327",
         "國巨*",
-        1.8013,
+        1.906,
         1600000
       ],
       [
-        "2368",
-        "金像電",
-        1.692,
-        669000
+        "6584",
+        "南俊國際",
+        1.8533,
+        1437000
       ],
       [
         "6274",
         "台燿",
-        1.6586,
+        1.7525,
         636000
       ],
       [
-        "5274",
-        "信驊",
-        1.4561,
-        45000
+        "2368",
+        "金像電",
+        1.6851,
+        669000
       ],
       [
         "2308",
         "台達電",
-        1.4264,
+        1.4164,
         357000
       ],
       [
         "3653",
         "健策",
-        1.2912,
+        1.3655,
         197000
       ],
       [
         "7751",
         "竑騰",
-        1.2568,
+        1.3302,
         387000
+      ],
+      [
+        "5274",
+        "信驊",
+        1.0102,
+        30000
       ],
       [
         "2360",
         "致茂",
-        0.9248,
+        0.8899,
         207000
-      ],
-      [
-        "6442",
-        "光聖",
-        0.8361,
-        238000
       ],
       [
         "4991",
         "環宇-KY",
-        0.836,
+        0.8848,
         574000
+      ],
+      [
+        "6442",
+        "光聖",
+        0.8451,
+        238000
       ],
       [
         "3036",
         "文曄",
-        0.6753,
+        0.6442,
         1177000
       ],
       [
         "3189",
         "景碩",
-        0.5299,
+        0.5605,
         486013
+      ],
+      [
+        "5289",
+        "宜鼎",
+        0.5129,
+        157000
       ],
       [
         "6531",
         "愛普*",
-        0.4707,
+        0.4979,
         273000
+      ],
+      [
+        "2337",
+        "旺宏",
+        0.4147,
+        1465000
+      ],
+      [
+        "2467",
+        "志聖",
+        0.3962,
+        347000
+      ],
+      [
+        "6805",
+        "富世達",
+        0.3807,
+        112000
+      ],
+      [
+        "7734",
+        "印能科技",
+        0.3782,
+        59000
+      ],
+      [
+        "6139",
+        "亞翔",
+        0.3772,
+        259000
       ],
       [
         "3491",
         "昇達科",
-        0.3532,
+        0.3545,
         97000
       ],
       [
         "3711",
         "日月光投控",
-        0.3212,
+        0.3399,
         320000
       ],
       [
         "3260",
         "威剛",
-        0.3194,
+        0.3107,
         393000
       ],
       [
         "3583",
         "辛耘",
-        0.0559,
+        0.0546,
         33000
+      ],
+      [
+        "8021",
+        "尖點",
+        0.0143,
+        18000
       ]
     ],
-    "holdingsCount": 41,
+    "holdingsCount": 48,
     "topHoldings": [
       [
         "2330",
         "台積電",
-        7.7295
+        7.5207
       ],
       [
         "3037",
         "欣興",
-        5.1693
+        5.3312
       ],
       [
         "2383",
         "台光電",
-        4.948
-      ],
-      [
-        "2345",
-        "智邦",
-        4.9399
+        5.0807
       ],
       [
         "6669",
         "緯穎",
-        4.892
+        4.8656
+      ],
+      [
+        "2345",
+        "智邦",
+        4.734
       ]
     ],
-    "adds": [],
-    "cuts": [],
-    "flowChanges": [],
-    "newPositions": [],
+    "adds": [
+      [
+        "2337",
+        "旺宏",
+        1465000,
+        0.4147,
+        {
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.4147,
+          "oldWeight": 0,
+          "weightDelta": 0.4147,
+          "flowYi": 2.11
+        }
+      ],
+      [
+        "2467",
+        "志聖",
+        347000,
+        0.3962,
+        {
+          "industry": "電子零組件業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3962,
+          "oldWeight": 0,
+          "weightDelta": 0.3962,
+          "flowYi": 2.01
+        }
+      ],
+      [
+        "6139",
+        "亞翔",
+        259000,
+        0.3772,
+        {
+          "industry": "其他電子業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3772,
+          "oldWeight": 0,
+          "weightDelta": 0.3772,
+          "flowYi": 1.92
+        }
+      ],
+      [
+        "5289",
+        "宜鼎",
+        157000,
+        0.5129,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.5129,
+          "oldWeight": 0,
+          "weightDelta": 0.5129,
+          "flowYi": 2.61
+        }
+      ],
+      [
+        "6805",
+        "富世達",
+        112000,
+        0.3807,
+        {
+          "industry": "電子零組件業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3807,
+          "oldWeight": 0,
+          "weightDelta": 0.3807,
+          "flowYi": 1.93
+        }
+      ],
+      [
+        "7734",
+        "印能科技",
+        59000,
+        0.3782,
+        {
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3782,
+          "oldWeight": 0,
+          "weightDelta": 0.3782,
+          "flowYi": 1.92
+        }
+      ],
+      [
+        "8021",
+        "尖點",
+        18000,
+        0.0143,
+        {
+          "industry": "其他電子業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.0143,
+          "oldWeight": 0,
+          "weightDelta": 0.0143,
+          "flowYi": 0.07
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "7769",
+        "鴻勁",
+        -60000,
+        1.9617,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 1.9617,
+          "oldWeight": 2.9307,
+          "weightDelta": -0.969,
+          "flowYi": -4.46
+        }
+      ],
+      [
+        "5274",
+        "信驊",
+        -15000,
+        1.0102,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 1.0102,
+          "oldWeight": 1.4561,
+          "weightDelta": -0.4459,
+          "flowYi": -2.57
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "7769",
+        "鴻勁",
+        -60000,
+        1.9617,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 1.9617,
+          "oldWeight": 2.9307,
+          "weightDelta": -0.969,
+          "flowYi": -4.46
+        }
+      ],
+      [
+        "5289",
+        "宜鼎",
+        157000,
+        0.5129,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.5129,
+          "oldWeight": 0,
+          "weightDelta": 0.5129,
+          "flowYi": 2.61
+        }
+      ],
+      [
+        "5274",
+        "信驊",
+        -15000,
+        1.0102,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 1.0102,
+          "oldWeight": 1.4561,
+          "weightDelta": -0.4459,
+          "flowYi": -2.57
+        }
+      ],
+      [
+        "2337",
+        "旺宏",
+        1465000,
+        0.4147,
+        {
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.4147,
+          "oldWeight": 0,
+          "weightDelta": 0.4147,
+          "flowYi": 2.11
+        }
+      ],
+      [
+        "2467",
+        "志聖",
+        347000,
+        0.3962,
+        {
+          "industry": "電子零組件業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3962,
+          "oldWeight": 0,
+          "weightDelta": 0.3962,
+          "flowYi": 2.01
+        }
+      ],
+      [
+        "6805",
+        "富世達",
+        112000,
+        0.3807,
+        {
+          "industry": "電子零組件業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3807,
+          "oldWeight": 0,
+          "weightDelta": 0.3807,
+          "flowYi": 1.93
+        }
+      ],
+      [
+        "6139",
+        "亞翔",
+        259000,
+        0.3772,
+        {
+          "industry": "其他電子業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3772,
+          "oldWeight": 0,
+          "weightDelta": 0.3772,
+          "flowYi": 1.92
+        }
+      ],
+      [
+        "7734",
+        "印能科技",
+        59000,
+        0.3782,
+        {
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3782,
+          "oldWeight": 0,
+          "weightDelta": 0.3782,
+          "flowYi": 1.92
+        }
+      ],
+      [
+        "8021",
+        "尖點",
+        18000,
+        0.0143,
+        {
+          "industry": "其他電子業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.0143,
+          "oldWeight": 0,
+          "weightDelta": 0.0143,
+          "flowYi": 0.07
+        }
+      ]
+    ],
+    "newPositions": [
+      "2337 旺宏",
+      "2467 志聖",
+      "6139 亞翔",
+      "5289 宜鼎",
+      "6805 富世達",
+      "7734 印能科技",
+      "8021 尖點"
+    ],
     "exits": [],
     "pricePath": [
       18,
@@ -2979,89 +3302,83 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00990A/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
-    "tsmcWeight": 3.8,
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
+    "tsmcWeight": 3.65,
     "tsmcShares": 531000,
-    "tsmcHeadroomYi": 64.7,
+    "tsmcHeadroomYi": 65.2,
     "holdings": [
-      [
-        "SNDK US",
-        "SANDISK CORP",
-        6.31,
-        43733
-      ],
       [
         "LITE US",
         "LUMENTUM HOLDINGS INC",
-        5.46,
+        5.71,
         60705
+      ],
+      [
+        "SNDK US",
+        "SANDISK CORP",
+        5.54,
+        36813
       ],
       [
         "MU US",
         "MICRON TECHNOLOGY INC",
-        5.21,
-        68671
-      ],
-      [
-        "2308",
-        "台達電",
-        3.94,
-        628000
+        5.44,
+        73271
       ],
       [
         "285A JP",
         "KIOXIA HOLDINGS CORP",
-        3.94,
+        3.99,
         117700
+      ],
+      [
+        "2308",
+        "台達電",
+        3.93,
+        628000
       ],
       [
         "TSEM US",
         "TOWER SEMICONDUCTOR LTD",
-        3.89,
+        3.85,
         141682
-      ],
-      [
-        "AMD US",
-        "ADVANCED MICRO DEVICES",
-        3.83,
-        82479
-      ],
-      [
-        "2330",
-        "台積電",
-        3.8,
-        531000
       ],
       [
         "BE US",
         "BLOOM ENERGY CORP- A",
-        3.62,
+        3.71,
         123500
+      ],
+      [
+        "2330",
+        "台積電",
+        3.65,
+        531000
+      ],
+      [
+        "AMD US",
+        "ADVANCED MICRO DEVICES",
+        3.62,
+        82479
       ],
       [
         "009150 KP",
         "SAMSUNG ELECTRO-MECHANICS CO",
-        3.06,
+        3.27,
         41884
       ],
       [
         "WDC US",
         "WESTERN DIGITAL CORP",
-        2.49,
+        2.48,
         52262
       ],
       [
         "5706 JP",
         "MITSUI KINZOKU CO LTD",
-        2.17,
+        2.15,
         75200
-      ],
-      [
-        "AIXA GR",
-        "AIXTRON SE",
-        2.16,
-        344838
       ],
       [
         "GLW US",
@@ -3070,148 +3387,148 @@ export const etfs = [
         112595
       ],
       [
+        "6787 JP",
+        "MEIKO ELECTRONICS CO LTD",
+        2.09,
+        85300
+      ],
+      [
         "2383",
         "台光電",
-        2.07,
+        2.08,
         144000
+      ],
+      [
+        "AIXA GR",
+        "AIXTRON SE",
+        2.06,
+        344838
+      ],
+      [
+        "4062 JP",
+        "IBIDEN CO LTD",
+        1.97,
+        181800
       ],
       [
         "MRVL US",
         "MARVELL TECHNOLOGY INC",
-        2,
+        1.92,
         103000
-      ],
-      [
-        "6787 JP",
-        "MEIKO ELECTRONICS CO LTD",
-        1.97,
-        85300
       ],
       [
         "SOI FP",
         "S.O.I.T.E.C.",
-        1.94,
+        1.92,
         102089
       ],
       [
         "IFX GR",
         "INFINEON TECHNOLOGIES AG",
-        1.86,
+        1.77,
         226389
-      ],
-      [
-        "4062 JP",
-        "IBIDEN CO LTD",
-        1.85,
-        181800
-      ],
-      [
-        "NVDA US",
-        "NVIDIA CORP",
-        1.84,
-        79350
       ],
       [
         "3037",
         "欣興",
-        1.71,
+        1.77,
         634000
+      ],
+      [
+        "NVDA US",
+        "NVIDIA CORP",
+        1.7,
+        79350
       ],
       [
         "2345",
         "智邦",
-        1.7,
+        1.69,
         221000
-      ],
-      [
-        "GOOGL US",
-        "ALPHABET INC-CL A",
-        1.53,
-        38060
       ],
       [
         "000660 KP",
         "SK HYNIX INC",
-        1.52,
+        1.59,
         12674
       ],
       [
         "AAOI US",
         "APPLIED OPTOELECTRONICS INC",
-        1.49,
+        1.5,
         87100
       ],
       [
         "STX US",
         "SEAGATE TECHNOLOGY HOLDINGS",
-        1.43,
+        1.45,
         18360
       ],
       [
-        "5801 JP",
-        "FURUKAWA ELECTRIC CO LTD",
-        1.42,
-        42800
+        "GOOGL US",
+        "ALPHABET INC-CL A",
+        1.44,
+        38060
       ],
       [
         "CIEN US",
         "CIENA CORP",
-        1.41,
+        1.4,
         24442
       ],
       [
-        "AVGO US",
-        "BROADCOM INC",
-        1.34,
-        30960
-      ],
-      [
-        "5347",
-        "世界",
-        1.3,
-        2498000
+        "5801 JP",
+        "FURUKAWA ELECTRIC CO LTD",
+        1.29,
+        42800
       ],
       [
         "6723 JP",
         "RENESAS ELECTRONICS CORP",
-        1.27,
+        1.29,
         555900
+      ],
+      [
+        "5347",
+        "世界",
+        1.26,
+        2498000
+      ],
+      [
+        "AVGO US",
+        "BROADCOM INC",
+        1.25,
+        30960
       ],
       [
         "SMTC US",
         "SEMTECH CORP",
-        1.2,
+        1.17,
         81700
       ],
       [
         "3653",
         "健策",
-        1.09,
+        1.13,
         110000
-      ],
-      [
-        "NOK US",
-        "NOKIA CORP-SPON ADR",
-        1.08,
-        762210
-      ],
-      [
-        "268A JP",
-        "RIGAKU HOLDINGS CORP",
-        1.06,
-        687700
       ],
       [
         "6274",
         "台燿",
-        1.06,
+        1.1,
         268000
       ],
       [
-        "AEHR US",
-        "AEHR TEST SYSTEMS",
-        1.03,
-        120400
+        "NOK US",
+        "NOKIA CORP-SPON ADR",
+        1.05,
+        762210
+      ],
+      [
+        "6981 JP",
+        "MURATA MANUFACTURING CO LTD",
+        1,
+        241800
       ],
       [
         "3017",
@@ -3228,56 +3545,68 @@ export const etfs = [
       [
         "INTC US",
         "INTEL CORP",
-        0.86,
+        0.8,
         69505
       ],
       [
         "WOLF US",
         "WOLFSPEED INC",
-        0.72,
+        0.8,
         118200
+      ],
+      [
+        "AEHR US",
+        "AEHR TEST SYSTEMS",
+        0.76,
+        85300
       ],
       [
         "2360",
         "致茂",
-        0.7,
+        0.72,
         103000
       ],
       [
-        "6777 JP",
-        "SANTEC HOLDINGS CORP",
-        0.65,
-        37400
+        "STM US",
+        "STMICROELECTRONICS NV-NY SHS",
+        0.67,
+        103900
       ],
       [
         "NBIS US",
         "NEBIUS GROUP NV",
-        0.6,
+        0.65,
         30100
       ],
       [
         "010120 KP",
         "LS ELECTRIC CO LTD",
-        0.57,
+        0.61,
         34775
       ],
       [
-        "6976 JP",
-        "TAIYO YUDEN CO LTD",
-        0.54,
-        105000
+        "6777 JP",
+        "SANTEC HOLDINGS CORP",
+        0.6,
+        37400
       ],
       [
         "2454",
         "聯發科",
-        0.53,
+        0.55,
         50000
       ],
       [
-        "6981 JP",
-        "MURATA MANUFACTURING CO LTD",
-        0.51,
-        127300
+        "268A JP",
+        "RIGAKU HOLDINGS CORP",
+        0.55,
+        378100
+      ],
+      [
+        "6976 JP",
+        "TAIYO YUDEN CO LTD",
+        0.52,
+        105000
       ],
       [
         "5274",
@@ -3288,26 +3617,26 @@ export const etfs = [
       [
         "4958",
         "臻鼎-KY",
-        0.49,
+        0.5,
         343000
       ],
       [
         "7826 JP",
         "FURUYA METAL CO LTD",
-        0.48,
+        0.45,
         77400
       ],
       [
         "C_NTD",
         "CASH",
         0,
-        278221312
+        649771312
       ],
       [
         "C_USD",
         "CASH",
         0,
-        29657538
+        32495518
       ],
       [
         "PFUR_NTD",
@@ -3322,380 +3651,224 @@ export const etfs = [
         71531899
       ]
     ],
-    "holdingsCount": 56,
+    "holdingsCount": 57,
     "topHoldings": [
-      [
-        "SNDK US",
-        "SANDISK CORP",
-        6.31
-      ],
       [
         "LITE US",
         "LUMENTUM HOLDINGS INC",
-        5.46
+        5.71
+      ],
+      [
+        "SNDK US",
+        "SANDISK CORP",
+        5.54
       ],
       [
         "MU US",
         "MICRON TECHNOLOGY INC",
-        5.21
-      ],
-      [
-        "2308",
-        "台達電",
-        3.94
+        5.44
       ],
       [
         "285A JP",
         "KIOXIA HOLDINGS CORP",
-        3.94
+        3.99
+      ],
+      [
+        "2308",
+        "台達電",
+        3.93
       ]
     ],
     "adds": [
       [
-        "4958",
-        "臻鼎-KY",
-        343000,
-        0.49,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.49,
-          "oldWeight": 0,
-          "weightDelta": 0.49,
-          "flowYi": 1.5
-        }
-      ],
-      [
         "6981 JP",
         "MURATA MANUFACTURING CO LTD",
-        127300,
-        0.51,
+        114500,
+        1,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1,
+          "oldWeight": 0.51,
+          "weightDelta": 0.49,
+          "flowYi": 1.45
+        }
+      ],
+      [
+        "STM US",
+        "STMICROELECTRONICS NV-NY SHS",
+        103900,
+        0.67,
         {
           "industry": "未分類",
           "type": "added",
           "typeLabel": "新增",
-          "newWeight": 0.51,
+          "newWeight": 0.67,
           "oldWeight": 0,
-          "weightDelta": 0.51,
-          "flowYi": 1.56
+          "weightDelta": 0.67,
+          "flowYi": 2.05
         }
       ],
       [
-        "6976 JP",
-        "TAIYO YUDEN CO LTD",
-        105000,
-        0.54,
-        {
-          "industry": "未分類",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.54,
-          "oldWeight": 0,
-          "weightDelta": 0.54,
-          "flowYi": 1.65
-        }
-      ],
-      [
-        "IFX GR",
-        "INFINEON TECHNOLOGIES AG",
-        50310,
-        1.86,
+        "MU US",
+        "MICRON TECHNOLOGY INC",
+        4600,
+        5.44,
         {
           "industry": "未分類",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.86,
-          "oldWeight": 1.39,
-          "weightDelta": 0.47,
-          "flowYi": 1.26
-        }
-      ],
-      [
-        "NVDA US",
-        "NVIDIA CORP",
-        21600,
-        1.84,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.84,
-          "oldWeight": 1.33,
-          "weightDelta": 0.51,
-          "flowYi": 1.53
-        }
-      ],
-      [
-        "SMTC US",
-        "SEMTECH CORP",
-        14100,
-        1.2,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.2,
-          "oldWeight": 0.95,
-          "weightDelta": 0.25,
-          "flowYi": 0.63
+          "newWeight": 5.44,
+          "oldWeight": 5.21,
+          "weightDelta": 0.23,
+          "flowYi": 1.04
         }
       ]
     ],
     "cuts": [
       [
-        "ON US",
-        "ON SEMICONDUCTOR",
-        -96700,
-        1.07,
-        {
-          "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 1.07,
-          "weightDelta": -1.07,
-          "flowYi": -3.27
-        }
-      ],
-      [
-        "PENG US",
-        "PENGUIN SOLUTIONS INC",
-        -91900,
-        0.45,
-        {
-          "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.45,
-          "weightDelta": -0.45,
-          "flowYi": -1.37
-        }
-      ],
-      [
-        "005930 KP",
-        "SAMSUNG ELECTRONICS CO LTD",
-        -61290,
-        1.17,
-        {
-          "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 1.17,
-          "weightDelta": -1.17,
-          "flowYi": -3.57
-        }
-      ],
-      [
-        "5706 JP",
-        "MITSUI KINZOKU CO LTD",
-        -17100,
-        2.17,
+        "268A JP",
+        "RIGAKU HOLDINGS CORP",
+        -309600,
+        0.55,
         {
           "industry": "未分類",
           "type": "decreased",
           "typeLabel": "減碼",
-          "newWeight": 2.17,
-          "oldWeight": 2.72,
-          "weightDelta": -0.55,
-          "flowYi": -1.51
+          "newWeight": 0.55,
+          "oldWeight": 1.06,
+          "weightDelta": -0.51,
+          "flowYi": -1.38
+        }
+      ],
+      [
+        "AEHR US",
+        "AEHR TEST SYSTEMS",
+        -35100,
+        0.76,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.76,
+          "oldWeight": 1.03,
+          "weightDelta": -0.27,
+          "flowYi": -0.95
         }
       ],
       [
         "SNDK US",
         "SANDISK CORP",
-        -3440,
-        6.31,
+        -6920,
+        5.54,
         {
           "industry": "未分類",
           "type": "decreased",
           "typeLabel": "減碼",
-          "newWeight": 6.31,
-          "oldWeight": 6.83,
-          "weightDelta": -0.52,
-          "flowYi": -1.52
+          "newWeight": 5.54,
+          "oldWeight": 6.31,
+          "weightDelta": -0.77,
+          "flowYi": -3.18
         }
       ]
     ],
     "flowChanges": [
       [
-        "005930 KP",
-        "SAMSUNG ELECTRONICS CO LTD",
-        -61290,
-        1.17,
+        "SNDK US",
+        "SANDISK CORP",
+        -6920,
+        5.54,
         {
           "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 1.17,
-          "weightDelta": -1.17,
-          "flowYi": -3.57
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 5.54,
+          "oldWeight": 6.31,
+          "weightDelta": -0.77,
+          "flowYi": -3.18
         }
       ],
       [
-        "ON US",
-        "ON SEMICONDUCTOR",
-        -96700,
-        1.07,
-        {
-          "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 1.07,
-          "weightDelta": -1.07,
-          "flowYi": -3.27
-        }
-      ],
-      [
-        "6976 JP",
-        "TAIYO YUDEN CO LTD",
-        105000,
-        0.54,
+        "STM US",
+        "STMICROELECTRONICS NV-NY SHS",
+        103900,
+        0.67,
         {
           "industry": "未分類",
           "type": "added",
           "typeLabel": "新增",
-          "newWeight": 0.54,
+          "newWeight": 0.67,
           "oldWeight": 0,
-          "weightDelta": 0.54,
-          "flowYi": 1.65
+          "weightDelta": 0.67,
+          "flowYi": 2.05
         }
       ],
       [
         "6981 JP",
         "MURATA MANUFACTURING CO LTD",
-        127300,
-        0.51,
-        {
-          "industry": "未分類",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.51,
-          "oldWeight": 0,
-          "weightDelta": 0.51,
-          "flowYi": 1.56
-        }
-      ],
-      [
-        "NVDA US",
-        "NVIDIA CORP",
-        21600,
-        1.84,
+        114500,
+        1,
         {
           "industry": "未分類",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.84,
-          "oldWeight": 1.33,
-          "weightDelta": 0.51,
-          "flowYi": 1.53
-        }
-      ],
-      [
-        "SNDK US",
-        "SANDISK CORP",
-        -3440,
-        6.31,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 6.31,
-          "oldWeight": 6.83,
-          "weightDelta": -0.52,
-          "flowYi": -1.52
-        }
-      ],
-      [
-        "5706 JP",
-        "MITSUI KINZOKU CO LTD",
-        -17100,
-        2.17,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.17,
-          "oldWeight": 2.72,
-          "weightDelta": -0.55,
-          "flowYi": -1.51
-        }
-      ],
-      [
-        "4958",
-        "臻鼎-KY",
-        343000,
-        0.49,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.49,
-          "oldWeight": 0,
+          "newWeight": 1,
+          "oldWeight": 0.51,
           "weightDelta": 0.49,
-          "flowYi": 1.5
+          "flowYi": 1.45
         }
       ],
       [
-        "PENG US",
-        "PENGUIN SOLUTIONS INC",
-        -91900,
-        0.45,
+        "268A JP",
+        "RIGAKU HOLDINGS CORP",
+        -309600,
+        0.55,
         {
           "industry": "未分類",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.45,
-          "weightDelta": -0.45,
-          "flowYi": -1.37
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.55,
+          "oldWeight": 1.06,
+          "weightDelta": -0.51,
+          "flowYi": -1.38
         }
       ],
       [
-        "IFX GR",
-        "INFINEON TECHNOLOGIES AG",
-        50310,
-        1.86,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.86,
-          "oldWeight": 1.39,
-          "weightDelta": 0.47,
-          "flowYi": 1.26
-        }
-      ],
-      [
-        "SMTC US",
-        "SEMTECH CORP",
-        14100,
-        1.2,
+        "MU US",
+        "MICRON TECHNOLOGY INC",
+        4600,
+        5.44,
         {
           "industry": "未分類",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.2,
-          "oldWeight": 0.95,
-          "weightDelta": 0.25,
-          "flowYi": 0.63
+          "newWeight": 5.44,
+          "oldWeight": 5.21,
+          "weightDelta": 0.23,
+          "flowYi": 1.04
+        }
+      ],
+      [
+        "AEHR US",
+        "AEHR TEST SYSTEMS",
+        -35100,
+        0.76,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.76,
+          "oldWeight": 1.03,
+          "weightDelta": -0.27,
+          "flowYi": -0.95
         }
       ]
     ],
     "newPositions": [
-      "4958 臻鼎-KY",
-      "6981 JP MURATA MANUFACTURING CO LTD",
-      "6976 JP TAIYO YUDEN CO LTD"
+      "STM US STMICROELECTRONICS NV-NY SHS"
     ],
-    "exits": [
-      "ON US ON SEMICONDUCTOR",
-      "PENG US PENGUIN SOLUTIONS INC",
-      "005930 KP SAMSUNG ELECTRONICS CO LTD"
-    ],
+    "exits": [],
     "pricePath": [
       18.53,
       18.53
@@ -8417,35 +8590,35 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00994A/active",
-    "comparisonFromDate": "2026-05-20",
-    "comparisonToDate": "2026-05-21",
-    "tsmcWeight": 16.01,
-    "tsmcShares": 382999,
-    "tsmcHeadroomYi": 4.8,
+    "comparisonFromDate": "2026-05-21",
+    "comparisonToDate": "2026-05-22",
+    "tsmcWeight": 14.14,
+    "tsmcShares": 345999,
+    "tsmcHeadroomYi": 5.8,
     "holdings": [
       [
         "2330",
         "台積電",
-        16.01,
-        382999
+        14.14,
+        345999
       ],
       [
         "2383",
         "台光電",
-        6.5,
-        74000
+        7.16,
+        79000
       ],
       [
         "3037",
         "欣興",
-        4.95,
-        292001
+        5.41,
+        308001
       ],
       [
-        "2345",
-        "智邦",
-        4.69,
-        101000
+        "2454",
+        "聯發科",
+        5.24,
+        75000
       ],
       [
         "6669",
@@ -8454,112 +8627,112 @@ export const etfs = [
         46000
       ],
       [
-        "2454",
-        "聯發科",
+        "2345",
+        "智邦",
         4.52,
-        68000
-      ],
-      [
-        "2308",
-        "台達電",
-        4.01,
-        105499
+        101000
       ],
       [
         "6274",
         "台燿",
-        3.82,
+        4.06,
         154000
+      ],
+      [
+        "2308",
+        "台達電",
+        4,
+        105499
+      ],
+      [
+        "6223",
+        "旺矽",
+        3.71,
+        33901
       ],
       [
         "7769",
         "鴻勁",
-        3.74,
+        3.64,
         26000
       ],
       [
         "3017",
         "奇鋐",
-        3.62,
+        3.57,
         77500
-      ],
-      [
-        "6223",
-        "旺矽",
-        3.59,
-        33901
-      ],
-      [
-        "2368",
-        "金像電",
-        3.15,
-        131000
-      ],
-      [
-        "3711",
-        "日月光投控",
-        2.75,
-        288002
-      ],
-      [
-        "3443",
-        "創意",
-        2.66,
-        28050
       ],
       [
         "4958",
         "臻鼎-KY",
-        2.64,
-        300000
+        3.18,
+        340000
       ],
       [
-        "2360",
-        "致茂",
-        2.3,
-        54000
+        "2368",
+        "金像電",
+        3.16,
+        131000
       ],
       [
         "2327",
         "國巨*",
-        2.2,
-        205000
+        2.93,
+        257000
+      ],
+      [
+        "3711",
+        "日月光投控",
+        2.93,
+        288002
       ],
       [
         "8046",
         "南電",
-        2.17,
-        133000
+        2.76,
+        163000
+      ],
+      [
+        "3443",
+        "創意",
+        2.61,
+        28050
+      ],
+      [
+        "2360",
+        "致茂",
+        2.22,
+        54000
       ],
       [
         "2303",
         "聯電",
-        1.67,
+        1.59,
         770000
-      ],
-      [
-        "6515",
-        "穎崴",
-        1.6,
-        9000
       ],
       [
         "2059",
         "川湖",
-        1.56,
+        1.57,
         17000
       ],
       [
         "3661",
         "世芯-KY",
-        1.56,
+        1.51,
         17000
       ],
       [
         "5274",
         "信驊",
-        1.45,
+        1.51,
         4700
+      ],
+      [
+        "6515",
+        "穎崴",
+        1.42,
+        9000
       ],
       [
         "2449",
@@ -8568,16 +8741,16 @@ export const etfs = [
         255000
       ],
       [
-        "8299",
-        "群聯",
-        1.31,
-        30000
-      ],
-      [
         "3081",
         "聯亞",
-        1.29,
+        1.33,
         27000
+      ],
+      [
+        "8299",
+        "群聯",
+        1.32,
+        30000
       ],
       [
         "2467",
@@ -8588,56 +8761,62 @@ export const etfs = [
       [
         "3036",
         "文曄",
-        0.76,
+        0.73,
         140000
       ],
       [
         "3665",
         "貿聯-KY",
-        0.57,
+        0.56,
         14000
+      ],
+      [
+        "3105",
+        "穩懋",
+        0.53,
+        55000
       ],
       [
         "3533",
         "嘉澤",
-        0.47,
+        0.46,
         10000
-      ],
-      [
-        "3264",
-        "欣銓",
-        0.45,
-        110000
       ],
       [
         "2455",
         "全新",
-        0.43,
+        0.46,
         60000
+      ],
+      [
+        "3264",
+        "欣銓",
+        0.44,
+        110000
       ],
       [
         "8210",
         "勤誠",
-        0.4,
+        0.39,
         16000
       ],
       [
         "3044",
         "健鼎",
-        0.37,
+        0.36,
         40000
-      ],
-      [
-        "6147",
-        "頎邦",
-        0.33,
-        80000
       ],
       [
         "6187",
         "萬潤",
         0.33,
         16000
+      ],
+      [
+        "6147",
+        "頎邦",
+        0.31,
+        80000
       ],
       [
         "6415",
@@ -8664,12 +8843,6 @@ export const etfs = [
         1
       ],
       [
-        "3045",
-        "台灣大",
-        0,
-        1
-      ],
-      [
         "4904",
         "遠傳",
         0,
@@ -8679,7 +8852,7 @@ export const etfs = [
         "C_NTD",
         "CASH",
         0,
-        578086080
+        459273467
       ]
     ],
     "holdingsCount": 43,
@@ -8687,22 +8860,22 @@ export const etfs = [
       [
         "2330",
         "台積電",
-        16.01
+        14.14
       ],
       [
         "2383",
         "台光電",
-        6.5
+        7.16
       ],
       [
         "3037",
         "欣興",
-        4.95
+        5.41
       ],
       [
-        "2345",
-        "智邦",
-        4.69
+        "2454",
+        "聯發科",
+        5.24
       ],
       [
         "6669",
@@ -8712,253 +8885,286 @@ export const etfs = [
     ],
     "adds": [
       [
-        "8046",
-        "南電",
-        60000,
-        2.17,
+        "3105",
+        "穩懋",
+        55000,
+        0.53,
+        {
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.53,
+          "oldWeight": 0,
+          "weightDelta": 0.53,
+          "flowYi": 0.28
+        }
+      ],
+      [
+        "2327",
+        "國巨*",
+        52000,
+        2.93,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 2.17,
-          "oldWeight": 1.19,
-          "weightDelta": 0.98,
-          "flowYi": 0.52
+          "newWeight": 2.93,
+          "oldWeight": 2.2,
+          "weightDelta": 0.73,
+          "flowYi": 0.32
+        }
+      ],
+      [
+        "4958",
+        "臻鼎-KY",
+        40000,
+        3.18,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3.18,
+          "oldWeight": 2.64,
+          "weightDelta": 0.54,
+          "flowYi": 0.2
+        }
+      ],
+      [
+        "8046",
+        "南電",
+        30000,
+        2.76,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.76,
+          "oldWeight": 2.17,
+          "weightDelta": 0.59,
+          "flowYi": 0.27
         }
       ],
       [
         "3037",
         "欣興",
-        25000,
-        4.95,
+        16000,
+        5.41,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 4.95,
-          "oldWeight": 4.33,
-          "weightDelta": 0.62,
-          "flowYi": 0.23
+          "newWeight": 5.41,
+          "oldWeight": 4.95,
+          "weightDelta": 0.46,
+          "flowYi": 0.15
         }
       ],
       [
-        "3533",
-        "嘉澤",
-        10000,
-        0.47,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.47,
-          "oldWeight": 0,
-          "weightDelta": 0.47,
-          "flowYi": 0.25
-        }
-      ],
-      [
-        "3044",
-        "健鼎",
-        10000,
-        0.37,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.37,
-          "oldWeight": 0.27,
-          "weightDelta": 0.1,
-          "flowYi": 0.05
-        }
-      ],
-      [
-        "3443",
-        "創意",
+        "2454",
+        "聯發科",
         7000,
-        2.66,
+        5.24,
         {
           "industry": "半導體業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 2.66,
-          "oldWeight": 1.91,
-          "weightDelta": 0.75,
-          "flowYi": 0.35
-        }
-      ],
-      [
-        "3661",
-        "世芯-KY",
-        7000,
-        1.56,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.56,
-          "oldWeight": 0.91,
-          "weightDelta": 0.65,
-          "flowYi": 0.34
-        }
-      ],
-      [
-        "6669",
-        "緯穎",
-        5000,
-        4.6,
-        {
-          "industry": "電腦及週邊設備業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.6,
-          "oldWeight": 3.97,
-          "weightDelta": 0.63,
-          "flowYi": 0.27
+          "newWeight": 5.24,
+          "oldWeight": 4.52,
+          "weightDelta": 0.72,
+          "flowYi": 0.26
         }
       ],
       [
         "2383",
         "台光電",
-        4000,
-        6.5,
+        5000,
+        7.16,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 6.5,
-          "oldWeight": 6.07,
-          "weightDelta": 0.43,
-          "flowYi": 0.19
+          "newWeight": 7.16,
+          "oldWeight": 6.5,
+          "weightDelta": 0.66,
+          "flowYi": 0.24
         }
       ]
     ],
-    "cuts": [],
+    "cuts": [
+      [
+        "2330",
+        "台積電",
+        -37000,
+        14.14,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 14.14,
+          "oldWeight": 16.01,
+          "weightDelta": -1.87,
+          "flowYi": -0.81
+        }
+      ],
+      [
+        "3045",
+        "台灣大",
+        -1,
+        0,
+        {
+          "industry": "通信網路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0,
+          "weightDelta": 0,
+          "flowYi": 0
+        }
+      ]
+    ],
     "flowChanges": [
       [
-        "8046",
-        "南電",
-        60000,
-        2.17,
+        "2330",
+        "台積電",
+        -37000,
+        14.14,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 14.14,
+          "oldWeight": 16.01,
+          "weightDelta": -1.87,
+          "flowYi": -0.81
+        }
+      ],
+      [
+        "2327",
+        "國巨*",
+        52000,
+        2.93,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 2.17,
-          "oldWeight": 1.19,
-          "weightDelta": 0.98,
-          "flowYi": 0.52
+          "newWeight": 2.93,
+          "oldWeight": 2.2,
+          "weightDelta": 0.73,
+          "flowYi": 0.32
         }
       ],
       [
-        "3443",
-        "創意",
-        7000,
-        2.66,
+        "3105",
+        "穩懋",
+        55000,
+        0.53,
         {
           "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.66,
-          "oldWeight": 1.91,
-          "weightDelta": 0.75,
-          "flowYi": 0.35
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.53,
+          "oldWeight": 0,
+          "weightDelta": 0.53,
+          "flowYi": 0.28
         }
       ],
       [
-        "3661",
-        "世芯-KY",
-        7000,
-        1.56,
+        "8046",
+        "南電",
+        30000,
+        2.76,
         {
-          "industry": "半導體業",
+          "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.56,
-          "oldWeight": 0.91,
-          "weightDelta": 0.65,
-          "flowYi": 0.34
-        }
-      ],
-      [
-        "6669",
-        "緯穎",
-        5000,
-        4.6,
-        {
-          "industry": "電腦及週邊設備業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.6,
-          "oldWeight": 3.97,
-          "weightDelta": 0.63,
+          "newWeight": 2.76,
+          "oldWeight": 2.17,
+          "weightDelta": 0.59,
           "flowYi": 0.27
         }
       ],
       [
-        "3533",
-        "嘉澤",
-        10000,
-        0.47,
+        "2454",
+        "聯發科",
+        7000,
+        5.24,
         {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.47,
-          "oldWeight": 0,
-          "weightDelta": 0.47,
-          "flowYi": 0.25
-        }
-      ],
-      [
-        "3037",
-        "欣興",
-        25000,
-        4.95,
-        {
-          "industry": "電子零組件業",
+          "industry": "半導體業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 4.95,
-          "oldWeight": 4.33,
-          "weightDelta": 0.62,
-          "flowYi": 0.23
+          "newWeight": 5.24,
+          "oldWeight": 4.52,
+          "weightDelta": 0.72,
+          "flowYi": 0.26
         }
       ],
       [
         "2383",
         "台光電",
-        4000,
-        6.5,
+        5000,
+        7.16,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 6.5,
-          "oldWeight": 6.07,
-          "weightDelta": 0.43,
-          "flowYi": 0.19
+          "newWeight": 7.16,
+          "oldWeight": 6.5,
+          "weightDelta": 0.66,
+          "flowYi": 0.24
         }
       ],
       [
-        "3044",
-        "健鼎",
-        10000,
-        0.37,
+        "4958",
+        "臻鼎-KY",
+        40000,
+        3.18,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.37,
-          "oldWeight": 0.27,
-          "weightDelta": 0.1,
-          "flowYi": 0.05
+          "newWeight": 3.18,
+          "oldWeight": 2.64,
+          "weightDelta": 0.54,
+          "flowYi": 0.2
+        }
+      ],
+      [
+        "3037",
+        "欣興",
+        16000,
+        5.41,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 5.41,
+          "oldWeight": 4.95,
+          "weightDelta": 0.46,
+          "flowYi": 0.15
+        }
+      ],
+      [
+        "3045",
+        "台灣大",
+        -1,
+        0,
+        {
+          "industry": "通信網路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0,
+          "weightDelta": 0,
+          "flowYi": 0
         }
       ]
     ],
     "newPositions": [
-      "3533 嘉澤"
+      "3105 穩懋"
     ],
-    "exits": [],
+    "exits": [
+      "3045 台灣大"
+    ],
     "pricePath": [
       17.64,
       17.64
@@ -10801,8 +11007,8 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00983A/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
     "tsmcHeadroomYi": 6.3,
@@ -10810,14 +11016,20 @@ export const etfs = [
       [
         "TSLA US",
         "特斯拉公司",
-        8.74,
-        16730
+        8.89,
+        17016
       ],
       [
         "AMD US",
         "超微半導體公司",
-        6.87,
+        6.89,
         12244
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        6.04,
+        41976
       ],
       [
         "PLTR US",
@@ -10826,100 +11038,94 @@ export const etfs = [
         33810
       ],
       [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        5.75,
-        41047
-      ],
-      [
-        "C_NTD",
-        "CASH",
-        4.94,
-        124848754
-      ],
-      [
         "ROKU US",
         "Roku Inc",
-        4.9,
+        4.93,
         31458
       ],
       [
         "COIN US",
         "比特幣基地全球公司",
-        4.8,
+        4.85,
         20000
       ],
       [
         "TER US",
         "泰瑞達公司",
-        4,
+        4.1,
         9266
       ],
       [
         "TXG US",
         "10X Genomics Inc",
-        3.79,
+        3.9,
         126095
       ],
       [
         "SHOP US",
         "Shopify公司",
-        3.68,
+        3.67,
         27949
       ],
       [
         "TSM US",
         "台積電",
-        3.52,
+        3.56,
         6994
       ],
       [
         "BEAM US",
         "光束治療公司",
-        3.38,
+        3.44,
         99465
       ],
       [
         "NVDA US",
         "輝達",
-        3.32,
+        3.25,
         11846
+      ],
+      [
+        "C_NTD",
+        "CASH",
+        3.04,
+        76728682
       ],
       [
         "CRSP US",
         "CRISPR治療公司",
-        3.3,
-        54223
+        3.01,
+        48223
       ],
       [
         "AMZN US",
         "亞馬遜公司",
-        2.8,
+        2.83,
         8436
-      ],
-      [
-        "XYZ US",
-        "布洛克公司",
-        2.7,
-        30344
-      ],
-      [
-        "BWXT US",
-        "BWX科技股份有限公司",
-        2.68,
-        10526
       ],
       [
         "TWST US",
         "Twist Bioscience Corp",
-        2.44,
+        2.67,
         36271
       ],
       [
-        "NTRA US",
-        "那提拉公司",
-        2.06,
-        8000
+        "BWXT US",
+        "BWX科技股份有限公司",
+        2.67,
+        10526
+      ],
+      [
+        "XYZ US",
+        "布洛克公司",
+        2.61,
+        30344
+      ],
+      [
+        "CRWV US",
+        "CoreWeave Inc",
+        2.14,
+        15887
       ],
       [
         "C_USD",
@@ -10928,10 +11134,16 @@ export const etfs = [
         1638105
       ],
       [
-        "CRWV US",
-        "CoreWeave Inc",
-        2.02,
-        15887
+        "HOOD US",
+        "羅賓漢市場公司",
+        2.05,
+        21553
+      ],
+      [
+        "NTRA US",
+        "那提拉公司",
+        2.04,
+        8000
       ],
       [
         "META US",
@@ -10940,64 +11152,46 @@ export const etfs = [
         2592
       ],
       [
-        "HOOD US",
-        "羅賓漢市場公司",
-        1.95,
-        20500
-      ],
-      [
         "ILMN US",
         "伊魯米納公司",
-        1.68,
+        1.71,
         9453
       ],
       [
         "P US",
         "愛惠浦公司",
-        1.67,
+        1.69,
         17065
       ],
       [
         "AVGO US",
         "博通公司",
-        1.59,
+        1.58,
         3039
       ],
       [
         "BLSH US",
         "Bullish",
         1.49,
-        32120
-      ],
-      [
-        "BIDU US",
-        "百度股份有限公司",
-        1.32,
-        7791
-      ],
-      [
-        "TEM US",
-        "Tempus AI Inc",
-        1.31,
-        22800
+        33199
       ],
       [
         "BMNR US",
         "BitMine Immersion Technologi",
-        1.3,
+        1.31,
         53552
+      ],
+      [
+        "BIDU US",
+        "百度股份有限公司",
+        1.28,
+        7791
       ],
       [
         "GOOGL US",
         "Alphabet公司 Class A",
-        1.27,
-        2595
-      ],
-      [
-        "DE US",
-        "迪爾",
         1.26,
-        1791
+        2595
       ],
       [
         "VCYT US",
@@ -11006,15 +11200,21 @@ export const etfs = [
         22281
       ],
       [
+        "DE US",
+        "迪爾",
+        1.19,
+        1791
+      ],
+      [
         "BABA US",
         "阿里巴巴",
-        1.03,
+        1.01,
         6114
       ],
       [
         "CCJ US",
         "卡梅科公司",
-        0.78,
+        0.79,
         6000
       ],
       [
@@ -11024,23 +11224,40 @@ export const etfs = [
         39350
       ],
       [
+        "TEM US",
+        "Tempus AI Inc",
+        0.56,
+        9565
+      ],
+      [
         "CERS US",
         "Cerus公司",
         0.14,
         40375
+      ],
+      [
+        "RDI_USD",
+        "RECEIVABLES FOR DISPOSAL OF INVESTMENTS",
+        0,
+        549331
       ]
     ],
-    "holdingsCount": 37,
+    "holdingsCount": 38,
     "topHoldings": [
       [
         "TSLA US",
         "特斯拉公司",
-        8.74
+        8.89
       ],
       [
         "AMD US",
         "超微半導體公司",
-        6.87
+        6.89
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        6.04
       ],
       [
         "PLTR US",
@@ -11048,19 +11265,167 @@ export const etfs = [
         5.82
       ],
       [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        5.75
-      ],
-      [
-        "C_NTD",
-        "CASH",
-        4.94
+        "ROKU US",
+        "Roku Inc",
+        4.93
       ]
     ],
-    "adds": [],
-    "cuts": [],
-    "flowChanges": [],
+    "adds": [
+      [
+        "BLSH US",
+        "Bullish",
+        1079,
+        1.49,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.49,
+          "oldWeight": 1.49,
+          "weightDelta": 0,
+          "flowYi": 0.01
+        }
+      ],
+      [
+        "HOOD US",
+        "羅賓漢市場公司",
+        1053,
+        2.05,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.05,
+          "oldWeight": 1.95,
+          "weightDelta": 0.1,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        929,
+        6.04,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 6.04,
+          "oldWeight": 5.75,
+          "weightDelta": 0.29,
+          "flowYi": 0.03
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "TEM US",
+        "Tempus AI Inc",
+        -13235,
+        0.56,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.56,
+          "oldWeight": 1.31,
+          "weightDelta": -0.75,
+          "flowYi": -0.2
+        }
+      ],
+      [
+        "CRSP US",
+        "CRISPR治療公司",
+        -6000,
+        3.01,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.01,
+          "oldWeight": 3.3,
+          "weightDelta": -0.29,
+          "flowYi": -0.09
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "TEM US",
+        "Tempus AI Inc",
+        -13235,
+        0.56,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.56,
+          "oldWeight": 1.31,
+          "weightDelta": -0.75,
+          "flowYi": -0.2
+        }
+      ],
+      [
+        "CRSP US",
+        "CRISPR治療公司",
+        -6000,
+        3.01,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.01,
+          "oldWeight": 3.3,
+          "weightDelta": -0.29,
+          "flowYi": -0.09
+        }
+      ],
+      [
+        "HOOD US",
+        "羅賓漢市場公司",
+        1053,
+        2.05,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.05,
+          "oldWeight": 1.95,
+          "weightDelta": 0.1,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        929,
+        6.04,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 6.04,
+          "oldWeight": 5.75,
+          "weightDelta": 0.29,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "BLSH US",
+        "Bullish",
+        1079,
+        1.49,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.49,
+          "oldWeight": 1.49,
+          "weightDelta": 0,
+          "flowYi": 0.01
+        }
+      ]
+    ],
     "newPositions": [],
     "exits": [],
     "pricePath": [
@@ -11099,8 +11464,8 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00984D/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
     "tsmcHeadroomYi": 5.7,
@@ -11108,1280 +11473,1292 @@ export const etfs = [
       [
         "202606F0001",
         "US 10YR NOTE (CBT)JUN26 18-JUN-2026",
-        3.03,
+        2.7,
         20
       ],
       [
-        "202606F0004",
-        "US 5YR NOTE (CBT) JUN26 30-JUN-2026",
-        1.78,
-        12
-      ],
-      [
-        "USU6302XAB20",
-        "OAK-EAGLE ACQUIRECO INC 8.75 01JUL2034",
-        1.13,
-        781000
+        "202609F0004",
+        "US 5YR NOTE (CBT) SEP26 30-SEP-2026",
+        1.45,
+        11
       ],
       [
         "USU1638HAD99",
         "CIVITAS RESOURCES INC SER REGS (REG) (REG S) 9.625 15JUN2033",
-        1.11,
-        719000
+        1.21,
+        883000
       ],
       [
         "USU91505AY02",
         "UNIVISION COMMUNICATIONS SER REGS (REG S) 9.375 01AUG2032",
-        1.04,
-        736000
-      ],
-      [
-        "USU9220NAD31",
-        "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.875 01FEB2032",
-        1.01,
-        680000
-      ],
-      [
-        "USC07885AL76",
-        "BAUSCH HEALTH COS INC SER REGS (REG) (REG S) 11 30SEP2028",
-        0.99,
-        681000
-      ],
-      [
-        "US63938CAP32",
-        "NAVIENT CORP (REG) 11.5 15MAR2031",
-        0.96,
-        651000
-      ],
-      [
-        "US81761LAE20",
-        "SERVICE PROPERTIES TRUST (REG) 8.875 15JUN2032",
-        0.95,
-        666000
+        1.18,
+        932000
       ],
       [
         "USU53039AL44",
         "LIFEPOINT HEALTH INC SER REGS 10.000000  01-JUN-2032",
-        0.94,
-        664000
+        1.05,
+        829000
+      ],
+      [
+        "US63938CAP32",
+        "NAVIENT CORP (REG) 11.5 15MAR2031",
+        1.05,
+        799000
+      ],
+      [
+        "US81761LAE20",
+        "SERVICE PROPERTIES TRUST (REG) 8.875 15JUN2032",
+        1.04,
+        816000
+      ],
+      [
+        "USC07885AL76",
+        "BAUSCH HEALTH COS INC SER REGS (REG) (REG S) 11 30SEP2028",
+        1.04,
+        809000
+      ],
+      [
+        "USU6302XAB20",
+        "OAK-EAGLE ACQUIRECO INC 8.75 01JUL2034",
+        1.01,
+        781000
       ],
       [
         "USU1900QAB42",
         "CLYDESDALE ACQUISITION SER REGS (REG) (REG S) 8.75 15APR2030",
-        0.93,
-        713000
+        1.01,
+        872000
+      ],
+      [
+        "USU8681CAA72",
+        "SWORD PURCHASER LLC(SER REGS)(REG)(REG S)10.5 15APR2034",
+        1.01,
+        797000
+      ],
+      [
+        "USU82775AA28",
+        "SIX FLAGS/CAN WON/MILLE SER REGS (REG S) 8.625 15JAN2032",
+        1,
+        792000
+      ],
+      [
+        "USG4648GAA51",
+        "HOWDEN UK REFINANCE / US SER REGS (REG S) 8.125 15FEB2032",
+        0.97,
+        845000
+      ],
+      [
+        "USU18898AB98",
+        "CLOUD SOFTWARE GRP INC SER REGS (REG) (REG S) 8.25 30JUN2032",
+        0.95,
+        802000
+      ],
+      [
+        "USU2541MAE04",
+        "DIRECTV FIN LLC/COINC SER REGS 10.000000  15FEB2031",
+        0.95,
+        745000
+      ],
+      [
+        "USC39555AE44",
+        "GOEASY LTD SER REGS (REG S) 9.25 01DEC2028",
+        0.94,
+        776000
+      ],
+      [
+        "USU42804AY78",
+        "HERTZ CORP/THE SER REGS (REG S) 12.625 15JUL2029",
+        0.92,
+        819000
+      ],
+      [
+        "USU9220NAD31",
+        "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.875 01FEB2032",
+        0.9,
+        680000
+      ],
+      [
+        "USU85440AF96",
+        "STAPLES INC SER REGS (REG S) 10.75 01SEP2029",
+        0.89,
+        765000
+      ],
+      [
+        "USU31538AH18",
+        "FERRELLGAS LP/FERRELLGAS SER REGS (REG S) 9.25 15JAN2031",
+        0.85,
+        658000
+      ],
+      [
+        "USU7410WAD75",
+        "PRIME HEALTHCARE SERVICE SER REGS (REG S) 9.375 01SEP2029",
+        0.84,
+        653000
       ],
       [
         "US640695AC66",
         "NEPTUNE BIDCO US INC SER 144A 10.375000  15-MAY-2031",
-        0.93,
+        0.83,
         654000
       ],
       [
         "US02406PBD15",
         "AMERICAN AXLE & MFG INC SER 144A 7.750000  15-OCT-2033",
-        0.93,
+        0.83,
         682000
       ],
       [
         "US71677KAD00",
         "PETSMART INC/PETSMART FI 10.000000  15SEP2033",
-        0.92,
+        0.82,
         666000
       ],
       [
         "USU4526LAL19",
         "CRESCENT ENERGY FINANCE SER REGS (REG S) 8.375 15JAN2034",
-        0.91,
+        0.81,
         624000
       ],
       [
-        "USU82775AA28",
-        "SIX FLAGS/CAN WON/MILLE SER REGS (REG S) 8.625 15JAN2032",
-        0.9,
-        638000
+        "USU85974AD27",
+        "SPECIALTY BUILDING PRODU SER REGS 7.750000  15OCT2029",
+        0.81,
+        731000
+      ],
+      [
+        "USU9338EAA83",
+        "VOYAGER PARENT LLC SER REGS 9.250000  01JUL2032",
+        0.81,
+        618000
       ],
       [
         "US92553PAU66",
         "VIACOM INC (REG) 5.85 01SEP2043",
-        0.88,
+        0.8,
         896000
       ],
       [
         "US045941AB79",
         "ASURION LLC/ASURION CO SER 144A 8.375 01FEB2034",
-        0.88,
+        0.78,
         654000
       ],
       [
-        "USC39555AE44",
-        "GOEASY LTD SER REGS (REG S) 9.25 01DEC2028",
-        0.87,
-        644000
+        "USU0735JAB36",
+        "BEACH ACQUISITION BIDCO 10 15JUL2033",
+        0.78,
+        574000
       ],
       [
         "USU1468GAK05",
         "CARVANA CO VAR PERP 01JUN2031",
-        0.87,
+        0.78,
         570000
       ],
       [
-        "USU2541MAE04",
-        "DIRECTV FIN LLC/COINC SER REGS 10.000000  15FEB2031",
-        0.85,
-        595000
+        "USU4609CAB38",
+        "ION PLAT FIN US/SARL SER REGS 9.500000  30-MAY-2029",
+        0.77,
+        673000
+      ],
+      [
+        "USU17127BA51",
+        "CHS/COMMUNITY HEALTH SYS SER REGS 9.750000  15JAN2034",
+        0.76,
+        588000
       ],
       [
         "USJ57160CZ41",
         "NISSAN MOTOR CO SER REGS 8.125000  17JUL2035",
-        0.85,
+        0.76,
         583000
+      ],
+      [
+        "USU22033AC53",
+        "CP ATLAS BUYER INC SER REGS 9.750000  15JUL2030",
+        0.75,
+        662000
       ],
       [
         "USU43279AN59",
         "HILCORP ENERGY I/HILCORP SER REGS (REG S) 8.375 01NOV2033",
-        0.84,
+        0.75,
         565000
       ],
       [
         "USG00045AA56",
         "GLOBAL AUTO HO/AAG FH UK SER REGS (REG S) 11.5 15AUG2029",
-        0.83,
+        0.74,
         589000
       ],
       [
         "USC36025AL50",
         "GARDA WORLD SECURITY SER REGS 8.375000  15NOV2032",
-        0.82,
+        0.73,
         571000
       ],
       [
         "US83056PAA12",
         "SKEENA RESOURCES LIMITED SER 144A 8.5 01APR2031",
-        0.8,
+        0.72,
         553000
+      ],
+      [
+        "USG7088KAA63",
+        "PHOENIX AVIATION CAPITAL SER REGS 9.250000  15JUL2030",
+        0.71,
+        568000
       ],
       [
         "US59408QAB23",
         "MICHAELS COS INC/THE SER 144A 8.5 15MAR2033",
-        0.79,
+        0.7,
         586000
-      ],
-      [
-        "USU85440AF96",
-        "STAPLES INC SER REGS (REG S) 10.75 01SEP2029",
-        0.79,
-        605000
-      ],
-      [
-        "USU75082AB03",
-        "ROCKET SOFTWARE INC SER REGS (REG S) 9 28NOV2028",
-        0.78,
-        557000
-      ],
-      [
-        "USG4648GAA51",
-        "HOWDEN UK REFINANCE / US SER REGS (REG S) 8.125 15FEB2032",
-        0.78,
-        611000
       ],
       [
         "US02007VAA89",
         "ALLWYN ENTERTAINMENT FIN SER 144A 7.875 30APR2029",
-        0.77,
+        0.69,
         541000
       ],
       [
         "USU60731AB91",
         "MOHEGAN TRIBAL / MS DIG SER REGS 11.875000  15APR2031",
-        0.77,
+        0.69,
         514000
       ],
       [
         "USU6536LAC47",
         "NGL ENERGY PARTNERS LP SER REGS (REG S) 8.375 15FEB2032",
-        0.77,
+        0.69,
         531000
       ],
       [
-        "USU18898AB98",
-        "CLOUD SOFTWARE GRP INC SER REGS (REG) (REG S) 8.25 30JUN2032",
-        0.77,
-        574000
-      ],
-      [
-        "USU05375AX59",
-        "AVIS BUDGET CAR/FINANCE SER REGS 8.375000  15JUN2032",
-        0.76,
-        546000
-      ],
-      [
-        "USU31538AH18",
-        "FERRELLGAS LP/FERRELLGAS SER REGS (REG S) 9.25 15JAN2031",
-        0.76,
-        527000
+        "USU75082AB03",
+        "ROCKET SOFTWARE INC SER REGS (REG S) 9 28NOV2028",
+        0.69,
+        557000
       ],
       [
         "USU83037AD01",
         "TALOS PRODUCTION INC SER REGS (REG S) 9.375 01FEB2031",
-        0.76,
+        0.68,
         515000
       ],
       [
-        "USU85974AD27",
-        "SPECIALTY BUILDING PRODU SER REGS 7.750000  15OCT2029",
-        0.76,
-        620000
+        "USU05375AX59",
+        "AVIS BUDGET CAR/FINANCE SER REGS 8.375000  15JUN2032",
+        0.68,
+        546000
       ],
       [
-        "USU7410WAD75",
-        "PRIME HEALTHCARE SERVICE SER REGS (REG S) 9.375 01SEP2029",
-        0.74,
-        516000
+        "USU9225YAA02",
+        "AUSTIN BIDCO INC SER REGS (REG) (REG S) 7.125 15DEC2028",
+        0.66,
+        631000
+      ],
+      [
+        "US651229AY21",
+        "NEWELL RUBBERMAID INC 6 01APR2046",
+        0.65,
+        621000
       ],
       [
         "US163851AJ70",
         "CHEMOURS CO SER 144A (REG) 8.000000  15JAN2033",
-        0.72,
+        0.64,
         508000
       ],
       [
         "US29281RAA77",
         "ENDO FINANCE HOLDINGS SER 144A 8.5 15APR2031",
-        0.71,
+        0.63,
         481000
       ],
       [
         "US45174HBJ59",
         "IHEARTCOMMUNICATIONS INC 9.125000  01MAY2029",
-        0.71,
+        0.63,
         520000
       ],
       [
         "US29357KAK97",
         "ENOVA INTERNATIONAL INC SER 144A 9.125000  01AUG2029",
-        0.7,
+        0.62,
         483000
       ],
       [
         "USG05891AL32",
         "ASTON MARTIN CAPITAL HOL SER REGS (REG S) 10 31MAR2029",
-        0.7,
+        0.62,
         616000
-      ],
-      [
-        "US87110CAA53",
-        "SWORD PURCHASER LLC SER 144A (REG) 10.5 15APR2034",
-        0.7,
-        499000
-      ],
-      [
-        "US69902PAA66",
-        "PARADIGM PRNT/CO-ISSUER 8.750000  17APR2032",
-        0.69,
-        548000
       ],
       [
         "USU17127AX63",
         "CHS/COMMUNITY HEALTH SYS SER REGS 10.875000  15JAN2032",
-        0.69,
+        0.62,
         464000
-      ],
-      [
-        "USU9338EAA83",
-        "VOYAGER PARENT LLC SER REGS 9.250000  01JUL2032",
-        0.69,
-        474000
       ],
       [
         "USU3164VAF14",
         "GLOBAL PART/GLP FINANCE SER REGS (REG S) 8.25 15JAN2032",
-        0.68,
+        0.61,
         469000
       ],
       [
         "USU2915CAG51",
         "ENCORE CAPITAL GROUP INC SER REGS 8.500000  15MAY2030",
-        0.68,
+        0.61,
         465000
       ],
       [
         "USU6836GAB42",
         "ORGANON & CO/ORGANON FOR SER RegS (REG S) 7.875 15MAY2034",
-        0.68,
+        0.61,
         464000
+      ],
+      [
+        "US69902PAA66",
+        "PARADIGM PRNT/CO-ISSUER 8.750000  17APR2032",
+        0.61,
+        548000
       ],
       [
         "US89686QAD88",
         "TRIVIUM PACKAGING FIN SER 144A 8.250000  15JUL2030",
-        0.68,
+        0.6,
         465000
+      ],
+      [
+        "USC4R906AA53",
+        "GREAT CANADIAN GAMING CO SER REGS (REG S) 8.75 15NOV2029",
+        0.6,
+        504000
       ],
       [
         "USU5764AAB53",
         "MAV ACQUISITION CORP SER REGS (REG) (REG S) 8 01AUG2029",
-        0.67,
+        0.6,
         482000
-      ],
-      [
-        "USU22033AC53",
-        "CP ATLAS BUYER INC SER REGS 9.750000  15JUL2030",
-        0.67,
-        529000
       ],
       [
         "USU2069EAA83",
         "COREWEAVE INC SER REGS (REG S) 9.25 01JUN2030",
-        0.66,
+        0.59,
         470000
-      ],
-      [
-        "USU9840YAB30",
-        "XPLR INFRAST OPERATING SER REGS (REG) (REG S) 8.625 15MAR2033",
-        0.66,
-        443000
       ],
       [
         "USU8729AAA52",
         "TRANSMONTAIGNE PARTNERS SER REGS 8.500000  15JUN2030",
-        0.66,
+        0.59,
         465000
       ],
       [
-        "USU18898AA16",
-        "CLOUD SOFTWARE GRP INC SER REGS 9.000000  30SEP2029",
-        0.65,
-        471000
+        "USU9840YAB30",
+        "XPLR INFRAST OPERATING SER REGS (REG) (REG S) 8.625 15MAR2033",
+        0.59,
+        443000
       ],
       [
         "USU03030AC49",
         "AMERIGAS PART/FIN CORP SER REGS 9.500000  01-JUN-2030",
-        0.65,
+        0.58,
         440000
       ],
       [
         "US48020RAB15",
         "JONES DESLAURIERS INSURA SER 144A 8.500000  15-MAR-2030",
-        0.65,
+        0.58,
         463000
       ],
       [
         "US55342UAQ76",
         "MPT OPER PARTNERSP/FINL SER 144A 8.500000  15FEB2032",
-        0.65,
+        0.58,
         454000
       ],
       [
         "US71601VAA35",
         "PETCO HEALTH & WELLNESS SER 144A (REG) 8.25 01FEB2031",
-        0.64,
+        0.57,
         469000
       ],
       [
         "XS2806383159",
         "FIBERCOP SPA SER REGS 7.721000  04JUN2038",
-        0.64,
+        0.57,
         462000
+      ],
+      [
+        "USU18898AA16",
+        "CLOUD SOFTWARE GRP INC SER REGS 9.000000  30SEP2029",
+        0.57,
+        471000
       ],
       [
         "USU62000AC58",
         "MOSS CREEK RESOURCES HLD SER REGS (REG S) 8.25 01SEP2031",
-        0.63,
+        0.56,
         449000
       ],
       [
         "US45674GAB05",
         "INEOS QUATTRO FINANCE 2 SER 144A 9.625 15MAR2029",
-        0.62,
+        0.56,
         461000
       ],
       [
         "202606F0006",
         "US 10YR ULTRA FUT JUN26 18-JUN-2026",
-        0.62,
+        0.55,
         4
-      ],
-      [
-        "USU0379NAA73",
-        "APLD COMPUTECO LLC SER REGS 9.250000  15-DEC-2030",
-        0.61,
-        408000
-      ],
-      [
-        "USG47718AK02",
-        "INEOS FINANCE PLC SER REGs (REG S) 7.5 15APR2029",
-        0.61,
-        440000
-      ],
-      [
-        "USG53431AA32",
-        "LCPR SR SECURED FIN DAC SER REGS (REG) (REG S) 6.75 15OCT2027",
-        0.61,
-        644000
-      ],
-      [
-        "USG7088KAA63",
-        "PHOENIX AVIATION CAPITAL SER REGS 9.250000  15JUL2030",
-        0.61,
-        434000
       ],
       [
         "USU2285XAZ97",
         "CSC HOLDINGS LLC SER REGS (REG S) 11.25 15MAY2028",
-        0.61,
+        0.55,
         629000
       ],
       [
-        "USU86057AA10",
-        "SUMMIT MIDSTREAM HOLDING SER REGS (REG S) 8.625 31OCT2029",
-        0.61,
-        419000
+        "USU44927BD96",
+        "ICAHN ENTERPRISES/FIN SER REGS 10.000000  15NOV2029",
+        0.54,
+        437000
       ],
       [
         "USU8068AAA44",
         "SC GAMES HOLDIN/US FINCO SER REGS 6.625000  01MAR2030",
-        0.61,
+        0.54,
         505000
+      ],
+      [
+        "USU86057AA10",
+        "SUMMIT MIDSTREAM HOLDING SER REGS (REG S) 8.625 31OCT2029",
+        0.54,
+        419000
+      ],
+      [
+        "USU0379NAA73",
+        "APLD COMPUTECO LLC SER REGS 9.250000  15-DEC-2030",
+        0.54,
+        408000
+      ],
+      [
+        "USG53431AA32",
+        "LCPR SR SECURED FIN DAC SER REGS (REG) (REG S) 6.75 15OCT2027",
+        0.54,
+        644000
+      ],
+      [
+        "USG47718AK02",
+        "INEOS FINANCE PLC SER REGs (REG S) 7.5 15APR2029",
+        0.54,
+        440000
       ],
       [
         "USG9444PAG75",
         "VMED O2 UK FINANCING I SER REGS (REG S) 7.75 15APR2032",
-        0.6,
+        0.53,
         460000
       ],
       [
         "US74984AAA07",
         "RFNA LP SER 144A 7.875000  15FEB2030",
-        0.6,
+        0.53,
         442000
       ],
       [
         "US855170AA41",
         "STAR PARENT INC SER 144A 9 01OCT2030",
-        0.6,
+        0.53,
         412000
       ],
       [
         "US22208WAA18",
         "HUDSON AUTOMOTIVE GROUP SER 144A 8 15MAY2032",
-        0.59,
+        0.53,
         410000
       ],
       [
-        "US651229AY21",
-        "NEWELL RUBBERMAID INC 6 01APR2046",
-        0.59,
-        499000
-      ],
-      [
-        "USU4609CAB38",
-        "ION PLAT FIN US/SARL SER REGS 9.500000  30-MAY-2029",
-        0.59,
-        460000
-      ],
-      [
-        "USU02400AC01",
-        "AMC GLOBAL MEDIA INC SER REGS (REG) (REG S) 10.5 15JUL2032",
-        0.58,
-        408000
+        "USU04907AB48",
+        "ASURION LLC/ASURION CO 8.375 01FEB2034",
+        0.53,
+        440000
       ],
       [
         "USU8275QAQ39",
         "SINCLAIR TELEVISION GROU SER REGS 8.125000  15FEB2033",
-        0.58,
+        0.52,
         407000
       ],
       [
-        "USU9225YAA02",
-        "AUSTIN BIDCO INC SER REGS (REG) (REG S) 7.125 15DEC2028",
-        0.57,
-        488000
-      ],
-      [
-        "USU70453AH58",
-        "PBF HOLDING CO LLC SER REGS 9.875000  15MAR2030",
-        0.57,
-        385000
+        "USU02400AC01",
+        "AMC GLOBAL MEDIA INC SER REGS (REG) (REG S) 10.5 15JUL2032",
+        0.52,
+        408000
       ],
       [
         "US83283WAE30",
         "SMYRNA READY MIX CONCRET SER 144A 8.875 15NOV2031",
-        0.57,
+        0.51,
         394000
       ],
       [
-        "USU17127BA51",
-        "CHS/COMMUNITY HEALTH SYS SER REGS 9.750000  15JAN2034",
-        0.56,
-        384000
+        "USU70453AH58",
+        "PBF HOLDING CO LLC SER REGS 9.875000  15MAR2030",
+        0.51,
+        385000
       ],
       [
         "USU6837GAB33",
         "OSAIC HOLDINGS INC SER REGS 8.000000  01AUG2033",
-        0.54,
+        0.49,
         388000
+      ],
+      [
+        "USU9220NAC57",
+        "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.5 01FEB2029",
+        0.49,
+        362000
       ],
       [
         "USG04584AA97",
         "ARDONAGH FINCO LTD SER REGS (REG S) 7.75 15FEB2031",
-        0.54,
+        0.48,
         387000
+      ],
+      [
+        "USG2957NAA93",
+        "AVIANCA MIDCO 2 PLC SER REGS 9.625000  14FEB2030",
+        0.47,
+        402000
       ],
       [
         "USD4000PAR31",
         "IHO VERWALTUNGS GMBH SER REGS (REG) (REG S) 8 15NOV2032",
-        0.53,
+        0.47,
         367000
       ],
       [
         "US876511AG15",
         "TASEKO MINES LTD SER 144A 8.25 01MAY2030",
-        0.53,
+        0.47,
         367000
       ],
       [
         "USU7493RAD80",
         "RADIOLOGY PARTNERS INC SER REGS 8.500000  15-JUL-2032",
-        0.53,
+        0.47,
         384000
+      ],
+      [
+        "USX9816MAA81",
+        "VISTAJET MALTA/VM HOLDS SER REGS (REG S) 9.5 01JUN2028",
+        0.46,
+        373000
       ],
       [
         "USG94A0BAA17",
         "VIRGIN MEDI O2 VI DAC 8.5 15MAR2033",
-        0.52,
+        0.46,
         436000
       ],
       [
-        "USU42804AY78",
-        "HERTZ CORP/THE SER REGS (REG S) 12.625 15JUL2029",
-        0.51,
-        408000
-      ],
-      [
-        "USU24004AA80",
-        "DCLI BIDCO LLC SER REGS 7.750000  15NOV2029",
-        0.5,
-        356000
+        "USU04080AA22",
+        "ARETEC ESCROW ISSUER 2 SER REGS (REG) (REG S) 10 15AUG2030",
+        0.45,
+        342000
       ],
       [
         "USU92573AA96",
         "VELOCITY VEHICLE GROUP SER REGS (REG S) 8 01JUN2029",
-        0.5,
+        0.45,
         370000
+      ],
+      [
+        "USU24004AA80",
+        "DCLI BIDCO LLC SER REGS 7.750000  15NOV2029",
+        0.45,
+        356000
+      ],
+      [
+        "USU9033UAE20",
+        "US ACUTE CARE SOLUTIONS SER REGS (REG S) 9.75 15MAY2029",
+        0.44,
+        375000
+      ],
+      [
+        "USU86043AK98",
+        "SABRE GLBL INC SER REGS 11.125000  15JUL2030",
+        0.44,
+        403000
       ],
       [
         "USL6264MAA47",
         "MAXAM PRILL SARL SER REGS 7.750000  15JUL2030",
-        0.5,
+        0.44,
         349000
       ],
       [
         "US04020JAA43",
         "ARETEC ESCROW ISSUER 2 SER 144A (REG) 10 15AUG2030",
-        0.5,
+        0.44,
         339000
-      ],
-      [
-        "USU9033UAE20",
-        "US ACUTE CARE SOLUTIONS SER REGS (REG S) 9.75 15MAY2029",
-        0.49,
-        375000
       ],
       [
         "USU33825AD93",
         "FIVE POINT OPERATING CO SER REGS 8.000000  01-OCT-2030",
-        0.49,
+        0.43,
         344000
-      ],
-      [
-        "USC4R906AA53",
-        "GREAT CANADIAN GAMING CO SER REGS (REG S) 8.75 15NOV2029",
-        0.48,
-        357000
-      ],
-      [
-        "US52109SAB51",
-        "LBM ACQUISITION LLC SER 144A 9.500000  15JUN2031",
-        0.47,
-        416000
       ],
       [
         "USU2285XBA38",
         "CSC HOLDINGS LLC SER REGS (REG S) 11.75 31JAN2029",
-        0.47,
-        522000
-      ],
-      [
-        "USU59020AA29",
-        "MERLIN ENTERTAINMENTS GR SER REGS (REG S) 7.375 15FEB2031",
-        0.47,
-        401000
-      ],
-      [
-        "USU3133WAA81",
-        "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.25 01FEB2029",
-        0.46,
-        322000
-      ],
-      [
-        "USU0735JAB36",
-        "BEACH ACQUISITION BIDCO 10 15JUL2033",
-        0.46,
-        299000
-      ],
-      [
-        "USU44927BD96",
-        "ICAHN ENTERPRISES/FIN SER REGS 10.000000  15NOV2029",
-        0.45,
-        327000
-      ],
-      [
-        "USU9220NAC57",
-        "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.5 01FEB2029",
-        0.44,
-        290000
-      ],
-      [
-        "USJ64264AG96",
-        "RAKUTEN GROUP INC SER REGS (REG S) 11.25 15FEB2027",
         0.42,
-        295000
-      ],
-      [
-        "USX9816MAA81",
-        "VISTAJET MALTA/VM HOLDS SER REGS (REG S) 9.5 01JUN2028",
-        0.41,
-        296000
-      ],
-      [
-        "USU62024AA94",
-        "MPT OPER PARTNERSP/FINL SER REGS 8.500000  15FEB2032",
-        0.4,
-        278000
+        522000
       ],
       [
         "USU6949NAD94",
         "PRA GROUP INC SER REGS 8.875000  31JAN2030",
+        0.42,
+        332000
+      ],
+      [
+        "USU5140LAB63",
+        "LBM ACQUISITION LLC SER REGS 9.500000  15JUN2031",
+        0.42,
+        416000
+      ],
+      [
+        "USU59020AA29",
+        "MERLIN ENTERTAINMENTS GR SER REGS (REG S) 7.375 15FEB2031",
+        0.42,
+        401000
+      ],
+      [
+        "USU64059AD79",
+        "NEPTUNE BIDCO US INC SER REGS 10.375000  15-MAY-2031",
+        0.41,
+        326000
+      ],
+      [
+        "USU3133WAA81",
+        "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.25 01FEB2029",
+        0.41,
+        322000
+      ],
+      [
+        "USU25783AK41",
+        "RR DONNELLEY & SONS CO SER REGS (REG S) 10.875 01AUG2029",
+        0.39,
+        304000
+      ],
+      [
+        "USU0900PAD43",
+        "JB POINDEXTER & CO INC SER REGS (REG S) 8.75 15DEC2031",
         0.38,
-        269000
+        304000
+      ],
+      [
+        "USJ64264AG96",
+        "RAKUTEN GROUP INC SER REGS (REG S) 11.25 15FEB2027",
+        0.38,
+        295000
+      ],
+      [
+        "USU62024AA94",
+        "MPT OPER PARTNERSP/FINL SER REGS 8.500000  15FEB2032",
+        0.36,
+        278000
+      ],
+      [
+        "USU45057AN37",
+        "IHEARTCOMMUNICATIONS INC SER REGS 9.125000  01MAY2029",
+        0.35,
+        289000
+      ],
+      [
+        "USU63661AA74",
+        "NATIONAL MENTOR HOLDINGS SER REGS (REG) (REG S) 10.5 15DEC2030",
+        0.34,
+        261000
       ],
       [
         "USU6415RAE37",
         "NEWELL BRANDS INC SER REGS 8.500000  01JUN2028",
-        0.38,
+        0.34,
         261000
       ],
       [
         "USU7501WAA37",
         "RACKSPACE FINANCE LLC SER REGS (REG) (REG S) 3.5 15MAY2028",
-        0.37,
+        0.33,
         329000
+      ],
+      [
+        "USU9229LAA45",
+        "VERDE PURCHASER LLC SER REGS (REG) (REG S) 10.5 30NOV2030",
+        0.33,
+        259000
       ],
       [
         "USL2000TAA71",
         "BREAKWATER ENRGY HOLD SER REGS 9.25  15-NOV-2030",
-        0.37,
+        0.33,
         250000
+      ],
+      [
+        "USG4772GAC99",
+        "INEOS QUATTRO FINANCE 2 SER REGS (REG S) 9.625 15MAR2029",
+        0.33,
+        275000
       ],
       [
         "US44963BAG32",
         "IHO VERWALTUNGS GMBH SER 144A (REG) 8 15NOV2032",
-        0.35,
+        0.31,
         244000
       ],
       [
-        "US829259BH26",
-        "SINCLAIR TELEVISION GROU SER 144A 8.125000  15FEB2033",
-        0.34,
-        237000
+        "USU5933QAB69",
+        "MICHAELS COS INC/THE SER REGS (REG S) 8.5 15MAR2033",
+        0.31,
+        260000
+      ],
+      [
+        "USU74337AE30",
+        "PROVIDENT FDG/PFG FIN SER REGS (REG S) 9.75 15SEP2029",
+        0.3,
+        236000
+      ],
+      [
+        "USU71907AA48",
+        "PHH ESCROW ISS LCC/PHH C SER REGS (REG S) 9.875 01NOV2029",
+        0.3,
+        246000
+      ],
+      [
+        "USU92559AA86",
+        "VELOCITY COM CAP LLC SER REGS (REG) (REG S) 9.375 15FEB2031",
+        0.3,
+        234000
       ],
       [
         "USU86043AJ26",
         "SABRE GLBL INC SER REGS (REG) 10.750000  15NOV2029",
-        0.34,
+        0.3,
         278000
       ],
       [
-        "USU25783AK41",
-        "RR DONNELLEY & SONS CO SER REGS (REG S) 10.875 01AUG2029",
-        0.33,
-        233000
+        "US829259BH26",
+        "SINCLAIR TELEVISION GROU SER 144A 8.125000  15FEB2033",
+        0.3,
+        237000
       ],
       [
-        "USU04907AB48",
-        "ASURION LLC/ASURION CO 8.375 01FEB2034",
-        0.32,
-        242000
+        "USU0203LAB19",
+        "ALTA EQUIPMENT GROUP SER REGS (REG) (REG S) 9 01JUN2029",
+        0.29,
+        252000
+      ],
+      [
+        "USU7260AAA26",
+        "PLANET FINANCIAL GROUP SER REGS 10.500000  15DEC2029",
+        0.29,
+        234000
       ],
       [
         "USU4608DAB20",
         "ION PLATFORM FINANCE US SER REGS 7.875000  30-SEP-2032",
-        0.32,
+        0.28,
         300000
       ],
       [
-        "USU83252AD58",
-        "SMYRNA READY MIX CONCRET SER REGS (REG S) 8.875 15NOV2031",
-        0.31,
-        211000
-      ],
-      [
-        "USU04080AA22",
-        "ARETEC ESCROW ISSUER 2 SER REGS (REG) (REG S) 10 15AUG2030",
-        0.31,
-        213000
+        "USC3117MAA02",
+        "DYE & DURHAM LIMITED SER REGS (REG S) 8.625 15APR2029",
+        0.28,
+        273000
       ],
       [
         "US00791GAC15",
         "OSAIC HOLDINGS INC SER 144A 8.000000  01AUG2033",
-        0.31,
+        0.28,
         220000
       ],
       [
         "US389925AA64",
         "GREAT CANADIAN GAMING CO SER 144A 8.750000  15NOV2029",
-        0.3,
+        0.27,
         221000
       ],
       [
-        "US428040DC08",
-        "HERTZ CORP/THE SER 144A 12.625 15JUL2029",
-        0.29,
-        233000
+        "USU83252AD58",
+        "SMYRNA READY MIX CONCRET SER REGS (REG S) 8.875 15NOV2031",
+        0.27,
+        211000
+      ],
+      [
+        "USU86042AA34",
+        "SABRE FINANCIAL BORROWER SER REGS 11.125  15-JUN-2029",
+        0.26,
+        204000
+      ],
+      [
+        "USU71500AA72",
+        "PETCO HEALTH & WELLNESS 8.25 01FEB2031",
+        0.26,
+        217000
+      ],
+      [
+        "USU29298AE31",
+        "ENOVA INTERNATIONAL INC SER REGS (REG S) 9.125 01AUG2029",
+        0.26,
+        200000
       ],
       [
         "US29357JAF30",
         "ENQUEST PLC SER 144A 9.875  30-APR-2031",
-        0.29,
+        0.26,
         200000
       ],
       [
         "US33834YAC21",
         "FIVE POINT OPERATING CO SER 144A 8.000000  01-OCT-2030",
-        0.29,
+        0.26,
         207000
       ],
       [
         "US039853AA46",
         "ARDONAGH FINCO LTD SER 144A 7.75 15FEB2031",
-        0.29,
+        0.26,
         207000
-      ],
-      [
-        "USU86042AA34",
-        "SABRE FINANCIAL BORROWER SER REGS 11.125  15-JUN-2029",
-        0.29,
-        204000
-      ],
-      [
-        "USU63661AA74",
-        "NATIONAL MENTOR HOLDINGS SER REGS (REG) (REG S) 10.5 15DEC2030",
-        0.29,
-        202000
-      ],
-      [
-        "USU1056LAC55",
-        "BURFORD CAPITAL GLBL FIN SER REGS (REG) (REG S) 9.25 01JUL2031",
-        0.28,
-        211000
-      ],
-      [
-        "USU2081AAB80",
-        "CORNERSTONE BUILDING SER REGS (REG S) 9.5 15AUG2029",
-        0.28,
-        334000
-      ],
-      [
-        "USU86043AK98",
-        "SABRE GLBL INC SER REGS 11.125000  15JUL2030",
-        0.28,
-        230000
-      ],
-      [
-        "USU9229LAA45",
-        "VERDE PURCHASER LLC SER REGS (REG) (REG S) 10.5 30NOV2030",
-        0.28,
-        195000
       ],
       [
         "USC6900QAA51",
         "1261229 BC LTD SER REGS 10.000000  15APR2032",
-        0.28,
+        0.25,
         200000
       ],
       [
         "US80412LAA52",
         "SATURN OIL & GAS INC SER 144A 9.625000  15JUN2029",
-        0.28,
+        0.25,
         192000
       ],
       [
-        "USU8768RAA06",
-        "TEAM SERVICES HLDG INC SER REGS (REG S) 9 15FEB2033",
-        0.27,
-        191000
+        "USU1056LAC55",
+        "BURFORD CAPITAL GLBL FIN SER REGS (REG) (REG S) 9.25 01JUL2031",
+        0.25,
+        211000
+      ],
+      [
+        "USU2081AAB80",
+        "CORNERSTONE BUILDING SER REGS (REG S) 9.5 15AUG2029",
+        0.25,
+        334000
+      ],
+      [
+        "USU1056LAF86",
+        "BURFORD CAPITAL GLBL FIN SER REGS 8.5  15-JAN-2034",
+        0.24,
+        228000
       ],
       [
         "USU3232FAB32",
         "FULL HOUSE RESORTS INC SER REGS (REG) (REG S) 8.25 15FEB2028",
-        0.27,
+        0.24,
         195000
+      ],
+      [
+        "USU8768RAA06",
+        "TEAM SERVICES HLDG INC SER REGS (REG S) 9 15FEB2033",
+        0.24,
+        191000
       ],
       [
         "USU7501MAB38",
         "RAIN CARBON INC SER REGS (REG S) 12.25 01SEP2029",
-        0.26,
+        0.23,
         176000
       ],
       [
-        "USU74337AE30",
-        "PROVIDENT FDG/PFG FIN SER REGS (REG S) 9.75 15SEP2029",
-        0.26,
-        181000
+        "USU69871AA69",
+        "PARADIGM PRNT/CO-ISSUER SER REGS (REG S) 8.75 17APR2032",
+        0.23,
+        202000
       ],
       [
         "USD1RA09AB94",
         "CERDIA FINANZ GMBH SER REGS (REG S) 9.375 03OCT2031",
-        0.26,
-        200000
-      ],
-      [
-        "USG2957NAA93",
-        "AVIANCA MIDCO 2 PLC SER REGS 9.625000  14FEB2030",
-        0.26,
+        0.23,
         200000
       ],
       [
         "US431318BC74",
         "HILCORP ENERGY I/HILCORP SER 144A 8.375 01NOV2033",
-        0.26,
+        0.23,
         175000
-      ],
-      [
-        "USU0423UAA70",
-        "ARTERA SERVICES LLC SER REGS 8.500000  15FEB2031",
-        0.25,
-        199233
-      ],
-      [
-        "USU0203LAB19",
-        "ALTA EQUIPMENT GROUP SER REGS (REG) (REG S) 9 01JUN2029",
-        0.25,
-        190000
-      ],
-      [
-        "USU7260AAA26",
-        "PLANET FINANCIAL GROUP SER REGS 10.500000  15DEC2029",
-        0.25,
-        181000
-      ],
-      [
-        "USU92559AA86",
-        "VELOCITY COM CAP LLC SER REGS (REG) (REG S) 9.375 15FEB2031",
-        0.25,
-        180000
-      ],
-      [
-        "USU90921AG93",
-        "UNISYS CORP SER REGS 10.625000  15JAN2031",
-        0.24,
-        185000
-      ],
-      [
-        "USU71907AA48",
-        "PHH ESCROW ISS LCC/PHH C SER REGS (REG S) 9.875 01NOV2029",
-        0.24,
-        177000
-      ],
-      [
-        "USU60712AA12",
-        "MOBIUS MERGER SUB SER REGS 9.000000  01JUN2030",
-        0.24,
-        246000
-      ],
-      [
-        "USU3828QAA14",
-        "CLUE OPCO LLC SER REGS 9.500000  15OCT2031",
-        0.24,
-        195000
       ],
       [
         "US093645AK51",
         "BLOCK COMMUNICATIONS INC SER 144A 10.25 01MAR2031",
-        0.24,
+        0.22,
         189000
       ],
       [
-        "USC3117MAA02",
-        "DYE & DURHAM LIMITED SER REGS (REG S) 8.625 15APR2029",
-        0.23,
-        197000
+        "USU0423UAA70",
+        "ARTERA SERVICES LLC SER REGS 8.500000  15FEB2031",
+        0.22,
+        199233
+      ],
+      [
+        "USU3828QAA14",
+        "CLUE OPCO LLC SER REGS 9.500000  15OCT2031",
+        0.22,
+        195000
+      ],
+      [
+        "USU90921AG93",
+        "UNISYS CORP SER REGS 10.625000  15JAN2031",
+        0.22,
+        185000
+      ],
+      [
+        "USU1052DAB92",
+        "BRAND INDUSTRIAL SERVICE SER REGS 10.375000  01AUG2030",
+        0.21,
+        192000
+      ],
+      [
+        "USU60712AA12",
+        "MOBIUS MERGER SUB SER REGS 9.000000  01JUN2030",
+        0.21,
+        246000
+      ],
+      [
+        "USU0666HAA24",
+        "BCPE FLAVOR DEBT/ISSUER SER REGS 9.500000  01-JUL-2032",
+        0.21,
+        187000
       ],
       [
         "US914906BA95",
         "UNIVISION COMMUNICATIONS SER 144A 9.375000  01AUG2032",
-        0.23,
+        0.2,
         160000
       ],
       [
         "USU45709AD15",
         "INNOPHOS HOLDINGS INC SER REGS (REG S) 11.5 15JUN2029",
-        0.23,
+        0.2,
         171470
       ],
       [
         "USU3742LAC10",
         "GETTY IMAGES INC SER REGS 11.250000  21FEB2030",
-        0.23,
+        0.2,
         202000
-      ],
-      [
-        "USU1052DAB92",
-        "BRAND INDUSTRIAL SERVICE SER REGS 10.375000  01AUG2030",
-        0.23,
-        192000
-      ],
-      [
-        "USU0666HAA24",
-        "BCPE FLAVOR DEBT/ISSUER SER REGS 9.500000  01-JUL-2032",
-        0.23,
-        187000
-      ],
-      [
-        "USU58717AB28",
-        "THE MEN'S WEARHOUSE LLC SER REGS (REG S) 9 01FEB2031",
-        0.22,
-        150000
       ],
       [
         "USU85543AA14",
         "STAR PARENT INC SER REGS 9.000000  01-OCT-2030",
-        0.22,
+        0.2,
         153000
       ],
       [
-        "USU8681CAA72",
-        "SWORD PURCHASER LLC(SER REGS)(REG)(REG S)10.5 15APR2034",
-        0.21,
+        "USU58717AB28",
+        "THE MEN'S WEARHOUSE LLC SER REGS (REG S) 9 01FEB2031",
+        0.19,
         150000
       ],
       [
         "US80874DAA46",
         "SC GAMES HOLDIN/US FINCO SER 144A (REG) 6.625 01MAR2030",
-        0.21,
+        0.19,
         177000
       ],
       [
         "USC33203AD93",
         "EMPIRE COMMUNITIES CORP SER REGS (REG S) 9.75 01MAY2029",
-        0.21,
-        148000
-      ],
-      [
-        "US053773BK25",
-        "AVIS BUDGET CAR/FINANCE SER 144A 8.375000  15JUN2032",
-        0.21,
+        0.19,
         148000
       ],
       [
         "US55903VBU61",
         "WARNERMEDIA HOLDINGS INC SER * 5.141000  15MAR2052",
-        0.2,
+        0.19,
         214000
       ],
       [
         "US57767XAB64",
         "MAV ACQUISITION CORP SER 144A (REG) 8 01AUG2029",
-        0.2,
+        0.18,
         147000
       ],
       [
-        "USU45057AN37",
-        "IHEARTCOMMUNICATIONS INC SER REGS 9.125000  01MAY2029",
-        0.2,
-        149000
-      ],
-      [
-        "USU16309AK94",
-        "CHEMOURS CO SER REGS (REG) (REG S) 8 15JAN2033",
-        0.19,
-        137000
-      ],
-      [
-        "US36147AAA34",
-        "GB AIT BUYER SER 144A 8.75  30-APR-2034",
-        0.19,
-        141000
+        "US053773BK25",
+        "AVIS BUDGET CAR/FINANCE SER 144A 8.375000  15JUN2032",
+        0.18,
+        148000
       ],
       [
         "US030981AP92",
         "AMERIGAS PART/FIN CORP SER 144A 9.500000  01JUN2030",
-        0.19,
+        0.17,
         125000
       ],
       [
         "US216762AK06",
         "COOPER-STANDARD AUTOMOTI 9.25 01MAR2031",
-        0.19,
+        0.17,
         137000
+      ],
+      [
+        "US36147AAA34",
+        "GB AIT BUYER SER 144A 8.75  30-APR-2034",
+        0.17,
+        141000
       ],
       [
         "US92837TAA07",
         "AUSTIN BIDCO INC SER 144A (REG) 7.125 15DEC2028",
-        0.19,
+        0.17,
         160000
       ],
       [
         "US86614JAA34",
         "SUMMIT MIDSTREAM HOLDING SER 144A 8.625 31OCT2029",
-        0.19,
+        0.17,
         134000
       ],
       [
-        "US61965RAC97",
-        "MOSS CREEK RESOURCES HLD SER 144A 8.25 01SEP2031",
+        "USU16309AK94",
+        "CHEMOURS CO SER REGS (REG) (REG S) 8 15JAN2033",
         0.17,
-        121000
+        137000
+      ],
+      [
+        "US909214BX53",
+        "UNISYS CORP SER 144A 10.625000  15JAN2031",
+        0.15,
+        132000
       ],
       [
         "US71910DAA90",
         "PHOENIX AVIATION 9.250000  15JUL2030",
-        0.17,
+        0.15,
         122000
+      ],
+      [
+        "US92921EAA01",
+        "VOYAGER PARENT LLC SER 144A 9.250000  01JUL2032",
+        0.15,
+        113000
+      ],
+      [
+        "US61965RAC97",
+        "MOSS CREEK RESOURCES HLD SER 144A 8.25 01SEP2031",
+        0.15,
+        121000
       ],
       [
         "US154915AA07",
         "CNT PRNT/CDK GLO II/FIN SER 144A (REG) 8 15JUN2029",
-        0.17,
+        0.15,
         247000
       ],
       [
         "US25461LAD47",
         "DIRECTV FIN LLC/COINC SER 144A 10.000000  15FEB2031",
-        0.16,
+        0.15,
         115000
+      ],
+      [
+        "US072933AA25",
+        "BCPE FLAVOR DEBT 9.500000  01JUL2032",
+        0.14,
+        128000
       ],
       [
         "US146869AM47",
         "CARVANA CO 9 01JUN2031",
-        0.16,
+        0.14,
         104000
+      ],
+      [
+        "US04302XAA28",
+        "ARTERA SERVICES LLC SER 144A 8.500000  15FEB2031",
+        0.14,
+        130000
+      ],
+      [
+        "US45774NAD03",
+        "INNOPHOS HOLDINGS INC SER 144A 11.500000  15JUN2029",
+        0.14,
+        125000
       ],
       [
         "US451102CK14",
         "ICAHN ENTERPRISES/FIN SER 144A (REG) 10.000000  15NOV2029",
-        0.16,
-        113000
-      ],
-      [
-        "US855030AQ50",
-        "STAPLES INC SER 144A 10.75 01SEP2029",
-        0.16,
-        119000
-      ],
-      [
-        "US92921EAA01",
-        "VOYAGER PARENT LLC SER 144A 9.250000  01JUL2032",
-        0.16,
+        0.14,
         113000
       ],
       [
         "USC4901QAB70",
         "JONES DESLAURIERS INSURA SER REGS 8.500000  15MAR2030",
-        0.16,
+        0.14,
         114000
+      ],
+      [
+        "US87821TAA88",
+        "TEAM SERVICES HLDG INC (SER 144A) 9 15FEB2033",
+        0.14,
+        110000
+      ],
+      [
+        "US855030AQ50",
+        "STAPLES INC SER 144A 10.75 01SEP2029",
+        0.14,
+        119000
+      ],
+      [
+        "USU09265AF31",
+        "BLOCK COMMUNICATIONS INC SER REGS (REG S) 10.25 01MAR2031",
+        0.14,
+        120000
+      ],
+      [
+        "USU55288AB72",
+        "MCAFEE CORP SER REGS 7.375000  15FEB2030",
+        0.14,
+        135000
+      ],
+      [
+        "USU6837AAA89",
+        "OT MIDCO LTD SER REGS 10.000000  15FEB2030",
+        0.14,
+        258000
       ],
       [
         "US36485MAP41",
         "GARDA WORLD SECURITY SER 144A (REG) 8.375000  15NOV2032",
-        0.15,
+        0.13,
         105000
       ],
       [
         "US37954FAK03",
         "GLOBAL PART/GLP FINANCE SER 144A (REG) 8.25 15JAN2032",
-        0.15,
-        102000
-      ],
-      [
-        "USU55288AB72",
-        "MCAFEE CORP SER REGS 7.375000  15FEB2030",
-        0.15,
-        135000
-      ],
-      [
-        "USU71500AA72",
-        "PETCO HEALTH & WELLNESS 8.25 01FEB2031",
-        0.15,
-        107000
-      ],
-      [
-        "USU64059AD79",
-        "NEPTUNE BIDCO US INC SER REGS 10.375000  15-MAY-2031",
-        0.14,
-        98000
-      ],
-      [
-        "USU3702PAA40",
-        "GB AIT BUYER SER REGS 8.75  30-APR-2034",
-        0.14,
-        102000
-      ],
-      [
-        "US12543DBQ25",
-        "CHS/COMMUNITY HEALTH SYS SER 144A 9.750000  15JAN2034",
-        0.14,
-        94000
-      ],
-      [
-        "US45344LAG86",
-        "CRESCENT ENERGY FINANCE SER 144A 8.375000  15JAN2034",
         0.13,
-        86000
+        102000
+      ],
+      [
+        "US606950AA10",
+        "MOBIUS MERGER SUB SER 144A 9 01JUN2030",
+        0.13,
+        150000
       ],
       [
         "US36170JAA43",
         "GGAM FINANCE LTD SER 144A 8 15JUN2028",
-        0.13,
+        0.12,
         91000
       ],
       [
         "US35641AAA60",
         "FREEDOM MORTGAGE HOLD 9.25 01FEB2029",
-        0.13,
+        0.12,
         91000
       ],
       [
-        "US62922LAD01",
-        "NGL ENERGY PARTNERS LP SER 144A 8.375 15FEB2032",
-        0.13,
-        87000
+        "US12543DBQ25",
+        "CHS/COMMUNITY HEALTH SYS SER 144A 9.750000  15JAN2034",
+        0.12,
+        94000
+      ],
+      [
+        "USC8185KAA00",
+        "SATURN OIL & GAS INC SER REGS 9.625000  15JUN2029",
+        0.12,
+        90000
+      ],
+      [
+        "USU3702PAA40",
+        "GB AIT BUYER SER REGS 8.75  30-APR-2034",
+        0.12,
+        102000
       ],
       [
         "USU2542MAA72",
         "DIRECTV FINANCING LLC SER REGS 8.875000  01-FEB-2030",
-        0.13,
+        0.11,
         91000
       ],
       [
-        "USU6837AAA89",
-        "OT MIDCO LTD SER REGS 10.000000  15FEB2030",
-        0.13,
-        258000
-      ],
-      [
-        "USU5933QAB69",
-        "MICHAELS COS INC/THE SER REGS (REG S) 8.5 15MAR2033",
-        0.12,
-        92000
-      ],
-      [
-        "USU59366AF83",
-        "MIDCONTINENT COMMUNICATIONS (SER REGS REG S) 8 15AUG2032",
+        "US45344LAG86",
+        "CRESCENT ENERGY FINANCE SER 144A 8.375000  15JAN2034",
         0.11,
         86000
       ],
       [
-        "US74165HAC25",
-        "PRIME HEALTHCARE SERVICE SER 144A 9.375 01SEP2029",
+        "US62922LAD01",
+        "NGL ENERGY PARTNERS LP SER 144A 8.375 15FEB2032",
         0.11,
-        73000
+        87000
       ],
       [
-        "US909214BX53",
-        "UNISYS CORP SER 144A 10.625000  15JAN2031",
-        0.11,
-        88000
-      ],
-      [
-        "US716964AA94",
-        "PHH ESCROW ISS LCC/PHH C SER 144A 9.875000  01NOV2029",
+        "USU59366AF83",
+        "MIDCONTINENT COMMUNICATIONS (SER REGS REG S) 8 15AUG2032",
         0.1,
-        72000
-      ],
-      [
-        "US89377AAA34",
-        "TRANSMONTAIGNE PARTNERS SER 144A 8.500000  15JUN2030",
-        0.1,
-        71000
-      ],
-      [
-        "US45774NAD03",
-        "INNOPHOS HOLDINGS INC SER 144A 11.500000  15JUN2029",
-        0.1,
-        79000
-      ],
-      [
-        "US21925DAB55",
-        "CORNERSTONE BUILDING SER 144A 9.5 15AUG2029",
-        0.1,
-        114000
+        86000
       ],
       [
         "US60832QAB68",
         "MOHEGAN TRIBAL / MS DIG SER 144A 11.875000  15APR2031",
-        0.1,
+        0.09,
         68000
       ],
       [
         "US17888HAD52",
         "CIVITAS RESOURCES INC SER 144A 9.625000  15JUN2033",
-        0.1,
+        0.09,
         63000
       ],
       [
         "US257867BK60",
         "RR DONNELLEY & SONS CO SER 144A 10.875000  01-AUG-2029",
-        0.1,
+        0.09,
         67000
       ],
       [
-        "US04302XAA28",
-        "ARTERA SERVICES LLC SER 144A 8.500000  15FEB2031",
-        0.1,
-        77000
-      ],
-      [
-        "USU29298AE31",
-        "ENOVA INTERNATIONAL INC SER REGS (REG S) 9.125 01AUG2029",
-        0.1,
-        70000
-      ],
-      [
-        "US267486AA63",
-        "DYE & DURHAM LIMITED SER 144A 8.625 15APR2029",
+        "US21925DAB55",
+        "CORNERSTONE BUILDING SER 144A 9.5 15AUG2029",
         0.09,
-        80000
+        114000
       ],
       [
-        "US072933AA25",
-        "BCPE FLAVOR DEBT 9.500000  01JUL2032",
+        "US89377AAA34",
+        "TRANSMONTAIGNE PARTNERS SER 144A 8.500000  15JUN2030",
         0.09,
-        75000
+        71000
       ],
       [
-        "US12597YAC30",
-        "CP ATLAS BUYER INC SER 144A 9.750000  15JUL2030",
+        "US74165HAC25",
+        "PRIME HEALTHCARE SERVICE SER 144A 9.375 01SEP2029",
         0.09,
         73000
       ],
       [
-        "US87821TAA88",
-        "TEAM SERVICES HLDG INC (SER 144A) 9 15FEB2033",
+        "US716964AA94",
+        "PHH ESCROW ISS LCC/PHH C SER 144A 9.875000  01NOV2029",
         0.09,
-        61000
+        72000
       ],
       [
         "US72702AAA51",
         "PLANET FINANCIAL GROUP SER 144A 10.500000  15DEC2029",
-        0.09,
+        0.08,
         63000
-      ],
-      [
-        "US63688RAF47",
-        "NATIONAL MENTOR HOLDINGS SER 144A 10.5  15-DEC-2030",
-        0.09,
-        61000
       ],
       [
         "US77314EAB48",
@@ -12390,52 +12767,34 @@ export const etfs = [
         61000
       ],
       [
-        "US92339LAA08",
-        "VERDE PURCHASER LLC SER 144A (REG) 10.5 30NOV2030",
-        0.08,
-        55000
-      ],
-      [
-        "US606950AA10",
-        "MOBIUS MERGER SUB SER 144A 9 01JUN2030",
+        "US267486AA63",
+        "DYE & DURHAM LIMITED SER 144A 8.625 15APR2029",
         0.08,
         80000
       ],
       [
-        "USU2919QAA32",
-        "ENDO FINANCE HOLDINGS SER REGS (REG S) 8.5 15APR2031",
+        "US12597YAC30",
+        "CP ATLAS BUYER INC SER 144A 9.750000  15JUL2030",
         0.08,
-        52000
+        73000
       ],
       [
-        "USU09265AF31",
-        "BLOCK COMMUNICATIONS INC SER REGS (REG S) 10.25 01MAR2031",
+        "US63688RAF47",
+        "NATIONAL MENTOR HOLDINGS SER 144A 10.5  15-DEC-2030",
         0.08,
         61000
       ],
       [
-        "USU69871AA69",
-        "PARADIGM PRNT/CO-ISSUER SER REGS (REG S) 8.75 17APR2032",
+        "US579063AB46",
+        "CONDOR MERGER SUB INC SER 144A (REG) 7.375 15FEB2030",
         0.08,
-        66000
+        76000
       ],
       [
-        "USU8528KAA61",
-        "WULF COMPUTE LLC SER REGS 7.750000  15-OCT-2030",
+        "US25461LAB80",
+        "DIRECTV FINANCING LLC SER 144A 8.875 01FEB2030",
         0.07,
-        50000
-      ],
-      [
-        "US53219LAX73",
-        "LIFEPOINT HEALTH INC SER 144A 10 01JUN2032",
-        0.07,
-        51000
-      ],
-      [
-        "US36267QAA22",
-        "FORWARD AIR CORP SER 144A (REG) 9.5 15OCT2031",
-        0.07,
-        56000
+        52000
       ],
       [
         "US18972EAB11",
@@ -12444,22 +12803,10 @@ export const etfs = [
         57000
       ],
       [
-        "US071734AQ04",
-        "BAUSCH HEALTH COS INC SER 144A (REG) 11 30SEP2028",
+        "US83003AAA88",
+        "SIX FLAGS/CAN WON/MILLEN SER 144A 8.625 15JAN2032",
         0.07,
-        50000
-      ],
-      [
-        "US02128LAC00",
-        "ALTA EQUIPMENT GROUP SER 144A 9 01JUN2029",
-        0.07,
-        53000
-      ],
-      [
-        "US92332YAD31",
-        "VENTURE GLOBAL LNG INC SER 144A 9.875 01FEB2032",
-        0.07,
-        48000
+        52000
       ],
       [
         "US74387UAK79",
@@ -12474,46 +12821,22 @@ export const etfs = [
         52000
       ],
       [
-        "US87485LAE48",
-        "TALOS PRODUCTION INC SER 144A 9.375 01FEB2031",
+        "US92339LAA08",
+        "VERDE PURCHASER LLC SER 144A (REG) 10.5 30NOV2030",
         0.07,
-        47000
+        55000
       ],
       [
-        "US83003AAA88",
-        "SIX FLAGS/CAN WON/MILLEN SER 144A 8.625 15JAN2032",
+        "USU2919QAA32",
+        "ENDO FINANCE HOLDINGS SER REGS (REG S) 8.5 15APR2031",
         0.07,
         52000
       ],
       [
-        "US84749AAC18",
-        "SPECIALTY BUILDING PRODU SER 144A 7.750000  15OCT2029",
-        0.06,
-        51000
-      ],
-      [
-        "US18912UAC62",
-        "CLOUD SOFTWARE GRP INC SER 144A (REG) 8.25 30JUN2032",
-        0.06,
-        43000
-      ],
-      [
-        "US315292AU60",
-        "FERRELLGAS LP/FERRELLGAS SER 144A 9.250000  15-JAN-2031",
-        0.06,
-        38000
-      ],
-      [
-        "US46206AAB89",
-        "ION PLAT FIN US/SARL SER 144A 9.5  30-MAY-2029",
-        0.06,
-        44000
-      ],
-      [
-        "US651229BG06",
-        "NEWELL BRANDS INC SER 144A 8.500000  01JUN2028",
-        0.06,
-        42000
+        "USU8528KAA61",
+        "WULF COMPUTE LLC SER REGS 7.750000  15-OCT-2030",
+        0.07,
+        50000
       ],
       [
         "USU26947AA69",
@@ -12522,40 +12845,88 @@ export const etfs = [
         45000
       ],
       [
+        "US92332YAD31",
+        "VENTURE GLOBAL LNG INC SER 144A 9.875 01FEB2032",
+        0.06,
+        48000
+      ],
+      [
+        "US87485LAE48",
+        "TALOS PRODUCTION INC SER 144A 9.375 01FEB2031",
+        0.06,
+        47000
+      ],
+      [
+        "US84749AAC18",
+        "SPECIALTY BUILDING PRODU SER 144A 7.750000  15OCT2029",
+        0.06,
+        51000
+      ],
+      [
+        "US071734AQ04",
+        "BAUSCH HEALTH COS INC SER 144A (REG) 11 30SEP2028",
+        0.06,
+        50000
+      ],
+      [
+        "US02128LAC00",
+        "ALTA EQUIPMENT GROUP SER 144A 9 01JUN2029",
+        0.06,
+        53000
+      ],
+      [
+        "US53219LAX73",
+        "LIFEPOINT HEALTH INC SER 144A 10 01JUN2032",
+        0.06,
+        51000
+      ],
+      [
+        "US36267QAA22",
+        "FORWARD AIR CORP SER 144A (REG) 9.5 15OCT2031",
+        0.06,
+        56000
+      ],
+      [
         "US359678AC31",
         "FULL HOUSE RESORTS INC SER 144A 8.25 15FEB2028",
         0.05,
         39000
       ],
       [
+        "US315292AU60",
+        "FERRELLGAS LP/FERRELLGAS SER 144A 9.250000  15-JAN-2031",
+        0.05,
+        38000
+      ],
+      [
+        "US46206AAB89",
+        "ION PLAT FIN US/SARL SER 144A 9.5  30-MAY-2029",
+        0.05,
+        44000
+      ],
+      [
+        "US651229BG06",
+        "NEWELL BRANDS INC SER 144A 8.500000  01JUN2028",
+        0.05,
+        42000
+      ],
+      [
+        "US18912UAC62",
+        "CLOUD SOFTWARE GRP INC SER 144A (REG) 8.25 30JUN2032",
+        0.05,
+        43000
+      ],
+      [
         "US21873SAB43",
         "COREWEAVE INC SER 144A 9.250000  01JUN2030",
-        0.05,
+        0.04,
         33000
       ],
       [
         "US75041VAE48",
         "RADIOLOGY PARTNERS INC SER 144A 8.500000  15JUL2032",
-        0.05,
+        0.04,
         36000
-      ],
-      [
-        "USC8185KAA00",
-        "SATURN OIL & GAS INC SER REGS 9.625000  15JUN2029",
-        0.05,
-        35000
-      ],
-      [
-        "US92841HAA05",
-        "VISTAJET MALTA/VM HOLDS SER 144A 9.5 01JUN2028",
-        0.04,
-        27000
-      ],
-      [
-        "US98380MAB19",
-        "XPLR INFRAST OPERATING SER 144A 8.625000  15MAR2033",
-        0.04,
-        28000
       ],
       [
         "US75079LAB71",
@@ -12564,28 +12935,22 @@ export const etfs = [
         30000
       ],
       [
+        "US98380MAB19",
+        "XPLR INFRAST OPERATING SER 144A 8.625000  15MAR2033",
+        0.04,
+        28000
+      ],
+      [
+        "US92841HAA05",
+        "VISTAJET MALTA/VM HOLDS SER 144A 9.5 01JUN2028",
+        0.03,
+        27000
+      ],
+      [
         "US92332YAC57",
         "VENTURE GLOBAL LNG INC SER 144A 9.5 01FEB2029",
-        0.04,
-        25000
-      ],
-      [
-        "US00202DAA54",
-        "APLD COMPUTECO LLC SER 144A 9.250000  15-DEC-2030",
-        0.04,
-        25000
-      ],
-      [
-        "US69318FAM05",
-        "PBF HOLDING CO LLC SER 144A 9.875000  15MAR2030",
-        0.04,
-        26000
-      ],
-      [
-        "US579063AB46",
-        "CONDOR MERGER SUB INC SER 144A (REG) 7.375 15FEB2030",
         0.03,
-        29000
+        25000
       ],
       [
         "US90367UAD37",
@@ -12594,22 +12959,22 @@ export const etfs = [
         26000
       ],
       [
-        "US78573NAM48",
-        "SABRE GLBL INC SER 144A 11.125000  15JUL2030",
+        "US00202DAA54",
+        "APLD COMPUTECO LLC SER 144A 9.250000  15-DEC-2030",
         0.03,
-        21000
+        25000
+      ],
+      [
+        "US69318FAM05",
+        "PBF HOLDING CO LLC SER 144A 9.875000  15MAR2030",
+        0.03,
+        26000
       ],
       [
         "US380355AH08",
         "GOEASY LTD SER 144A 9.25 01DEC2028",
         0.02,
         18000
-      ],
-      [
-        "US25461LAB80",
-        "DIRECTV FINANCING LLC SER 144A 8.875 01FEB2030",
-        0.02,
-        15000
       ],
       [
         "US13323NAA00",
@@ -12624,44 +12989,50 @@ export const etfs = [
         16000
       ],
       [
+        "US78573NAM48",
+        "SABRE GLBL INC SER 144A 11.125000  15JUL2030",
+        0.02,
+        21000
+      ],
+      [
         "202606F0005",
         "US LONG BOND(CBT) JUN26 18-JUN-2026",
-        -0.46,
+        -0.41,
         -3
       ],
       [
         "202606F0003",
         "US 2YR NOTE (CBT) JUN26 30-JUN-2026",
-        -4.57,
+        -4.08,
         -16
       ]
     ],
-    "holdingsCount": 255,
+    "holdingsCount": 256,
     "topHoldings": [
       [
         "202606F0001",
         "US 10YR NOTE (CBT)JUN26 18-JUN-2026",
-        3.03
+        2.7
       ],
       [
-        "202606F0004",
-        "US 5YR NOTE (CBT) JUN26 30-JUN-2026",
-        1.78
-      ],
-      [
-        "USU6302XAB20",
-        "OAK-EAGLE ACQUIRECO INC 8.75 01JUL2034",
-        1.13
+        "202609F0004",
+        "US 5YR NOTE (CBT) SEP26 30-SEP-2026",
+        1.45
       ],
       [
         "USU1638HAD99",
         "CIVITAS RESOURCES INC SER REGS (REG) (REG S) 9.625 15JUN2033",
-        1.11
+        1.21
       ],
       [
         "USU91505AY02",
         "UNIVISION COMMUNICATIONS SER REGS (REG S) 9.375 01AUG2032",
-        1.04
+        1.18
+      ],
+      [
+        "USU53039AL44",
+        "LIFEPOINT HEALTH INC SER REGS 10.000000  01-JUN-2032",
+        1.05
       ]
     ],
     "adds": [],
@@ -12705,8 +13076,8 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00989A/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
     "tsmcHeadroomYi": 3.6,
@@ -12714,175 +13085,175 @@ export const etfs = [
       [
         "GOOG",
         "ALPHABET INC-CL C",
-        5.53,
+        5.46,
         6622
       ],
       [
         "INTC",
         "INTEL CORP",
-        4.87,
+        4.81,
         18873
       ],
       [
         "NVDA",
         "NVIDIA CORP",
-        4.14,
+        4.03,
         8535
-      ],
-      [
-        "AVGO",
-        "BROADCOM INC",
-        3.8,
-        4191
       ],
       [
         "LRCX",
         "LAM RESEARCH CORP",
-        3.69,
+        3.79,
         5825
+      ],
+      [
+        "AVGO",
+        "BROADCOM INC",
+        3.74,
+        4191
       ],
       [
         "TTWO",
         "TAKE-TWO INTERACTIVE SOFTWRE",
-        3.55,
+        3.54,
         6917
       ],
       [
         "TSLA",
         "TESLA INC",
-        3.29,
+        3.27,
         3636
       ],
       [
         "AMD",
         "ADVANCED MICRO DEVICES",
-        3.06,
+        3.05,
         3151
       ],
       [
         "PANW",
         "PALO ALTO NETWORKS INC",
-        2.88,
+        2.93,
         5382
-      ],
-      [
-        "ASML",
-        "ASML HOLDING NV-NY REG SHS",
-        2.67,
-        793
       ],
       [
         "CIEN",
         "CIENA CORP",
-        2.61,
+        2.73,
         2163
+      ],
+      [
+        "ASML",
+        "ASML HOLDING NV-NY REG SHS",
+        2.72,
+        793
       ],
       [
         "CRWD",
         "CROWDSTRIKE HOLDINGS INC - A",
-        2.36,
+        2.33,
         1672
       ],
       [
         "META",
         "META PLATFORMS INC-CLASS A",
-        2.33,
+        2.32,
         1773
-      ],
-      [
-        "SATS",
-        "ECHOSTAR CORP-A",
-        2.1,
-        6821
       ],
       [
         "ON",
         "ON SEMICONDUCTOR",
-        2.03,
+        2,
         8465
       ],
       [
         "ORCL",
         "ORACLE CORP",
-        1.94,
+        1.93,
         4737
+      ],
+      [
+        "SATS",
+        "ECHOSTAR CORP-A",
+        1.89,
+        6821
       ],
       [
         "MSFT",
         "MICROSOFT CORP",
-        1.92,
+        1.89,
         2100
-      ],
-      [
-        "TWLO",
-        "TWILIO INC - A",
-        1.86,
-        4514
       ],
       [
         "NET",
         "CLOUDFLARE INC - CLASS A",
-        1.84,
+        1.85,
         4035
-      ],
-      [
-        "HOOD",
-        "ROBINHOOD MARKETS INC - A",
-        1.77,
-        10750
-      ],
-      [
-        "DOCN",
-        "DIGITALOCEAN HOLDINGS INC",
-        1.72,
-        4938
-      ],
-      [
-        "TSM",
-        "TAIWAN SEMICONDUCTOR-SP ADR",
-        1.71,
-        1964
-      ],
-      [
-        "ZM",
-        "ZOOM COMMUNICATIONS INC",
-        1.71,
-        7943
       ],
       [
         "SNDK",
         "SANDISK CORP-W/I",
-        1.66,
+        1.83,
         550
+      ],
+      [
+        "TWLO",
+        "TWILIO INC - A",
+        1.78,
+        4514
+      ],
+      [
+        "HOOD",
+        "ROBINHOOD MARKETS INC - A",
+        1.76,
+        10750
+      ],
+      [
+        "TSM",
+        "TAIWAN SEMICONDUCTOR-SP ADR",
+        1.72,
+        1964
+      ],
+      [
+        "DOCN",
+        "DIGITALOCEAN HOLDINGS INC",
+        1.68,
+        4938
+      ],
+      [
+        "ZM",
+        "ZOOM COMMUNICATIONS INC",
+        1.65,
+        7943
       ],
       [
         "TXN",
         "TEXAS INSTRUMENTS INC",
-        1.61,
+        1.56,
         2429
-      ],
-      [
-        "MU",
-        "MICRON TECHNOLOGY INC",
-        1.45,
-        913
       ],
       [
         "LITE",
         "LUMENTUM HOLDINGS INC",
-        1.42,
+        1.56,
         751
+      ],
+      [
+        "MU",
+        "MICRON TECHNOLOGY INC",
+        1.5,
+        913
       ],
       [
         "ENTG",
         "ENTEGRIS INC",
-        1.38,
+        1.41,
         4970
       ],
       [
         "BE",
         "BLOOM ENERGY CORP- A",
-        1.3,
+        1.41,
         2123
       ],
       [
@@ -12894,26 +13265,26 @@ export const etfs = [
       [
         "GLW",
         "CORNING INC",
-        1.22,
+        1.28,
         3098
+      ],
+      [
+        "GFS",
+        "GLOBALFOUNDRIES INC",
+        1.26,
+        7180
       ],
       [
         "C_USD",
         "CASH",
         1.21,
-        17677243
+        17693257
       ],
       [
         "ZS",
         "ZSCALER INC",
-        1.17,
+        1.13,
         3078
-      ],
-      [
-        "SNOW",
-        "SNOWFLAKE INC-CLASS A",
-        1.12,
-        3094
       ],
       [
         "APP",
@@ -12922,46 +13293,52 @@ export const etfs = [
         1062
       ],
       [
-        "GFS",
-        "GLOBALFOUNDRIES INC",
+        "SNOW",
+        "SNOWFLAKE INC-CLASS A",
         1.1,
-        7180
-      ],
-      [
-        "AMKR",
-        "AMKOR TECHNOLOGY INC",
-        1.09,
-        7314
-      ],
-      [
-        "ADI",
-        "ANALOG DEVICES INC",
-        1.09,
-        1260
+        3094
       ],
       [
         "SHOP",
         "SHOPIFY INC - CLASS A",
-        1.07,
+        1.06,
         4677
       ],
       [
         "VICR",
         "VICOR CORP",
-        1.05,
+        1.06,
         1834
+      ],
+      [
+        "AMKR",
+        "AMKOR TECHNOLOGY INC",
+        1.04,
+        7314
+      ],
+      [
+        "ADI",
+        "ANALOG DEVICES INC",
+        1.04,
+        1260
       ],
       [
         "CDNS",
         "CADENCE DESIGN SYS INC",
-        1.02,
+        1.04,
         1342
       ],
       [
         "RIVN",
         "RIVIAN AUTOMOTIVE INC-A",
-        0.94,
+        0.96,
         31547
+      ],
+      [
+        "FN",
+        "FABRINET",
+        0.94,
+        619
       ],
       [
         "SNPS",
@@ -12970,21 +13347,15 @@ export const etfs = [
         824
       ],
       [
-        "FN",
-        "FABRINET",
-        0.89,
-        619
-      ],
-      [
         "LMND",
         "LEMONADE INC",
-        0.88,
+        0.87,
         7053
       ],
       [
         "BABA",
         "ALIBABA GROUP HOLDING-SP ADR",
-        0.87,
+        0.85,
         2994
       ],
       [
@@ -12994,16 +13365,16 @@ export const etfs = [
         896
       ],
       [
-        "FIGR",
-        "FIGURE TECHNOLOGY SOLUT-CL A",
-        0.83,
-        10562
-      ],
-      [
         "NU",
         "NU HOLDINGS LTD/CAYMAN ISL-A",
-        0.81,
+        0.82,
         29112
+      ],
+      [
+        "FIGR",
+        "FIGURE TECHNOLOGY SOLUT-CL A",
+        0.78,
+        10562
       ],
       [
         "AMZN",
@@ -13020,20 +13391,20 @@ export const etfs = [
       [
         "TEM",
         "TEMPUS AI INC",
-        0.73,
+        0.74,
         7359
-      ],
-      [
-        "XYZ",
-        "BLOCK INC",
-        0.72,
-        4667
       ],
       [
         "TTMI",
         "TTM TECHNOLOGIES",
-        0.7,
+        0.72,
         1916
+      ],
+      [
+        "XYZ",
+        "BLOCK INC",
+        0.69,
+        4667
       ],
       [
         "WRBY",
@@ -13044,19 +13415,19 @@ export const etfs = [
       [
         "LUMN",
         "LUMEN TECHNOLOGIES INC",
-        0.53,
+        0.54,
         26464
       ],
       [
         "MXL",
         "MAXLINEAR INC",
-        0.5,
+        0.51,
         2365
       ],
       [
         "CRCL",
         "CIRCLE INTERNET GROUP INC",
-        0.48,
+        0.49,
         1965
       ],
       [
@@ -13074,20 +13445,20 @@ export const etfs = [
       [
         "SYM",
         "SYMBOTIC INC",
-        0.36,
+        0.37,
         3346
       ],
       [
         "CBRS",
         "CEREBRAS SYSTEMS INC - A",
-        0.22,
+        0.21,
         350
       ],
       [
         "C_NTD",
         "CASH",
         0.1,
-        1478833
+        1441256
       ]
     ],
     "holdingsCount": 63,
@@ -13095,27 +13466,27 @@ export const etfs = [
       [
         "GOOG",
         "ALPHABET INC-CL C",
-        5.53
+        5.46
       ],
       [
         "INTC",
         "INTEL CORP",
-        4.87
+        4.81
       ],
       [
         "NVDA",
         "NVIDIA CORP",
-        4.14
-      ],
-      [
-        "AVGO",
-        "BROADCOM INC",
-        3.8
+        4.03
       ],
       [
         "LRCX",
         "LAM RESEARCH CORP",
-        3.69
+        3.79
+      ],
+      [
+        "AVGO",
+        "BROADCOM INC",
+        3.74
       ]
     ],
     "adds": [],
@@ -13159,8 +13530,8 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00983D/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
     "tsmcHeadroomYi": 2.6,
@@ -13168,13 +13539,13 @@ export const etfs = [
       [
         "LQDWUS",
         "ISHARESINVESTMENTGRADECORPO",
-        7.12,
+        7.11,
         100000
       ],
       [
         "TLTWUS",
         "ISHARES20+YEARTREASURYBOND",
-        6.2,
+        6.21,
         95000
       ],
       [
@@ -13186,7 +13557,7 @@ export const etfs = [
       [
         "US260543BY86",
         "DOW9.405/15/39",
-        2.03,
+        2.04,
         530000
       ],
       [
@@ -13198,8 +13569,14 @@ export const etfs = [
       [
         "US06738ECE32",
         "BACR7.43711/02/33",
-        1.9,
+        1.89,
         570000
+      ],
+      [
+        "US406216AY74",
+        "HAL7.4509/15/39",
+        1.78,
+        510000
       ],
       [
         "US8935268Z94",
@@ -13214,12 +13591,6 @@ export const etfs = [
         570000
       ],
       [
-        "US406216AY74",
-        "HAL7.4509/15/39",
-        1.77,
-        510000
-      ],
-      [
         "USJ64264AG96",
         "RAKUTN111/402/15/27",
         1.74,
@@ -13228,20 +13599,20 @@ export const etfs = [
       [
         "US24703TAJ51",
         "DELL8.107/15/36",
-        1.67,
+        1.66,
         470000
-      ],
-      [
-        "USU42511AJ14",
-        "GTN101/207/15/29",
-        1.63,
-        511000
       ],
       [
         "US717081CY74",
         "PFE7.203/15/39",
         1.62,
         470000
+      ],
+      [
+        "USU42511AJ14",
+        "GTN101/207/15/29",
+        1.62,
+        511000
       ],
       [
         "US24703TAK25",
@@ -13270,7 +13641,7 @@ export const etfs = [
       [
         "US87938WAC73",
         "TELEFONICAEMISIONESSAU7.04506/20/36",
-        1.51,
+        1.5,
         460000
       ],
       [
@@ -13292,16 +13663,16 @@ export const etfs = [
         420000
       ],
       [
-        "USU9220NAC57",
-        "VENLNG91/202/01/29",
-        1.37,
-        420000
-      ],
-      [
         "US68389XCK90",
         "ORCL6.911/09/52",
-        1.36,
+        1.37,
         480000
+      ],
+      [
+        "USU9220NAC57",
+        "VENLNG91/202/01/29",
+        1.36,
+        420000
       ],
       [
         "USU2069EAB66",
@@ -13358,16 +13729,16 @@ export const etfs = [
         360000
       ],
       [
+        "US29250NBZ78",
+        "ENBCN6.711/15/53",
+        1.11,
+        340000
+      ],
+      [
         "US92344GAM87",
         "VZ73/412/01/30",
         1.1,
         330000
-      ],
-      [
-        "US29250NBZ78",
-        "ENBCN6.711/15/53",
-        1.1,
-        340000
       ],
       [
         "US10549PAG63",
@@ -13402,7 +13773,7 @@ export const etfs = [
       [
         "US20030NAV38",
         "CMCSA6.9508/15/37",
-        0.99,
+        1,
         300000
       ],
       [
@@ -13418,16 +13789,16 @@ export const etfs = [
         290000
       ],
       [
-        "USA0400QAK34",
-        "AMSSW121/403/30/29",
-        0.96,
-        300000
-      ],
-      [
         "US42824CAY57",
         "HPE6.3510/15/45",
         0.96,
         320000
+      ],
+      [
+        "USA0400QAK34",
+        "AMSSW121/403/30/29",
+        0.95,
+        300000
       ],
       [
         "US694308KK29",
@@ -13460,6 +13831,12 @@ export const etfs = [
         250000
       ],
       [
+        "US548661CP07",
+        "LOW6.6509/15/37",
+        0.82,
+        250000
+      ],
+      [
         "US36962G4B75",
         "GE67/801/10/39",
         0.82,
@@ -13468,12 +13845,6 @@ export const etfs = [
       [
         "US720198AG56",
         "PDM91/407/20/28",
-        0.81,
-        250000
-      ],
-      [
-        "US548661CP07",
-        "LOW6.6509/15/37",
         0.81,
         250000
       ],
@@ -13504,7 +13875,7 @@ export const etfs = [
       [
         "US210385AE04",
         "CEG61/210/01/53",
-        0.75,
+        0.76,
         240000
       ],
       [
@@ -13552,7 +13923,7 @@ export const etfs = [
       [
         "USU42804AY78",
         "HTZ125/807/15/29",
-        0.67,
+        0.68,
         250000
       ],
       [
@@ -13576,7 +13947,7 @@ export const etfs = [
       [
         "US67077MAP32",
         "NTRCN71/805/23/36",
-        0.54,
+        0.53,
         160000
       ],
       [
@@ -13592,15 +13963,15 @@ export const etfs = [
         150000
       ],
       [
-        "US013716AQ81",
-        "RIOLN71/403/15/31",
+        "US370425RZ53",
+        "ALLY811/01/31",
         0.5,
         150000
       ],
       [
-        "US370425RZ53",
-        "ALLY811/01/31",
-        0.5,
+        "US013716AQ81",
+        "RIOLN71/403/15/31",
+        0.49,
         150000
       ],
       [
@@ -13673,7 +14044,7 @@ export const etfs = [
         "C_EUR",
         "CASH",
         0,
-        30846
+        30835
       ],
       [
         "C_NTD",
@@ -13685,7 +14056,7 @@ export const etfs = [
         "C_USD",
         "CASH",
         0,
-        6275937
+        6261274
       ]
     ],
     "holdingsCount": 87,
@@ -13693,12 +14064,12 @@ export const etfs = [
       [
         "LQDWUS",
         "ISHARESINVESTMENTGRADECORPO",
-        7.12
+        7.11
       ],
       [
         "TLTWUS",
         "ISHARES20+YEARTREASURYBOND",
-        6.2
+        6.21
       ],
       [
         "US172967EW71",
@@ -13708,7 +14079,7 @@ export const etfs = [
       [
         "US260543BY86",
         "DOW9.405/15/39",
-        2.03
+        2.04
       ],
       [
         "US03523TBF49",
@@ -13757,8 +14128,8 @@ export const etfs = [
     "holdingsSource": "pocket",
     "dataDate": "2026-05-22",
     "sourceUrl": "https://www.etfinfo.tw/etf/00982D/active",
-    "comparisonFromDate": "2026-05-19",
-    "comparisonToDate": "2026-05-20",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
     "tsmcHeadroomYi": 2.1,
@@ -13766,13 +14137,13 @@ export const etfs = [
       [
         "LQDWUS",
         "ISHARESINVESTMENTGRADECORPO",
-        9.16,
+        9.14,
         100000
       ],
       [
         "TLTWUS",
         "ISHARES20+YEARTREASURYBOND",
-        8.4,
+        8.41,
         100000
       ],
       [
@@ -13790,13 +14161,13 @@ export const etfs = [
       [
         "US743263AE50",
         "DUK73/403/01/31",
-        2.76,
+        2.75,
         640000
       ],
       [
         "US06738ECE32",
         "BACR7.43711/02/33",
-        2.57,
+        2.56,
         600000
       ],
       [
@@ -13808,13 +14179,13 @@ export const etfs = [
       [
         "US13645RAD61",
         "CP71/810/15/31",
-        2.51,
+        2.5,
         590000
       ],
       [
         "US879385AD49",
         "TELEFO81/409/15/30",
-        2.51,
+        2.5,
         580000
       ],
       [
@@ -13838,13 +14209,13 @@ export const etfs = [
       [
         "US406216AY74",
         "HAL7.4509/15/39",
-        2.28,
+        2.29,
         510000
       ],
       [
         "US06849RAC60",
         "ABXCN71/209/15/38",
-        2.24,
+        2.23,
         500000
       ],
       [
@@ -13856,7 +14227,7 @@ export const etfs = [
       [
         "US24703TAJ51",
         "DELL8.107/15/36",
-        2.19,
+        2.18,
         480000
       ],
       [
@@ -13886,13 +14257,13 @@ export const etfs = [
       [
         "US36962GXZ26",
         "GE63/403/15/32",
-        1.95,
+        1.94,
         460000
       ],
       [
         "US694308KH99",
         "PCG63/401/15/53",
-        1.91,
+        1.9,
         480000
       ],
       [
@@ -13910,13 +14281,13 @@ export const etfs = [
       [
         "US68389XCK90",
         "ORCL6.911/09/52",
-        1.46,
+        1.47,
         400000
       ],
       [
         "US013716AQ81",
         "RIOLN71/403/15/31",
-        1.45,
+        1.44,
         340000
       ],
       [
@@ -13964,7 +14335,7 @@ export const etfs = [
       [
         "US92344GAM87",
         "VZ73/412/01/30",
-        1.08,
+        1.07,
         250000
       ],
       [
@@ -14012,7 +14383,7 @@ export const etfs = [
       [
         "US260543DH36",
         "DOW6.905/15/53",
-        0.7,
+        0.69,
         174000
       ],
       [
@@ -14066,7 +14437,7 @@ export const etfs = [
       [
         "US210385AE04",
         "CEG61/210/01/53",
-        0.4,
+        0.41,
         100000
       ],
       [
@@ -14151,7 +14522,7 @@ export const etfs = [
         "M_USD",
         "MARGIN",
         0,
-        12088139
+        12059896
       ],
       [
         "PFUR_NTD",
@@ -14163,7 +14534,7 @@ export const etfs = [
         "C_EUR",
         "CASH",
         0,
-        8731
+        8728
       ],
       [
         "C_NTD",
@@ -14175,7 +14546,7 @@ export const etfs = [
         "C_USD",
         "CASH",
         0,
-        41739324
+        41641802
       ],
       [
         "FX_NTD/USD",
@@ -14189,12 +14560,12 @@ export const etfs = [
       [
         "LQDWUS",
         "ISHARESINVESTMENTGRADECORPO",
-        9.16
+        9.14
       ],
       [
         "TLTWUS",
         "ISHARES20+YEARTREASURYBOND",
-        8.4
+        8.41
       ],
       [
         "US172967EW71",
@@ -14209,7 +14580,7 @@ export const etfs = [
       [
         "US743263AE50",
         "DUK73/403/01/31",
-        2.76
+        2.75
       ]
     ],
     "adds": [],
@@ -14482,45 +14853,45 @@ export const watchlist = [
     "sector": "共識加碼"
   },
   {
-    "code": "8046",
-    "name": "南電",
-    "reason": "3 檔加碼、1 檔減碼，最大權重 2.17%",
+    "code": "2454",
+    "name": "聯發科",
+    "reason": "3 檔加碼、0 檔減碼，最大權重 6.51%",
     "sector": "共識加碼"
   },
   {
-    "code": "2454",
-    "name": "聯發科",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 6.51%",
+    "code": "8046",
+    "name": "南電",
+    "reason": "3 檔加碼、1 檔減碼，最大權重 2.76%",
+    "sector": "共識加碼"
+  },
+  {
+    "code": "2327",
+    "name": "國巨*",
+    "reason": "2 檔加碼、1 檔減碼，最大權重 3.03%",
+    "sector": "共識加碼"
+  },
+  {
+    "code": "6139",
+    "name": "亞翔",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 4.03%",
     "sector": "共識加碼"
   },
   {
     "code": "3037",
     "name": "欣興",
-    "reason": "2 檔加碼、1 檔減碼，最大權重 4.95%",
+    "reason": "2 檔加碼、1 檔減碼，最大權重 5.41%",
     "sector": "共識加碼"
   },
   {
-    "code": "6981 JP",
-    "name": "MURATA MANUFACTURING CO LTD",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 0.95%",
+    "code": "2467",
+    "name": "志聖",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 0.40%",
     "sector": "共識加碼"
   },
   {
-    "code": "3081",
-    "name": "聯亞",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 1.34%",
-    "sector": "共識加碼"
-  },
-  {
-    "code": "2383",
-    "name": "台光電",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 7.82%",
-    "sector": "共識加碼"
-  },
-  {
-    "code": "2377",
-    "name": "微星",
-    "reason": "1 檔加碼、0 檔減碼，最大權重 0.98%",
+    "code": "3105",
+    "name": "穩懋半導體",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 2.53%",
     "sector": "共識加碼"
   }
 ];

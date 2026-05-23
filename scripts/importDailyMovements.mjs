@@ -1972,7 +1972,21 @@ async function writeDailyReports({ reportDate, generatedAt, etfs, snapshotMeta, 
 
 async function writeTargetEtfHoldingChanges({ reportDate, rows, reportsDir }) {
   const targetCodes = ["00981A", "00991A", "00403A"];
-  const todayRows = rows.filter((row) => row.reportDate === reportDate && row.date === reportDate && row.reportEligible);
+  const reportRows = rows.filter((row) => row.reportDate === reportDate && row.reportEligible);
+  const latestToDateByEtf = new Map();
+  for (const row of reportRows) {
+    const code = normalizeCode(row.etfCode);
+    if (!targetCodes.includes(code)) continue;
+    const toDate = String(row.toDate || row.date || "").trim();
+    if (!toDate) continue;
+    const prev = latestToDateByEtf.get(code);
+    if (!prev || toDate > prev) latestToDateByEtf.set(code, toDate);
+  }
+  const todayRows = reportRows.filter((row) => {
+    const code = normalizeCode(row.etfCode);
+    if (!latestToDateByEtf.has(code)) return false;
+    return String(row.toDate || row.date || "").trim() === latestToDateByEtf.get(code);
+  });
   const byEtf = new Map();
   for (const code of targetCodes) byEtf.set(code, []);
   for (const row of todayRows) {
