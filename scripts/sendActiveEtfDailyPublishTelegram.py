@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import textwrap
@@ -60,12 +61,16 @@ def post_form(cfg: TelegramConfig, method: str, form: dict[str, str]) -> dict[st
 
 
 def send_message(cfg: TelegramConfig, text: str) -> dict[str, Any]:
+    # parse_mode=HTML is used for consistent rendering, but the article content is
+    # plain text/Markdown and may contain "<" (e.g. "net < 0"), which would break
+    # Telegram HTML parsing. Escape to keep delivery robust.
+    safe_text = html.escape(text, quote=False)
     return post_form(
         cfg,
         "sendMessage",
         {
             "chat_id": cfg.chat_id,
-            "text": text,
+            "text": safe_text,
             "parse_mode": "HTML",
             "disable_web_page_preview": "true",
         },
@@ -181,4 +186,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
