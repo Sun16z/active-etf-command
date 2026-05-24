@@ -1,6 +1,6 @@
 export const dailyMovementMeta = {
-  "generatedAt": "2026-05-23T09:34:37.905Z",
-  "reportDate": "2026-05-23",
+  "generatedAt": "2026-05-24T09:36:21.682Z",
+  "reportDate": "2026-05-24",
   "asOf": "2026-05-22",
   "latestCapturedDate": "2026-05-22",
   "latestCapturedDateAll": "2026-05-25",
@@ -109,7 +109,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -133,7 +133,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -158,7 +158,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -182,7 +182,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -207,7 +207,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -231,7 +231,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -255,7 +255,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -279,7 +279,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -303,7 +303,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -325,7 +325,7 @@ export const dailyMovementMeta = {
       "notes": [
         "保留 ETF資訊網 latestDiff 備援，待下一輪官方成功後自動覆蓋"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -347,7 +347,7 @@ export const dailyMovementMeta = {
       "notes": [
         "保留 ETF資訊網 latestDiff 備援，待下一輪官方成功後自動覆蓋"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -372,7 +372,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 3 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -396,7 +396,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -420,7 +420,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 2 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -444,7 +444,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -468,7 +468,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -492,7 +492,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -514,7 +514,7 @@ export const dailyMovementMeta = {
       "notes": [
         "保留 ETF資訊網 latestDiff 備援，待下一輪官方成功後自動覆蓋"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -538,7 +538,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -562,7 +562,7 @@ export const dailyMovementMeta = {
         "官方當日快照已成功抓取",
         "待補可回溯前一交易日端點後，將自動升級為全官方比對"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -586,7 +586,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 0 檔",
         "ETF資訊網日期 2026-05-22，官方資料較新"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "官方已揭露到未來 PCF；不納入今日正式比較"
@@ -610,7 +610,7 @@ export const dailyMovementMeta = {
         "前五大與 ETF資訊網交叉命中 5 檔",
         "資料日期一致"
       ],
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "可納入今日正式比較或歷史資料"
@@ -651,7 +651,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -686,7 +686,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -721,7 +721,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -756,7 +756,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -791,7 +791,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -826,7 +826,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -861,7 +861,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -896,7 +896,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -931,7 +931,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -966,7 +966,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1001,7 +1001,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1036,7 +1036,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1071,7 +1071,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1106,7 +1106,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1141,7 +1141,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1162,8 +1162,8 @@ export const dailyMovements = [
     "oldWeight": 2.9307,
     "newWeight": 1.9617,
     "weightDelta": -0.969,
-    "oldShares": 0,
-    "newShares": 0,
+    "oldShares": 194000,
+    "newShares": 134000,
     "sharesDelta": -60000,
     "deltaLots": -60,
     "estimatedValueYi": -4.46,
@@ -1176,7 +1176,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1211,7 +1211,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1246,7 +1246,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1281,7 +1281,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1316,7 +1316,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1351,7 +1351,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1386,7 +1386,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1421,7 +1421,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1456,7 +1456,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1491,7 +1491,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1526,7 +1526,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1561,7 +1561,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1596,7 +1596,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1618,7 +1618,7 @@ export const dailyMovements = [
     "newWeight": 0.5129,
     "weightDelta": 0.5129,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 157000,
     "sharesDelta": 157000,
     "deltaLots": 157,
     "estimatedValueYi": 2.61,
@@ -1631,7 +1631,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1652,8 +1652,8 @@ export const dailyMovements = [
     "oldWeight": 1.4561,
     "newWeight": 1.0102,
     "weightDelta": -0.4459,
-    "oldShares": 0,
-    "newShares": 0,
+    "oldShares": 45000,
+    "newShares": 30000,
     "sharesDelta": -15000,
     "deltaLots": -15,
     "estimatedValueYi": -2.57,
@@ -1666,7 +1666,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1701,7 +1701,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1736,7 +1736,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1771,7 +1771,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1806,7 +1806,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1841,7 +1841,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1876,7 +1876,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1898,7 +1898,7 @@ export const dailyMovements = [
     "newWeight": 0.4147,
     "weightDelta": 0.4147,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 1465000,
     "sharesDelta": 1465000,
     "deltaLots": 1465,
     "estimatedValueYi": 2.11,
@@ -1911,7 +1911,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1946,7 +1946,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -1981,7 +1981,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2016,7 +2016,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2038,7 +2038,7 @@ export const dailyMovements = [
     "newWeight": 0.3962,
     "weightDelta": 0.3962,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 347000,
     "sharesDelta": 347000,
     "deltaLots": 347,
     "estimatedValueYi": 2.01,
@@ -2051,7 +2051,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2086,7 +2086,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2108,7 +2108,7 @@ export const dailyMovements = [
     "newWeight": 0.3807,
     "weightDelta": 0.3807,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 112000,
     "sharesDelta": 112000,
     "deltaLots": 112,
     "estimatedValueYi": 1.93,
@@ -2121,7 +2121,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2143,7 +2143,7 @@ export const dailyMovements = [
     "newWeight": 0.3772,
     "weightDelta": 0.3772,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 259000,
     "sharesDelta": 259000,
     "deltaLots": 259,
     "estimatedValueYi": 1.92,
@@ -2156,7 +2156,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2178,7 +2178,7 @@ export const dailyMovements = [
     "newWeight": 0.3782,
     "weightDelta": 0.3782,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 59000,
     "sharesDelta": 59000,
     "deltaLots": 59,
     "estimatedValueYi": 1.92,
@@ -2191,7 +2191,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2226,7 +2226,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2261,7 +2261,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2296,7 +2296,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2331,7 +2331,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2366,7 +2366,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2401,7 +2401,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2436,7 +2436,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2471,7 +2471,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2506,7 +2506,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2541,7 +2541,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2576,7 +2576,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2611,7 +2611,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2646,7 +2646,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2681,7 +2681,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2716,7 +2716,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2751,7 +2751,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2786,7 +2786,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2821,7 +2821,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2856,7 +2856,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2891,7 +2891,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2926,7 +2926,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2961,7 +2961,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -2996,7 +2996,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3031,7 +3031,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3066,7 +3066,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3101,7 +3101,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3136,7 +3136,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3171,7 +3171,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3206,7 +3206,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3241,7 +3241,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3276,7 +3276,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3311,7 +3311,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3346,7 +3346,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3381,7 +3381,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3416,7 +3416,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3451,7 +3451,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3486,7 +3486,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3521,7 +3521,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3556,7 +3556,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3591,7 +3591,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3626,7 +3626,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3661,7 +3661,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3696,7 +3696,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3731,7 +3731,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3766,7 +3766,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3801,7 +3801,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3836,7 +3836,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3871,7 +3871,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3906,7 +3906,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3941,7 +3941,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -3976,7 +3976,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4011,7 +4011,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4046,7 +4046,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4081,7 +4081,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4116,7 +4116,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4151,7 +4151,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4186,7 +4186,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4221,7 +4221,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4256,7 +4256,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4291,7 +4291,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4326,7 +4326,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4361,7 +4361,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4396,7 +4396,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4431,7 +4431,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4466,7 +4466,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4501,7 +4501,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4536,7 +4536,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4571,7 +4571,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4606,7 +4606,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4641,7 +4641,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4676,7 +4676,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4711,7 +4711,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4746,7 +4746,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4781,7 +4781,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4816,7 +4816,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4851,7 +4851,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4886,7 +4886,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4921,7 +4921,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4956,7 +4956,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -4991,7 +4991,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5026,7 +5026,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5061,7 +5061,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5096,7 +5096,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5131,7 +5131,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5166,7 +5166,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5201,7 +5201,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5236,7 +5236,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5271,7 +5271,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5306,7 +5306,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5341,7 +5341,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5376,7 +5376,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5411,7 +5411,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5446,7 +5446,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5481,7 +5481,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5503,7 +5503,7 @@ export const dailyMovements = [
     "newWeight": 0.0143,
     "weightDelta": 0.0143,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 18000,
     "sharesDelta": 18000,
     "deltaLots": 18,
     "estimatedValueYi": 0.07,
@@ -5516,7 +5516,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5551,7 +5551,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5586,7 +5586,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5621,7 +5621,7 @@ export const dailyMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5656,7 +5656,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5691,7 +5691,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5726,7 +5726,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5761,7 +5761,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5796,7 +5796,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5831,7 +5831,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5866,7 +5866,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5901,7 +5901,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5936,7 +5936,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -5971,7 +5971,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6006,7 +6006,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6041,7 +6041,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6076,7 +6076,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6111,7 +6111,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6146,7 +6146,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6181,7 +6181,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6216,7 +6216,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6251,7 +6251,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6286,7 +6286,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6321,7 +6321,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6356,7 +6356,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6391,7 +6391,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6426,7 +6426,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6461,7 +6461,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6496,7 +6496,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6531,7 +6531,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6566,7 +6566,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6601,7 +6601,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6636,7 +6636,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6671,7 +6671,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6706,7 +6706,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6741,7 +6741,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6776,7 +6776,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6811,7 +6811,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6846,7 +6846,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6881,7 +6881,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6916,7 +6916,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6951,7 +6951,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -6986,7 +6986,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7021,7 +7021,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7056,7 +7056,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7091,7 +7091,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7126,7 +7126,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7161,7 +7161,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7196,7 +7196,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7231,7 +7231,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7266,7 +7266,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7301,7 +7301,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7336,7 +7336,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7371,7 +7371,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7406,7 +7406,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7441,7 +7441,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7476,7 +7476,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7511,7 +7511,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7546,7 +7546,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7581,7 +7581,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7616,7 +7616,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7651,7 +7651,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7686,7 +7686,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7721,7 +7721,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7756,7 +7756,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7791,7 +7791,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7826,7 +7826,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7861,7 +7861,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7896,7 +7896,7 @@ export const dailyMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7931,7 +7931,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -7966,7 +7966,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8001,7 +8001,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8036,7 +8036,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8071,7 +8071,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8106,7 +8106,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8141,7 +8141,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8176,7 +8176,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8211,7 +8211,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8246,7 +8246,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8281,7 +8281,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8316,7 +8316,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8351,7 +8351,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8386,7 +8386,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8421,7 +8421,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8456,7 +8456,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8491,7 +8491,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8526,7 +8526,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8561,7 +8561,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8596,7 +8596,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8631,7 +8631,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8666,7 +8666,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8701,7 +8701,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8736,7 +8736,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8771,7 +8771,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8806,7 +8806,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8841,7 +8841,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8876,7 +8876,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8911,7 +8911,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8946,7 +8946,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -8981,7 +8981,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9016,7 +9016,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9051,7 +9051,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9086,7 +9086,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9121,7 +9121,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9156,7 +9156,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9191,7 +9191,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9226,7 +9226,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9261,7 +9261,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9296,7 +9296,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9331,7 +9331,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9366,7 +9366,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9401,7 +9401,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9436,7 +9436,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9471,7 +9471,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9506,7 +9506,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9541,7 +9541,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9576,7 +9576,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9611,7 +9611,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9646,7 +9646,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9681,7 +9681,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9716,7 +9716,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9751,7 +9751,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9786,7 +9786,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9821,7 +9821,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9856,7 +9856,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9891,7 +9891,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9926,7 +9926,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9961,7 +9961,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -9996,7 +9996,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10031,7 +10031,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10066,7 +10066,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10101,7 +10101,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10136,7 +10136,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10171,7 +10171,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10206,7 +10206,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10241,7 +10241,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10276,7 +10276,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10311,7 +10311,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10346,7 +10346,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10381,7 +10381,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10416,7 +10416,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10451,7 +10451,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10486,7 +10486,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10521,7 +10521,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10556,7 +10556,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10591,7 +10591,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10626,7 +10626,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10661,7 +10661,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10696,7 +10696,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10731,7 +10731,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10766,7 +10766,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10801,7 +10801,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10836,7 +10836,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10871,7 +10871,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10906,7 +10906,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10941,7 +10941,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -10976,7 +10976,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11011,7 +11011,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11046,7 +11046,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11081,7 +11081,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11116,7 +11116,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11151,7 +11151,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11186,7 +11186,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11221,7 +11221,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11256,7 +11256,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11291,7 +11291,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11326,7 +11326,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11361,7 +11361,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11396,7 +11396,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11431,7 +11431,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11466,7 +11466,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11501,7 +11501,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11536,7 +11536,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11571,7 +11571,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11606,7 +11606,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11641,7 +11641,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11676,7 +11676,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11711,7 +11711,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11746,7 +11746,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11781,7 +11781,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11816,7 +11816,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11851,7 +11851,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11886,7 +11886,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11921,7 +11921,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11956,7 +11956,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -11991,7 +11991,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12026,7 +12026,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12061,7 +12061,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12096,7 +12096,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12131,7 +12131,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12166,7 +12166,7 @@ export const dailyMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12201,7 +12201,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12236,7 +12236,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12271,7 +12271,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12306,7 +12306,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12341,7 +12341,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12376,7 +12376,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12411,7 +12411,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12446,7 +12446,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12481,7 +12481,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12516,7 +12516,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12551,7 +12551,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12586,7 +12586,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12621,7 +12621,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12656,7 +12656,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12691,7 +12691,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12726,7 +12726,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12761,7 +12761,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12796,7 +12796,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12831,7 +12831,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12866,7 +12866,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12901,7 +12901,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12936,7 +12936,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -12971,7 +12971,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13006,7 +13006,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13041,7 +13041,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13076,7 +13076,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13111,7 +13111,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13146,7 +13146,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13181,7 +13181,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13216,7 +13216,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13251,7 +13251,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13286,7 +13286,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13321,7 +13321,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13356,7 +13356,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13391,7 +13391,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13426,7 +13426,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13461,7 +13461,7 @@ export const dailyMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13496,7 +13496,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13531,7 +13531,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13566,7 +13566,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13601,7 +13601,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13636,7 +13636,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13671,7 +13671,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13706,7 +13706,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13741,7 +13741,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13776,7 +13776,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13811,7 +13811,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13846,7 +13846,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13881,7 +13881,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13916,7 +13916,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13951,7 +13951,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -13986,7 +13986,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14021,7 +14021,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14056,7 +14056,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14091,7 +14091,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14126,7 +14126,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14161,7 +14161,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14196,7 +14196,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14231,7 +14231,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14266,7 +14266,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14301,7 +14301,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14336,7 +14336,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14371,7 +14371,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14406,7 +14406,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14441,7 +14441,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14476,7 +14476,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14511,7 +14511,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14546,7 +14546,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14581,7 +14581,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14616,7 +14616,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14651,7 +14651,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14686,7 +14686,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14721,7 +14721,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14756,7 +14756,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14791,7 +14791,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14826,7 +14826,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14861,7 +14861,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14896,7 +14896,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14931,7 +14931,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -14966,7 +14966,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15001,7 +15001,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15036,7 +15036,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15071,7 +15071,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15106,7 +15106,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15141,7 +15141,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15176,7 +15176,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15211,7 +15211,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15246,7 +15246,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15281,7 +15281,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15316,7 +15316,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15351,7 +15351,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15386,7 +15386,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15421,7 +15421,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15456,7 +15456,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15491,7 +15491,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15526,7 +15526,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15561,7 +15561,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15596,7 +15596,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15631,7 +15631,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15666,7 +15666,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15701,7 +15701,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15736,7 +15736,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15771,7 +15771,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15806,7 +15806,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15841,7 +15841,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15876,7 +15876,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15911,7 +15911,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15946,7 +15946,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -15981,7 +15981,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16016,7 +16016,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16051,7 +16051,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16086,7 +16086,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16121,7 +16121,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16156,7 +16156,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16191,7 +16191,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16226,7 +16226,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16261,7 +16261,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16296,7 +16296,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16331,7 +16331,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16366,7 +16366,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16401,7 +16401,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16436,7 +16436,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16471,7 +16471,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16506,7 +16506,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16541,7 +16541,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16576,7 +16576,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16611,7 +16611,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16646,7 +16646,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16681,7 +16681,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16716,7 +16716,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16751,7 +16751,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16786,7 +16786,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16821,7 +16821,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16856,7 +16856,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16891,7 +16891,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16926,7 +16926,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16961,7 +16961,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -16996,7 +16996,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17031,7 +17031,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17066,7 +17066,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17101,7 +17101,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17136,7 +17136,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17171,7 +17171,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17206,7 +17206,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17241,7 +17241,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17276,7 +17276,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17311,7 +17311,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17346,7 +17346,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17381,7 +17381,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17416,7 +17416,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17451,7 +17451,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17486,7 +17486,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17521,7 +17521,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17556,7 +17556,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17591,7 +17591,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17626,7 +17626,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17661,7 +17661,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17696,7 +17696,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17731,7 +17731,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17766,7 +17766,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17801,7 +17801,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17836,7 +17836,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17871,7 +17871,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17906,7 +17906,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17941,7 +17941,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -17976,7 +17976,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18011,7 +18011,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18046,7 +18046,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18081,7 +18081,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18116,7 +18116,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18151,7 +18151,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18186,7 +18186,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18221,7 +18221,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18256,7 +18256,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18291,7 +18291,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18326,7 +18326,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18361,7 +18361,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18396,7 +18396,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18431,7 +18431,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18466,7 +18466,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18501,7 +18501,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18536,7 +18536,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18571,7 +18571,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18606,7 +18606,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18641,7 +18641,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18676,7 +18676,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18711,7 +18711,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18746,7 +18746,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18781,7 +18781,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18816,7 +18816,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18851,7 +18851,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18886,7 +18886,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18921,7 +18921,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18956,7 +18956,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -18991,7 +18991,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19026,7 +19026,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19061,7 +19061,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19096,7 +19096,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19131,7 +19131,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19166,7 +19166,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19201,7 +19201,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19236,7 +19236,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19271,7 +19271,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19306,7 +19306,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19341,7 +19341,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19376,7 +19376,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19411,7 +19411,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19446,7 +19446,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19481,7 +19481,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19516,7 +19516,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19551,7 +19551,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19586,7 +19586,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19621,7 +19621,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19656,7 +19656,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19691,7 +19691,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19726,7 +19726,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19761,7 +19761,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19796,7 +19796,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19831,7 +19831,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19866,7 +19866,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19901,7 +19901,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19936,7 +19936,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -19971,7 +19971,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20006,7 +20006,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20041,7 +20041,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20076,7 +20076,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20111,7 +20111,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20146,7 +20146,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20181,7 +20181,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20216,7 +20216,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20251,7 +20251,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20286,7 +20286,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20321,7 +20321,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20356,7 +20356,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20391,7 +20391,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20426,7 +20426,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20461,7 +20461,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20496,7 +20496,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20531,7 +20531,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20566,7 +20566,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20601,7 +20601,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20636,7 +20636,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20671,7 +20671,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20706,7 +20706,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20741,7 +20741,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20776,7 +20776,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20811,7 +20811,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20846,7 +20846,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20881,7 +20881,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20916,7 +20916,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20951,7 +20951,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -20986,7 +20986,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21021,7 +21021,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21056,7 +21056,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21091,7 +21091,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21126,7 +21126,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21161,7 +21161,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21196,7 +21196,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21231,7 +21231,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21266,7 +21266,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21301,7 +21301,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21336,7 +21336,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21371,7 +21371,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21406,7 +21406,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21441,7 +21441,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21476,7 +21476,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21511,7 +21511,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21546,7 +21546,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21581,7 +21581,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21616,7 +21616,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21651,7 +21651,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21686,7 +21686,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21721,7 +21721,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21756,7 +21756,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21791,7 +21791,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21826,7 +21826,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21861,7 +21861,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21896,7 +21896,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21931,7 +21931,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -21966,7 +21966,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22001,7 +22001,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22036,7 +22036,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22071,7 +22071,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22106,7 +22106,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22141,7 +22141,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22176,7 +22176,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22211,7 +22211,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22246,7 +22246,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22281,7 +22281,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22316,7 +22316,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22351,7 +22351,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22386,7 +22386,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22421,7 +22421,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22456,7 +22456,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22491,7 +22491,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22526,7 +22526,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22561,7 +22561,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22596,7 +22596,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22631,7 +22631,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22666,7 +22666,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22701,7 +22701,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22736,7 +22736,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22771,7 +22771,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22806,7 +22806,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22841,7 +22841,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22876,7 +22876,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22911,7 +22911,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22946,7 +22946,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -22981,7 +22981,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23016,7 +23016,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23051,7 +23051,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23086,7 +23086,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23121,7 +23121,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23156,7 +23156,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23191,7 +23191,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23226,7 +23226,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23261,7 +23261,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23296,7 +23296,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23331,7 +23331,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23366,7 +23366,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23401,7 +23401,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23436,7 +23436,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23471,7 +23471,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23506,7 +23506,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23541,7 +23541,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23576,7 +23576,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23611,7 +23611,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23646,7 +23646,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23681,7 +23681,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23716,7 +23716,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23751,7 +23751,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23786,7 +23786,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23821,7 +23821,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23856,7 +23856,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23891,7 +23891,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23926,7 +23926,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23961,7 +23961,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -23996,7 +23996,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24031,7 +24031,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24066,7 +24066,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24101,7 +24101,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24136,7 +24136,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24171,7 +24171,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24206,7 +24206,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24241,7 +24241,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24276,7 +24276,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24311,7 +24311,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24346,7 +24346,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24381,7 +24381,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24416,7 +24416,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24451,7 +24451,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24486,7 +24486,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24521,7 +24521,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24556,7 +24556,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24591,7 +24591,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24626,7 +24626,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24661,7 +24661,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24696,7 +24696,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24731,7 +24731,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24766,7 +24766,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24801,7 +24801,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24836,7 +24836,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24871,7 +24871,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24906,7 +24906,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24941,7 +24941,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -24976,7 +24976,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25011,7 +25011,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25046,7 +25046,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25081,7 +25081,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25116,7 +25116,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25151,7 +25151,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25186,7 +25186,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25221,7 +25221,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25256,7 +25256,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25291,7 +25291,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25326,7 +25326,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25361,7 +25361,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25396,7 +25396,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25431,7 +25431,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25466,7 +25466,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25501,7 +25501,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25536,7 +25536,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25571,7 +25571,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25606,7 +25606,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25641,7 +25641,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25676,7 +25676,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25711,7 +25711,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25746,7 +25746,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25781,7 +25781,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25816,7 +25816,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25851,7 +25851,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25886,7 +25886,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25921,7 +25921,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25956,7 +25956,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -25991,7 +25991,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26026,7 +26026,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26061,7 +26061,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26096,7 +26096,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26131,7 +26131,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26166,7 +26166,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26201,7 +26201,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26236,7 +26236,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26271,7 +26271,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26306,7 +26306,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26341,7 +26341,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26376,7 +26376,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26411,7 +26411,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26446,7 +26446,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26481,7 +26481,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26516,7 +26516,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26551,7 +26551,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26586,7 +26586,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26621,7 +26621,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26656,7 +26656,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26691,7 +26691,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26726,7 +26726,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26761,7 +26761,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26796,7 +26796,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26831,7 +26831,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26866,7 +26866,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26901,7 +26901,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26936,7 +26936,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -26971,7 +26971,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27006,7 +27006,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27041,7 +27041,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27076,7 +27076,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27111,7 +27111,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27146,7 +27146,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27181,7 +27181,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27216,7 +27216,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27251,7 +27251,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27286,7 +27286,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27321,7 +27321,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27356,7 +27356,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27391,7 +27391,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27426,7 +27426,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27461,7 +27461,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27496,7 +27496,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27531,7 +27531,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27566,7 +27566,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27601,7 +27601,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27636,7 +27636,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27671,7 +27671,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27706,7 +27706,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27741,7 +27741,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27776,7 +27776,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27811,7 +27811,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27846,7 +27846,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27881,7 +27881,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27916,7 +27916,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27951,7 +27951,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -27986,7 +27986,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28021,7 +28021,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28056,7 +28056,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28091,7 +28091,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28126,7 +28126,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28161,7 +28161,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28196,7 +28196,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28231,7 +28231,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28266,7 +28266,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28301,7 +28301,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28336,7 +28336,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28371,7 +28371,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28406,7 +28406,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28441,7 +28441,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28476,7 +28476,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28511,7 +28511,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28546,7 +28546,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28581,7 +28581,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28616,7 +28616,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28651,7 +28651,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28686,7 +28686,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28721,7 +28721,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28756,7 +28756,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28791,7 +28791,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28826,7 +28826,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28861,7 +28861,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28896,7 +28896,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28931,7 +28931,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -28966,7 +28966,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29001,7 +29001,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29036,7 +29036,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29071,7 +29071,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29106,7 +29106,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29141,7 +29141,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29176,7 +29176,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29211,7 +29211,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29246,7 +29246,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29281,7 +29281,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29316,7 +29316,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29351,7 +29351,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29386,7 +29386,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29421,7 +29421,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29456,7 +29456,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29491,7 +29491,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29526,7 +29526,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29561,7 +29561,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29596,7 +29596,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29631,7 +29631,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29666,7 +29666,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29701,7 +29701,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29736,7 +29736,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29771,7 +29771,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29806,7 +29806,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29841,7 +29841,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29876,7 +29876,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29911,7 +29911,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29946,7 +29946,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -29981,7 +29981,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30016,7 +30016,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30051,7 +30051,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30086,7 +30086,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30121,7 +30121,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30156,7 +30156,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30191,7 +30191,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30226,7 +30226,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30261,7 +30261,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30296,7 +30296,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30331,7 +30331,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30366,7 +30366,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30401,7 +30401,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30436,7 +30436,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30471,7 +30471,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30506,7 +30506,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30541,7 +30541,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30576,7 +30576,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30611,7 +30611,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30646,7 +30646,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30681,7 +30681,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30716,7 +30716,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30751,7 +30751,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30786,7 +30786,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30821,7 +30821,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30856,7 +30856,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30891,7 +30891,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30926,7 +30926,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30961,7 +30961,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -30996,7 +30996,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31031,7 +31031,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31066,7 +31066,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31101,7 +31101,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31136,7 +31136,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31171,7 +31171,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31206,7 +31206,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31241,7 +31241,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31276,7 +31276,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31311,7 +31311,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31346,7 +31346,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31381,7 +31381,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31416,7 +31416,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31451,7 +31451,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31486,7 +31486,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31521,7 +31521,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31556,7 +31556,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31591,7 +31591,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31626,7 +31626,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31661,7 +31661,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31696,7 +31696,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31731,7 +31731,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31766,7 +31766,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31801,7 +31801,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31836,7 +31836,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31871,7 +31871,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31906,7 +31906,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31941,7 +31941,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -31976,7 +31976,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32011,7 +32011,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32046,7 +32046,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32081,7 +32081,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32116,7 +32116,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32151,7 +32151,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32186,7 +32186,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32221,7 +32221,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32256,7 +32256,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32291,7 +32291,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32326,7 +32326,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32361,7 +32361,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32396,7 +32396,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32431,7 +32431,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32466,7 +32466,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32501,7 +32501,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32536,7 +32536,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32571,7 +32571,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32606,7 +32606,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32641,7 +32641,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32676,7 +32676,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32711,7 +32711,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32746,7 +32746,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32781,7 +32781,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32816,7 +32816,7 @@ export const dailyMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -32866,7 +32866,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -32901,7 +32901,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -32949,7 +32949,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -32984,7 +32984,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33032,7 +33032,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33067,7 +33067,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33115,7 +33115,7 @@ export const dailyEtfSummaries = [
       "primarySource": "復華投信 官方 Excel 下載",
       "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33150,7 +33150,7 @@ export const dailyEtfSummaries = [
       "primarySource": "復華投信 官方 Excel 下載",
       "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33185,7 +33185,7 @@ export const dailyEtfSummaries = [
       "newWeight": 0.5129,
       "weightDelta": 0.5129,
       "oldShares": 0,
-      "newShares": 0,
+      "newShares": 157000,
       "sharesDelta": 157000,
       "deltaLots": 157,
       "estimatedValueYi": 2.61,
@@ -33198,7 +33198,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33219,8 +33219,8 @@ export const dailyEtfSummaries = [
       "oldWeight": 2.9307,
       "newWeight": 1.9617,
       "weightDelta": -0.969,
-      "oldShares": 0,
-      "newShares": 0,
+      "oldShares": 194000,
+      "newShares": 134000,
       "sharesDelta": -60000,
       "deltaLots": -60,
       "estimatedValueYi": -4.46,
@@ -33233,7 +33233,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33281,7 +33281,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33316,7 +33316,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33364,7 +33364,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33399,7 +33399,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33447,7 +33447,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33482,7 +33482,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33530,7 +33530,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33565,7 +33565,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33613,7 +33613,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33648,7 +33648,7 @@ export const dailyEtfSummaries = [
       "primarySource": "野村投信 PCF 官方 API",
       "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33696,7 +33696,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33731,7 +33731,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33780,7 +33780,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33828,7 +33828,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33877,7 +33877,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網 latestDiff",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33926,7 +33926,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -33961,7 +33961,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34009,7 +34009,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34044,7 +34044,7 @@ export const dailyEtfSummaries = [
       "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
       "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34092,7 +34092,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34127,7 +34127,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34175,7 +34175,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34210,7 +34210,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34258,7 +34258,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34307,7 +34307,7 @@ export const dailyEtfSummaries = [
       "primarySource": "元大投信 PCF/Daily bridge API",
       "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34342,7 +34342,7 @@ export const dailyEtfSummaries = [
       "primarySource": "元大投信 PCF/Daily bridge API",
       "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34390,7 +34390,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34425,7 +34425,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34473,7 +34473,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34508,7 +34508,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34556,7 +34556,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34591,7 +34591,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34639,7 +34639,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34688,7 +34688,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34723,7 +34723,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34771,7 +34771,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34806,7 +34806,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34854,7 +34854,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34889,7 +34889,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34938,7 +34938,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -34986,7 +34986,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35036,7 +35036,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35084,7 +35084,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35133,7 +35133,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35168,7 +35168,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35216,7 +35216,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35265,7 +35265,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35314,7 +35314,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35349,7 +35349,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35397,7 +35397,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35446,7 +35446,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35495,7 +35495,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35530,7 +35530,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35578,7 +35578,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35613,7 +35613,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35661,7 +35661,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35696,7 +35696,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35744,7 +35744,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35793,7 +35793,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35828,7 +35828,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35876,7 +35876,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35911,7 +35911,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35959,7 +35959,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -35994,7 +35994,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36042,7 +36042,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36077,7 +36077,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36125,7 +36125,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36160,7 +36160,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36208,7 +36208,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36243,7 +36243,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36291,7 +36291,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36326,7 +36326,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36374,7 +36374,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36409,7 +36409,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36457,7 +36457,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36492,7 +36492,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36540,7 +36540,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36575,7 +36575,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36623,7 +36623,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36658,7 +36658,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36707,7 +36707,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36755,7 +36755,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36804,7 +36804,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36853,7 +36853,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36902,7 +36902,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -36951,7 +36951,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37000,7 +37000,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37050,7 +37050,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37098,7 +37098,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37133,7 +37133,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37181,7 +37181,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37230,7 +37230,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37265,7 +37265,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37313,7 +37313,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37348,7 +37348,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37396,7 +37396,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37431,7 +37431,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37479,7 +37479,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37514,7 +37514,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37562,7 +37562,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37597,7 +37597,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37645,7 +37645,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37694,7 +37694,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37729,7 +37729,7 @@ export const dailyEtfSummaries = [
       "primarySource": "ETF資訊網歷史快照差異",
       "secondarySource": "",
       "valueBasis": "AUM x 權重/股數推估",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "historical",
       "reportEligible": true,
       "pcfAlignmentNote": "納入今日正式資料層"
@@ -37768,7 +37768,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37803,7 +37803,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37838,7 +37838,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37873,7 +37873,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37908,7 +37908,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37943,7 +37943,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -37978,7 +37978,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38013,7 +38013,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38048,7 +38048,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38083,7 +38083,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38118,7 +38118,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38153,7 +38153,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38188,7 +38188,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38223,7 +38223,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38258,7 +38258,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38293,7 +38293,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38328,7 +38328,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38363,7 +38363,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38398,7 +38398,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38433,7 +38433,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38468,7 +38468,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38503,7 +38503,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38538,7 +38538,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38573,7 +38573,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38608,7 +38608,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38643,7 +38643,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38678,7 +38678,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38713,7 +38713,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38748,7 +38748,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38783,7 +38783,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38818,7 +38818,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38853,7 +38853,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38888,7 +38888,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38923,7 +38923,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38958,7 +38958,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -38993,7 +38993,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39028,7 +39028,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39063,7 +39063,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39098,7 +39098,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39133,7 +39133,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39168,7 +39168,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39203,7 +39203,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39238,7 +39238,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39273,7 +39273,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39308,7 +39308,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39343,7 +39343,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39378,7 +39378,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39413,7 +39413,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39448,7 +39448,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39483,7 +39483,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39518,7 +39518,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39553,7 +39553,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39588,7 +39588,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39623,7 +39623,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39658,7 +39658,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39693,7 +39693,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39728,7 +39728,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39763,7 +39763,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39798,7 +39798,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39833,7 +39833,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39868,7 +39868,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39903,7 +39903,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39938,7 +39938,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -39973,7 +39973,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40008,7 +40008,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40043,7 +40043,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40078,7 +40078,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40113,7 +40113,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40148,7 +40148,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40183,7 +40183,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40218,7 +40218,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40253,7 +40253,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40288,7 +40288,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40323,7 +40323,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40358,7 +40358,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40393,7 +40393,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40428,7 +40428,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40463,7 +40463,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40498,7 +40498,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40533,7 +40533,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40568,7 +40568,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40603,7 +40603,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40638,7 +40638,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40673,7 +40673,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40708,7 +40708,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40743,7 +40743,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40778,7 +40778,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40813,7 +40813,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40848,7 +40848,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40883,7 +40883,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40918,7 +40918,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40953,7 +40953,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -40988,7 +40988,7 @@ export const nextPcfMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41023,7 +41023,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41058,7 +41058,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41093,7 +41093,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41128,7 +41128,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41163,7 +41163,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41198,7 +41198,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41233,7 +41233,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41268,7 +41268,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41303,7 +41303,7 @@ export const nextPcfMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41353,7 +41353,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=399",
       "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41388,7 +41388,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=399",
       "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41436,7 +41436,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=500",
       "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41471,7 +41471,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=500",
       "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41519,7 +41519,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=502",
       "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
       "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41554,7 +41554,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "群益投信 申購買回清單 API fundId=502",
       "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41602,7 +41602,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
       "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41637,7 +41637,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
       "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41685,7 +41685,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
       "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41720,7 +41720,7 @@ export const nextPcfEtfSummaries = [
       "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
       "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
       "valueBasis": "官方 AUM x 權重變化",
-      "reportDate": "2026-05-23",
+      "reportDate": "2026-05-24",
       "dataBucket": "future_pcf",
       "reportEligible": false,
       "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41759,7 +41759,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41794,7 +41794,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41829,7 +41829,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41864,7 +41864,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41899,7 +41899,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41934,7 +41934,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -41969,7 +41969,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42004,7 +42004,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42039,7 +42039,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42074,7 +42074,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42109,7 +42109,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42144,7 +42144,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42179,7 +42179,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42214,7 +42214,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42249,7 +42249,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42284,7 +42284,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42319,7 +42319,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42354,7 +42354,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42389,7 +42389,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42424,7 +42424,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42459,7 +42459,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42494,7 +42494,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42529,7 +42529,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42564,7 +42564,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42599,7 +42599,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42634,7 +42634,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42669,7 +42669,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42704,7 +42704,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42739,7 +42739,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42774,7 +42774,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42809,7 +42809,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42844,7 +42844,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42879,7 +42879,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42914,7 +42914,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42949,7 +42949,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -42984,7 +42984,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43019,7 +43019,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43054,7 +43054,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43089,7 +43089,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43124,7 +43124,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43159,7 +43159,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43194,7 +43194,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43229,7 +43229,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43264,7 +43264,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43299,7 +43299,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43334,7 +43334,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43369,7 +43369,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43404,7 +43404,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43439,7 +43439,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43474,7 +43474,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43509,7 +43509,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43544,7 +43544,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43579,7 +43579,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43614,7 +43614,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43649,7 +43649,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43684,7 +43684,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43719,7 +43719,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43754,7 +43754,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43789,7 +43789,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43824,7 +43824,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=399",
     "secondarySource": "https://www.etfinfo.tw/etf/00982A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43859,7 +43859,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43894,7 +43894,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43929,7 +43929,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43964,7 +43964,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -43999,7 +43999,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44034,7 +44034,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44069,7 +44069,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44104,7 +44104,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44139,7 +44139,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44174,7 +44174,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44209,7 +44209,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44244,7 +44244,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44279,7 +44279,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44314,7 +44314,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44349,7 +44349,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44384,7 +44384,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44419,7 +44419,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44454,7 +44454,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44489,7 +44489,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44524,7 +44524,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44559,7 +44559,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44594,7 +44594,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44629,7 +44629,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44664,7 +44664,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44699,7 +44699,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44734,7 +44734,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44769,7 +44769,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0002",
     "secondarySource": "https://www.etfinfo.tw/etf/00993A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44804,7 +44804,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44839,7 +44839,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44874,7 +44874,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=502",
     "secondarySource": "https://www.etfinfo.tw/etf/00997A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44909,7 +44909,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44944,7 +44944,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -44979,7 +44979,7 @@ export const allCapturedMovements = [
     "primarySource": "群益投信 申購買回清單 API fundId=500",
     "secondarySource": "https://www.etfinfo.tw/etf/00992A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45014,7 +45014,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45049,7 +45049,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45084,7 +45084,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45119,7 +45119,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45154,7 +45154,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45189,7 +45189,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45224,7 +45224,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45259,7 +45259,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45294,7 +45294,7 @@ export const allCapturedMovements = [
     "primarySource": "安聯投信 Fund/GetFundTradeInfo FundNo=E0001",
     "secondarySource": "https://www.etfinfo.tw/etf/00984A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "future_pcf",
     "reportEligible": false,
     "pcfAlignmentNote": "明日 PCF / 預揭露資料，保留但不納入今日共識、今日圖卡、今日回測"
@@ -45329,7 +45329,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45364,7 +45364,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45399,7 +45399,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45434,7 +45434,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45469,7 +45469,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45504,7 +45504,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45539,7 +45539,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45574,7 +45574,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45609,7 +45609,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45644,7 +45644,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45679,7 +45679,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45714,7 +45714,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45749,7 +45749,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45784,7 +45784,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45819,7 +45819,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45840,8 +45840,8 @@ export const allCapturedMovements = [
     "oldWeight": 2.9307,
     "newWeight": 1.9617,
     "weightDelta": -0.969,
-    "oldShares": 0,
-    "newShares": 0,
+    "oldShares": 194000,
+    "newShares": 134000,
     "sharesDelta": -60000,
     "deltaLots": -60,
     "estimatedValueYi": -4.46,
@@ -45854,7 +45854,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45889,7 +45889,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45924,7 +45924,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45959,7 +45959,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -45994,7 +45994,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46029,7 +46029,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46064,7 +46064,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46099,7 +46099,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46134,7 +46134,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46169,7 +46169,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46204,7 +46204,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46239,7 +46239,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46274,7 +46274,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46296,7 +46296,7 @@ export const allCapturedMovements = [
     "newWeight": 0.5129,
     "weightDelta": 0.5129,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 157000,
     "sharesDelta": 157000,
     "deltaLots": 157,
     "estimatedValueYi": 2.61,
@@ -46309,7 +46309,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46330,8 +46330,8 @@ export const allCapturedMovements = [
     "oldWeight": 1.4561,
     "newWeight": 1.0102,
     "weightDelta": -0.4459,
-    "oldShares": 0,
-    "newShares": 0,
+    "oldShares": 45000,
+    "newShares": 30000,
     "sharesDelta": -15000,
     "deltaLots": -15,
     "estimatedValueYi": -2.57,
@@ -46344,7 +46344,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46379,7 +46379,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46414,7 +46414,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46449,7 +46449,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46484,7 +46484,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46519,7 +46519,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46554,7 +46554,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46576,7 +46576,7 @@ export const allCapturedMovements = [
     "newWeight": 0.4147,
     "weightDelta": 0.4147,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 1465000,
     "sharesDelta": 1465000,
     "deltaLots": 1465,
     "estimatedValueYi": 2.11,
@@ -46589,7 +46589,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46624,7 +46624,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46659,7 +46659,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46694,7 +46694,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46716,7 +46716,7 @@ export const allCapturedMovements = [
     "newWeight": 0.3962,
     "weightDelta": 0.3962,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 347000,
     "sharesDelta": 347000,
     "deltaLots": 347,
     "estimatedValueYi": 2.01,
@@ -46729,7 +46729,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46764,7 +46764,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46786,7 +46786,7 @@ export const allCapturedMovements = [
     "newWeight": 0.3807,
     "weightDelta": 0.3807,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 112000,
     "sharesDelta": 112000,
     "deltaLots": 112,
     "estimatedValueYi": 1.93,
@@ -46799,7 +46799,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46821,7 +46821,7 @@ export const allCapturedMovements = [
     "newWeight": 0.3772,
     "weightDelta": 0.3772,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 259000,
     "sharesDelta": 259000,
     "deltaLots": 259,
     "estimatedValueYi": 1.92,
@@ -46834,7 +46834,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46856,7 +46856,7 @@ export const allCapturedMovements = [
     "newWeight": 0.3782,
     "weightDelta": 0.3782,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 59000,
     "sharesDelta": 59000,
     "deltaLots": 59,
     "estimatedValueYi": 1.92,
@@ -46869,7 +46869,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46904,7 +46904,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46939,7 +46939,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -46974,7 +46974,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47009,7 +47009,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47044,7 +47044,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47079,7 +47079,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47114,7 +47114,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47149,7 +47149,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47184,7 +47184,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47219,7 +47219,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47254,7 +47254,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47289,7 +47289,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47324,7 +47324,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47359,7 +47359,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47394,7 +47394,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47429,7 +47429,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47464,7 +47464,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47499,7 +47499,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47534,7 +47534,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47569,7 +47569,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47604,7 +47604,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47639,7 +47639,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47674,7 +47674,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47709,7 +47709,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47744,7 +47744,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47779,7 +47779,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47814,7 +47814,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47849,7 +47849,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47884,7 +47884,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47919,7 +47919,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47954,7 +47954,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -47989,7 +47989,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48024,7 +48024,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48059,7 +48059,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48094,7 +48094,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48129,7 +48129,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48164,7 +48164,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48199,7 +48199,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48234,7 +48234,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48269,7 +48269,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=49YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00981A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48304,7 +48304,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48339,7 +48339,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48374,7 +48374,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48409,7 +48409,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48444,7 +48444,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48479,7 +48479,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48514,7 +48514,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48549,7 +48549,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48584,7 +48584,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48619,7 +48619,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48654,7 +48654,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48689,7 +48689,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=63YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00403A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48724,7 +48724,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48759,7 +48759,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48794,7 +48794,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48829,7 +48829,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48864,7 +48864,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48899,7 +48899,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48934,7 +48934,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -48969,7 +48969,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49004,7 +49004,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49039,7 +49039,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49074,7 +49074,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49109,7 +49109,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49144,7 +49144,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49179,7 +49179,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49214,7 +49214,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49249,7 +49249,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49284,7 +49284,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49319,7 +49319,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49354,7 +49354,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49389,7 +49389,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49424,7 +49424,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49459,7 +49459,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49494,7 +49494,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49529,7 +49529,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49564,7 +49564,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49599,7 +49599,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49634,7 +49634,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49669,7 +49669,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49704,7 +49704,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49739,7 +49739,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49774,7 +49774,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49809,7 +49809,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00999A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49844,7 +49844,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49879,7 +49879,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00980A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49914,7 +49914,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49949,7 +49949,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -49984,7 +49984,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50019,7 +50019,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50054,7 +50054,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50089,7 +50089,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50124,7 +50124,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50159,7 +50159,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50181,7 +50181,7 @@ export const allCapturedMovements = [
     "newWeight": 0.0143,
     "weightDelta": 0.0143,
     "oldShares": 0,
-    "newShares": 0,
+    "newShares": 18000,
     "sharesDelta": 18000,
     "deltaLots": 18,
     "estimatedValueYi": 0.07,
@@ -50194,7 +50194,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50229,7 +50229,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50264,7 +50264,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50299,7 +50299,7 @@ export const allCapturedMovements = [
     "primarySource": "野村投信 PCF 官方 API",
     "secondarySource": "https://www.etfinfo.tw/etf/00985A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50334,7 +50334,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50369,7 +50369,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50404,7 +50404,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50439,7 +50439,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50474,7 +50474,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50509,7 +50509,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50544,7 +50544,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50579,7 +50579,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50614,7 +50614,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50649,7 +50649,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50684,7 +50684,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50719,7 +50719,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50754,7 +50754,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50789,7 +50789,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50824,7 +50824,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50859,7 +50859,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50894,7 +50894,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50929,7 +50929,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50964,7 +50964,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -50999,7 +50999,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51034,7 +51034,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51069,7 +51069,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51104,7 +51104,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51139,7 +51139,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51174,7 +51174,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51209,7 +51209,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51244,7 +51244,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51279,7 +51279,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51314,7 +51314,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51349,7 +51349,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51384,7 +51384,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51419,7 +51419,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51454,7 +51454,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51489,7 +51489,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51524,7 +51524,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51559,7 +51559,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51594,7 +51594,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51629,7 +51629,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51664,7 +51664,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51699,7 +51699,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51734,7 +51734,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51769,7 +51769,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51804,7 +51804,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51839,7 +51839,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51874,7 +51874,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51909,7 +51909,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51944,7 +51944,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -51979,7 +51979,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52014,7 +52014,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52049,7 +52049,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52084,7 +52084,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52119,7 +52119,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52154,7 +52154,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52189,7 +52189,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52224,7 +52224,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52259,7 +52259,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52294,7 +52294,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52329,7 +52329,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52364,7 +52364,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52399,7 +52399,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52434,7 +52434,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52469,7 +52469,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52504,7 +52504,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52539,7 +52539,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52574,7 +52574,7 @@ export const allCapturedMovements = [
     "primarySource": "復華投信 官方 Excel 下載",
     "secondarySource": "https://www.etfinfo.tw/etf/00991A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52609,7 +52609,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52644,7 +52644,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52679,7 +52679,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52714,7 +52714,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52749,7 +52749,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52784,7 +52784,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52819,7 +52819,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網 latestDiff",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52854,7 +52854,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52889,7 +52889,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52924,7 +52924,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52959,7 +52959,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -52994,7 +52994,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53029,7 +53029,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53064,7 +53064,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53099,7 +53099,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53134,7 +53134,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53169,7 +53169,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53204,7 +53204,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53239,7 +53239,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53274,7 +53274,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53309,7 +53309,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53344,7 +53344,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53379,7 +53379,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53414,7 +53414,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53449,7 +53449,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53484,7 +53484,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53519,7 +53519,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53554,7 +53554,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53589,7 +53589,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53624,7 +53624,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53659,7 +53659,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53694,7 +53694,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53729,7 +53729,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53764,7 +53764,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53799,7 +53799,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53834,7 +53834,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53869,7 +53869,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53904,7 +53904,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53939,7 +53939,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -53974,7 +53974,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54009,7 +54009,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54044,7 +54044,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54079,7 +54079,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54114,7 +54114,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54149,7 +54149,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54184,7 +54184,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54219,7 +54219,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54254,7 +54254,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54289,7 +54289,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54324,7 +54324,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54359,7 +54359,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54394,7 +54394,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方持股差異 x 官方揭露金額反推價格",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54429,7 +54429,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54464,7 +54464,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54499,7 +54499,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54534,7 +54534,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54569,7 +54569,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54604,7 +54604,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54639,7 +54639,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54674,7 +54674,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54709,7 +54709,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54744,7 +54744,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54779,7 +54779,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54814,7 +54814,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54849,7 +54849,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54884,7 +54884,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54919,7 +54919,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54954,7 +54954,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -54989,7 +54989,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55024,7 +55024,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55059,7 +55059,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55094,7 +55094,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55129,7 +55129,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55164,7 +55164,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55199,7 +55199,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55234,7 +55234,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55269,7 +55269,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55304,7 +55304,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55339,7 +55339,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55374,7 +55374,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55409,7 +55409,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55444,7 +55444,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55479,7 +55479,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55514,7 +55514,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55549,7 +55549,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55584,7 +55584,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55619,7 +55619,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55654,7 +55654,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55689,7 +55689,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55724,7 +55724,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55759,7 +55759,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55794,7 +55794,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55829,7 +55829,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55864,7 +55864,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55899,7 +55899,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55934,7 +55934,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -55969,7 +55969,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56004,7 +56004,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56039,7 +56039,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56074,7 +56074,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56109,7 +56109,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56144,7 +56144,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56179,7 +56179,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56214,7 +56214,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56249,7 +56249,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56284,7 +56284,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56319,7 +56319,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56354,7 +56354,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56389,7 +56389,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56424,7 +56424,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56459,7 +56459,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56494,7 +56494,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56529,7 +56529,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56564,7 +56564,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56599,7 +56599,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56634,7 +56634,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56669,7 +56669,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56704,7 +56704,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56739,7 +56739,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56774,7 +56774,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56809,7 +56809,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56844,7 +56844,7 @@ export const allCapturedMovements = [
     "primarySource": "元大投信 PCF/Daily bridge API",
     "secondarySource": "https://www.etfinfo.tw/etf/00990A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56879,7 +56879,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56914,7 +56914,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56949,7 +56949,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -56984,7 +56984,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57019,7 +57019,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57054,7 +57054,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57089,7 +57089,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57124,7 +57124,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57159,7 +57159,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57194,7 +57194,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57229,7 +57229,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57264,7 +57264,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57299,7 +57299,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57334,7 +57334,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57369,7 +57369,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57404,7 +57404,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57439,7 +57439,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57474,7 +57474,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57509,7 +57509,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57544,7 +57544,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57579,7 +57579,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57614,7 +57614,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57649,7 +57649,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57684,7 +57684,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57719,7 +57719,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57754,7 +57754,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57789,7 +57789,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57824,7 +57824,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57859,7 +57859,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57894,7 +57894,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57929,7 +57929,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57964,7 +57964,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -57999,7 +57999,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58034,7 +58034,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58069,7 +58069,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58104,7 +58104,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58139,7 +58139,7 @@ export const allCapturedMovements = [
     "primarySource": "統一投信 PCF 官方 API fundCode=61YTW",
     "secondarySource": "https://www.etfinfo.tw/etf/00988A/active",
     "valueBasis": "官方 AUM x 權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58174,7 +58174,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58209,7 +58209,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58244,7 +58244,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58279,7 +58279,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58314,7 +58314,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58349,7 +58349,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58384,7 +58384,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58419,7 +58419,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58454,7 +58454,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58489,7 +58489,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58524,7 +58524,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58559,7 +58559,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58594,7 +58594,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58629,7 +58629,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58664,7 +58664,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58699,7 +58699,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58734,7 +58734,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58769,7 +58769,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58804,7 +58804,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58839,7 +58839,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58874,7 +58874,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58909,7 +58909,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58944,7 +58944,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -58979,7 +58979,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59014,7 +59014,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59049,7 +59049,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59084,7 +59084,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59119,7 +59119,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59154,7 +59154,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59189,7 +59189,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59224,7 +59224,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59259,7 +59259,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59294,7 +59294,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59329,7 +59329,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59364,7 +59364,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59399,7 +59399,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59434,7 +59434,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59469,7 +59469,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59504,7 +59504,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59539,7 +59539,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59574,7 +59574,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59609,7 +59609,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59644,7 +59644,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59679,7 +59679,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59714,7 +59714,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59749,7 +59749,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59784,7 +59784,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59819,7 +59819,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59854,7 +59854,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59889,7 +59889,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59924,7 +59924,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59959,7 +59959,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -59994,7 +59994,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60029,7 +60029,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60064,7 +60064,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60099,7 +60099,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60134,7 +60134,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60169,7 +60169,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60204,7 +60204,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60239,7 +60239,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60274,7 +60274,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60309,7 +60309,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60344,7 +60344,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60379,7 +60379,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60414,7 +60414,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60449,7 +60449,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60484,7 +60484,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60519,7 +60519,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60554,7 +60554,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60589,7 +60589,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60624,7 +60624,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60659,7 +60659,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60694,7 +60694,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60729,7 +60729,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60764,7 +60764,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60799,7 +60799,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60834,7 +60834,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60869,7 +60869,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60904,7 +60904,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60939,7 +60939,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -60974,7 +60974,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61009,7 +61009,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61044,7 +61044,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61079,7 +61079,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61114,7 +61114,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61149,7 +61149,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61184,7 +61184,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61219,7 +61219,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61254,7 +61254,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61289,7 +61289,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61324,7 +61324,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61359,7 +61359,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61394,7 +61394,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61429,7 +61429,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61464,7 +61464,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61499,7 +61499,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61534,7 +61534,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61569,7 +61569,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61604,7 +61604,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61639,7 +61639,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61674,7 +61674,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61709,7 +61709,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61744,7 +61744,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61779,7 +61779,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61814,7 +61814,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61849,7 +61849,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61884,7 +61884,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61919,7 +61919,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61954,7 +61954,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -61989,7 +61989,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62024,7 +62024,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62059,7 +62059,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62094,7 +62094,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62129,7 +62129,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62164,7 +62164,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62199,7 +62199,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62234,7 +62234,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62269,7 +62269,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62304,7 +62304,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62339,7 +62339,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62374,7 +62374,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62409,7 +62409,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62444,7 +62444,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62479,7 +62479,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62514,7 +62514,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62549,7 +62549,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62584,7 +62584,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62619,7 +62619,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62654,7 +62654,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62689,7 +62689,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62724,7 +62724,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62759,7 +62759,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62794,7 +62794,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62829,7 +62829,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62864,7 +62864,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62899,7 +62899,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62934,7 +62934,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -62969,7 +62969,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63004,7 +63004,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63039,7 +63039,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63074,7 +63074,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63109,7 +63109,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63144,7 +63144,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63179,7 +63179,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63214,7 +63214,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63249,7 +63249,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63284,7 +63284,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63319,7 +63319,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63354,7 +63354,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63389,7 +63389,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63424,7 +63424,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63459,7 +63459,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63494,7 +63494,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63529,7 +63529,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63564,7 +63564,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63599,7 +63599,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63634,7 +63634,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63669,7 +63669,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63704,7 +63704,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63739,7 +63739,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63774,7 +63774,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63809,7 +63809,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63844,7 +63844,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63879,7 +63879,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63914,7 +63914,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63949,7 +63949,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -63984,7 +63984,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64019,7 +64019,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64054,7 +64054,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64089,7 +64089,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64124,7 +64124,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64159,7 +64159,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64194,7 +64194,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64229,7 +64229,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64264,7 +64264,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64299,7 +64299,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64334,7 +64334,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64369,7 +64369,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64404,7 +64404,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64439,7 +64439,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64474,7 +64474,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64509,7 +64509,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64544,7 +64544,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64579,7 +64579,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64614,7 +64614,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64649,7 +64649,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64684,7 +64684,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64719,7 +64719,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64754,7 +64754,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64789,7 +64789,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64824,7 +64824,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64859,7 +64859,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64894,7 +64894,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64929,7 +64929,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64964,7 +64964,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -64999,7 +64999,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65034,7 +65034,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65069,7 +65069,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65104,7 +65104,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65139,7 +65139,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65174,7 +65174,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65209,7 +65209,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65244,7 +65244,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65279,7 +65279,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65314,7 +65314,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65349,7 +65349,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65384,7 +65384,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65419,7 +65419,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65454,7 +65454,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65489,7 +65489,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65524,7 +65524,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65559,7 +65559,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65594,7 +65594,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65629,7 +65629,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65664,7 +65664,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65699,7 +65699,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65734,7 +65734,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65769,7 +65769,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65804,7 +65804,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65839,7 +65839,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65874,7 +65874,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65909,7 +65909,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65944,7 +65944,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -65979,7 +65979,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66014,7 +66014,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66049,7 +66049,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66084,7 +66084,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66119,7 +66119,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66154,7 +66154,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66189,7 +66189,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66224,7 +66224,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66259,7 +66259,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66294,7 +66294,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66329,7 +66329,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66364,7 +66364,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66399,7 +66399,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66434,7 +66434,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66469,7 +66469,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66504,7 +66504,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66539,7 +66539,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66574,7 +66574,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66609,7 +66609,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66644,7 +66644,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66679,7 +66679,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66714,7 +66714,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66749,7 +66749,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66784,7 +66784,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66819,7 +66819,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66854,7 +66854,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66889,7 +66889,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66924,7 +66924,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66959,7 +66959,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -66994,7 +66994,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67029,7 +67029,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67064,7 +67064,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67099,7 +67099,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67134,7 +67134,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67169,7 +67169,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67204,7 +67204,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67239,7 +67239,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67274,7 +67274,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67309,7 +67309,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67344,7 +67344,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67379,7 +67379,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67414,7 +67414,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67449,7 +67449,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67484,7 +67484,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67519,7 +67519,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67554,7 +67554,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67589,7 +67589,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67624,7 +67624,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67659,7 +67659,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67694,7 +67694,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67729,7 +67729,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67764,7 +67764,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67799,7 +67799,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67834,7 +67834,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67869,7 +67869,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67904,7 +67904,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67939,7 +67939,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -67974,7 +67974,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68009,7 +68009,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68044,7 +68044,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68079,7 +68079,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68114,7 +68114,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68149,7 +68149,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68184,7 +68184,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68219,7 +68219,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68254,7 +68254,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68289,7 +68289,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68324,7 +68324,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68359,7 +68359,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68394,7 +68394,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68429,7 +68429,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68464,7 +68464,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68499,7 +68499,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68534,7 +68534,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68569,7 +68569,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68604,7 +68604,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68639,7 +68639,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68674,7 +68674,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68709,7 +68709,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68744,7 +68744,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68779,7 +68779,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68814,7 +68814,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68849,7 +68849,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68884,7 +68884,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68919,7 +68919,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68954,7 +68954,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -68989,7 +68989,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69024,7 +69024,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69059,7 +69059,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69094,7 +69094,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69129,7 +69129,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69164,7 +69164,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69199,7 +69199,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69234,7 +69234,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69269,7 +69269,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69304,7 +69304,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69339,7 +69339,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69374,7 +69374,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69409,7 +69409,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69444,7 +69444,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69479,7 +69479,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69514,7 +69514,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69549,7 +69549,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69584,7 +69584,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69619,7 +69619,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69654,7 +69654,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69689,7 +69689,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69724,7 +69724,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69759,7 +69759,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69794,7 +69794,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69829,7 +69829,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69864,7 +69864,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69899,7 +69899,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69934,7 +69934,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -69969,7 +69969,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70004,7 +70004,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70039,7 +70039,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70074,7 +70074,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70109,7 +70109,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70144,7 +70144,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70179,7 +70179,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70214,7 +70214,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70249,7 +70249,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70284,7 +70284,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70319,7 +70319,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70354,7 +70354,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70389,7 +70389,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70424,7 +70424,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70459,7 +70459,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70494,7 +70494,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70529,7 +70529,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70564,7 +70564,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70599,7 +70599,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70634,7 +70634,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70669,7 +70669,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70704,7 +70704,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70739,7 +70739,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70774,7 +70774,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70809,7 +70809,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70844,7 +70844,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70879,7 +70879,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70914,7 +70914,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70949,7 +70949,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -70984,7 +70984,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71019,7 +71019,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71054,7 +71054,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71089,7 +71089,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71124,7 +71124,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71159,7 +71159,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71194,7 +71194,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71229,7 +71229,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71264,7 +71264,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71299,7 +71299,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71334,7 +71334,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71369,7 +71369,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71404,7 +71404,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71439,7 +71439,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71474,7 +71474,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71509,7 +71509,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71544,7 +71544,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71579,7 +71579,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71614,7 +71614,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71649,7 +71649,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71684,7 +71684,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71719,7 +71719,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71754,7 +71754,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71789,7 +71789,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71824,7 +71824,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71859,7 +71859,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71894,7 +71894,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71929,7 +71929,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71964,7 +71964,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -71999,7 +71999,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72034,7 +72034,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72069,7 +72069,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72104,7 +72104,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72139,7 +72139,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72174,7 +72174,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72209,7 +72209,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72244,7 +72244,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72279,7 +72279,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72314,7 +72314,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72349,7 +72349,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72384,7 +72384,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72419,7 +72419,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72454,7 +72454,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72489,7 +72489,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72524,7 +72524,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72559,7 +72559,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72594,7 +72594,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72629,7 +72629,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72664,7 +72664,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72699,7 +72699,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72734,7 +72734,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72769,7 +72769,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72804,7 +72804,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72839,7 +72839,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72874,7 +72874,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72909,7 +72909,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72944,7 +72944,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -72979,7 +72979,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73014,7 +73014,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73049,7 +73049,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73084,7 +73084,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73119,7 +73119,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73154,7 +73154,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73189,7 +73189,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73224,7 +73224,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73259,7 +73259,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73294,7 +73294,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73329,7 +73329,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73364,7 +73364,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73399,7 +73399,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73434,7 +73434,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73469,7 +73469,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73504,7 +73504,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73539,7 +73539,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73574,7 +73574,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73609,7 +73609,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73644,7 +73644,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73679,7 +73679,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73714,7 +73714,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73749,7 +73749,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73784,7 +73784,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73819,7 +73819,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73854,7 +73854,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73889,7 +73889,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73924,7 +73924,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73959,7 +73959,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -73994,7 +73994,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74029,7 +74029,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74064,7 +74064,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74099,7 +74099,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74134,7 +74134,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74169,7 +74169,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74204,7 +74204,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74239,7 +74239,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74274,7 +74274,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74309,7 +74309,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74344,7 +74344,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74379,7 +74379,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74414,7 +74414,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74449,7 +74449,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74484,7 +74484,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74519,7 +74519,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74554,7 +74554,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74589,7 +74589,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74624,7 +74624,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74659,7 +74659,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74694,7 +74694,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74729,7 +74729,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74764,7 +74764,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74799,7 +74799,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74834,7 +74834,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74869,7 +74869,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74904,7 +74904,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74939,7 +74939,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -74974,7 +74974,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75009,7 +75009,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75044,7 +75044,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75079,7 +75079,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75114,7 +75114,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75149,7 +75149,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75184,7 +75184,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75219,7 +75219,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75254,7 +75254,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75289,7 +75289,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75324,7 +75324,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75359,7 +75359,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75394,7 +75394,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75429,7 +75429,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75464,7 +75464,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75499,7 +75499,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75534,7 +75534,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75569,7 +75569,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75604,7 +75604,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75639,7 +75639,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75674,7 +75674,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75709,7 +75709,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75744,7 +75744,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75779,7 +75779,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75814,7 +75814,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75849,7 +75849,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75884,7 +75884,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75919,7 +75919,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75954,7 +75954,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -75989,7 +75989,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76024,7 +76024,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76059,7 +76059,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76094,7 +76094,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76129,7 +76129,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76164,7 +76164,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76199,7 +76199,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76234,7 +76234,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76269,7 +76269,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76304,7 +76304,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76339,7 +76339,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76374,7 +76374,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76409,7 +76409,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76444,7 +76444,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76479,7 +76479,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76514,7 +76514,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76549,7 +76549,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76584,7 +76584,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76619,7 +76619,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76654,7 +76654,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76689,7 +76689,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76724,7 +76724,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76759,7 +76759,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76794,7 +76794,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76829,7 +76829,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76864,7 +76864,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76899,7 +76899,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76934,7 +76934,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -76969,7 +76969,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77004,7 +77004,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "權重變化",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77039,7 +77039,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77074,7 +77074,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77109,7 +77109,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77144,7 +77144,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77179,7 +77179,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77214,7 +77214,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77249,7 +77249,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77284,7 +77284,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77319,7 +77319,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77354,7 +77354,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77389,7 +77389,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77424,7 +77424,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77459,7 +77459,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
@@ -77494,7 +77494,7 @@ export const allCapturedMovements = [
     "primarySource": "ETF資訊網歷史快照差異",
     "secondarySource": "",
     "valueBasis": "AUM x 權重/股數推估",
-    "reportDate": "2026-05-23",
+    "reportDate": "2026-05-24",
     "dataBucket": "historical",
     "reportEligible": true,
     "pcfAlignmentNote": "納入今日正式資料層"
