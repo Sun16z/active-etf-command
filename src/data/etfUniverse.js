@@ -1,12 +1,12 @@
 export const snapshotMeta = {
-  "asOf": "2026-05-22",
+  "asOf": "2026-05-25",
   "marketClose": "真實快照",
   "coverage": 25,
   "source": "ETF資訊網 active ETF payload",
   "sourceUrl": "https://www.etfinfo.tw/etf",
   "sourceNote": "Live import from each ETF active page: latestMarket, holdings, latestDiff.",
   "scope": "all",
-  "generatedAt": "2026-05-24T09:36:25.874Z",
+  "generatedAt": "2026-05-25T09:32:42.616Z",
   "failedCodes": []
 };
 
@@ -18,221 +18,221 @@ export const etfs = [
     "issuer": "統一",
     "theme": "台股主動",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 2619.1,
-    "nav": 30.03,
-    "price": 29.95,
-    "premium": -0.27,
+    "aum": 2720.3,
+    "nav": 31.44,
+    "price": 31.61,
+    "premium": 0.54,
     "fee": 1,
     "managementFee": 1,
     "custodyFee": null,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 915569,
+    "holders": 939285,
     "manager": "陳釧瑤",
     "launchDate": "2025-05-27",
     "trackingIndex": "不適用",
     "issuerSite": "https://www.ezmoney.com.tw",
-    "trailingYield": 1.37,
+    "trailingYield": 1.3,
     "returnStats": {
       "return1Y": null,
       "return3Y": null,
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00981A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 9.66,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 9.44,
     "tsmcShares": 11657000,
-    "tsmcHeadroomYi": 401.8,
+    "tsmcHeadroomYi": 423.3,
     "holdings": [
       [
         "2330",
         "台積電",
-        9.66,
+        9.44,
         11657000
       ],
       [
         "2383",
         "台光電",
-        8.69,
+        9.12,
         4723000
       ],
       [
         "2454",
         "聯發科",
-        6.05,
+        6.35,
         4263000
       ],
       [
         "2345",
         "智邦",
-        5.66,
+        5.55,
         6231000
       ],
       [
         "2308",
         "台達電",
-        5.06,
+        5.28,
         6572000
       ],
       [
         "6223",
         "旺矽",
-        4.81,
+        4.72,
         2169000
       ],
       [
         "6669",
         "緯穎",
-        4.76,
+        4.61,
         2344000
       ],
       [
         "3017",
         "奇鋐",
-        4.61,
-        4925000
-      ],
-      [
-        "8046",
-        "南電",
-        4.35,
-        12658000
+        4.55,
+        5041000
       ],
       [
         "2327",
         "國巨*",
-        4.23,
+        4.44,
         18313000
-      ],
-      [
-        "3037",
-        "欣興",
-        3.86,
-        10822000
       ],
       [
         "3665",
         "貿聯-KY",
-        3.85,
+        3.93,
         4703848
       ],
       [
         "2368",
         "金像電",
-        3.43,
-        7018000
+        3.83,
+        7669000
+      ],
+      [
+        "3037",
+        "欣興",
+        3.76,
+        10822000
+      ],
+      [
+        "8046",
+        "南電",
+        3.53,
+        11398000
       ],
       [
         "3711",
         "日月光投控",
-        3.09,
+        3.25,
         14998000
       ],
       [
         "3653",
         "健策",
-        3.05,
+        3,
         2267000
       ],
       [
         "2303",
         "聯電",
-        2.77,
+        2.9,
         66190000
       ],
       [
         "5274",
         "信驊",
-        2.76,
+        2.62,
         422000
       ],
       [
         "6274",
         "台燿",
-        2.22,
+        2.33,
         4151000
-      ],
-      [
-        "6515",
-        "穎崴",
-        1.41,
-        442000
       ],
       [
         "2449",
         "京元電子",
-        1.41,
+        1.44,
         12919000
       ],
       [
-        "6805",
-        "富世達",
-        1.16,
-        1761000
+        "6515",
+        "穎崴",
+        1.37,
+        442000
       ],
       [
         "6510",
         "精測",
-        1.16,
+        1.13,
         930000
+      ],
+      [
+        "6805",
+        "富世達",
+        1.08,
+        1761000
       ],
       [
         "8210",
         "勤誠",
-        0.97,
+        0.99,
         1967000
-      ],
-      [
-        "3533",
-        "嘉澤",
-        0.73,
-        772000
       ],
       [
         "2404",
         "漢唐",
-        0.59,
-        1394000
+        0.75,
+        1715000
       ],
       [
-        "3264",
-        "欣銓",
-        0.51,
-        6217000
+        "3533",
+        "嘉澤",
+        0.7,
+        772000
       ],
       [
         "6187",
         "萬潤",
-        0.51,
+        0.52,
         1224000
+      ],
+      [
+        "3264",
+        "欣銓",
+        0.49,
+        6217000
       ],
       [
         "5439",
         "高技",
-        0.5,
+        0.48,
         3528000
-      ],
-      [
-        "8996",
-        "高力",
-        0.44,
-        1034000
       ],
       [
         "3008",
         "大立光",
-        0.43,
+        0.44,
         329000
       ],
       [
         "2313",
         "華通",
-        0.42,
+        0.43,
         4124000
+      ],
+      [
+        "8996",
+        "高力",
+        0.41,
+        1034000
       ],
       [
         "8358",
@@ -241,16 +241,16 @@ export const etfs = [
         1980000
       ],
       [
-        "6278",
-        "台表科",
-        0.34,
-        3734000
-      ],
-      [
         "8150",
         "南茂",
-        0.33,
+        0.35,
         11334000
+      ],
+      [
+        "6278",
+        "台表科",
+        0.31,
+        3734000
       ],
       [
         "4966",
@@ -267,13 +267,13 @@ export const etfs = [
       [
         "6147",
         "頎邦",
-        0.25,
+        0.27,
         3201000
       ],
       [
         "6415",
         "矽力*-KY",
-        0.21,
+        0.23,
         1038000
       ],
       [
@@ -287,12 +287,6 @@ export const etfs = [
         "精成科",
         0.14,
         3988000
-      ],
-      [
-        "3036",
-        "文曄",
-        0.13,
-        1200000
       ],
       [
         "3376",
@@ -313,12 +307,6 @@ export const etfs = [
         273000
       ],
       [
-        "3217",
-        "優群",
-        0.07,
-        874000
-      ],
-      [
         "6271",
         "同欣電",
         0.06,
@@ -327,13 +315,19 @@ export const etfs = [
       [
         "2002",
         "中鋼",
-        0.03,
+        0.04,
         5163000
+      ],
+      [
+        "3217",
+        "優群",
+        0.03,
+        382000
       ],
       [
         "1319",
         "東陽",
-        0.02,
+        0.01,
         511000
       ],
       [
@@ -367,39 +361,224 @@ export const etfs = [
         1000
       ]
     ],
-    "holdingsCount": 53,
+    "holdingsCount": 52,
     "topHoldings": [
       [
         "2330",
         "台積電",
-        9.66
+        9.44
       ],
       [
         "2383",
         "台光電",
-        8.69
+        9.12
       ],
       [
         "2454",
         "聯發科",
-        6.05
+        6.35
       ],
       [
         "2345",
         "智邦",
-        5.66
+        5.55
       ],
       [
         "2308",
         "台達電",
-        5.06
+        5.28
       ]
     ],
-    "adds": [],
-    "cuts": [],
-    "flowChanges": [],
+    "adds": [
+      [
+        "2368",
+        "金像電",
+        651000,
+        3.83,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3.83,
+          "oldWeight": 3.43,
+          "weightDelta": 0.4,
+          "flowYi": 8.84
+        }
+      ],
+      [
+        "2404",
+        "漢唐",
+        321000,
+        0.75,
+        {
+          "industry": "其他電子業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.75,
+          "oldWeight": 0.59,
+          "weightDelta": 0.16,
+          "flowYi": 3.82
+        }
+      ],
+      [
+        "3017",
+        "奇鋐",
+        116000,
+        4.55,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 4.55,
+          "oldWeight": 4.61,
+          "weightDelta": -0.06,
+          "flowYi": 2.85
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "8046",
+        "南電",
+        -1260000,
+        3.53,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.53,
+          "oldWeight": 4.35,
+          "weightDelta": -0.82,
+          "flowYi": -10.62
+        }
+      ],
+      [
+        "3036",
+        "文曄",
+        -1200000,
+        0.13,
+        {
+          "industry": "電子通路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0.13,
+          "weightDelta": -0.13,
+          "flowYi": -3.54
+        }
+      ],
+      [
+        "3217",
+        "優群",
+        -492000,
+        0.03,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.03,
+          "oldWeight": 0.07,
+          "weightDelta": -0.04,
+          "flowYi": -1.05
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "8046",
+        "南電",
+        -1260000,
+        3.53,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.53,
+          "oldWeight": 4.35,
+          "weightDelta": -0.82,
+          "flowYi": -10.62
+        }
+      ],
+      [
+        "2368",
+        "金像電",
+        651000,
+        3.83,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3.83,
+          "oldWeight": 3.43,
+          "weightDelta": 0.4,
+          "flowYi": 8.84
+        }
+      ],
+      [
+        "2404",
+        "漢唐",
+        321000,
+        0.75,
+        {
+          "industry": "其他電子業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.75,
+          "oldWeight": 0.59,
+          "weightDelta": 0.16,
+          "flowYi": 3.82
+        }
+      ],
+      [
+        "3036",
+        "文曄",
+        -1200000,
+        0.13,
+        {
+          "industry": "電子通路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0.13,
+          "weightDelta": -0.13,
+          "flowYi": -3.54
+        }
+      ],
+      [
+        "3017",
+        "奇鋐",
+        116000,
+        4.55,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 4.55,
+          "oldWeight": 4.61,
+          "weightDelta": -0.06,
+          "flowYi": 2.85
+        }
+      ],
+      [
+        "3217",
+        "優群",
+        -492000,
+        0.03,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.03,
+          "oldWeight": 0.07,
+          "weightDelta": -0.04,
+          "flowYi": -1.05
+        }
+      ]
+    ],
     "newPositions": [],
-    "exits": [],
+    "exits": [
+      "3036 文曄"
+    ],
     "pricePath": [
       27.81,
       29.46,
@@ -409,7 +588,8 @@ export const etfs = [
       27.49,
       27.23,
       28.86,
-      29.95
+      29.95,
+      31.61
     ]
   },
   {
@@ -419,17 +599,17 @@ export const etfs = [
     "issuer": "統一",
     "theme": "台灣50 增強",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 1827.3,
-    "nav": 10.25,
-    "price": 10.2,
-    "premium": -0.49,
+    "aum": 1876,
+    "nav": 10.6,
+    "price": 10.58,
+    "premium": -0.19,
     "fee": 1,
     "managementFee": 1,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 937990,
+    "holders": 1113921,
     "manager": "張哲偉",
     "launchDate": "2026-05-12",
     "trackingIndex": "不適用",
@@ -441,145 +621,163 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00403A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 16.83,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 16.71,
     "tsmcShares": 14000000,
-    "tsmcHeadroomYi": 149.3,
+    "tsmcHeadroomYi": 155.5,
     "holdings": [
       [
         "2330",
         "台積電",
-        16.83,
+        16.71,
         14000000
-      ],
-      [
-        "3037",
-        "欣興",
-        4.63,
-        8960000
       ],
       [
         "2303",
         "聯電",
-        4.59,
+        4.88,
         75500000
+      ],
+      [
+        "3037",
+        "欣興",
+        4.58,
+        8960000
       ],
       [
         "3017",
         "奇鋐",
-        4.41,
+        4.33,
         3250000
-      ],
-      [
-        "2383",
-        "台光電",
-        3.6,
-        1350000
       ],
       [
         "3711",
         "日月光投控",
-        3.34,
-        11165000
+        3.86,
+        12101000
+      ],
+      [
+        "2383",
+        "台光電",
+        3.84,
+        1350000
       ],
       [
         "2368",
         "金像電",
-        3.21,
-        4530000
+        3.42,
+        4650000
       ],
       [
         "2327",
         "國巨*",
-        2.87,
-        8559000
+        3.13,
+        8760000
       ],
       [
         "2345",
         "智邦",
-        2.48,
-        1880000
+        2.56,
+        1950000
       ],
       [
         "6669",
         "緯穎",
-        2.24,
+        2.2,
         760000
       ],
       [
         "2308",
         "台達電",
-        2.04,
+        2.16,
         1823000
       ],
       [
         "2344",
         "華邦電",
-        1.82,
-        27300000
+        1.95,
+        29300000
       ],
       [
         "6223",
         "旺矽",
-        1.8,
-        560000
+        1.92,
+        600000
       ],
       [
         "8046",
         "南電",
-        1.77,
+        1.62,
         3550000
       ],
       [
         "3665",
         "貿聯-KY",
-        1.52,
+        1.58,
         1285000
-      ],
-      [
-        "8299",
-        "群聯",
-        1.51,
-        1163000
       ],
       [
         "4958",
         "臻鼎-KY",
-        1.51,
+        1.5,
         5492000
       ],
       [
-        "5274",
-        "信驊",
-        1.47,
-        155000
+        "8299",
+        "群聯",
+        1.49,
+        1163000
       ],
       [
         "3533",
         "嘉澤",
-        1.38,
-        1010000
+        1.47,
+        1100000
+      ],
+      [
+        "5274",
+        "信驊",
+        1.42,
+        155000
       ],
       [
         "2454",
         "聯發科",
-        1.3,
+        1.39,
         632000
       ],
       [
         "2337",
         "旺宏",
-        1.13,
+        1.12,
         14232000
       ],
       [
         "2360",
         "致茂",
-        0.87,
-        720000
+        1.01,
+        795000
+      ],
+      [
+        "3443",
+        "創意",
+        0.91,
+        330000
+      ],
+      [
+        "3081",
+        "聯亞",
+        0.89,
+        590000
+      ],
+      [
+        "6442",
+        "光聖",
+        0.88,
+        830000
       ],
       [
         "5347",
@@ -594,106 +792,82 @@ export const etfs = [
         430000
       ],
       [
-        "3443",
-        "創意",
-        0.78,
-        285000
+        "3529",
+        "力旺",
+        0.75,
+        390000
       ],
       [
         "6515",
         "穎崴",
-        0.77,
+        0.75,
         165000
-      ],
-      [
-        "6442",
-        "光聖",
-        0.76,
-        760000
-      ],
-      [
-        "3529",
-        "力旺",
-        0.68,
-        350000
-      ],
-      [
-        "7769",
-        "鴻勁",
-        0.68,
-        166000
       ],
       [
         "8996",
         "高力",
-        0.67,
-        1070000
-      ],
-      [
-        "3081",
-        "聯亞",
         0.66,
-        460000
+        1130000
       ],
       [
         "2313",
         "華通",
-        0.64,
+        0.66,
         4300000
       ],
       [
-        "3044",
-        "健鼎",
-        0.6,
-        2300000
+        "7769",
+        "鴻勁",
+        0.66,
+        166000
       ],
       [
         "6147",
         "頎邦",
-        0.57,
+        0.61,
         5000000
+      ],
+      [
+        "3044",
+        "健鼎",
+        0.59,
+        2300000
       ],
       [
         "8210",
         "勤誠",
-        0.49,
+        0.5,
         680000
-      ],
-      [
-        "6805",
-        "富世達",
-        0.48,
-        500000
       ],
       [
         "8358",
         "金居",
-        0.47,
+        0.48,
         1700000
       ],
       [
         "6274",
         "台燿",
-        0.43,
+        0.46,
         551000
+      ],
+      [
+        "6805",
+        "富世達",
+        0.45,
+        500000
       ],
       [
         "3583",
         "辛耘",
-        0.42,
+        0.43,
         900000
       ],
       [
         "3036",
         "文曄",
-        0.36,
+        0.37,
         2365000
-      ],
-      [
-        "3211",
-        "順達",
-        0.33,
-        1601000
       ],
       [
         "4966",
@@ -716,13 +890,13 @@ export const etfs = [
       [
         "2049",
         "上銀",
-        0.2,
+        0.21,
         1010000
       ],
       [
         "2481",
         "強茂",
-        0.18,
+        0.17,
         2510000
       ],
       [
@@ -734,14 +908,20 @@ export const etfs = [
       [
         "2455",
         "全新",
-        0.07,
-        300000
+        0.1,
+        450000
       ],
       [
         "1560",
         "中砂",
         0.03,
         78000
+      ],
+      [
+        "3211",
+        "順達",
+        0,
+        1000
       ],
       [
         "2882",
@@ -755,445 +935,797 @@ export const etfs = [
       [
         "2330",
         "台積電",
-        16.83
-      ],
-      [
-        "3037",
-        "欣興",
-        4.63
+        16.71
       ],
       [
         "2303",
         "聯電",
-        4.59
+        4.88
+      ],
+      [
+        "3037",
+        "欣興",
+        4.58
       ],
       [
         "3017",
         "奇鋐",
-        4.41
+        4.33
       ],
       [
-        "2383",
-        "台光電",
-        3.6
+        "3711",
+        "日月光投控",
+        3.86
       ]
     ],
     "adds": [
       [
-        "3711",
-        "日月光投控",
-        1225000,
-        3.34,
+        "2344",
+        "華邦電",
+        2000000,
+        1.95,
         {
           "industry": "半導體業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 3.34,
-          "oldWeight": 2.77,
-          "weightDelta": 0.57,
-          "flowYi": 6.7
+          "newWeight": 1.95,
+          "oldWeight": 1.82,
+          "weightDelta": 0.13,
+          "flowYi": 2.5
+        }
+      ],
+      [
+        "3711",
+        "日月光投控",
+        936000,
+        3.86,
+        {
+          "industry": "半導體業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3.86,
+          "oldWeight": 3.34,
+          "weightDelta": 0.52,
+          "flowYi": 5.6
         }
       ],
       [
         "2327",
         "國巨*",
-        758000,
-        2.87,
+        201000,
+        3.13,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 2.87,
-          "oldWeight": 2.44,
-          "weightDelta": 0.43,
-          "flowYi": 4.64
+          "newWeight": 3.13,
+          "oldWeight": 2.87,
+          "weightDelta": 0.26,
+          "flowYi": 1.35
         }
       ],
       [
-        "8046",
-        "南電",
-        450000,
-        1.77,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.77,
-          "oldWeight": 1.48,
-          "weightDelta": 0.29,
-          "flowYi": 4.1
-        }
-      ],
-      [
-        "3037",
-        "欣興",
-        440000,
-        4.63,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.63,
-          "oldWeight": 4.22,
-          "weightDelta": 0.41,
-          "flowYi": 4.15
-        }
-      ],
-      [
-        "2454",
-        "聯發科",
-        410000,
-        1.3,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.3,
-          "oldWeight": 0.43,
-          "weightDelta": 0.87,
-          "flowYi": 15.41
-        }
-      ],
-      [
-        "6196",
-        "帆宣",
-        300000,
+        "2455",
+        "全新",
+        150000,
         0.1,
         {
-          "industry": "其他電子業",
+          "industry": "通信網路業",
           "type": "increased",
           "typeLabel": "加碼",
           "newWeight": 0.1,
-          "oldWeight": 0.03,
-          "weightDelta": 0.07,
-          "flowYi": 1.34
+          "oldWeight": 0.07,
+          "weightDelta": 0.03,
+          "flowYi": 0.63
+        }
+      ],
+      [
+        "3081",
+        "聯亞",
+        130000,
+        0.89,
+        {
+          "industry": "通信網路業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.89,
+          "oldWeight": 0.66,
+          "weightDelta": 0.23,
+          "flowYi": 3.68
         }
       ],
       [
         "2368",
         "金像電",
-        140000,
-        3.21,
+        120000,
+        3.42,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 3.21,
-          "oldWeight": 3.09,
-          "weightDelta": 0.12,
-          "flowYi": 1.81
-        }
-      ],
-      [
-        "3081",
-        "聯亞",
-        140000,
-        0.66,
-        {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.66,
-          "oldWeight": 0.45,
+          "newWeight": 3.42,
+          "oldWeight": 3.21,
           "weightDelta": 0.21,
-          "flowYi": 3.67
-        }
-      ]
-    ],
-    "cuts": [
-      [
-        "2882",
-        "國泰金",
-        -6984000,
-        0,
-        {
-          "industry": "金融保險業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0,
-          "oldWeight": 0.3,
-          "weightDelta": -0.3,
-          "flowYi": -5.48
-        }
-      ]
-    ],
-    "flowChanges": [
-      [
-        "2454",
-        "聯發科",
-        410000,
-        1.3,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.3,
-          "oldWeight": 0.43,
-          "weightDelta": 0.87,
-          "flowYi": 15.41
-        }
-      ],
-      [
-        "3711",
-        "日月光投控",
-        1225000,
-        3.34,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 3.34,
-          "oldWeight": 2.77,
-          "weightDelta": 0.57,
-          "flowYi": 6.7
-        }
-      ],
-      [
-        "2882",
-        "國泰金",
-        -6984000,
-        0,
-        {
-          "industry": "金融保險業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0,
-          "oldWeight": 0.3,
-          "weightDelta": -0.3,
-          "flowYi": -5.48
-        }
-      ],
-      [
-        "2327",
-        "國巨*",
-        758000,
-        2.87,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.87,
-          "oldWeight": 2.44,
-          "weightDelta": 0.43,
-          "flowYi": 4.64
-        }
-      ],
-      [
-        "3037",
-        "欣興",
-        440000,
-        4.63,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.63,
-          "oldWeight": 4.22,
-          "weightDelta": 0.41,
-          "flowYi": 4.15
-        }
-      ],
-      [
-        "8046",
-        "南電",
-        450000,
-        1.77,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.77,
-          "oldWeight": 1.48,
-          "weightDelta": 0.29,
-          "flowYi": 4.1
-        }
-      ],
-      [
-        "3081",
-        "聯亞",
-        140000,
-        0.66,
-        {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.66,
-          "oldWeight": 0.45,
-          "weightDelta": 0.21,
-          "flowYi": 3.67
-        }
-      ],
-      [
-        "3443",
-        "創意",
-        62000,
-        0.78,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.78,
-          "oldWeight": 0.62,
-          "weightDelta": 0.16,
-          "flowYi": 3.1
-        }
-      ],
-      [
-        "3017",
-        "奇鋐",
-        110000,
-        4.41,
-        {
-          "industry": "電腦及週邊設備業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.41,
-          "oldWeight": 4.29,
-          "weightDelta": 0.12,
-          "flowYi": 2.73
+          "flowYi": 1.66
         }
       ],
       [
         "3533",
         "嘉澤",
-        95000,
-        1.38,
+        90000,
+        1.47,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.38,
-          "oldWeight": 1.26,
-          "weightDelta": 0.12,
-          "flowYi": 2.37
+          "newWeight": 1.47,
+          "oldWeight": 1.38,
+          "weightDelta": 0.09,
+          "flowYi": 2.26
         }
       ],
       [
         "2360",
         "致茂",
-        90000,
-        0.87,
+        75000,
+        1.01,
         {
           "industry": "其他電子業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.87,
-          "oldWeight": 0.78,
-          "weightDelta": 0.09,
-          "flowYi": 1.99
+          "newWeight": 1.01,
+          "oldWeight": 0.87,
+          "weightDelta": 0.14,
+          "flowYi": 1.79
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "3211",
+        "順達",
+        -1600000,
+        0,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0,
+          "oldWeight": 0.33,
+          "weightDelta": -0.33,
+          "flowYi": -6.19
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "3211",
+        "順達",
+        -1600000,
+        0,
+        {
+          "industry": "電腦及週邊設備業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0,
+          "oldWeight": 0.33,
+          "weightDelta": -0.33,
+          "flowYi": -6.19
         }
       ],
       [
-        "6669",
-        "緯穎",
-        35000,
-        2.24,
+        "3711",
+        "日月光投控",
+        936000,
+        3.86,
         {
-          "industry": "電腦及週邊設備業",
+          "industry": "半導體業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 2.24,
-          "oldWeight": 2.12,
+          "newWeight": 3.86,
+          "oldWeight": 3.34,
+          "weightDelta": 0.52,
+          "flowYi": 5.6
+        }
+      ],
+      [
+        "3081",
+        "聯亞",
+        130000,
+        0.89,
+        {
+          "industry": "通信網路業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.89,
+          "oldWeight": 0.66,
+          "weightDelta": 0.23,
+          "flowYi": 3.68
+        }
+      ],
+      [
+        "2344",
+        "華邦電",
+        2000000,
+        1.95,
+        {
+          "industry": "半導體業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.95,
+          "oldWeight": 1.82,
+          "weightDelta": 0.13,
+          "flowYi": 2.5
+        }
+      ],
+      [
+        "6223",
+        "旺矽",
+        40000,
+        1.92,
+        {
+          "industry": "半導體業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.92,
+          "oldWeight": 1.8,
           "weightDelta": 0.12,
-          "flowYi": 1.88
+          "flowYi": 2.4
+        }
+      ],
+      [
+        "3443",
+        "創意",
+        45000,
+        0.91,
+        {
+          "industry": "半導體業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.91,
+          "oldWeight": 0.78,
+          "weightDelta": 0.13,
+          "flowYi": 2.33
+        }
+      ],
+      [
+        "3533",
+        "嘉澤",
+        90000,
+        1.47,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.47,
+          "oldWeight": 1.38,
+          "weightDelta": 0.09,
+          "flowYi": 2.26
+        }
+      ],
+      [
+        "2360",
+        "致茂",
+        75000,
+        1.01,
+        {
+          "industry": "其他電子業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.01,
+          "oldWeight": 0.87,
+          "weightDelta": 0.14,
+          "flowYi": 1.79
+        }
+      ],
+      [
+        "2345",
+        "智邦",
+        70000,
+        2.56,
+        {
+          "industry": "通信網路業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.56,
+          "oldWeight": 2.48,
+          "weightDelta": 0.08,
+          "flowYi": 1.72
         }
       ],
       [
         "2368",
         "金像電",
-        140000,
-        3.21,
+        120000,
+        3.42,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 3.21,
-          "oldWeight": 3.09,
-          "weightDelta": 0.12,
-          "flowYi": 1.81
+          "newWeight": 3.42,
+          "oldWeight": 3.21,
+          "weightDelta": 0.21,
+          "flowYi": 1.66
         }
       ],
       [
         "3529",
         "力旺",
-        45000,
-        0.68,
+        40000,
+        0.75,
         {
           "industry": "半導體業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.68,
-          "oldWeight": 0.59,
-          "weightDelta": 0.09,
-          "flowYi": 1.6
+          "newWeight": 0.75,
+          "oldWeight": 0.68,
+          "weightDelta": 0.07,
+          "flowYi": 1.44
         }
       ],
       [
         "6442",
         "光聖",
-        80000,
-        0.76,
+        70000,
+        0.88,
         {
           "industry": "通信網路業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.76,
-          "oldWeight": 0.66,
-          "weightDelta": 0.1,
-          "flowYi": 1.46
+          "newWeight": 0.88,
+          "oldWeight": 0.76,
+          "weightDelta": 0.12,
+          "flowYi": 1.39
         }
       ],
       [
-        "6196",
-        "帆宣",
-        300000,
-        0.1,
-        {
-          "industry": "其他電子業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.1,
-          "oldWeight": 0.03,
-          "weightDelta": 0.07,
-          "flowYi": 1.34
-        }
-      ],
-      [
-        "4958",
-        "臻鼎-KY",
-        92000,
-        1.51,
+        "2327",
+        "國巨*",
+        201000,
+        3.13,
         {
           "industry": "電子零組件業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.51,
-          "oldWeight": 1.39,
-          "weightDelta": 0.12,
-          "flowYi": 0.46
+          "newWeight": 3.13,
+          "oldWeight": 2.87,
+          "weightDelta": 0.26,
+          "flowYi": 1.35
         }
       ],
       [
         "8996",
         "高力",
-        30000,
-        0.67,
+        60000,
+        0.66,
         {
           "industry": "電機機械",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.67,
-          "oldWeight": 0.61,
-          "weightDelta": 0.06,
-          "flowYi": 0.34
+          "newWeight": 0.66,
+          "oldWeight": 0.67,
+          "weightDelta": -0.01,
+          "flowYi": 0.66
+        }
+      ],
+      [
+        "2455",
+        "全新",
+        150000,
+        0.1,
+        {
+          "industry": "通信網路業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.1,
+          "oldWeight": 0.07,
+          "weightDelta": 0.03,
+          "flowYi": 0.63
         }
       ]
     ],
     "newPositions": [],
     "exits": [],
     "pricePath": [
-      10.2,
-      10.2
+      10.58,
+      10.58
+    ]
+  },
+  {
+    "code": "00992A",
+    "name": "主動群益科技創新",
+    "fullName": "群益台灣科技創新主動式ETF證券投資信託基金",
+    "issuer": "群益",
+    "theme": "科技成長",
+    "fundType": "國內成分證券主動式交易所交易基金(股票)",
+    "aum": 528,
+    "nav": 18.87,
+    "price": 18.85,
+    "premium": -0.11,
+    "fee": 0,
+    "managementFee": 0,
+    "custodyFee": 0.035,
+    "totalExpenseRatio": null,
+    "dividend": "季配",
+    "dividendFrequency": "quarterly",
+    "holders": 227099,
+    "manager": "陳朝政",
+    "launchDate": "2025-12-30",
+    "trackingIndex": "不適用",
+    "issuerSite": "https://www.capitalfund.com.tw/etf",
+    "trailingYield": null,
+    "returnStats": {
+      "return1Y": null,
+      "return3Y": null,
+      "return5Y": null
+    },
+    "holdingsSource": "issuer-official",
+    "dataDate": "2026-05-25",
+    "sourceUrl": "https://www.etfinfo.tw/etf/00992A/active",
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 7.4916,
+    "tsmcShares": 1761000,
+    "tsmcHeadroomYi": 92.4,
+    "holdings": [
+      [
+        "2330",
+        "台積電",
+        7.4916,
+        1761000
+      ],
+      [
+        "2383",
+        "台光電",
+        5.434,
+        536000
+      ],
+      [
+        "3037",
+        "欣興",
+        5.2909,
+        2902000
+      ],
+      [
+        "6669",
+        "緯穎",
+        4.8041,
+        465000
+      ],
+      [
+        "2345",
+        "智邦",
+        4.7338,
+        1012000
+      ],
+      [
+        "6223",
+        "旺矽",
+        3.8707,
+        339000
+      ],
+      [
+        "3661",
+        "世芯-KY",
+        3.5464,
+        393000
+      ],
+      [
+        "8996",
+        "高力",
+        3.5304,
+        1689000
+      ],
+      [
+        "3443",
+        "創意",
+        3.5204,
+        360000
+      ],
+      [
+        "3105",
+        "穩懋",
+        3.433,
+        3433000
+      ],
+      [
+        "2059",
+        "川湖",
+        3.2833,
+        358000
+      ],
+      [
+        "3665",
+        "貿聯-KY",
+        2.9296,
+        667000
+      ],
+      [
+        "8046",
+        "南電",
+        2.6992,
+        1658000
+      ],
+      [
+        "6510",
+        "精測",
+        2.6851,
+        422000
+      ],
+      [
+        "2455",
+        "全新",
+        2.5569,
+        3127000
+      ],
+      [
+        "6515",
+        "穎崴",
+        2.461,
+        151000
+      ],
+      [
+        "3017",
+        "奇鋐",
+        2.3758,
+        501000
+      ],
+      [
+        "8299",
+        "群聯",
+        2.2333,
+        489000
+      ],
+      [
+        "2454",
+        "聯發科",
+        2.1264,
+        272000
+      ],
+      [
+        "3163",
+        "波若威",
+        2.0567,
+        923000
+      ],
+      [
+        "3081",
+        "聯亞",
+        2.0469,
+        380000
+      ],
+      [
+        "2327",
+        "國巨*",
+        2.0361,
+        1600000
+      ],
+      [
+        "3533",
+        "嘉澤",
+        1.9994,
+        420000
+      ],
+      [
+        "7769",
+        "鴻勁",
+        1.8866,
+        134000
+      ],
+      [
+        "6274",
+        "台燿",
+        1.874,
+        636000
+      ],
+      [
+        "6584",
+        "南俊國際",
+        1.818,
+        1437000
+      ],
+      [
+        "2368",
+        "金像電",
+        1.7556,
+        669000
+      ],
+      [
+        "2308",
+        "台達電",
+        1.5055,
+        357000
+      ],
+      [
+        "3653",
+        "健策",
+        1.3677,
+        197000
+      ],
+      [
+        "7751",
+        "竑騰",
+        1.29,
+        387000
+      ],
+      [
+        "5274",
+        "信驊",
+        0.9792,
+        30000
+      ],
+      [
+        "2360",
+        "致茂",
+        0.9377,
+        207000
+      ],
+      [
+        "6442",
+        "光聖",
+        0.9029,
+        238000
+      ],
+      [
+        "4991",
+        "環宇-KY",
+        0.8879,
+        574000
+      ],
+      [
+        "3036",
+        "文曄",
+        0.6535,
+        1177000
+      ],
+      [
+        "3189",
+        "景碩",
+        0.5987,
+        486013
+      ],
+      [
+        "6531",
+        "愛普*",
+        0.5304,
+        273000
+      ],
+      [
+        "5289",
+        "宜鼎",
+        0.4871,
+        157000
+      ],
+      [
+        "8021",
+        "尖點",
+        0.4426,
+        518000
+      ],
+      [
+        "2467",
+        "志聖",
+        0.4236,
+        347000
+      ],
+      [
+        "2337",
+        "旺宏",
+        0.4114,
+        1465000
+      ],
+      [
+        "6139",
+        "亞翔",
+        0.3849,
+        259000
+      ],
+      [
+        "7734",
+        "印能科技",
+        0.377,
+        59000
+      ],
+      [
+        "3491",
+        "昇達科",
+        0.3733,
+        97000
+      ],
+      [
+        "3711",
+        "日月光投控",
+        0.3636,
+        320000
+      ],
+      [
+        "6805",
+        "富世達",
+        0.3599,
+        112000
+      ],
+      [
+        "3260",
+        "威剛",
+        0.2949,
+        393000
+      ],
+      [
+        "3583",
+        "辛耘",
+        0.0556,
+        33000
+      ]
+    ],
+    "holdingsCount": 48,
+    "topHoldings": [
+      [
+        "2330",
+        "台積電",
+        7.4916
+      ],
+      [
+        "2383",
+        "台光電",
+        5.434
+      ],
+      [
+        "3037",
+        "欣興",
+        5.2909
+      ],
+      [
+        "6669",
+        "緯穎",
+        4.8041
+      ],
+      [
+        "2345",
+        "智邦",
+        4.7338
+      ]
+    ],
+    "adds": [
+      [
+        "8021",
+        "尖點",
+        500000,
+        0.4426,
+        {
+          "industry": "其他電子業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.4426,
+          "oldWeight": 0.0143,
+          "weightDelta": 0.4283,
+          "flowYi": 2.26
+        }
+      ]
+    ],
+    "cuts": [],
+    "flowChanges": [
+      [
+        "8021",
+        "尖點",
+        500000,
+        0.4426,
+        {
+          "industry": "其他電子業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 0.4426,
+          "oldWeight": 0.0143,
+          "weightDelta": 0.4283,
+          "flowYi": 2.26
+        }
+      ]
+    ],
+    "newPositions": [],
+    "exits": [],
+    "pricePath": [
+      18,
+      17.67,
+      18.85
     ]
   },
   {
@@ -1203,352 +1735,346 @@ export const etfs = [
     "issuer": "群益",
     "theme": "台股強勢股",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 518.5,
-    "nav": 22.73,
-    "price": 22.64,
-    "premium": -0.4,
+    "aum": 527.4,
+    "nav": 23.77,
+    "price": 23.72,
+    "premium": -0.21,
     "fee": 0.8,
     "managementFee": 0.8,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 181573,
+    "holders": 187669,
     "manager": "陳沅易",
     "launchDate": "2025-05-22",
     "trackingIndex": "不適用",
     "issuerSite": "https://www.capitalfund.com.tw/etf",
-    "trailingYield": 7.01,
+    "trailingYield": 6.69,
     "returnStats": {
-      "return1Y": 141.79,
+      "return1Y": 152.56,
       "return3Y": null,
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00982A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 8.2827,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 8.145,
     "tsmcShares": 1937000,
-    "tsmcHeadroomYi": 86.7,
+    "tsmcHeadroomYi": 88.9,
     "holdings": [
       [
         "2330",
         "台積電",
-        8.2827,
+        8.145,
         1937000
-      ],
-      [
-        "5536",
-        "聖暉*",
-        6.8063,
-        3872000
       ],
       [
         "2454",
         "聯發科",
-        6.5144,
+        6.8773,
         890000
       ],
       [
-        "3105",
-        "穩懋",
-        4.1464,
-        4118000
+        "5536",
+        "聖暉*",
+        6.6889,
+        3872000
       ],
       [
         "6139",
         "亞翔",
-        4.029,
-        2763000
+        4.1323,
+        2813000
       ],
       [
-        "3264",
-        "欣銓",
-        3.9263,
-        9348000
+        "3105",
+        "穩懋",
+        4.0704,
+        4118000
       ],
       [
         "2345",
         "智邦",
-        3.8921,
+        3.8422,
         831000
+      ],
+      [
+        "3264",
+        "欣銓",
+        3.8117,
+        9348000
       ],
       [
         "2360",
         "致茂",
-        3.6631,
+        3.8108,
         851000
-      ],
-      [
-        "6223",
-        "旺矽",
-        3.6391,
-        318000
       ],
       [
         "3491",
         "昇達科",
-        3.5865,
+        3.7284,
         980000
+      ],
+      [
+        "6223",
+        "旺矽",
+        3.5889,
+        318000
       ],
       [
         "2383",
         "台光電",
-        3.2458,
+        3.4271,
         342000
-      ],
-      [
-        "6669",
-        "緯穎",
-        3.2059,
-        306000
       ],
       [
         "4958",
         "臻鼎-KY",
-        3.1839,
+        3.1334,
         3254000
+      ],
+      [
+        "6669",
+        "緯穎",
+        3.1249,
+        306000
       ],
       [
         "6147",
         "頎邦",
-        2.4894,
+        2.6282,
         6092000
-      ],
-      [
-        "2059",
-        "川湖",
-        2.3743,
-        246000
       ],
       [
         "6285",
         "啟碁",
-        2.3349,
+        2.2566,
         4160000
+      ],
+      [
+        "2059",
+        "川湖",
+        2.23,
+        246000
+      ],
+      [
+        "2303",
+        "聯電",
+        2.1134,
+        9288000
       ],
       [
         "6257",
         "矽格",
-        2.04,
+        2.0421,
         4846000
       ],
       [
         "3017",
         "奇鋐",
-        2.0269,
+        1.9687,
         420000
-      ],
-      [
-        "2303",
-        "聯電",
-        2.0078,
-        9288000
       ],
       [
         "3583",
         "辛耘",
-        1.9247,
+        1.9342,
         1160000
       ],
       [
         "2467",
         "志聖",
-        1.7288,
+        1.8248,
         1512000
       ],
       [
         "6488",
         "環球晶",
-        1.6029,
+        1.6911,
         1179000
       ],
       [
         "1785",
         "光洋科",
-        1.561,
+        1.5714,
         5717000
       ],
       [
         "2472",
         "立隆電",
-        1.4149,
+        1.4602,
         2870000
-      ],
-      [
-        "7769",
-        "鴻勁",
-        1.4071,
-        96000
       ],
       [
         "3008",
         "大立光",
-        1.3962,
+        1.4558,
         208000
       ],
       [
-        "3036",
-        "文曄",
-        1.3103,
-        2391000
+        "2377",
+        "微星",
+        1.3447,
+        5817000
       ],
       [
-        "8016",
-        "矽創",
-        1.2646,
-        2284000
+        "7769",
+        "鴻勁",
+        1.3359,
+        96000
       ],
       [
         "6274",
         "台燿",
-        1.2553,
+        1.3252,
         455000
+      ],
+      [
+        "3036",
+        "文曄",
+        1.3122,
+        2391000
       ],
       [
         "3702",
         "大聯大",
-        1.2541,
+        1.26,
         5605000
+      ],
+      [
+        "8016",
+        "矽創",
+        1.2098,
+        2284000
       ],
       [
         "3711",
         "日月光投控",
-        1.0595,
-        996000
-      ],
-      [
-        "6278",
-        "台表科",
-        1.0578,
-        2277000
-      ],
-      [
-        "2368",
-        "金像電",
-        1.0239,
-        406000
+        1.1692,
+        1041000
       ],
       [
         "2316",
         "楠梓電",
-        1.0146,
+        1.0692,
         3486000
       ],
       [
         "2327",
         "國巨*",
-        1.0138,
+        1.0691,
         850000
       ],
       [
-        "2377",
-        "微星",
-        0.9823,
-        4178000
+        "2368",
+        "金像電",
+        1.0531,
+        406000
       ],
       [
-        "8996",
-        "高力",
-        0.863,
-        389000
+        "6278",
+        "台表科",
+        0.9864,
+        2277000
       ],
       [
         "2404",
         "漢唐",
-        0.841,
+        0.8702,
         384000
+      ],
+      [
+        "8996",
+        "高力",
+        0.8037,
+        389000
       ],
       [
         "6510",
         "精測",
-        0.8135,
+        0.7924,
         126000
       ],
       [
         "6531",
         "愛普*",
-        0.5642,
+        0.5934,
         309000
       ],
       [
         "2351",
         "順德",
-        0.4926,
+        0.4982,
         1393000
-      ],
-      [
-        "6831",
-        "邁科",
-        0.3428,
-        230000
       ],
       [
         "2376",
         "技嘉",
-        0.3351,
+        0.3356,
         548000
+      ],
+      [
+        "6831",
+        "邁科",
+        0.3315,
+        230000
       ],
       [
         "2451",
         "創見",
-        0.321,
+        0.3028,
         535000
       ],
       [
         "5274",
         "信驊",
-        0.3034,
+        0.2903,
         9000
-      ],
-      [
-        "2347",
-        "聯強",
-        0.2757,
-        1729000
-      ],
-      [
-        "8046",
-        "南電",
-        0.1895,
-        107000
       ],
       [
         "3376",
         "新日興",
-        0.1477,
+        0.1489,
         371000
-      ],
-      [
-        "6177",
-        "達麗",
-        0.1436,
-        1712350
       ],
       [
         "2885",
         "元大金",
-        0.1202,
+        0.1174,
         1150420
+      ],
+      [
+        "6177",
+        "達麗",
+        0.1057,
+        1362350
+      ],
+      [
+        "8046",
+        "南電",
+        0.0418,
+        26000
       ],
       [
         "3443",
         "創意",
-        0.0097,
+        0.0096,
         1000
       ],
       [
         "6805",
         "富世達",
-        0.0034,
+        0.0031,
         1000
       ],
       [
         "4441",
         "振大環球",
-        0.0015,
+        0.0014,
         4000
       ],
       [
@@ -1594,842 +2120,228 @@ export const etfs = [
         250
       ]
     ],
-    "holdingsCount": 60,
+    "holdingsCount": 59,
     "topHoldings": [
       [
         "2330",
         "台積電",
-        8.2827
+        8.145
+      ],
+      [
+        "2454",
+        "聯發科",
+        6.8773
       ],
       [
         "5536",
         "聖暉*",
-        6.8063
-      ],
-      [
-        "2454",
-        "聯發科",
-        6.5144
-      ],
-      [
-        "3105",
-        "穩懋",
-        4.1464
+        6.6889
       ],
       [
         "6139",
         "亞翔",
-        4.029
+        4.1323
+      ],
+      [
+        "3105",
+        "穩懋",
+        4.0704
       ]
     ],
     "adds": [
       [
         "2377",
         "微星",
-        2667000,
-        0.9823,
+        1639000,
+        1.3447,
         {
           "industry": "電腦及週邊設備業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.9823,
-          "oldWeight": 0.3292,
-          "weightDelta": 0.6531,
-          "flowYi": 3.25
-        }
-      ],
-      [
-        "4958",
-        "臻鼎-KY",
-        484000,
-        3.1839,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 3.1839,
-          "oldWeight": 2.508,
-          "weightDelta": 0.6759,
-          "flowYi": 2.46
-        }
-      ],
-      [
-        "2454",
-        "聯發科",
-        320000,
-        6.5144,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 6.5144,
-          "oldWeight": 3.9023,
-          "weightDelta": 2.6121,
-          "flowYi": 12.15
+          "newWeight": 1.3447,
+          "oldWeight": 0.9823,
+          "weightDelta": 0.3624,
+          "flowYi": 2
         }
       ],
       [
         "6139",
         "亞翔",
-        300000,
-        4.029,
+        50000,
+        4.1323,
         {
           "industry": "其他電子業",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 4.029,
-          "oldWeight": 3.7239,
-          "weightDelta": 0.3051,
-          "flowYi": 2.27
+          "newWeight": 4.1323,
+          "oldWeight": 4.029,
+          "weightDelta": 0.1033,
+          "flowYi": 0.39
         }
-      ]
-    ],
-    "cuts": [
-      [
-        "2347",
-        "聯強",
-        -1729000,
-        0.2757,
-        {
-          "industry": "電子通路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.2757,
-          "oldWeight": 0.5628,
-          "weightDelta": -0.2871,
-          "flowYi": -1.43
-        }
-      ]
-    ],
-    "flowChanges": [
-      [
-        "2454",
-        "聯發科",
-        320000,
-        6.5144,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 6.5144,
-          "oldWeight": 3.9023,
-          "weightDelta": 2.6121,
-          "flowYi": 12.15
-        }
-      ],
-      [
-        "2377",
-        "微星",
-        2667000,
-        0.9823,
-        {
-          "industry": "電腦及週邊設備業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 0.9823,
-          "oldWeight": 0.3292,
-          "weightDelta": 0.6531,
-          "flowYi": 3.25
-        }
-      ],
-      [
-        "4958",
-        "臻鼎-KY",
-        484000,
-        3.1839,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 3.1839,
-          "oldWeight": 2.508,
-          "weightDelta": 0.6759,
-          "flowYi": 2.46
-        }
-      ],
-      [
-        "6139",
-        "亞翔",
-        300000,
-        4.029,
-        {
-          "industry": "其他電子業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 4.029,
-          "oldWeight": 3.7239,
-          "weightDelta": 0.3051,
-          "flowYi": 2.27
-        }
-      ],
-      [
-        "2347",
-        "聯強",
-        -1729000,
-        0.2757,
-        {
-          "industry": "電子通路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.2757,
-          "oldWeight": 0.5628,
-          "weightDelta": -0.2871,
-          "flowYi": -1.43
-        }
-      ]
-    ],
-    "newPositions": [],
-    "exits": [],
-    "pricePath": [
-      22.26,
-      22.1,
-      22.64
-    ]
-  },
-  {
-    "code": "00992A",
-    "name": "主動群益科技創新",
-    "fullName": "群益台灣科技創新主動式ETF證券投資信託基金",
-    "issuer": "群益",
-    "theme": "科技成長",
-    "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 508.1,
-    "nav": 18.32,
-    "price": 18.28,
-    "premium": -0.22,
-    "fee": 0,
-    "managementFee": 0,
-    "custodyFee": 0.035,
-    "totalExpenseRatio": null,
-    "dividend": "季配",
-    "dividendFrequency": "quarterly",
-    "holders": 225404,
-    "manager": "陳朝政",
-    "launchDate": "2025-12-30",
-    "trackingIndex": "不適用",
-    "issuerSite": "https://www.capitalfund.com.tw/etf",
-    "trailingYield": null,
-    "returnStats": {
-      "return1Y": null,
-      "return3Y": null,
-      "return5Y": null
-    },
-    "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
-    "sourceUrl": "https://www.etfinfo.tw/etf/00992A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 7.5207,
-    "tsmcShares": 1761000,
-    "tsmcHeadroomYi": 88.8,
-    "holdings": [
-      [
-        "2330",
-        "台積電",
-        7.5207,
-        1761000
-      ],
-      [
-        "3037",
-        "欣興",
-        5.3312,
-        2902000
-      ],
-      [
-        "2383",
-        "台光電",
-        5.0807,
-        536000
-      ],
-      [
-        "6669",
-        "緯穎",
-        4.8656,
-        465000
-      ],
-      [
-        "2345",
-        "智邦",
-        4.734,
-        1012000
-      ],
-      [
-        "6223",
-        "旺矽",
-        3.8746,
-        339000
-      ],
-      [
-        "8996",
-        "高力",
-        3.7425,
-        1689000
-      ],
-      [
-        "3661",
-        "世芯-KY",
-        3.6433,
-        393000
-      ],
-      [
-        "3443",
-        "創意",
-        3.5044,
-        360000
-      ],
-      [
-        "3105",
-        "穩懋",
-        3.4524,
-        3433000
-      ],
-      [
-        "2059",
-        "川湖",
-        3.4511,
-        358000
-      ],
-      [
-        "8046",
-        "南電",
-        2.9328,
-        1658000
-      ],
-      [
-        "3665",
-        "貿聯-KY",
-        2.8106,
-        667000
-      ],
-      [
-        "6510",
-        "精測",
-        2.7213,
-        422000
-      ],
-      [
-        "2455",
-        "全新",
-        2.5169,
-        3127000
-      ],
-      [
-        "6515",
-        "穎崴",
-        2.488,
-        151000
-      ],
-      [
-        "3017",
-        "奇鋐",
-        2.4148,
-        501000
-      ],
-      [
-        "8299",
-        "群聯",
-        2.2504,
-        489000
-      ],
-      [
-        "3533",
-        "嘉澤",
-        2.0323,
-        420000
-      ],
-      [
-        "3163",
-        "波若威",
-        2.0015,
-        923000
-      ],
-      [
-        "2454",
-        "聯發科",
-        1.9884,
-        272000
-      ],
-      [
-        "7769",
-        "鴻勁",
-        1.9617,
-        134000
-      ],
-      [
-        "3081",
-        "聯亞",
-        1.9503,
-        380000
-      ],
-      [
-        "2327",
-        "國巨*",
-        1.906,
-        1600000
-      ],
-      [
-        "6584",
-        "南俊國際",
-        1.8533,
-        1437000
-      ],
-      [
-        "6274",
-        "台燿",
-        1.7525,
-        636000
-      ],
-      [
-        "2368",
-        "金像電",
-        1.6851,
-        669000
-      ],
-      [
-        "2308",
-        "台達電",
-        1.4164,
-        357000
-      ],
-      [
-        "3653",
-        "健策",
-        1.3655,
-        197000
-      ],
-      [
-        "7751",
-        "竑騰",
-        1.3302,
-        387000
-      ],
-      [
-        "5274",
-        "信驊",
-        1.0102,
-        30000
-      ],
-      [
-        "2360",
-        "致茂",
-        0.8899,
-        207000
-      ],
-      [
-        "4991",
-        "環宇-KY",
-        0.8848,
-        574000
-      ],
-      [
-        "6442",
-        "光聖",
-        0.8451,
-        238000
-      ],
-      [
-        "3036",
-        "文曄",
-        0.6442,
-        1177000
-      ],
-      [
-        "3189",
-        "景碩",
-        0.5605,
-        486013
-      ],
-      [
-        "5289",
-        "宜鼎",
-        0.5129,
-        157000
-      ],
-      [
-        "6531",
-        "愛普*",
-        0.4979,
-        273000
-      ],
-      [
-        "2337",
-        "旺宏",
-        0.4147,
-        1465000
-      ],
-      [
-        "2467",
-        "志聖",
-        0.3962,
-        347000
-      ],
-      [
-        "6805",
-        "富世達",
-        0.3807,
-        112000
-      ],
-      [
-        "7734",
-        "印能科技",
-        0.3782,
-        59000
-      ],
-      [
-        "6139",
-        "亞翔",
-        0.3772,
-        259000
-      ],
-      [
-        "3491",
-        "昇達科",
-        0.3545,
-        97000
       ],
       [
         "3711",
         "日月光投控",
-        0.3399,
-        320000
-      ],
-      [
-        "3260",
-        "威剛",
-        0.3107,
-        393000
-      ],
-      [
-        "3583",
-        "辛耘",
-        0.0546,
-        33000
-      ],
-      [
-        "8021",
-        "尖點",
-        0.0143,
-        18000
-      ]
-    ],
-    "holdingsCount": 48,
-    "topHoldings": [
-      [
-        "2330",
-        "台積電",
-        7.5207
-      ],
-      [
-        "3037",
-        "欣興",
-        5.3312
-      ],
-      [
-        "2383",
-        "台光電",
-        5.0807
-      ],
-      [
-        "6669",
-        "緯穎",
-        4.8656
-      ],
-      [
-        "2345",
-        "智邦",
-        4.734
-      ]
-    ],
-    "adds": [
-      [
-        "2337",
-        "旺宏",
-        1465000,
-        0.4147,
+        45000,
+        1.1692,
         {
           "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.4147,
-          "oldWeight": 0,
-          "weightDelta": 0.4147,
-          "flowYi": 2.11
-        }
-      ],
-      [
-        "2467",
-        "志聖",
-        347000,
-        0.3962,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3962,
-          "oldWeight": 0,
-          "weightDelta": 0.3962,
-          "flowYi": 2.01
-        }
-      ],
-      [
-        "6139",
-        "亞翔",
-        259000,
-        0.3772,
-        {
-          "industry": "其他電子業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3772,
-          "oldWeight": 0,
-          "weightDelta": 0.3772,
-          "flowYi": 1.92
-        }
-      ],
-      [
-        "5289",
-        "宜鼎",
-        157000,
-        0.5129,
-        {
-          "industry": "電腦及週邊設備業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.5129,
-          "oldWeight": 0,
-          "weightDelta": 0.5129,
-          "flowYi": 2.61
-        }
-      ],
-      [
-        "6805",
-        "富世達",
-        112000,
-        0.3807,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3807,
-          "oldWeight": 0,
-          "weightDelta": 0.3807,
-          "flowYi": 1.93
-        }
-      ],
-      [
-        "7734",
-        "印能科技",
-        59000,
-        0.3782,
-        {
-          "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3782,
-          "oldWeight": 0,
-          "weightDelta": 0.3782,
-          "flowYi": 1.92
-        }
-      ],
-      [
-        "8021",
-        "尖點",
-        18000,
-        0.0143,
-        {
-          "industry": "其他電子業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.0143,
-          "oldWeight": 0,
-          "weightDelta": 0.0143,
-          "flowYi": 0.07
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.1692,
+          "oldWeight": 1.0595,
+          "weightDelta": 0.1097,
+          "flowYi": 0.27
         }
       ]
     ],
     "cuts": [
       [
-        "7769",
-        "鴻勁",
-        -60000,
-        1.9617,
+        "2347",
+        "聯強",
+        -1729000,
+        0.2757,
         {
-          "industry": "半導體業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 1.9617,
-          "oldWeight": 2.9307,
-          "weightDelta": -0.969,
-          "flowYi": -4.46
+          "industry": "電子通路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0.2757,
+          "weightDelta": -0.2757,
+          "flowYi": -1.45
         }
       ],
       [
-        "5274",
-        "信驊",
-        -15000,
-        1.0102,
+        "6177",
+        "達麗",
+        -350000,
+        0.1057,
         {
-          "industry": "半導體業",
+          "industry": "建材營造",
           "type": "decreased",
           "typeLabel": "減碼",
-          "newWeight": 1.0102,
-          "oldWeight": 1.4561,
-          "weightDelta": -0.4459,
-          "flowYi": -2.57
+          "newWeight": 0.1057,
+          "oldWeight": 0.1436,
+          "weightDelta": -0.0379,
+          "flowYi": -0.14
+        }
+      ],
+      [
+        "8046",
+        "南電",
+        -81000,
+        0.0418,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.0418,
+          "oldWeight": 0.1895,
+          "weightDelta": -0.1477,
+          "flowYi": -0.69
         }
       ]
     ],
     "flowChanges": [
       [
-        "7769",
-        "鴻勁",
-        -60000,
-        1.9617,
-        {
-          "industry": "半導體業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 1.9617,
-          "oldWeight": 2.9307,
-          "weightDelta": -0.969,
-          "flowYi": -4.46
-        }
-      ],
-      [
-        "5289",
-        "宜鼎",
-        157000,
-        0.5129,
+        "2377",
+        "微星",
+        1639000,
+        1.3447,
         {
           "industry": "電腦及週邊設備業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.5129,
-          "oldWeight": 0,
-          "weightDelta": 0.5129,
-          "flowYi": 2.61
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.3447,
+          "oldWeight": 0.9823,
+          "weightDelta": 0.3624,
+          "flowYi": 2
         }
       ],
       [
-        "5274",
-        "信驊",
-        -15000,
-        1.0102,
+        "2347",
+        "聯強",
+        -1729000,
+        0.2757,
         {
-          "industry": "半導體業",
+          "industry": "電子通路業",
+          "type": "removed",
+          "typeLabel": "刪除",
+          "newWeight": 0,
+          "oldWeight": 0.2757,
+          "weightDelta": -0.2757,
+          "flowYi": -1.45
+        }
+      ],
+      [
+        "8046",
+        "南電",
+        -81000,
+        0.0418,
+        {
+          "industry": "電子零組件業",
           "type": "decreased",
           "typeLabel": "減碼",
-          "newWeight": 1.0102,
-          "oldWeight": 1.4561,
-          "weightDelta": -0.4459,
-          "flowYi": -2.57
-        }
-      ],
-      [
-        "2337",
-        "旺宏",
-        1465000,
-        0.4147,
-        {
-          "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.4147,
-          "oldWeight": 0,
-          "weightDelta": 0.4147,
-          "flowYi": 2.11
-        }
-      ],
-      [
-        "2467",
-        "志聖",
-        347000,
-        0.3962,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3962,
-          "oldWeight": 0,
-          "weightDelta": 0.3962,
-          "flowYi": 2.01
-        }
-      ],
-      [
-        "6805",
-        "富世達",
-        112000,
-        0.3807,
-        {
-          "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3807,
-          "oldWeight": 0,
-          "weightDelta": 0.3807,
-          "flowYi": 1.93
+          "newWeight": 0.0418,
+          "oldWeight": 0.1895,
+          "weightDelta": -0.1477,
+          "flowYi": -0.69
         }
       ],
       [
         "6139",
         "亞翔",
-        259000,
-        0.3772,
+        50000,
+        4.1323,
         {
           "industry": "其他電子業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3772,
-          "oldWeight": 0,
-          "weightDelta": 0.3772,
-          "flowYi": 1.92
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 4.1323,
+          "oldWeight": 4.029,
+          "weightDelta": 0.1033,
+          "flowYi": 0.39
         }
       ],
       [
-        "7734",
-        "印能科技",
-        59000,
-        0.3782,
+        "3711",
+        "日月光投控",
+        45000,
+        1.1692,
         {
           "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.3782,
-          "oldWeight": 0,
-          "weightDelta": 0.3782,
-          "flowYi": 1.92
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.1692,
+          "oldWeight": 1.0595,
+          "weightDelta": 0.1097,
+          "flowYi": 0.27
         }
       ],
       [
-        "8021",
-        "尖點",
-        18000,
-        0.0143,
+        "6177",
+        "達麗",
+        -350000,
+        0.1057,
         {
-          "industry": "其他電子業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.0143,
-          "oldWeight": 0,
-          "weightDelta": 0.0143,
-          "flowYi": 0.07
+          "industry": "建材營造",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.1057,
+          "oldWeight": 0.1436,
+          "weightDelta": -0.0379,
+          "flowYi": -0.14
         }
       ]
     ],
-    "newPositions": [
-      "2337 旺宏",
-      "2467 志聖",
-      "6139 亞翔",
-      "5289 宜鼎",
-      "6805 富世達",
-      "7734 印能科技",
-      "8021 尖點"
+    "newPositions": [],
+    "exits": [
+      "2347 聯強"
     ],
-    "exits": [],
     "pricePath": [
-      18,
-      17.67,
-      18.28
+      22.26,
+      22.1,
+      23.72
     ]
   },
   {
@@ -2439,17 +2351,17 @@ export const etfs = [
     "issuer": "復華",
     "theme": "台灣50 增強",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 473,
-    "nav": 18.55,
-    "price": 18.58,
-    "premium": 0.16,
+    "aum": 492.9,
+    "nav": 19.2,
+    "price": 19.27,
+    "premium": 0.36,
     "fee": 1,
     "managementFee": 1,
     "custodyFee": 0.04,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "semi-annual",
-    "holders": 184331,
+    "holders": 196166,
     "manager": "呂宏宇",
     "launchDate": "2025-12-18",
     "trackingIndex": "不適用",
@@ -2461,13 +2373,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00991A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
     "tsmcWeight": 16.697,
     "tsmcShares": 3650000,
-    "tsmcHeadroomYi": 39.3,
+    "tsmcHeadroomYi": 40.9,
     "holdings": [
       [
         "2330",
@@ -2812,7 +2724,8 @@ export const etfs = [
       17.08,
       16.93,
       17.92,
-      18.58
+      18.58,
+      19.27
     ]
   },
   {
@@ -2822,17 +2735,17 @@ export const etfs = [
     "issuer": "統一",
     "theme": "海外股票",
     "fundType": "國外成分證券主動式交易所交易基金(股票)",
-    "aum": 369.3,
-    "nav": 20.09,
-    "price": 20.36,
-    "premium": 1.34,
+    "aum": 388.6,
+    "nav": 20.93,
+    "price": 22.08,
+    "premium": 5.49,
     "fee": 1.4,
     "managementFee": 1.4,
     "custodyFee": null,
     "totalExpenseRatio": null,
     "dividend": "年配",
     "dividendFrequency": "annual",
-    "holders": 145035,
+    "holders": 156216,
     "manager": "陳意婷",
     "launchDate": "2025-11-05",
     "trackingIndex": "不適用",
@@ -2844,13 +2757,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00988A/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
     "tsmcWeight": 2.37,
     "tsmcShares": 400000,
-    "tsmcHeadroomYi": 83.6,
+    "tsmcHeadroomYi": 87.9,
     "holdings": [
       [
         "MU US",
@@ -3182,7 +3095,7 @@ export const etfs = [
           "newWeight": 2.56,
           "oldWeight": 2.27,
           "weightDelta": 0.29,
-          "flowYi": 0.71
+          "flowYi": 0.75
         }
       ],
       [
@@ -3197,7 +3110,7 @@ export const etfs = [
           "newWeight": 3.34,
           "oldWeight": 3.33,
           "weightDelta": 0.01,
-          "flowYi": 0.7
+          "flowYi": 0.74
         }
       ],
       [
@@ -3212,7 +3125,7 @@ export const etfs = [
           "newWeight": 4.93,
           "oldWeight": 4.68,
           "weightDelta": 0.25,
-          "flowYi": 0.35
+          "flowYi": 0.37
         }
       ]
     ],
@@ -3230,7 +3143,7 @@ export const etfs = [
           "newWeight": 2.56,
           "oldWeight": 2.27,
           "weightDelta": 0.29,
-          "flowYi": 0.71
+          "flowYi": 0.75
         }
       ],
       [
@@ -3245,7 +3158,7 @@ export const etfs = [
           "newWeight": 3.34,
           "oldWeight": 3.33,
           "weightDelta": 0.01,
-          "flowYi": 0.7
+          "flowYi": 0.74
         }
       ],
       [
@@ -3260,15 +3173,15 @@ export const etfs = [
           "newWeight": 4.93,
           "oldWeight": 4.68,
           "weightDelta": 0.25,
-          "flowYi": 0.35
+          "flowYi": 0.37
         }
       ]
     ],
     "newPositions": [],
     "exits": [],
     "pricePath": [
-      20.36,
-      20.36
+      22.08,
+      22.08
     ]
   },
   {
@@ -3278,17 +3191,17 @@ export const etfs = [
     "issuer": "元大",
     "theme": "海外股票",
     "fundType": "國外成分證券主動式交易所交易基金(股票)",
-    "aum": 305.3,
-    "nav": 18.43,
-    "price": 18.53,
-    "premium": 0.54,
+    "aum": 324.2,
+    "nav": 18.93,
+    "price": 19.5,
+    "premium": 3.01,
     "fee": 0.9,
     "managementFee": 0.9,
     "custodyFee": 0.15,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "",
-    "holders": 87373,
+    "holders": 89964,
     "manager": "吳昭豪",
     "launchDate": "2025-12-22",
     "trackingIndex": "不適用",
@@ -3300,13 +3213,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00990A/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
     "tsmcWeight": 3.65,
     "tsmcShares": 531000,
-    "tsmcHeadroomYi": 65.2,
+    "tsmcHeadroomYi": 69.2,
     "holdings": [
       [
         "LITE US",
@@ -3692,7 +3605,7 @@ export const etfs = [
           "newWeight": 1,
           "oldWeight": 0.51,
           "weightDelta": 0.49,
-          "flowYi": 1.45
+          "flowYi": 1.54
         }
       ],
       [
@@ -3707,7 +3620,7 @@ export const etfs = [
           "newWeight": 0.67,
           "oldWeight": 0,
           "weightDelta": 0.67,
-          "flowYi": 2.05
+          "flowYi": 2.17
         }
       ],
       [
@@ -3722,7 +3635,7 @@ export const etfs = [
           "newWeight": 5.44,
           "oldWeight": 5.21,
           "weightDelta": 0.23,
-          "flowYi": 1.04
+          "flowYi": 1.11
         }
       ]
     ],
@@ -3739,7 +3652,7 @@ export const etfs = [
           "newWeight": 0.55,
           "oldWeight": 1.06,
           "weightDelta": -0.51,
-          "flowYi": -1.38
+          "flowYi": -1.46
         }
       ],
       [
@@ -3754,7 +3667,7 @@ export const etfs = [
           "newWeight": 0.76,
           "oldWeight": 1.03,
           "weightDelta": -0.27,
-          "flowYi": -0.95
+          "flowYi": -1.01
         }
       ],
       [
@@ -3769,7 +3682,7 @@ export const etfs = [
           "newWeight": 5.54,
           "oldWeight": 6.31,
           "weightDelta": -0.77,
-          "flowYi": -3.18
+          "flowYi": -3.38
         }
       ]
     ],
@@ -3786,7 +3699,7 @@ export const etfs = [
           "newWeight": 5.54,
           "oldWeight": 6.31,
           "weightDelta": -0.77,
-          "flowYi": -3.18
+          "flowYi": -3.38
         }
       ],
       [
@@ -3801,7 +3714,7 @@ export const etfs = [
           "newWeight": 0.67,
           "oldWeight": 0,
           "weightDelta": 0.67,
-          "flowYi": 2.05
+          "flowYi": 2.17
         }
       ],
       [
@@ -3816,7 +3729,7 @@ export const etfs = [
           "newWeight": 1,
           "oldWeight": 0.51,
           "weightDelta": 0.49,
-          "flowYi": 1.45
+          "flowYi": 1.54
         }
       ],
       [
@@ -3831,7 +3744,7 @@ export const etfs = [
           "newWeight": 0.55,
           "oldWeight": 1.06,
           "weightDelta": -0.51,
-          "flowYi": -1.38
+          "flowYi": -1.46
         }
       ],
       [
@@ -3846,7 +3759,7 @@ export const etfs = [
           "newWeight": 5.44,
           "oldWeight": 5.21,
           "weightDelta": 0.23,
-          "flowYi": 1.04
+          "flowYi": 1.11
         }
       ],
       [
@@ -3861,7 +3774,7 @@ export const etfs = [
           "newWeight": 0.76,
           "oldWeight": 1.03,
           "weightDelta": -0.27,
-          "flowYi": -0.95
+          "flowYi": -1.01
         }
       ]
     ],
@@ -3870,8 +3783,8 @@ export const etfs = [
     ],
     "exits": [],
     "pricePath": [
-      18.53,
-      18.53
+      19.5,
+      19.5
     ]
   },
   {
@@ -3881,17 +3794,17 @@ export const etfs = [
     "issuer": "國泰",
     "theme": "高息策略",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 205.4,
-    "nav": 13.89,
-    "price": 13.9,
-    "premium": 0.07,
+    "aum": 212.6,
+    "nav": 14.52,
+    "price": 14.57,
+    "premium": 0.34,
     "fee": 0.9,
     "managementFee": 0.9,
     "custodyFee": 0.06,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "",
-    "holders": 118085,
+    "holders": 117003,
     "manager": "梁恩溢",
     "launchDate": "2026-04-09",
     "trackingIndex": "不適用",
@@ -3903,91 +3816,97 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00400A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 8.17,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 8.01,
     "tsmcShares": 770000,
-    "tsmcHeadroomYi": 34.6,
+    "tsmcHeadroomYi": 36.1,
     "holdings": [
       [
         "2454",
         "聯發科",
-        9.39,
+        9.88,
         517000
-      ],
-      [
-        "2330",
-        "台積電",
-        8.17,
-        770000
       ],
       [
         "2383",
         "台光電",
-        7.82,
+        8.23,
         332000
+      ],
+      [
+        "2330",
+        "台積電",
+        8.01,
+        770000
       ],
       [
         "2308",
         "台達電",
-        5.63,
+        5.89,
         571000
       ],
       [
         "3037",
         "欣興",
-        5.19,
+        5.07,
         1138000
       ],
       [
         "2360",
         "致茂",
-        4.41,
+        4.57,
         413000
       ],
       [
         "6669",
         "緯穎",
-        3.64,
+        3.54,
         140000
       ],
       [
         "2059",
         "川湖",
-        3.28,
+        3.07,
         137000
       ],
       [
         "2345",
         "智邦",
-        3.02,
+        2.97,
         260000
       ],
       [
         "5274",
         "信  驊",
-        2.84,
+        2.71,
         34000
       ],
       [
         "3017",
         "奇鋐",
-        2.65,
+        2.56,
         221000
       ],
       [
         "2368",
         "金像電",
-        2.39,
+        2.45,
         382000
       ],
       [
         "3044",
         "健鼎",
-        2.39,
+        2.3,
         1034000
+      ],
+      [
+        "2327",
+        "國巨",
+        2.05,
+        660000
       ],
       [
         "3036",
@@ -3998,31 +3917,25 @@ export const etfs = [
       [
         "6223",
         "旺矽",
-        1.96,
+        1.93,
         69000
-      ],
-      [
-        "2327",
-        "國巨",
-        1.95,
-        660000
       ],
       [
         "4958",
         "臻鼎-KY",
-        1.92,
+        1.89,
         792000
       ],
       [
         "2408",
         "南亞科",
-        1.78,
+        1.62,
         1218000
       ],
       [
         "8210",
         "勤  誠",
-        1.58,
+        1.62,
         250000
       ],
       [
@@ -4030,12 +3943,6 @@ export const etfs = [
         "華碩",
         1.54,
         481000
-      ],
-      [
-        "6285",
-        "啟  碁",
-        1.43,
-        1030000
       ],
       [
         "2376",
@@ -4046,61 +3953,67 @@ export const etfs = [
       [
         "3081",
         "聯  亞",
-        1.34,
+        1.38,
         105000
       ],
       [
-        "1590",
-        "亞德客-KY",
-        1.28,
-        193000
+        "6285",
+        "啟  碁",
+        1.38,
+        1030000
       ],
       [
         "6147",
         "頎邦",
-        1.25,
+        1.32,
         1234000
+      ],
+      [
+        "1590",
+        "亞德客-KY",
+        1.26,
+        193000
       ],
       [
         "6488",
         "環球晶",
-        1.17,
+        1.23,
         348000
       ],
       [
         "3665",
         "貿聯-KY",
-        1.12,
+        1.15,
         107000
       ],
       [
         "2885",
         "元大金",
-        1.04,
+        1.01,
         4012000
       ],
       [
         "2382",
         "廣達",
-        0.99,
+        0.95,
         664000
       ],
       [
         "2891",
         "中信金",
-        0.96,
+        0.91,
         3533000
       ],
       [
         "1519",
         "華  城",
-        0.91,
+        0.88,
         235000
       ],
       [
         "6187",
         "萬  潤",
-        0.82,
+        0.83,
         152000
       ],
       [
@@ -4110,93 +4023,93 @@ export const etfs = [
         1416000
       ],
       [
-        "1303",
-        "南亞",
-        0.75,
-        1840000
-      ],
-      [
         "8069",
         "元太",
-        0.74,
+        0.75,
         705000
       ],
       [
         "2313",
         "華通",
-        0.71,
+        0.73,
         544000
+      ],
+      [
+        "1303",
+        "南亞",
+        0.72,
+        1840000
       ],
       [
         "2404",
         "漢唐",
-        0.68,
+        0.71,
         126000
       ],
       [
         "3131",
         "弘  塑",
-        0.56,
+        0.55,
         42000
       ],
       [
         "6278",
         "台表科",
-        0.55,
+        0.51,
         476000
       ],
       [
         "4749",
         "新應材",
-        0.5,
+        0.47,
         90000
       ],
       [
         "3293",
         "鈊  象",
-        0.47,
+        0.44,
         133000
       ],
       [
         "5434",
         "崇越",
-        0.42,
+        0.44,
         200000
       ],
       [
         "2881",
         "富邦金",
-        0.37,
+        0.36,
         817000
       ],
       [
         "1717",
         "長興",
-        0.35,
+        0.34,
         907000
       ],
       [
         "3374",
         "精  材",
-        0.32,
+        0.31,
         271000
       ],
       [
         "6121",
         "新  普",
-        0.32,
+        0.31,
         178000
       ],
       [
         "6715",
         "嘉  基",
-        0.3,
+        0.29,
         140000
       ],
       [
         "2385",
         "群光",
-        0.21,
+        0.2,
         338000
       ]
     ],
@@ -4205,133 +4118,38 @@ export const etfs = [
       [
         "2454",
         "聯發科",
-        9.39
+        9.88
+      ],
+      [
+        "2383",
+        "台光電",
+        8.23
       ],
       [
         "2330",
         "台積電",
-        8.17
-      ],
-      [
-        "2383",
-        "台光電",
-        7.82
+        8.01
       ],
       [
         "2308",
         "台達電",
-        5.63
+        5.89
       ],
       [
         "3037",
         "欣興",
-        5.19
+        5.07
       ]
     ],
-    "adds": [
-      [
-        "2383",
-        "台光電",
-        39000,
-        7.82,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 7.82,
-          "oldWeight": 6.69,
-          "weightDelta": 1.13,
-          "flowYi": 1.89
-        }
-      ],
-      [
-        "3081",
-        "聯  亞",
-        36000,
-        1.34,
-        {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.34,
-          "oldWeight": 0.86,
-          "weightDelta": 0.48,
-          "flowYi": 0.94
-        }
-      ]
-    ],
-    "cuts": [
-      [
-        "6683",
-        "雍智科技",
-        -24000,
-        0.2,
-        {
-          "industry": "半導體業",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.2,
-          "weightDelta": -0.2,
-          "flowYi": -0.41
-        }
-      ]
-    ],
-    "flowChanges": [
-      [
-        "2383",
-        "台光電",
-        39000,
-        7.82,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 7.82,
-          "oldWeight": 6.69,
-          "weightDelta": 1.13,
-          "flowYi": 1.89
-        }
-      ],
-      [
-        "3081",
-        "聯  亞",
-        36000,
-        1.34,
-        {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.34,
-          "oldWeight": 0.86,
-          "weightDelta": 0.48,
-          "flowYi": 0.94
-        }
-      ],
-      [
-        "6683",
-        "雍智科技",
-        -24000,
-        0.2,
-        {
-          "industry": "半導體業",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.2,
-          "weightDelta": -0.2,
-          "flowYi": -0.41
-        }
-      ]
-    ],
+    "adds": [],
+    "cuts": [],
+    "flowChanges": [],
     "newPositions": [],
-    "exits": [
-      "6683 雍智科技"
-    ],
+    "exits": [],
     "pricePath": [
       13.79,
       13.46,
-      13.9
+      14.57
     ]
   },
   {
@@ -4341,190 +4159,190 @@ export const etfs = [
     "issuer": "野村",
     "theme": "台股優選",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 173.1,
-    "nav": 23.23,
-    "price": 23.16,
-    "premium": -0.3,
+    "aum": 177.5,
+    "nav": 24.03,
+    "price": 23.97,
+    "premium": -0.25,
     "fee": 0.75,
     "managementFee": 0.75,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 73779,
+    "holders": 75995,
     "manager": "游景德",
     "launchDate": "2025-05-05",
     "trackingIndex": "不適用",
     "issuerSite": "https://www.nomurafunds.com.tw/Web/Content/#/index",
-    "trailingYield": 5.08,
+    "trailingYield": 4.91,
     "returnStats": {
-      "return1Y": 128.29,
+      "return1Y": 135.89,
       "return3Y": null,
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00980A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 8.31,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 8.19,
     "tsmcShares": 645000,
-    "tsmcHeadroomYi": 28.9,
+    "tsmcHeadroomYi": 29.8,
     "holdings": [
       [
         "2330",
         "台灣積體電路製造",
-        8.31,
+        8.19,
         645000
       ],
       [
         "2308",
         "台達電子工業",
-        5.38,
+        5.42,
         459000
       ],
       [
         "2454",
         "聯發科技",
-        3.86,
+        4.09,
         188000
       ],
       [
         "2383",
         "台光電子材料",
-        3.63,
+        3.78,
         134000
       ],
       [
         "7769",
         "鴻勁精密",
-        3.28,
+        3.22,
         74000
-      ],
-      [
-        "2345",
-        "智邦科技",
-        3.25,
-        227000
       ],
       [
         "2360",
         "致茂電子",
-        3.25,
+        3.17,
         248000
+      ],
+      [
+        "2345",
+        "智邦科技",
+        3.16,
+        227000
       ],
       [
         "3037",
         "欣興電子",
-        2.94,
+        3.07,
         562000
       ],
       [
         "2368",
         "金像電子（股）公司",
-        2.92,
+        2.94,
         393000
       ],
       [
         "2408",
         "南亞科技",
-        2.79,
+        2.88,
         1646000
       ],
       [
         "3017",
         "奇鋐科技",
-        2.65,
+        2.64,
         184000
       ],
       [
         "2344",
         "華邦電子",
-        2.38,
+        2.55,
         3621000
       ],
       [
         "5274",
         "信驊科技",
-        2.37,
+        2.5,
         25000
       ],
       [
         "6223",
         "旺矽科技",
-        2.32,
+        2.41,
         71000
       ],
       [
         "2059",
         "川湖科技",
-        2.32,
+        2.35,
         82000
       ],
       [
         "2317",
         "鴻海精密工業",
-        2.15,
+        2.12,
         1506000
       ],
       [
         "6669",
         "緯穎科技服務",
-        2.1,
+        2.12,
         68000
-      ],
-      [
-        "3443",
-        "創意電子",
-        2.05,
-        70000
-      ],
-      [
-        "6515",
-        "穎崴科技",
-        2.03,
-        37000
       ],
       [
         "8299",
         "群聯電子",
-        2.02,
+        2.05,
         150000
+      ],
+      [
+        "3443",
+        "創意電子",
+        2.03,
+        70000
       ],
       [
         "3081",
         "聯亞光電工業",
-        1.87,
+        1.94,
         127000
-      ],
-      [
-        "8210",
-        "勤誠興業",
-        1.82,
-        236000
-      ],
-      [
-        "3036",
-        "文曄科技",
-        1.8,
-        1067000
       ],
       [
         "3711",
         "日月光投資控股",
-        1.72,
+        1.85,
         584000
       ],
       [
         "6274",
         "台燿科技",
-        1.7,
+        1.82,
         222000
+      ],
+      [
+        "6515",
+        "穎崴科技",
+        1.81,
+        37000
+      ],
+      [
+        "8210",
+        "勤誠興業",
+        1.79,
+        236000
+      ],
+      [
+        "3036",
+        "文曄科技",
+        1.74,
+        1067000
       ],
       [
         "6805",
         "富世達",
-        1.68,
+        1.63,
         161000
       ],
       [
@@ -4536,7 +4354,7 @@ export const etfs = [
       [
         "8996",
         "高力熱處理工業",
-        1.36,
+        1.46,
         221000
       ],
       [
@@ -4546,81 +4364,81 @@ export const etfs = [
         577000
       ],
       [
-        "6831",
-        "邁科科技",
-        1.01,
-        224000
+        "3189",
+        "景碩科技",
+        1.05,
+        305000
       ],
       [
         "3231",
         "緯創資通",
-        0.99,
+        1,
         1228000
       ],
       [
-        "3189",
-        "景碩科技",
-        0.98,
-        305000
-      ],
-      [
-        "2891",
-        "中國信託金融控股",
-        0.95,
-        2849000
+        "6831",
+        "邁科科技",
+        0.99,
+        224000
       ],
       [
         "3293",
         "鈊象電子",
-        0.94,
+        0.93,
         220000
       ],
       [
-        "3044",
-        "健鼎科技",
-        0.78,
-        276000
+        "2891",
+        "中國信託金融控股",
+        0.92,
+        2849000
       ],
       [
         "3653",
         "健策精密工業",
-        0.73,
+        0.78,
         38000
+      ],
+      [
+        "3044",
+        "健鼎科技",
+        0.76,
+        276000
       ],
       [
         "6442",
         "光紅建聖",
-        0.73,
+        0.75,
         71000
       ],
       [
         "2884",
         "玉山金融控股",
-        0.7,
+        0.68,
         3867622
       ],
       [
         "3665",
         "貿聯控股（BizLink Holding In",
-        0.66,
+        0.67,
         53336
       ],
       [
         "6584",
         "南俊國際",
-        0.6,
+        0.59,
         153000
       ],
       [
         "5904",
         "寶雅國際",
-        0.58,
+        0.57,
         179450
       ],
       [
         "2548",
         "華固建設",
-        0.37,
+        0.36,
         512000
       ],
       [
@@ -4632,7 +4450,7 @@ export const etfs = [
       [
         "3264",
         "欣銓科技",
-        0.22,
+        0.21,
         172000
       ],
       [
@@ -4653,27 +4471,27 @@ export const etfs = [
       [
         "2330",
         "台灣積體電路製造",
-        8.31
+        8.19
       ],
       [
         "2308",
         "台達電子工業",
-        5.38
+        5.42
       ],
       [
         "2454",
         "聯發科技",
-        3.86
+        4.09
       ],
       [
         "2383",
         "台光電子材料",
-        3.63
+        3.78
       ],
       [
         "7769",
         "鴻勁精密",
-        3.28
+        3.22
       ]
     ],
     "adds": [],
@@ -4684,7 +4502,7 @@ export const etfs = [
     "pricePath": [
       23.25,
       22.49,
-      23.16
+      23.97
     ]
   },
   {
@@ -4694,17 +4512,17 @@ export const etfs = [
     "issuer": "野村",
     "theme": "高息策略",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 169.1,
-    "nav": 10.48,
-    "price": 10.42,
-    "premium": -0.57,
+    "aum": 171.3,
+    "nav": 10.71,
+    "price": 10.65,
+    "premium": -0.56,
     "fee": 0.7,
     "managementFee": 0.7,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 136506,
+    "holders": 137437,
     "manager": "游景德",
     "launchDate": "2026-05-05",
     "trackingIndex": "不適用",
@@ -4716,66 +4534,66 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00999A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 6.67,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 6.66,
     "tsmcShares": 506000,
-    "tsmcHeadroomYi": 31,
+    "tsmcHeadroomYi": 31.4,
     "holdings": [
       [
         "2330",
         "台灣積體電路製造",
-        6.67,
+        6.66,
         506000
       ],
       [
         "2308",
         "台達電子工業",
-        4.17,
+        4.24,
         347000
       ],
       [
         "2357",
         "華碩電腦",
-        3,
+        3.08,
         773000
       ],
       [
         "2383",
         "台光電子材料",
-        2.77,
+        2.92,
         100000
       ],
       [
         "1477",
         "聚陽實業",
-        2.63,
+        2.61,
         2041000
       ],
       [
         "2618",
         "長榮航空",
-        2.32,
+        2.31,
         11135000
       ],
       [
         "2360",
         "致茂電子",
-        2.31,
+        2.28,
         172000
       ],
       [
         "7769",
         "鴻勁精密",
-        2.27,
+        2.26,
         50000
       ],
       [
         "2382",
         "廣達電腦",
-        2.21,
+        2.23,
         1211000
       ],
       [
@@ -4787,92 +4605,98 @@ export const etfs = [
       [
         "2345",
         "智邦科技",
-        2.14,
+        2.11,
         146000
       ],
       [
         "2317",
         "鴻海精密工業",
-        2.06,
+        2.05,
         1405000
       ],
       [
         "3017",
         "奇鋐科技",
-        1.93,
+        1.95,
         131000
       ],
       [
         "6669",
         "緯穎科技服務",
-        1.86,
+        1.9,
         59000
       ],
       [
         "2368",
         "金像電子（股）公司",
-        1.82,
+        1.86,
         240000
       ],
       [
         "1319",
         "東陽實業廠",
-        1.81,
+        1.82,
         3828000
-      ],
-      [
-        "3526",
-        "凡甲科技",
-        1.8,
-        823000
-      ],
-      [
-        "3592",
-        "瑞鼎科技",
-        1.76,
-        1116000
       ],
       [
         "2408",
         "南亞科技",
-        1.68,
+        1.76,
         971000
+      ],
+      [
+        "3526",
+        "凡甲科技",
+        1.76,
+        823000
       ],
       [
         "5274",
         "信驊科技",
-        1.65,
+        1.76,
         17000
+      ],
+      [
+        "3592",
+        "瑞鼎科技",
+        1.73,
+        1116000
       ],
       [
         "6121",
         "新普科技",
-        1.63,
+        1.61,
         724000
       ],
       [
         "8210",
         "勤誠興業",
-        1.62,
+        1.61,
         205000
       ],
       [
         "2548",
         "華固建設",
-        1.61,
+        1.58,
         2198000
       ],
       [
         "3665",
         "貿聯控股（BizLink Holding In",
-        1.52,
+        1.55,
         119000
       ],
       [
         "4915",
         "致伸科技",
-        1.51,
+        1.5,
         3560000
+      ],
+      [
+        "6223",
+        "旺矽科技",
+        1.48,
+        42000
       ],
       [
         "2393",
@@ -4881,118 +4705,106 @@ export const etfs = [
         3826000
       ],
       [
-        "6515",
-        "穎崴科技",
-        1.41,
-        25000
-      ],
-      [
-        "6223",
-        "旺矽科技",
-        1.4,
-        42000
-      ],
-      [
         "2059",
         "川湖科技",
-        1.33,
+        1.37,
         46000
-      ],
-      [
-        "9910",
-        "豐泰企業",
-        1.29,
-        3149000
       ],
       [
         "2344",
         "華邦電子",
-        1.27,
+        1.37,
         1877000
+      ],
+      [
+        "3711",
+        "日月光投資控股",
+        1.27,
+        388000
+      ],
+      [
+        "6515",
+        "穎崴科技",
+        1.27,
+        25000
+      ],
+      [
+        "9910",
+        "豐泰企業",
+        1.26,
+        3149000
       ],
       [
         "2731",
         "雄獅旅行社",
-        1.26,
+        1.25,
         1333000
       ],
       [
         "8299",
         "群聯電子",
-        1.19,
+        1.22,
         86000
-      ],
-      [
-        "3711",
-        "日月光投資控股",
-        1.17,
-        388000
       ],
       [
         "6274",
         "台燿科技",
-        1.1,
+        1.2,
         141000
       ],
       [
         "3090",
         "日電貿",
-        1.07,
+        1.15,
         920000
       ],
       [
         "6670",
         "復盛應用科技",
-        1.04,
+        1.02,
         669000
       ],
       [
         "6805",
         "富世達",
-        1.03,
+        1.01,
         96000
       ],
       [
         "9941",
         "裕融企業",
-        1.03,
+        1.01,
         2357000
       ],
       [
         "5534",
         "長虹建設",
-        0.99,
+        0.98,
         2219000
       ],
       [
         "8454",
         "富邦媒體科技",
-        0.96,
+        0.95,
         854000
       ],
       [
         "2727",
         "王品餐飲",
-        0.96,
+        0.94,
         694000
       ],
       [
         "9938",
         "台灣百和工業",
-        0.94,
+        0.92,
         3662000
       ],
       [
-        "9802",
-        "鈺齊國際",
-        0.89,
-        2003000
-      ],
-      [
-        "2347",
-        "聯強國際",
-        0.89,
-        1789000
+        "3653",
+        "健策精密工業",
+        0.9,
+        42000
       ],
       [
         "2204",
@@ -5001,57 +4813,63 @@ export const etfs = [
         2833000
       ],
       [
+        "2347",
+        "聯強國際",
+        0.88,
+        1789000
+      ],
+      [
+        "9802",
+        "鈺齊國際",
+        0.88,
+        2003000
+      ],
+      [
         "8112",
         "至上電子",
         0.86,
         1706000
       ],
       [
-        "3653",
-        "健策精密工業",
-        0.83,
-        42000
-      ],
-      [
         "4105",
         "台灣東洋藥品工業",
-        0.8,
+        0.79,
         1831000
-      ],
-      [
-        "3045",
-        "台灣大哥大",
-        0.77,
-        1145000
-      ],
-      [
-        "6768",
-        "志強國際企業",
-        0.76,
-        1507000
-      ],
-      [
-        "9907",
-        "統一實業",
-        0.75,
-        7948000
-      ],
-      [
-        "4746",
-        "台耀化學",
-        0.72,
-        2282000
       ],
       [
         "2454",
         "聯發科技",
-        0.71,
+        0.77,
         34000
+      ],
+      [
+        "3045",
+        "台灣大哥大",
+        0.75,
+        1145000
+      ],
+      [
+        "9907",
+        "統一實業",
+        0.74,
+        7948000
+      ],
+      [
+        "6768",
+        "志強國際企業",
+        0.74,
+        1507000
+      ],
+      [
+        "4746",
+        "台耀化學",
+        0.7,
+        2282000
       ],
       [
         "4904",
         "遠傳電信",
-        0.69,
+        0.68,
         1226000
       ],
       [
@@ -5073,16 +4891,16 @@ export const etfs = [
         522000
       ],
       [
-        "9958",
-        "世紀鋼鐵結構",
-        0.38,
-        626000
-      ],
-      [
         "6146",
         "耕興",
         0.38,
         294000
+      ],
+      [
+        "9958",
+        "世紀鋼鐵結構",
+        0.37,
+        626000
       ],
       [
         "6782",
@@ -5096,27 +4914,27 @@ export const etfs = [
       [
         "2330",
         "台灣積體電路製造",
-        6.67
+        6.66
       ],
       [
         "2308",
         "台達電子工業",
-        4.17
+        4.24
       ],
       [
         "2357",
         "華碩電腦",
-        3
+        3.08
       ],
       [
         "2383",
         "台光電子材料",
-        2.77
+        2.92
       ],
       [
         "1477",
         "聚陽實業",
-        2.63
+        2.61
       ]
     ],
     "adds": [],
@@ -5127,7 +4945,7 @@ export const etfs = [
     "pricePath": [
       10.28,
       10.28,
-      10.42
+      10.65
     ]
   },
   {
@@ -5137,17 +4955,17 @@ export const etfs = [
     "issuer": "群益",
     "theme": "海外股票",
     "fundType": "國外成分證券主動式交易所交易基金(股票)",
-    "aum": 119.2,
-    "nav": 12.71,
-    "price": 12.66,
-    "premium": -0.39,
+    "aum": 123.8,
+    "nav": 13.01,
+    "price": 13.08,
+    "premium": 0.54,
     "fee": 0,
     "managementFee": 0,
     "custodyFee": null,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 63493,
+    "holders": 62859,
     "manager": "吳承恕",
     "launchDate": "2026-04-14",
     "trackingIndex": "不適用",
@@ -5159,343 +4977,343 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00997A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 2.4316,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 2.4476,
     "tsmcShares": 135000,
-    "tsmcHeadroomYi": 26.9,
+    "tsmcHeadroomYi": 27.9,
     "holdings": [
       [
         "MU US",
         "美光科技公司",
-        5.8797,
+        5.7497,
         30231
       ],
       [
         "STX US",
         "希捷科技控股公開有限公司",
-        5.3709,
+        5.3447,
         25967
       ],
       [
         "WDC US",
         "威騰電子公司",
-        5.2067,
+        5.1438,
         41940
       ],
       [
         "GOOGL US",
         "ALPHABET INC-CL A",
-        4.6522,
+        4.5608,
         47024
       ],
       [
         "SNDK US",
         "晟碟公司（德拉瓦州）",
-        4.5861,
+        4.3635,
         11652
       ],
       [
         "LITE US",
         "魯門特姆控股公司",
-        4.1488,
+        4.0419,
         16855
       ],
       [
         "4062 JP",
         "揖斐電有限公司",
-        3.7532,
+        4.0098,
         130868
       ],
       [
         "AMD US",
         "超微半導體公司",
-        3.42,
+        3.5291,
         29807
       ],
       [
         "CIEN US",
         "喜雅納公司",
-        3.1611,
+        3.1182,
         21093
       ],
       [
         "LRCX US",
         "科林研發股份有限公司",
-        2.94,
+        2.9475,
         38116
       ],
       [
         "NVDA US",
         "輝達公司",
-        2.8997,
+        2.8228,
         51763
       ],
       [
         "TER US",
         "泰瑞達公司",
-        2.5487,
+        2.565,
         28257
       ],
       [
-        "GLW US",
-        "康寧公司",
-        2.4346,
-        49715
+        "BE US",
+        "BLOOM ENERGY",
+        2.4514,
+        32000
       ],
       [
         "2330",
         "台積電",
-        2.4316,
+        2.4476,
         135000
+      ],
+      [
+        "GLW US",
+        "康寧公司",
+        2.4432,
+        49715
       ],
       [
         "AVGO US",
         "博通公司",
-        2.4258,
+        2.4047,
         22928
       ],
       [
         "2308",
         "台達電",
-        2.3119,
+        2.375,
         141000
       ],
       [
         "COHR US",
         "連貫公司",
-        2.3042,
+        2.284,
         23886
       ],
       [
         "2345",
         "智邦",
-        2.1634,
+        2.1448,
         108000
       ],
       [
         "INTC US",
         "英特爾",
-        2.1024,
+        2.1099,
         69520
-      ],
-      [
-        "BE US",
-        "BLOOM ENERGY",
-        1.9643,
-        25000
       ],
       [
         "MRVL US",
         "Marvell Technology Inc",
-        1.8608,
+        1.9012,
         38237
       ],
       [
         "2383",
         "台光電",
-        1.591,
+        1.6901,
         42000
       ],
       [
         "AIXA GY",
         "AIXTRON",
-        1.5366,
+        1.5624,
         99000
       ],
       [
         "AMAT US",
         "應用材料",
-        1.4723,
+        1.4775,
         13500
       ],
       [
         "GEV US",
         "奇異維諾瓦公司",
-        1.4622,
+        1.4439,
         5489
       ],
       [
         "AMZN US",
         "亞馬遜公司",
-        1.3647,
+        1.3434,
         19919
-      ],
-      [
-        "HWM US",
-        "Howmet航太公司",
-        1.1557,
-        17425
       ],
       [
         "3110 JP",
         "日東紡織",
-        1.1225,
+        1.28,
         31773
-      ],
-      [
-        "TSLA US",
-        "特斯拉公司",
-        1.1187,
-        10491
       ],
       [
         "STMPA FP",
         "意法半導體公司",
-        1.1106,
+        1.1581,
         68000
+      ],
+      [
+        "HWM US",
+        "Howmet航太公司",
+        1.1321,
+        17425
+      ],
+      [
+        "TSLA US",
+        "特斯拉公司",
+        1.1318,
+        10491
       ],
       [
         "TTMI US",
         "TTM TECHNOLOGY",
-        1.0468,
+        1.1303,
         23500
-      ],
-      [
-        "EBAY US",
-        "電子灣拍賣網站公司",
-        0.9961,
-        33326
-      ],
-      [
-        "FIX US",
-        "Comfort系統美國公司",
-        0.9602,
-        2050
       ],
       [
         "6981 JP",
         "村田製作所有限公司",
-        0.9498,
+        0.9986,
         88000
       ],
       [
-        "AAPL US",
-        "蘋果公司",
-        0.919,
-        11807
-      ],
-      [
-        "VIAV US",
-        "Viavi解決方案公司",
-        0.8997,
-        71983
+        "EBAY US",
+        "電子灣拍賣網站公司",
+        0.9769,
+        33326
       ],
       [
         "CRDO US",
         "Credo科技集團控股有限公司",
-        0.8713,
+        0.9765,
         17655
+      ],
+      [
+        "FIX US",
+        "Comfort系統美國公司",
+        0.9491,
+        2050
+      ],
+      [
+        "AAPL US",
+        "蘋果公司",
+        0.9234,
+        11807
       ],
       [
         "APH US",
         "安費諾",
-        0.8669,
+        0.9099,
         27207
-      ],
-      [
-        "YOU US",
-        "克里保全公司",
-        0.818,
-        52461
       ],
       [
         "KLAC US",
         "科磊公司",
-        0.7856,
+        0.7991,
         1671
+      ],
+      [
+        "YOU US",
+        "克里保全公司",
+        0.7979,
+        52461
       ],
       [
         "ANET US",
         "Arista網路公司",
-        0.7134,
+        0.7339,
         18815
       ],
       [
         "MSFT US",
         "微軟",
-        0.6875,
+        0.6814,
         6428
-      ],
-      [
-        "META US",
-        "Meta平台公司",
-        0.6288,
-        4057
       ],
       [
         "5801 JP",
         "古河電氣工業有限公司",
-        0.6286,
+        0.6789,
         7951
       ],
       [
         "QCOM US",
         "高通公司",
-        0.5991,
+        0.6634,
         11000
+      ],
+      [
+        "META US",
+        "Meta平台公司",
+        0.627,
+        4057
       ],
       [
         "PL US",
         "Planet Labs PBC",
-        0.511,
+        0.5295,
         47144
       ],
       [
         "GE US",
         "奇異公司",
-        0.4763,
+        0.4743,
         6185
       ],
       [
         "VRT US",
         "維諦控股公司",
-        0.4126,
+        0.4146,
         5000
       ],
       [
         "APP US",
         "AppLovin公司",
-        0.4092,
+        0.4025,
         3300
       ],
       [
         "TXN US",
         "德州儀器公司",
-        0.3892,
+        0.4002,
         5111
-      ],
-      [
-        "IDCC US",
-        "InterDigital, Inc.",
-        0.3503,
-        5140
       ],
       [
         "CDNS US",
         "Cadence設計系統公司",
-        0.3497,
+        0.3617,
         3823
+      ],
+      [
+        "IDCC US",
+        "InterDigital, Inc.",
+        0.3397,
+        5140
       ],
       [
         "TDC US",
         "天睿資訊",
-        0.3295,
+        0.3337,
         39406
       ],
       [
         "ADSK US",
         "歐特克",
-        0.325,
+        0.3236,
         5303
       ],
       [
         "PLTR US",
         "帕蘭提爾科技公司",
-        0.3179,
+        0.3143,
         9067
+      ],
+      [
+        "VIAV US",
+        "Viavi解決方案公司",
+        0.2756,
+        21983
       ]
     ],
     "holdingsCount": 55,
@@ -5503,101 +5321,100 @@ export const etfs = [
       [
         "MU US",
         "美光科技公司",
-        5.8797
+        5.7497
       ],
       [
         "STX US",
         "希捷科技控股公開有限公司",
-        5.3709
+        5.3447
       ],
       [
         "WDC US",
         "威騰電子公司",
-        5.2067
+        5.1438
       ],
       [
         "GOOGL US",
         "ALPHABET INC-CL A",
-        4.6522
+        4.5608
       ],
       [
         "SNDK US",
         "晟碟公司（德拉瓦州）",
-        4.5861
+        4.3635
       ]
     ],
     "adds": [
       [
-        "6981 JP",
-        "村田製作所有限公司",
-        88000,
-        0.9498,
-        {
-          "industry": "未分類",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.9498,
-          "oldWeight": 0,
-          "weightDelta": 0.9498,
-          "flowYi": 1.13
-        }
-      ],
-      [
         "BE US",
         "BLOOM ENERGY",
-        11000,
-        1.9643,
+        7000,
+        2.4514,
         {
           "industry": "未分類",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.9643,
-          "oldWeight": 1.0499,
-          "weightDelta": 0.9144,
-          "flowYi": 1.03
+          "newWeight": 2.4514,
+          "oldWeight": 1.9643,
+          "weightDelta": 0.4871,
+          "flowYi": 0.66
         }
       ]
     ],
-    "cuts": [],
+    "cuts": [
+      [
+        "VIAV US",
+        "Viavi解決方案公司",
+        -50000,
+        0.2756,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.2756,
+          "oldWeight": 0.8997,
+          "weightDelta": -0.6241,
+          "flowYi": -0.78
+        }
+      ]
+    ],
     "flowChanges": [
       [
-        "6981 JP",
-        "村田製作所有限公司",
-        88000,
-        0.9498,
+        "VIAV US",
+        "Viavi解決方案公司",
+        -50000,
+        0.2756,
         {
           "industry": "未分類",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.9498,
-          "oldWeight": 0,
-          "weightDelta": 0.9498,
-          "flowYi": 1.13
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.2756,
+          "oldWeight": 0.8997,
+          "weightDelta": -0.6241,
+          "flowYi": -0.78
         }
       ],
       [
         "BE US",
         "BLOOM ENERGY",
-        11000,
-        1.9643,
+        7000,
+        2.4514,
         {
           "industry": "未分類",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 1.9643,
-          "oldWeight": 1.0499,
-          "weightDelta": 0.9144,
-          "flowYi": 1.03
+          "newWeight": 2.4514,
+          "oldWeight": 1.9643,
+          "weightDelta": 0.4871,
+          "flowYi": 0.66
         }
       ]
     ],
-    "newPositions": [
-      "6981 JP 村田製作所有限公司"
-    ],
+    "newPositions": [],
     "exits": [],
     "pricePath": [
-      12.66,
-      12.66
+      13.08,
+      13.08
     ]
   },
   {
@@ -5607,17 +5424,17 @@ export const etfs = [
     "issuer": "安聯",
     "theme": "台股主動",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 112.8,
-    "nav": 13.19,
-    "price": 13.12,
-    "premium": -0.53,
+    "aum": 116.3,
+    "nav": 13.65,
+    "price": 13.62,
+    "premium": -0.22,
     "fee": 0.8,
     "managementFee": 0.8,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "年配",
     "dividendFrequency": "annual",
-    "holders": 56033,
+    "holders": 55767,
     "manager": "施政廷、郭勁甫",
     "launchDate": "2026-02-03",
     "trackingIndex": "不適用",
@@ -5629,13 +5446,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00993A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
     "tsmcWeight": 8.99,
     "tsmcShares": 455000,
-    "tsmcHeadroomYi": 18.1,
+    "tsmcHeadroomYi": 18.6,
     "holdings": [
       [
         "6223",
@@ -6097,21 +5914,6 @@ export const etfs = [
     ],
     "flowChanges": [
       [
-        "3443",
-        "創意電子",
-        -1000,
-        5.88,
-        {
-          "industry": "半導體業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 5.88,
-          "oldWeight": 5.65,
-          "weightDelta": 0.23,
-          "flowYi": -0.05
-        }
-      ],
-      [
         "6669",
         "緯穎",
         -1000,
@@ -6123,6 +5925,21 @@ export const etfs = [
           "newWeight": 3.22,
           "oldWeight": 3.15,
           "weightDelta": 0.07,
+          "flowYi": -0.06
+        }
+      ],
+      [
+        "3443",
+        "創意電子",
+        -1000,
+        5.88,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 5.88,
+          "oldWeight": 5.65,
+          "weightDelta": 0.23,
           "flowYi": -0.05
         }
       ],
@@ -6139,6 +5956,21 @@ export const etfs = [
           "oldWeight": 0.43,
           "weightDelta": -0.04,
           "flowYi": -0.05
+        }
+      ],
+      [
+        "2345",
+        "智邦",
+        -1000,
+        4.31,
+        {
+          "industry": "通信網路業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 4.31,
+          "oldWeight": 4.32,
+          "weightDelta": -0.01,
+          "flowYi": -0.03
         }
       ],
       [
@@ -6197,21 +6029,6 @@ export const etfs = [
           "typeLabel": "減碼",
           "newWeight": 2.02,
           "oldWeight": 2.03,
-          "weightDelta": -0.01,
-          "flowYi": -0.02
-        }
-      ],
-      [
-        "2345",
-        "智邦",
-        -1000,
-        4.31,
-        {
-          "industry": "通信網路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 4.31,
-          "oldWeight": 4.32,
           "weightDelta": -0.01,
           "flowYi": -0.02
         }
@@ -6382,6 +6199,21 @@ export const etfs = [
         }
       ],
       [
+        "3044",
+        "健鼎科技",
+        -1000,
+        0.51,
+        {
+          "industry": "電子零組件業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.51,
+          "oldWeight": 0.51,
+          "weightDelta": 0,
+          "flowYi": -0.01
+        }
+      ],
+      [
         "3189",
         "景碩科技",
         -1000,
@@ -6438,6 +6270,21 @@ export const etfs = [
           "newWeight": 0.39,
           "oldWeight": 0.42,
           "weightDelta": -0.03,
+          "flowYi": -0.01
+        }
+      ],
+      [
+        "3105",
+        "穩懋",
+        -1000,
+        0.35,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.35,
+          "oldWeight": 0.34,
+          "weightDelta": 0.01,
           "flowYi": -0.01
         }
       ],
@@ -6562,21 +6409,6 @@ export const etfs = [
         }
       ],
       [
-        "3044",
-        "健鼎科技",
-        -1000,
-        0.51,
-        {
-          "industry": "電子零組件業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.51,
-          "oldWeight": 0.51,
-          "weightDelta": 0,
-          "flowYi": 0
-        }
-      ],
-      [
         "2049",
         "上銀科技",
         -1000,
@@ -6635,21 +6467,6 @@ export const etfs = [
           "weightDelta": -0.02,
           "flowYi": 0
         }
-      ],
-      [
-        "3105",
-        "穩懋",
-        -1000,
-        0.35,
-        {
-          "industry": "半導體業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.35,
-          "oldWeight": 0.34,
-          "weightDelta": 0.01,
-          "flowYi": 0
-        }
       ]
     ],
     "newPositions": [],
@@ -6657,7 +6474,7 @@ export const etfs = [
     "pricePath": [
       13.13,
       12.73,
-      13.12
+      13.62
     ]
   },
   {
@@ -6667,17 +6484,17 @@ export const etfs = [
     "issuer": "野村",
     "theme": "台灣50 增強",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 107.2,
-    "nav": 21.36,
-    "price": 21.33,
-    "premium": -0.14,
+    "aum": 108.9,
+    "nav": 21.92,
+    "price": 21.93,
+    "premium": 0.05,
     "fee": 0.45,
     "managementFee": 0.45,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "年配",
     "dividendFrequency": "annual",
-    "holders": 51775,
+    "holders": 51833,
     "manager": "林浩詳",
     "launchDate": "2025-07-21",
     "trackingIndex": "不適用",
@@ -6689,216 +6506,216 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00985A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 22.81,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 22.7,
     "tsmcShares": 1096000,
-    "tsmcHeadroomYi": 2.3,
+    "tsmcHeadroomYi": 2.5,
     "holdings": [
       [
         "2330",
         "台灣積體電路製造",
-        22.81,
+        22.7,
         1096000
       ],
       [
         "2881",
         "富邦金融控股",
-        3.81,
+        3.71,
         4243000
       ],
       [
         "1216",
         "統一企業",
-        3.01,
+        2.9,
         4418000
       ],
       [
         "2049",
         "上銀科技",
-        2.85,
+        2.83,
         819000
       ],
       [
         "3105",
         "穩懋半導體",
-        2.53,
+        2.74,
         561000
       ],
       [
         "3293",
         "鈊象電子",
-        2.51,
-        363000
-      ],
-      [
-        "2412",
-        "中華電信",
         2.49,
-        1938000
+        363000
       ],
       [
         "1477",
         "聚陽實業",
-        2.47,
+        2.45,
         1218000
       ],
       [
         "2891",
         "中國信託金融控股",
-        2.47,
+        2.44,
         4612000
       ],
       [
-        "4904",
-        "遠傳電信",
-        2.29,
-        2561000
+        "2412",
+        "中華電信",
+        2.44,
+        1938000
       ],
       [
         "2308",
         "台達電子工業",
-        2.25,
+        2.29,
         119000
+      ],
+      [
+        "4904",
+        "遠傳電信",
+        2.25,
+        2561000
       ],
       [
         "2360",
         "致茂電子",
-        2.12,
+        2.08,
         100000
       ],
       [
         "6669",
         "緯穎科技服務",
-        2.05,
+        2.08,
         41000
-      ],
-      [
-        "2368",
-        "金像電子（股）公司",
-        1.98,
-        165000
       ],
       [
         "3711",
         "日月光投資控股",
-        1.89,
+        2.05,
         398000
+      ],
+      [
+        "2368",
+        "金像電子（股）公司",
+        2.02,
+        165000
       ],
       [
         "6789",
         "采鈺科技",
-        1.85,
+        1.93,
         378000
-      ],
-      [
-        "3036",
-        "文曄科技",
-        1.81,
-        666000
       ],
       [
         "8046",
         "南亞電路板",
-        1.8,
+        1.9,
         221000
-      ],
-      [
-        "3661",
-        "世芯電子",
-        1.79,
-        39000
-      ],
-      [
-        "2395",
-        "研華",
-        1.77,
-        409000
       ],
       [
         "8299",
         "群聯電子",
-        1.74,
+        1.79,
         80000
+      ],
+      [
+        "3036",
+        "文曄科技",
+        1.77,
+        666000
+      ],
+      [
+        "2395",
+        "研華",
+        1.76,
+        409000
+      ],
+      [
+        "3661",
+        "世芯電子",
+        1.75,
+        39000
       ],
       [
         "2383",
         "台光電子材料",
-        1.62,
+        1.7,
         37000
-      ],
-      [
-        "6223",
-        "旺矽科技",
-        1.58,
-        30000
-      ],
-      [
-        "7769",
-        "鴻勁精密",
-        1.58,
-        22000
       ],
       [
         "2454",
         "聯發科技",
-        1.56,
+        1.67,
         47000
       ],
       [
-        "2345",
-        "智邦科技",
-        1.53,
-        66000
-      ],
-      [
-        "2059",
-        "川湖科技",
-        1.51,
-        33000
-      ],
-      [
-        "3017",
-        "奇鋐科技",
-        1.51,
-        65000
+        "6223",
+        "旺矽科技",
+        1.66,
+        30000
       ],
       [
         "4958",
         "臻鼎科技控股",
-        1.5,
+        1.63,
         343000
+      ],
+      [
+        "7769",
+        "鴻勁精密",
+        1.56,
+        22000
+      ],
+      [
+        "2059",
+        "川湖科技",
+        1.54,
+        33000
       ],
       [
         "2344",
         "華邦電子",
-        1.42,
+        1.53,
         1336000
+      ],
+      [
+        "3017",
+        "奇鋐科技",
+        1.52,
+        65000
+      ],
+      [
+        "2345",
+        "智邦科技",
+        1.5,
+        66000
       ],
       [
         "6781",
         "AES Holding Co Ltd",
-        1.35,
+        1.41,
         127000
       ],
       [
         "6415",
         "矽力杰",
-        1.33,
+        1.32,
         256000
       ],
       [
         "6805",
         "富世達",
-        1.3,
+        1.27,
         77000
       ],
       [
         "6488",
         "環球晶圓",
-        1.24,
+        1.25,
         190000
       ],
       [
@@ -6908,39 +6725,39 @@ export const etfs = [
         37000
       ],
       [
-        "6442",
-        "光紅建聖",
-        1.07,
-        64000
-      ],
-      [
         "3653",
         "健策精密工業",
-        1.03,
+        1.11,
         33000
+      ],
+      [
+        "6442",
+        "光紅建聖",
+        1.1,
+        64000
       ],
       [
         "8996",
         "高力熱處理工業",
-        0.95,
+        1.03,
         96000
       ],
       [
         "3665",
         "貿聯控股（BizLink Holding In",
-        0.82,
+        0.84,
         41000
       ],
       [
         "2408",
         "南亞科技",
-        0.6,
+        0.63,
         221000
       ],
       [
         "4749",
         "新應材",
-        0.58,
+        0.61,
         57000
       ],
       [
@@ -7003,315 +6820,38 @@ export const etfs = [
       [
         "2330",
         "台灣積體電路製造",
-        22.81
+        22.7
       ],
       [
         "2881",
         "富邦金融控股",
-        3.81
+        3.71
       ],
       [
         "1216",
         "統一企業",
-        3.01
+        2.9
       ],
       [
         "2049",
         "上銀科技",
-        2.85
+        2.83
       ],
       [
         "3105",
         "穩懋半導體",
-        2.53
+        2.74
       ]
     ],
-    "adds": [
-      [
-        "3036",
-        "文曄科技",
-        666000,
-        1.81,
-        {
-          "industry": "電子通路業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 1.81,
-          "oldWeight": 0,
-          "weightDelta": 1.81,
-          "flowYi": 1.94
-        }
-      ],
-      [
-        "4958",
-        "臻鼎科技控股",
-        290000,
-        1.5,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.5,
-          "oldWeight": 0.22,
-          "weightDelta": 1.28,
-          "flowYi": 1.36
-        }
-      ],
-      [
-        "3105",
-        "穩懋半導體",
-        215000,
-        2.53,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.53,
-          "oldWeight": 1.49,
-          "weightDelta": 1.04,
-          "flowYi": 1.04
-        }
-      ],
-      [
-        "8046",
-        "南亞電路板",
-        87000,
-        1.8,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.8,
-          "oldWeight": 1.07,
-          "weightDelta": 0.73,
-          "flowYi": 0.76
-        }
-      ]
-    ],
-    "cuts": [
-      [
-        "1216",
-        "統一企業",
-        -809000,
-        3.01,
-        {
-          "industry": "食品工業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 3.01,
-          "oldWeight": 3.69,
-          "weightDelta": -0.68,
-          "flowYi": -0.59
-        }
-      ],
-      [
-        "2891",
-        "中國信託金融控股",
-        -790000,
-        2.47,
-        {
-          "industry": "金融保險業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.47,
-          "oldWeight": 3.01,
-          "weightDelta": -0.54,
-          "flowYi": -0.45
-        }
-      ],
-      [
-        "2412",
-        "中華電信",
-        -700000,
-        2.49,
-        {
-          "industry": "通信網路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.49,
-          "oldWeight": 3.53,
-          "weightDelta": -1.04,
-          "flowYi": -0.96
-        }
-      ],
-      [
-        "4904",
-        "遠傳電信",
-        -293000,
-        2.29,
-        {
-          "industry": "通信網路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.29,
-          "oldWeight": 2.67,
-          "weightDelta": -0.38,
-          "flowYi": -0.28
-        }
-      ],
-      [
-        "3264",
-        "欣銓科技",
-        -26000,
-        0.05,
-        {
-          "industry": "半導體業",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.05,
-          "weightDelta": -0.05,
-          "flowYi": -0.05
-        }
-      ]
-    ],
-    "flowChanges": [
-      [
-        "3036",
-        "文曄科技",
-        666000,
-        1.81,
-        {
-          "industry": "電子通路業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 1.81,
-          "oldWeight": 0,
-          "weightDelta": 1.81,
-          "flowYi": 1.94
-        }
-      ],
-      [
-        "4958",
-        "臻鼎科技控股",
-        290000,
-        1.5,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.5,
-          "oldWeight": 0.22,
-          "weightDelta": 1.28,
-          "flowYi": 1.36
-        }
-      ],
-      [
-        "3105",
-        "穩懋半導體",
-        215000,
-        2.53,
-        {
-          "industry": "半導體業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.53,
-          "oldWeight": 1.49,
-          "weightDelta": 1.04,
-          "flowYi": 1.04
-        }
-      ],
-      [
-        "2412",
-        "中華電信",
-        -700000,
-        2.49,
-        {
-          "industry": "通信網路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.49,
-          "oldWeight": 3.53,
-          "weightDelta": -1.04,
-          "flowYi": -0.96
-        }
-      ],
-      [
-        "8046",
-        "南亞電路板",
-        87000,
-        1.8,
-        {
-          "industry": "電子零組件業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.8,
-          "oldWeight": 1.07,
-          "weightDelta": 0.73,
-          "flowYi": 0.76
-        }
-      ],
-      [
-        "1216",
-        "統一企業",
-        -809000,
-        3.01,
-        {
-          "industry": "食品工業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 3.01,
-          "oldWeight": 3.69,
-          "weightDelta": -0.68,
-          "flowYi": -0.59
-        }
-      ],
-      [
-        "2891",
-        "中國信託金融控股",
-        -790000,
-        2.47,
-        {
-          "industry": "金融保險業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.47,
-          "oldWeight": 3.01,
-          "weightDelta": -0.54,
-          "flowYi": -0.45
-        }
-      ],
-      [
-        "4904",
-        "遠傳電信",
-        -293000,
-        2.29,
-        {
-          "industry": "通信網路業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 2.29,
-          "oldWeight": 2.67,
-          "weightDelta": -0.38,
-          "flowYi": -0.28
-        }
-      ],
-      [
-        "3264",
-        "欣銓科技",
-        -26000,
-        0.05,
-        {
-          "industry": "半導體業",
-          "type": "removed",
-          "typeLabel": "刪除",
-          "newWeight": 0,
-          "oldWeight": 0.05,
-          "weightDelta": -0.05,
-          "flowYi": -0.05
-        }
-      ]
-    ],
-    "newPositions": [
-      "3036 文曄科技"
-    ],
-    "exits": [
-      "3264 欣銓科技"
-    ],
+    "adds": [],
+    "cuts": [],
+    "flowChanges": [],
+    "newPositions": [],
+    "exits": [],
     "pricePath": [
       20.96,
       20.85,
-      21.33
+      21.93
     ]
   },
   {
@@ -7321,35 +6861,35 @@ export const etfs = [
     "issuer": "安聯",
     "theme": "高息策略",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 67.9,
-    "nav": 15.25,
-    "price": 15.2,
-    "premium": -0.33,
+    "aum": 69.1,
+    "nav": 15.71,
+    "price": 15.75,
+    "premium": 0.25,
     "fee": 0.7,
     "managementFee": 0.7,
     "custodyFee": 0.04,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 47240,
+    "holders": 47978,
     "manager": "廖本隆",
     "launchDate": "2025-07-14",
     "trackingIndex": "不適用",
     "issuerSite": "https://etf.allianzgi.com.tw/",
-    "trailingYield": 4.25,
+    "trailingYield": 4.1,
     "returnStats": {
       "return1Y": null,
       "return3Y": null,
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00984A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
     "tsmcWeight": 4.51,
     "tsmcShares": 138000,
-    "tsmcHeadroomYi": 13.9,
+    "tsmcHeadroomYi": 14.2,
     "holdings": [
       [
         "2330",
@@ -8042,7 +7582,7 @@ export const etfs = [
     "pricePath": [
       14.65,
       14.97,
-      15.2
+      15.75
     ]
   },
   {
@@ -8052,17 +7592,17 @@ export const etfs = [
     "issuer": "中國信託",
     "theme": "台股主動",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 54.1,
-    "nav": 17.33,
-    "price": 17.29,
-    "premium": -0.23,
+    "aum": 56.3,
+    "nav": 18.07,
+    "price": 18.11,
+    "premium": 0.22,
     "fee": 0.75,
     "managementFee": 0.75,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 28141,
+    "holders": 28115,
     "manager": "張書廷",
     "launchDate": "2026-01-22",
     "trackingIndex": "不適用",
@@ -8074,162 +7614,162 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00995A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 8.81,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 8.66,
     "tsmcShares": 220000,
-    "tsmcHeadroomYi": 8.8,
+    "tsmcHeadroomYi": 9.2,
     "holdings": [
       [
         "2330",
         "台灣積體電路製造",
-        8.81,
+        8.66,
         220000
       ],
       [
         "2383",
         "台光電子材料",
-        6.58,
+        6.94,
         74000
       ],
       [
         "2454",
         "聯發科技",
-        5.62,
+        5.93,
         82000
       ],
       [
         "2308",
         "台達電子工業",
-        5.25,
+        5.5,
         141000
       ],
       [
         "2345",
         "智邦科技",
-        5.22,
+        5.15,
         119000
       ],
       [
         "6669",
         "緯穎科技服務",
-        4.02,
+        3.92,
         41000
       ],
       [
         "3037",
         "欣興電子",
-        4,
+        3.91,
         232000
       ],
       [
         "6223",
         "旺矽科技",
-        3.86,
+        3.8,
         36000
+      ],
+      [
+        "2368",
+        "金像電子",
+        3.76,
+        155000
       ],
       [
         "3017",
         "奇鋐科技",
-        3.84,
+        3.73,
         85000
       ],
       [
         "5274",
         "信驊科技",
-        3.79,
+        3.62,
         12000
-      ],
-      [
-        "2368",
-        "金像電子",
-        3.66,
-        155000
       ],
       [
         "2327",
         "國巨*",
-        3.15,
+        3.32,
         282000
       ],
       [
         "3665",
         "貿聯控股",
-        2.81,
+        2.88,
         71000
       ],
       [
         "8046",
         "南亞電路板",
-        2.52,
-        152000
+        2.56,
+        170000
       ],
       [
         "3711",
         "日月光投資控股",
-        2.24,
+        2.36,
         225000
       ],
       [
         "7769",
         "鴻勁",
-        2.2,
+        2.08,
         16000
       ],
       [
         "6515",
         "穎崴科技",
-        2.01,
+        1.96,
         13000
       ],
       [
         "3653",
         "健策精密工業",
-        1.95,
+        1.93,
         30000
       ],
       [
         "6274",
         "台燿科技",
-        1.76,
+        1.85,
         68000
       ],
       [
         "8210",
         "勤誠興業",
-        1.43,
+        1.47,
         60000
-      ],
-      [
-        "6510",
-        "中華精測科技",
-        1.21,
-        20000
       ],
       [
         "2449",
         "京元電子",
-        1.18,
+        1.21,
         224500
+      ],
+      [
+        "6510",
+        "中華精測科技",
+        1.18,
+        20000
       ],
       [
         "2303",
         "聯華電子",
-        1.06,
+        1.12,
         525000
       ],
       [
         "2360",
         "致茂電子",
-        1.05,
+        1.09,
         26000
       ],
       [
         "4958",
         "臻鼎科技控股",
-        0.98,
+        0.96,
         107000
       ],
       [
@@ -8241,14 +7781,14 @@ export const etfs = [
       [
         "3264",
         "欣銓科技",
-        0.83,
+        0.81,
         212200
       ],
       [
-        "3661",
-        "世芯電子",
-        0.78,
-        9000
+        "2472",
+        "立隆電子工業",
+        0.77,
+        162000
       ],
       [
         "2455",
@@ -8257,87 +7797,87 @@ export const etfs = [
         101000
       ],
       [
-        "2472",
-        "立隆電子工業",
+        "3661",
+        "世芯電子",
         0.75,
-        162000
-      ],
-      [
-        "3044",
-        "健鼎科技",
-        0.68,
-        78000
+        9000
       ],
       [
         "3081",
         "聯亞光電工業",
-        0.67,
+        0.7,
         14000
       ],
       [
-        "5289",
-        "宜鼎國際",
-        0.67,
-        22000
+        "3044",
+        "健鼎科技",
+        0.66,
+        78000
       ],
       [
         "6831",
         "邁科",
-        0.67,
+        0.65,
         48000
+      ],
+      [
+        "5289",
+        "宜鼎國際",
+        0.63,
+        22000
       ],
       [
         "8996",
         "高力熱處理工業",
-        0.66,
+        0.62,
         32000
       ],
       [
         "3023",
         "信邦電子",
-        0.63,
+        0.6,
         113000
       ],
       [
         "2885",
         "元大金融控股",
-        0.61,
+        0.6,
         623000
-      ],
-      [
-        "4749",
-        "新應材",
-        0.58,
-        28000
       ],
       [
         "3105",
         "穩懋半導體",
-        0.57,
+        0.55,
         60000
       ],
       [
-        "2059",
-        "川湖科技",
-        0.54,
-        6000
+        "4749",
+        "新應材",
+        0.55,
+        28000
       ],
       [
         "7750",
         "新代",
-        0.51,
+        0.52,
         12000
+      ],
+      [
+        "2059",
+        "川湖科技",
+        0.51,
+        6000
       ],
       [
         "2344",
         "華邦電子",
-        0.49,
+        0.48,
         220000
       ],
       [
         "7751",
         "竑騰",
-        0.48,
+        0.46,
         15000
       ],
       [
@@ -8349,79 +7889,79 @@ export const etfs = [
       [
         "3443",
         "創意電子",
-        0.46,
+        0.45,
         5000
+      ],
+      [
+        "3491",
+        "昇達科技",
+        0.43,
+        12000
       ],
       [
         "5439",
         "高技企業",
-        0.45,
+        0.43,
         65180
       ],
       [
         "6438",
         "迅得機械",
-        0.42,
-        140000
-      ],
-      [
-        "3491",
-        "昇達科技",
         0.41,
-        12000
+        140000
       ],
       [
         "6805",
         "富世達股份有限公司",
-        0.35,
+        0.33,
         11000
       ],
       [
         "2467",
         "志聖工業",
-        0.29,
+        0.3,
         27000
       ],
       [
         "6187",
         "萬潤科技",
-        0.28,
+        0.29,
         14000
       ],
       [
         "2313",
         "華通電腦",
-        0.27,
+        0.28,
         55000
       ],
       [
         "6531",
         "愛普科技",
-        0.26,
+        0.27,
         15000
+      ],
+      [
+        "6442",
+        "光紅建聖",
+        0.21,
+        6000
       ],
       [
         "6285",
         "啟碁科技",
-        0.21,
+        0.2,
         40000
       ],
       [
         "2421",
         "建準電機工業",
-        0.21,
-        73637
-      ],
-      [
-        "6442",
-        "光紅建聖",
         0.2,
-        6000
+        73637
       ],
       [
         "3189",
         "景碩科技",
-        0.05,
+        0.06,
         5000
       ]
     ],
@@ -8430,133 +7970,70 @@ export const etfs = [
       [
         "2330",
         "台灣積體電路製造",
-        8.81
+        8.66
       ],
       [
         "2383",
         "台光電子材料",
-        6.58
+        6.94
       ],
       [
         "2454",
         "聯發科技",
-        5.62
+        5.93
       ],
       [
         "2308",
         "台達電子工業",
-        5.25
+        5.5
       ],
       [
         "2345",
         "智邦科技",
-        5.22
+        5.15
       ]
     ],
     "adds": [
       [
-        "2467",
-        "志聖工業",
-        27000,
-        0.29,
+        "8046",
+        "南亞電路板",
+        18000,
+        2.56,
         {
           "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.29,
-          "oldWeight": 0,
-          "weightDelta": 0.29,
-          "flowYi": 0.16
-        }
-      ],
-      [
-        "6187",
-        "萬潤科技",
-        14000,
-        0.28,
-        {
-          "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.28,
-          "oldWeight": 0,
-          "weightDelta": 0.28,
-          "flowYi": 0.15
-        }
-      ],
-      [
-        "7750",
-        "新代",
-        3000,
-        0.51,
-        {
-          "industry": "電機機械",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.51,
-          "oldWeight": 0.4,
-          "weightDelta": 0.11,
-          "flowYi": 0.07
+          "newWeight": 2.56,
+          "oldWeight": 2.52,
+          "weightDelta": 0.04,
+          "flowYi": 0.15
         }
       ]
     ],
     "cuts": [],
     "flowChanges": [
       [
-        "2467",
-        "志聖工業",
-        27000,
-        0.29,
+        "8046",
+        "南亞電路板",
+        18000,
+        2.56,
         {
           "industry": "電子零組件業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.29,
-          "oldWeight": 0,
-          "weightDelta": 0.29,
-          "flowYi": 0.16
-        }
-      ],
-      [
-        "6187",
-        "萬潤科技",
-        14000,
-        0.28,
-        {
-          "industry": "半導體業",
-          "type": "added",
-          "typeLabel": "新增",
-          "newWeight": 0.28,
-          "oldWeight": 0,
-          "weightDelta": 0.28,
-          "flowYi": 0.15
-        }
-      ],
-      [
-        "7750",
-        "新代",
-        3000,
-        0.51,
-        {
-          "industry": "電機機械",
           "type": "increased",
           "typeLabel": "加碼",
-          "newWeight": 0.51,
-          "oldWeight": 0.4,
-          "weightDelta": 0.11,
-          "flowYi": 0.07
+          "newWeight": 2.56,
+          "oldWeight": 2.52,
+          "weightDelta": 0.04,
+          "flowYi": 0.15
         }
       ]
     ],
-    "newPositions": [
-      "2467 志聖工業",
-      "6187 萬潤科技"
-    ],
+    "newPositions": [],
     "exits": [],
     "pricePath": [
       16.89,
       16.67,
-      17.29
+      18.11
     ]
   },
   {
@@ -8566,17 +8043,17 @@ export const etfs = [
     "issuer": "第一金",
     "theme": "台股優選",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 53.4,
-    "nav": 17.71,
-    "price": 17.64,
-    "premium": -0.4,
+    "aum": 55.2,
+    "nav": 18.51,
+    "price": 18.57,
+    "premium": 0.32,
     "fee": 0.7,
     "managementFee": 0.7,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "",
-    "holders": 36081,
+    "holders": 36091,
     "manager": "張正中",
     "launchDate": "2026-01-07",
     "trackingIndex": "不適用",
@@ -8588,13 +8065,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00994A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
     "tsmcWeight": 14.14,
     "tsmcShares": 345999,
-    "tsmcHeadroomYi": 5.8,
+    "tsmcHeadroomYi": 6,
     "holdings": [
       [
         "2330",
@@ -8896,7 +8373,7 @@ export const etfs = [
           "newWeight": 0.53,
           "oldWeight": 0,
           "weightDelta": 0.53,
-          "flowYi": 0.28
+          "flowYi": 0.29
         }
       ],
       [
@@ -8911,7 +8388,7 @@ export const etfs = [
           "newWeight": 2.93,
           "oldWeight": 2.2,
           "weightDelta": 0.73,
-          "flowYi": 0.32
+          "flowYi": 0.33
         }
       ],
       [
@@ -8926,7 +8403,7 @@ export const etfs = [
           "newWeight": 3.18,
           "oldWeight": 2.64,
           "weightDelta": 0.54,
-          "flowYi": 0.2
+          "flowYi": 0.21
         }
       ],
       [
@@ -8941,7 +8418,7 @@ export const etfs = [
           "newWeight": 2.76,
           "oldWeight": 2.17,
           "weightDelta": 0.59,
-          "flowYi": 0.27
+          "flowYi": 0.28
         }
       ],
       [
@@ -8956,7 +8433,7 @@ export const etfs = [
           "newWeight": 5.41,
           "oldWeight": 4.95,
           "weightDelta": 0.46,
-          "flowYi": 0.15
+          "flowYi": 0.16
         }
       ],
       [
@@ -8971,7 +8448,7 @@ export const etfs = [
           "newWeight": 5.24,
           "oldWeight": 4.52,
           "weightDelta": 0.72,
-          "flowYi": 0.26
+          "flowYi": 0.27
         }
       ],
       [
@@ -8986,7 +8463,7 @@ export const etfs = [
           "newWeight": 7.16,
           "oldWeight": 6.5,
           "weightDelta": 0.66,
-          "flowYi": 0.24
+          "flowYi": 0.25
         }
       ]
     ],
@@ -9003,7 +8480,7 @@ export const etfs = [
           "newWeight": 14.14,
           "oldWeight": 16.01,
           "weightDelta": -1.87,
-          "flowYi": -0.81
+          "flowYi": -0.83
         }
       ],
       [
@@ -9035,7 +8512,7 @@ export const etfs = [
           "newWeight": 14.14,
           "oldWeight": 16.01,
           "weightDelta": -1.87,
-          "flowYi": -0.81
+          "flowYi": -0.83
         }
       ],
       [
@@ -9050,7 +8527,7 @@ export const etfs = [
           "newWeight": 2.93,
           "oldWeight": 2.2,
           "weightDelta": 0.73,
-          "flowYi": 0.32
+          "flowYi": 0.33
         }
       ],
       [
@@ -9065,7 +8542,7 @@ export const etfs = [
           "newWeight": 0.53,
           "oldWeight": 0,
           "weightDelta": 0.53,
-          "flowYi": 0.28
+          "flowYi": 0.29
         }
       ],
       [
@@ -9080,7 +8557,7 @@ export const etfs = [
           "newWeight": 2.76,
           "oldWeight": 2.17,
           "weightDelta": 0.59,
-          "flowYi": 0.27
+          "flowYi": 0.28
         }
       ],
       [
@@ -9095,7 +8572,7 @@ export const etfs = [
           "newWeight": 5.24,
           "oldWeight": 4.52,
           "weightDelta": 0.72,
-          "flowYi": 0.26
+          "flowYi": 0.27
         }
       ],
       [
@@ -9110,7 +8587,7 @@ export const etfs = [
           "newWeight": 7.16,
           "oldWeight": 6.5,
           "weightDelta": 0.66,
-          "flowYi": 0.24
+          "flowYi": 0.25
         }
       ],
       [
@@ -9125,7 +8602,7 @@ export const etfs = [
           "newWeight": 3.18,
           "oldWeight": 2.64,
           "weightDelta": 0.54,
-          "flowYi": 0.2
+          "flowYi": 0.21
         }
       ],
       [
@@ -9140,7 +8617,7 @@ export const etfs = [
           "newWeight": 5.41,
           "oldWeight": 4.95,
           "weightDelta": 0.46,
-          "flowYi": 0.15
+          "flowYi": 0.16
         }
       ],
       [
@@ -9166,8 +8643,8 @@ export const etfs = [
       "3045 台灣大"
     ],
     "pricePath": [
-      17.64,
-      17.64
+      18.57,
+      18.57
     ]
   },
   {
@@ -9177,17 +8654,17 @@ export const etfs = [
     "issuer": "兆豐",
     "theme": "台股主動",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 46,
-    "nav": 14.61,
-    "price": 14.62,
-    "premium": 0.07,
+    "aum": 47.8,
+    "nav": 15.21,
+    "price": 15.26,
+    "premium": 0.33,
     "fee": 0.8,
     "managementFee": 0.8,
     "custodyFee": 0.04,
     "totalExpenseRatio": null,
     "dividend": "季配",
     "dividendFrequency": "quarterly",
-    "holders": 26273,
+    "holders": 25635,
     "manager": "王仲良",
     "launchDate": "2026-03-25",
     "trackingIndex": "不適用",
@@ -9199,223 +8676,217 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00996A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 8.45,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 8.28,
     "tsmcShares": 179000,
-    "tsmcHeadroomYi": 7.6,
+    "tsmcHeadroomYi": 8,
     "holdings": [
       [
         "2330",
         "台積電",
-        8.45,
+        8.28,
         179000
       ],
       [
         "4958",
         "臻鼎-KY",
-        6.6,
+        6.47,
         611000
       ],
       [
         "2454",
         "聯發科",
-        6.14,
+        6.46,
         76000
       ],
       [
         "2383",
         "台光電子",
-        5.35,
+        5.62,
         51000
       ],
       [
         "2327",
         "國巨",
-        4.99,
+        5.24,
         379000
       ],
       [
         "2308",
         "台達電",
-        4.61,
+        4.81,
         105000
       ],
       [
         "6831",
         "邁科",
-        4.15,
+        4,
         252000
-      ],
-      [
-        "2455",
-        "全新",
-        3.6,
-        404000
       ],
       [
         "8046",
         "南電",
-        3.42,
+        3.1,
         175000
+      ],
+      [
+        "2455",
+        "全新",
+        3.04,
+        342000
+      ],
+      [
+        "2472",
+        "立隆電子",
+        3,
+        537000
       ],
       [
         "3443",
         "創意電子",
-        2.8,
+        2.76,
         26000
       ],
       [
         "6510",
         "精測",
-        2.78,
+        2.7,
         39000
       ],
       [
         "6526",
         "達發",
-        2.67,
+        2.64,
         176000
-      ],
-      [
-        "2472",
-        "立隆電子",
-        2.47,
-        454000
-      ],
-      [
-        "3037",
-        "欣興電子",
-        2.46,
-        121000
       ],
       [
         "6830",
         "汎銓",
-        2.44,
+        2.57,
         163000
+      ],
+      [
+        "3037",
+        "欣興電子",
+        2.4,
+        121000
       ],
       [
         "6223",
         "旺矽",
-        2.4,
-        19000
-      ],
-      [
-        "3363",
-        "上詮",
         2.36,
-        132000
+        19000
       ],
       [
         "2344",
         "華邦電",
-        2.34,
+        2.3,
         895000
+      ],
+      [
+        "3363",
+        "上詮",
+        2.23,
+        132000
       ],
       [
         "2345",
         "智邦科技",
-        1.97,
+        1.93,
         38000
       ],
       [
         "8210",
         "勤誠興業",
-        1.89,
+        1.92,
         67000
-      ],
-      [
-        "3661",
-        "世芯-KY",
-        1.85,
-        18000
       ],
       [
         "2337",
         "旺宏",
-        1.84,
+        1.8,
         589000
+      ],
+      [
+        "3661",
+        "世芯-KY",
+        1.77,
+        18000
       ],
       [
         "2408",
         "南科",
-        1.66,
+        1.52,
         256000
       ],
       [
         "6213",
         "聯茂",
-        1.52,
+        1.48,
         277000
       ],
       [
         "3131",
         "弘塑科技",
-        1.48,
+        1.46,
         25000
       ],
       [
         "2360",
         "致茂電子",
-        1.19,
+        1.23,
         25000
-      ],
-      [
-        "6643",
-        "M31",
-        1.18,
-        94000
       ],
       [
         "6531",
         "愛普科技",
-        1.15,
+        1.2,
         57000
+      ],
+      [
+        "6643",
+        "M31",
+        1.14,
+        94000
       ],
       [
         "6770",
         "力積電",
-        1.12,
+        1.13,
         836000
-      ],
-      [
-        "3653",
-        "健策",
-        1.07,
-        14000
       ],
       [
         "3711",
         "日月光投控",
-        1.06,
+        1.11,
         90000
+      ],
+      [
+        "3653",
+        "健策",
+        1.06,
+        14000
       ],
       [
         "4551",
         "智伸科",
-        1.04,
+        1.01,
         320000
       ],
       [
-        "3529",
-        "力旺電子",
-        0.91,
-        12000
+        "3081",
+        "聯亞",
+        0.94,
+        16000
       ],
       [
         "2368",
         "金像電",
-        0.75,
+        0.77,
         27000
-      ],
-      [
-        "3665",
-        "貿聯-KY",
-        0.7,
-        15000
       ],
       [
         "5269",
@@ -9426,20 +8897,26 @@ export const etfs = [
       [
         "3017",
         "奇鋐科技",
-        0.59,
+        0.57,
         11000
-      ],
-      [
-        "4583",
-        "台灣精銳",
-        0.46,
-        30000
       ],
       [
         "2049",
         "上銀科技",
         0.46,
         58000
+      ],
+      [
+        "4583",
+        "台灣精銳",
+        0.44,
+        30000
+      ],
+      [
+        "3529",
+        "力旺電子",
+        0.37,
+        5000
       ],
       [
         "3693",
@@ -9450,14 +8927,20 @@ export const etfs = [
       [
         "2467",
         "志聖工業",
-        0.32,
+        0.33,
         25000
       ],
       [
         "1303",
         "南亞塑膠",
-        0.25,
+        0.24,
         140000
+      ],
+      [
+        "3665",
+        "貿聯-KY",
+        0.14,
+        3000
       ],
       [
         "1802",
@@ -9472,16 +8955,16 @@ export const etfs = [
         5000
       ],
       [
-        "3533",
-        "嘉澤端子",
-        0.11,
-        2000
-      ],
-      [
         "6805",
         "富世達",
         0.11,
         3000
+      ],
+      [
+        "3533",
+        "嘉澤端子",
+        0.1,
+        2000
       ],
       [
         "2317",
@@ -9514,43 +8997,198 @@ export const etfs = [
         25000
       ]
     ],
-    "holdingsCount": 51,
+    "holdingsCount": 52,
     "topHoldings": [
       [
         "2330",
         "台積電",
-        8.45
+        8.28
       ],
       [
         "4958",
         "臻鼎-KY",
-        6.6
+        6.47
       ],
       [
         "2454",
         "聯發科",
-        6.14
+        6.46
       ],
       [
         "2383",
         "台光電子",
-        5.35
+        5.62
       ],
       [
         "2327",
         "國巨",
-        4.99
+        5.24
       ]
     ],
-    "adds": [],
-    "cuts": [],
-    "flowChanges": [],
-    "newPositions": [],
+    "adds": [
+      [
+        "2472",
+        "立隆電子",
+        83000,
+        3,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3,
+          "oldWeight": 2.47,
+          "weightDelta": 0.53,
+          "flowYi": 0.22
+        }
+      ],
+      [
+        "3081",
+        "聯亞",
+        16000,
+        0.94,
+        {
+          "industry": "通信網路業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.94,
+          "oldWeight": 0,
+          "weightDelta": 0.94,
+          "flowYi": 0.45
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "2455",
+        "全新",
+        -62000,
+        3.04,
+        {
+          "industry": "通信網路業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.04,
+          "oldWeight": 3.6,
+          "weightDelta": -0.56,
+          "flowYi": -0.26
+        }
+      ],
+      [
+        "3665",
+        "貿聯-KY",
+        -12000,
+        0.14,
+        {
+          "industry": "其他電子業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.14,
+          "oldWeight": 0.7,
+          "weightDelta": -0.56,
+          "flowYi": -0.27
+        }
+      ],
+      [
+        "3529",
+        "力旺電子",
+        -7000,
+        0.37,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.37,
+          "oldWeight": 0.91,
+          "weightDelta": -0.54,
+          "flowYi": -0.25
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "3081",
+        "聯亞",
+        16000,
+        0.94,
+        {
+          "industry": "通信網路業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.94,
+          "oldWeight": 0,
+          "weightDelta": 0.94,
+          "flowYi": 0.45
+        }
+      ],
+      [
+        "3665",
+        "貿聯-KY",
+        -12000,
+        0.14,
+        {
+          "industry": "其他電子業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.14,
+          "oldWeight": 0.7,
+          "weightDelta": -0.56,
+          "flowYi": -0.27
+        }
+      ],
+      [
+        "2455",
+        "全新",
+        -62000,
+        3.04,
+        {
+          "industry": "通信網路業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.04,
+          "oldWeight": 3.6,
+          "weightDelta": -0.56,
+          "flowYi": -0.26
+        }
+      ],
+      [
+        "3529",
+        "力旺電子",
+        -7000,
+        0.37,
+        {
+          "industry": "半導體業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.37,
+          "oldWeight": 0.91,
+          "weightDelta": -0.54,
+          "flowYi": -0.25
+        }
+      ],
+      [
+        "2472",
+        "立隆電子",
+        83000,
+        3,
+        {
+          "industry": "電子零組件業",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 3,
+          "oldWeight": 2.47,
+          "weightDelta": 0.53,
+          "flowYi": 0.22
+        }
+      ]
+    ],
+    "newPositions": [
+      "3081 聯亞"
+    ],
     "exits": [],
     "pricePath": [
       13.77,
       13.96,
-      14.62
+      15.26
     ]
   },
   {
@@ -9560,17 +9198,17 @@ export const etfs = [
     "issuer": "台新",
     "theme": "台股主動",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 33.8,
-    "nav": 17.27,
-    "price": 17.34,
-    "premium": 0.4,
+    "aum": 35.2,
+    "nav": 18.03,
+    "price": 18.04,
+    "premium": 0.06,
     "fee": 0.75,
     "managementFee": 0.75,
     "custodyFee": 0.035,
     "totalExpenseRatio": null,
     "dividend": "年配",
     "dividendFrequency": "annual",
-    "holders": 19528,
+    "holders": 20746,
     "manager": "魏永祥",
     "launchDate": "2025-12-30",
     "trackingIndex": "不適用",
@@ -9582,264 +9220,272 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00987A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 5.937,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 5.7715,
     "tsmcShares": 90000,
-    "tsmcHeadroomYi": 6.4,
+    "tsmcHeadroomYi": 6.8,
     "holdings": [
       [
         "3017",
         "奇鋐",
-        6.3473,
+        6.2242,
         86000
-      ],
-      [
-        "3037",
-        "欣興",
-        5.97,
-        223000
-      ],
-      [
-        "2330",
-        "台積電",
-        5.937,
-        90000
       ],
       [
         "6274",
         "台燿",
-        5.8793,
+        6.2066,
         150000
+      ],
+      [
+        "3037",
+        "欣興",
+        6.1514,
+        223000
       ],
       [
         "2383",
         "台光電",
-        5.6883,
+        5.8356,
         41000
       ],
       [
-        "2308",
-        "台達電",
-        4.8041,
-        80000
+        "2330",
+        "台積電",
+        5.7715,
+        90000
       ],
       [
         "6187",
         "萬潤",
-        4.7721,
+        4.7981,
         148000
+      ],
+      [
+        "2308",
+        "台達電",
+        4.7662,
+        80000
       ],
       [
         "6223",
         "旺矽",
-        4.5127,
+        4.6338,
         27000
       ],
       [
         "6805",
         "富世達",
-        4.0692,
+        3.8795,
         76000
       ],
       [
         "2360",
         "致茂",
-        4.029,
+        3.8733,
         60000
-      ],
-      [
-        "8155",
-        "博智",
-        3.2009,
-        262000
       ],
       [
         "8299",
         "群聯",
-        3.1774,
+        3.1788,
         46000
       ],
       [
-        "2345",
-        "智邦",
-        3.0812,
-        42000
+        "8155",
+        "博智",
+        3.0809,
+        262000
       ],
       [
         "3665",
         "貿聯 -KY",
-        3.0599,
+        3.0372,
         48000
       ],
       [
         "8358",
         "金居",
-        2.9611,
+        2.9838,
         201000
+      ],
+      [
+        "2345",
+        "智邦",
+        2.9502,
+        42000
       ],
       [
         "3081",
         "聯亞",
-        2.7965,
+        2.8515,
         37000
-      ],
-      [
-        "6683",
-        "雍智科技",
-        2.5919,
-        52000
       ],
       [
         "3491",
         "昇達科",
-        2.5174,
+        2.5247,
         46000
       ],
       [
         "2455",
         "全新",
-        2.3438,
+        2.4777,
         205000
+      ],
+      [
+        "6683",
+        "雍智科技",
+        2.44,
+        52000
       ],
       [
         "3363",
         "上詮",
-        2.2438,
+        2.2467,
         92729
       ],
       [
         "6739",
         "竹陞科技",
-        2.2186,
+        2.184,
         60000
       ],
       [
         "8028",
         "昇陽半導體",
-        2.0178,
+        2.132,
         255000
-      ],
-      [
-        "6510",
-        "精測",
-        1.7838,
-        18000
       ],
       [
         "3653",
         "健策",
-        1.7731,
+        1.8735,
+        18000
+      ],
+      [
+        "6510",
+        "精測",
+        1.743,
         18000
       ],
       [
         "6669",
         "緯穎",
-        1.5811,
+        1.5712,
         10000
       ],
       [
         "3443",
         "創意",
-        1.4983,
+        1.4617,
         10000
       ],
       [
         "6781",
         "AES-KY",
-        1.4164,
+        1.4452,
         42000
       ],
       [
         "2408",
         "南亞科",
-        1.3955,
+        1.4216,
         161000
       ],
       [
         "2368",
         "金像電",
-        1.3304,
+        1.3238,
         35000
       ],
       [
         "8996",
         "高力",
-        1.0396,
+        1.098,
         33000
+      ],
+      [
+        "5274",
+        "信驊",
+        1.0113,
+        2000
       ]
     ],
-    "holdingsCount": 30,
+    "holdingsCount": 31,
     "topHoldings": [
       [
         "3017",
         "奇鋐",
-        6.3473
-      ],
-      [
-        "3037",
-        "欣興",
-        5.97
-      ],
-      [
-        "2330",
-        "台積電",
-        5.937
+        6.2242
       ],
       [
         "6274",
         "台燿",
-        5.8793
+        6.2066
+      ],
+      [
+        "3037",
+        "欣興",
+        6.1514
       ],
       [
         "2383",
         "台光電",
-        5.6883
+        5.8356
+      ],
+      [
+        "2330",
+        "台積電",
+        5.7715
       ]
     ],
     "adds": [
       [
-        "2455",
-        "全新",
-        78000,
-        2.3438,
+        "5274",
+        "信驊",
+        2000,
+        1.0113,
         {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.3438,
-          "oldWeight": 1.5909,
-          "weightDelta": 0.7529,
-          "flowYi": 0.3
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 1.0113,
+          "oldWeight": 0,
+          "weightDelta": 1.0113,
+          "flowYi": 0.36
         }
       ]
     ],
     "cuts": [],
     "flowChanges": [
       [
-        "2455",
-        "全新",
-        78000,
-        2.3438,
+        "5274",
+        "信驊",
+        2000,
+        1.0113,
         {
-          "industry": "通信網路業",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.3438,
-          "oldWeight": 1.5909,
-          "weightDelta": 0.7529,
-          "flowYi": 0.3
+          "industry": "半導體業",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 1.0113,
+          "oldWeight": 0,
+          "weightDelta": 1.0113,
+          "flowYi": 0.36
         }
       ]
     ],
-    "newPositions": [],
+    "newPositions": [
+      "5274 信驊"
+    ],
     "exits": [],
     "pricePath": [
       17.29,
       16.63,
-      17.34
+      18.04
     ]
   },
   {
@@ -9849,17 +9495,17 @@ export const etfs = [
     "issuer": "摩根",
     "theme": "主動收益",
     "fundType": "國內成分證券主動式交易所交易基金(股票)",
-    "aum": 32.1,
-    "nav": 13.08,
-    "price": 13.08,
-    "premium": -0.03,
+    "aum": 32.7,
+    "nav": 13.57,
+    "price": 13.59,
+    "premium": 0.15,
     "fee": 0.6,
     "managementFee": 0.6,
     "custodyFee": 0.045,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "",
-    "holders": 18844,
+    "holders": 18468,
     "manager": "沈馨",
     "launchDate": "2026-04-10",
     "trackingIndex": "不適用",
@@ -9871,13 +9517,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00401A/active",
     "comparisonFromDate": "2026-05-21",
     "comparisonToDate": "2026-05-22",
     "tsmcWeight": 7.5937,
     "tsmcShares": 110000,
-    "tsmcHeadroomYi": 5.6,
+    "tsmcHeadroomYi": 5.7,
     "holdings": [
       [
         "2330",
@@ -10410,7 +10056,7 @@ export const etfs = [
           "newWeight": 7.5937,
           "oldWeight": 7.7757,
           "weightDelta": -0.182,
-          "flowYi": -0.04
+          "flowYi": -0.05
         }
       ],
       [
@@ -10759,6 +10405,21 @@ export const etfs = [
         }
       ],
       [
+        "2317",
+        "鴻海精密工業",
+        -2000,
+        0.773,
+        {
+          "industry": "其他電子業",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.773,
+          "oldWeight": 0.7937,
+          "weightDelta": -0.0207,
+          "flowYi": -0.01
+        }
+      ],
+      [
         "1519",
         "華城電機",
         -1000,
@@ -10879,21 +10540,6 @@ export const etfs = [
         }
       ],
       [
-        "2317",
-        "鴻海精密工業",
-        -2000,
-        0.773,
-        {
-          "industry": "其他電子業",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.773,
-          "oldWeight": 0.7937,
-          "weightDelta": -0.0207,
-          "flowYi": 0
-        }
-      ],
-      [
         "3034",
         "聯詠科技",
         -1000,
@@ -10973,464 +10619,7 @@ export const etfs = [
     "exits": [],
     "pricePath": [
       12.61,
-      13.08
-    ]
-  },
-  {
-    "code": "00983A",
-    "name": "主動中信ARK創新",
-    "fullName": "中國信託ARK創新主動式ETF證券投資信託基金",
-    "issuer": "中國信託",
-    "theme": "海外股票",
-    "fundType": "國外成分證券主動式交易所交易基金(股票)",
-    "aum": 25.3,
-    "nav": 11.61,
-    "price": 11.59,
-    "premium": -0.17,
-    "fee": 1,
-    "managementFee": 1,
-    "custodyFee": 0.15,
-    "totalExpenseRatio": null,
-    "dividend": "年配",
-    "dividendFrequency": "annual",
-    "holders": 15052,
-    "manager": "唐祖蔭、王建武",
-    "launchDate": "2025-06-18",
-    "trackingIndex": "不適用",
-    "issuerSite": "https://www.ctbcinvestments.com",
-    "trailingYield": null,
-    "returnStats": {
-      "return1Y": null,
-      "return3Y": null,
-      "return5Y": null
-    },
-    "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
-    "sourceUrl": "https://www.etfinfo.tw/etf/00983A/active",
-    "comparisonFromDate": "2026-05-20",
-    "comparisonToDate": "2026-05-21",
-    "tsmcWeight": 0,
-    "tsmcShares": 0,
-    "tsmcHeadroomYi": 6.3,
-    "holdings": [
-      [
-        "TSLA US",
-        "特斯拉公司",
-        8.89,
-        17016
-      ],
-      [
-        "AMD US",
-        "超微半導體公司",
-        6.89,
-        12244
-      ],
-      [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        6.04,
-        41976
-      ],
-      [
-        "PLTR US",
-        "帕蘭提爾科技公司",
-        5.82,
-        33810
-      ],
-      [
-        "ROKU US",
-        "Roku Inc",
-        4.93,
-        31458
-      ],
-      [
-        "COIN US",
-        "比特幣基地全球公司",
-        4.85,
-        20000
-      ],
-      [
-        "TER US",
-        "泰瑞達公司",
-        4.1,
-        9266
-      ],
-      [
-        "TXG US",
-        "10X Genomics Inc",
-        3.9,
-        126095
-      ],
-      [
-        "SHOP US",
-        "Shopify公司",
-        3.67,
-        27949
-      ],
-      [
-        "TSM US",
-        "台積電",
-        3.56,
-        6994
-      ],
-      [
-        "BEAM US",
-        "光束治療公司",
-        3.44,
-        99465
-      ],
-      [
-        "NVDA US",
-        "輝達",
-        3.25,
-        11846
-      ],
-      [
-        "C_NTD",
-        "CASH",
-        3.04,
-        76728682
-      ],
-      [
-        "CRSP US",
-        "CRISPR治療公司",
-        3.01,
-        48223
-      ],
-      [
-        "AMZN US",
-        "亞馬遜公司",
-        2.83,
-        8436
-      ],
-      [
-        "TWST US",
-        "Twist Bioscience Corp",
-        2.67,
-        36271
-      ],
-      [
-        "BWXT US",
-        "BWX科技股份有限公司",
-        2.67,
-        10526
-      ],
-      [
-        "XYZ US",
-        "布洛克公司",
-        2.61,
-        30344
-      ],
-      [
-        "CRWV US",
-        "CoreWeave Inc",
-        2.14,
-        15887
-      ],
-      [
-        "C_USD",
-        "CASH",
-        2.05,
-        1638105
-      ],
-      [
-        "HOOD US",
-        "羅賓漢市場公司",
-        2.05,
-        21553
-      ],
-      [
-        "NTRA US",
-        "那提拉公司",
-        2.04,
-        8000
-      ],
-      [
-        "META US",
-        "Meta平台公司",
-        1.97,
-        2592
-      ],
-      [
-        "ILMN US",
-        "伊魯米納公司",
-        1.71,
-        9453
-      ],
-      [
-        "P US",
-        "愛惠浦公司",
-        1.69,
-        17065
-      ],
-      [
-        "AVGO US",
-        "博通公司",
-        1.58,
-        3039
-      ],
-      [
-        "BLSH US",
-        "Bullish",
-        1.49,
-        33199
-      ],
-      [
-        "BMNR US",
-        "BitMine Immersion Technologi",
-        1.31,
-        53552
-      ],
-      [
-        "BIDU US",
-        "百度股份有限公司",
-        1.28,
-        7791
-      ],
-      [
-        "GOOGL US",
-        "Alphabet公司 Class A",
-        1.26,
-        2595
-      ],
-      [
-        "VCYT US",
-        "Veracyte公司",
-        1.26,
-        22281
-      ],
-      [
-        "DE US",
-        "迪爾",
-        1.19,
-        1791
-      ],
-      [
-        "BABA US",
-        "阿里巴巴",
-        1.01,
-        6114
-      ],
-      [
-        "CCJ US",
-        "卡梅科公司",
-        0.79,
-        6000
-      ],
-      [
-        "NTLA US",
-        "英特利亞治療公司",
-        0.61,
-        39350
-      ],
-      [
-        "TEM US",
-        "Tempus AI Inc",
-        0.56,
-        9565
-      ],
-      [
-        "CERS US",
-        "Cerus公司",
-        0.14,
-        40375
-      ],
-      [
-        "RDI_USD",
-        "RECEIVABLES FOR DISPOSAL OF INVESTMENTS",
-        0,
-        549331
-      ]
-    ],
-    "holdingsCount": 38,
-    "topHoldings": [
-      [
-        "TSLA US",
-        "特斯拉公司",
-        8.89
-      ],
-      [
-        "AMD US",
-        "超微半導體公司",
-        6.89
-      ],
-      [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        6.04
-      ],
-      [
-        "PLTR US",
-        "帕蘭提爾科技公司",
-        5.82
-      ],
-      [
-        "ROKU US",
-        "Roku Inc",
-        4.93
-      ]
-    ],
-    "adds": [
-      [
-        "BLSH US",
-        "Bullish",
-        1079,
-        1.49,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.49,
-          "oldWeight": 1.49,
-          "weightDelta": 0,
-          "flowYi": 0.01
-        }
-      ],
-      [
-        "HOOD US",
-        "羅賓漢市場公司",
-        1053,
-        2.05,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.05,
-          "oldWeight": 1.95,
-          "weightDelta": 0.1,
-          "flowYi": 0.03
-        }
-      ],
-      [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        929,
-        6.04,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 6.04,
-          "oldWeight": 5.75,
-          "weightDelta": 0.29,
-          "flowYi": 0.03
-        }
-      ]
-    ],
-    "cuts": [
-      [
-        "TEM US",
-        "Tempus AI Inc",
-        -13235,
-        0.56,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.56,
-          "oldWeight": 1.31,
-          "weightDelta": -0.75,
-          "flowYi": -0.2
-        }
-      ],
-      [
-        "CRSP US",
-        "CRISPR治療公司",
-        -6000,
-        3.01,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 3.01,
-          "oldWeight": 3.3,
-          "weightDelta": -0.29,
-          "flowYi": -0.09
-        }
-      ]
-    ],
-    "flowChanges": [
-      [
-        "TEM US",
-        "Tempus AI Inc",
-        -13235,
-        0.56,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 0.56,
-          "oldWeight": 1.31,
-          "weightDelta": -0.75,
-          "flowYi": -0.2
-        }
-      ],
-      [
-        "CRSP US",
-        "CRISPR治療公司",
-        -6000,
-        3.01,
-        {
-          "industry": "未分類",
-          "type": "decreased",
-          "typeLabel": "減碼",
-          "newWeight": 3.01,
-          "oldWeight": 3.3,
-          "weightDelta": -0.29,
-          "flowYi": -0.09
-        }
-      ],
-      [
-        "HOOD US",
-        "羅賓漢市場公司",
-        1053,
-        2.05,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 2.05,
-          "oldWeight": 1.95,
-          "weightDelta": 0.1,
-          "flowYi": 0.03
-        }
-      ],
-      [
-        "CRCL US",
-        "Circle Internet Group Inc",
-        929,
-        6.04,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 6.04,
-          "oldWeight": 5.75,
-          "weightDelta": 0.29,
-          "flowYi": 0.03
-        }
-      ],
-      [
-        "BLSH US",
-        "Bullish",
-        1079,
-        1.49,
-        {
-          "industry": "未分類",
-          "type": "increased",
-          "typeLabel": "加碼",
-          "newWeight": 1.49,
-          "oldWeight": 1.49,
-          "weightDelta": 0,
-          "flowYi": 0.01
-        }
-      ]
-    ],
-    "newPositions": [],
-    "exits": [],
-    "pricePath": [
-      11.59,
-      11.59
+      13.59
     ]
   },
   {
@@ -11440,7 +10629,7 @@ export const etfs = [
     "issuer": "聯博",
     "theme": "主動收益",
     "fundType": "國外成分證券主動式交易所交易基金(債券)",
-    "aum": 22.9,
+    "aum": 25.6,
     "nav": 10.01,
     "price": 10.06,
     "premium": 0.5,
@@ -11450,7 +10639,7 @@ export const etfs = [
     "totalExpenseRatio": null,
     "dividend": "月配",
     "dividendFrequency": "monthly",
-    "holders": 4647,
+    "holders": 5202,
     "manager": "陳俊憲",
     "launchDate": "2026-02-04",
     "trackingIndex": "不適用",
@@ -11462,13 +10651,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00984D/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
-    "tsmcHeadroomYi": 5.7,
+    "tsmcHeadroomYi": 6.4,
     "holdings": [
       [
         "202606F0001",
@@ -13046,23 +12235,480 @@ export const etfs = [
     ]
   },
   {
+    "code": "00983A",
+    "name": "主動中信ARK創新",
+    "fullName": "中國信託ARK創新主動式ETF證券投資信託基金",
+    "issuer": "中國信託",
+    "theme": "海外股票",
+    "fundType": "國外成分證券主動式交易所交易基金(股票)",
+    "aum": 25.2,
+    "nav": 11.58,
+    "price": 11.69,
+    "premium": 0.95,
+    "fee": 1,
+    "managementFee": 1,
+    "custodyFee": 0.15,
+    "totalExpenseRatio": null,
+    "dividend": "年配",
+    "dividendFrequency": "annual",
+    "holders": 14811,
+    "manager": "唐祖蔭、王建武",
+    "launchDate": "2025-06-18",
+    "trackingIndex": "不適用",
+    "issuerSite": "https://www.ctbcinvestments.com",
+    "trailingYield": null,
+    "returnStats": {
+      "return1Y": null,
+      "return3Y": null,
+      "return5Y": null
+    },
+    "holdingsSource": "pocket",
+    "dataDate": "2026-05-25",
+    "sourceUrl": "https://www.etfinfo.tw/etf/00983A/active",
+    "comparisonFromDate": "2026-05-20",
+    "comparisonToDate": "2026-05-21",
+    "tsmcWeight": 0,
+    "tsmcShares": 0,
+    "tsmcHeadroomYi": 6.3,
+    "holdings": [
+      [
+        "TSLA US",
+        "特斯拉公司",
+        8.89,
+        17016
+      ],
+      [
+        "AMD US",
+        "超微半導體公司",
+        6.89,
+        12244
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        6.04,
+        41976
+      ],
+      [
+        "PLTR US",
+        "帕蘭提爾科技公司",
+        5.82,
+        33810
+      ],
+      [
+        "ROKU US",
+        "Roku Inc",
+        4.93,
+        31458
+      ],
+      [
+        "COIN US",
+        "比特幣基地全球公司",
+        4.85,
+        20000
+      ],
+      [
+        "TER US",
+        "泰瑞達公司",
+        4.1,
+        9266
+      ],
+      [
+        "TXG US",
+        "10X Genomics Inc",
+        3.9,
+        126095
+      ],
+      [
+        "SHOP US",
+        "Shopify公司",
+        3.67,
+        27949
+      ],
+      [
+        "TSM US",
+        "台積電",
+        3.56,
+        6994
+      ],
+      [
+        "BEAM US",
+        "光束治療公司",
+        3.44,
+        99465
+      ],
+      [
+        "NVDA US",
+        "輝達",
+        3.25,
+        11846
+      ],
+      [
+        "C_NTD",
+        "CASH",
+        3.04,
+        76728682
+      ],
+      [
+        "CRSP US",
+        "CRISPR治療公司",
+        3.01,
+        48223
+      ],
+      [
+        "AMZN US",
+        "亞馬遜公司",
+        2.83,
+        8436
+      ],
+      [
+        "TWST US",
+        "Twist Bioscience Corp",
+        2.67,
+        36271
+      ],
+      [
+        "BWXT US",
+        "BWX科技股份有限公司",
+        2.67,
+        10526
+      ],
+      [
+        "XYZ US",
+        "布洛克公司",
+        2.61,
+        30344
+      ],
+      [
+        "CRWV US",
+        "CoreWeave Inc",
+        2.14,
+        15887
+      ],
+      [
+        "C_USD",
+        "CASH",
+        2.05,
+        1638105
+      ],
+      [
+        "HOOD US",
+        "羅賓漢市場公司",
+        2.05,
+        21553
+      ],
+      [
+        "NTRA US",
+        "那提拉公司",
+        2.04,
+        8000
+      ],
+      [
+        "META US",
+        "Meta平台公司",
+        1.97,
+        2592
+      ],
+      [
+        "ILMN US",
+        "伊魯米納公司",
+        1.71,
+        9453
+      ],
+      [
+        "P US",
+        "愛惠浦公司",
+        1.69,
+        17065
+      ],
+      [
+        "AVGO US",
+        "博通公司",
+        1.58,
+        3039
+      ],
+      [
+        "BLSH US",
+        "Bullish",
+        1.49,
+        33199
+      ],
+      [
+        "BMNR US",
+        "BitMine Immersion Technologi",
+        1.31,
+        53552
+      ],
+      [
+        "BIDU US",
+        "百度股份有限公司",
+        1.28,
+        7791
+      ],
+      [
+        "GOOGL US",
+        "Alphabet公司 Class A",
+        1.26,
+        2595
+      ],
+      [
+        "VCYT US",
+        "Veracyte公司",
+        1.26,
+        22281
+      ],
+      [
+        "DE US",
+        "迪爾",
+        1.19,
+        1791
+      ],
+      [
+        "BABA US",
+        "阿里巴巴",
+        1.01,
+        6114
+      ],
+      [
+        "CCJ US",
+        "卡梅科公司",
+        0.79,
+        6000
+      ],
+      [
+        "NTLA US",
+        "英特利亞治療公司",
+        0.61,
+        39350
+      ],
+      [
+        "TEM US",
+        "Tempus AI Inc",
+        0.56,
+        9565
+      ],
+      [
+        "CERS US",
+        "Cerus公司",
+        0.14,
+        40375
+      ],
+      [
+        "RDI_USD",
+        "RECEIVABLES FOR DISPOSAL OF INVESTMENTS",
+        0,
+        549331
+      ]
+    ],
+    "holdingsCount": 38,
+    "topHoldings": [
+      [
+        "TSLA US",
+        "特斯拉公司",
+        8.89
+      ],
+      [
+        "AMD US",
+        "超微半導體公司",
+        6.89
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        6.04
+      ],
+      [
+        "PLTR US",
+        "帕蘭提爾科技公司",
+        5.82
+      ],
+      [
+        "ROKU US",
+        "Roku Inc",
+        4.93
+      ]
+    ],
+    "adds": [
+      [
+        "BLSH US",
+        "Bullish",
+        1079,
+        1.49,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.49,
+          "oldWeight": 1.49,
+          "weightDelta": 0,
+          "flowYi": 0.01
+        }
+      ],
+      [
+        "HOOD US",
+        "羅賓漢市場公司",
+        1053,
+        2.05,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.05,
+          "oldWeight": 1.95,
+          "weightDelta": 0.1,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        929,
+        6.04,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 6.04,
+          "oldWeight": 5.75,
+          "weightDelta": 0.29,
+          "flowYi": 0.03
+        }
+      ]
+    ],
+    "cuts": [
+      [
+        "TEM US",
+        "Tempus AI Inc",
+        -13235,
+        0.56,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.56,
+          "oldWeight": 1.31,
+          "weightDelta": -0.75,
+          "flowYi": -0.2
+        }
+      ],
+      [
+        "CRSP US",
+        "CRISPR治療公司",
+        -6000,
+        3.01,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.01,
+          "oldWeight": 3.3,
+          "weightDelta": -0.29,
+          "flowYi": -0.09
+        }
+      ]
+    ],
+    "flowChanges": [
+      [
+        "TEM US",
+        "Tempus AI Inc",
+        -13235,
+        0.56,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 0.56,
+          "oldWeight": 1.31,
+          "weightDelta": -0.75,
+          "flowYi": -0.2
+        }
+      ],
+      [
+        "CRSP US",
+        "CRISPR治療公司",
+        -6000,
+        3.01,
+        {
+          "industry": "未分類",
+          "type": "decreased",
+          "typeLabel": "減碼",
+          "newWeight": 3.01,
+          "oldWeight": 3.3,
+          "weightDelta": -0.29,
+          "flowYi": -0.09
+        }
+      ],
+      [
+        "HOOD US",
+        "羅賓漢市場公司",
+        1053,
+        2.05,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 2.05,
+          "oldWeight": 1.95,
+          "weightDelta": 0.1,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "CRCL US",
+        "Circle Internet Group Inc",
+        929,
+        6.04,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 6.04,
+          "oldWeight": 5.75,
+          "weightDelta": 0.29,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "BLSH US",
+        "Bullish",
+        1079,
+        1.49,
+        {
+          "industry": "未分類",
+          "type": "increased",
+          "typeLabel": "加碼",
+          "newWeight": 1.49,
+          "oldWeight": 1.49,
+          "weightDelta": 0,
+          "flowYi": 0.01
+        }
+      ]
+    ],
+    "newPositions": [],
+    "exits": [],
+    "pricePath": [
+      11.69,
+      11.69
+    ]
+  },
+  {
     "code": "00989A",
     "name": "主動摩根美國科技",
     "fullName": "摩根大美國領先科技主動式ETF證券投資信託基金",
     "issuer": "摩根",
     "theme": "海外股票",
     "fundType": "國外成分證券主動式交易所交易基金(股票)",
-    "aum": 14.6,
-    "nav": 17.59,
-    "price": 17.51,
-    "premium": -0.47,
+    "aum": 14.7,
+    "nav": 17.84,
+    "price": 17.8,
+    "premium": -0.21,
     "fee": 0.75,
     "managementFee": 0.75,
     "custodyFee": 0.15,
     "totalExpenseRatio": null,
     "dividend": "未公告",
     "dividendFrequency": "",
-    "holders": 7627,
+    "holders": 7500,
     "manager": "蓋欣聖",
     "launchDate": "2025-10-22",
     "trackingIndex": "不適用",
@@ -13074,13 +12720,13 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00989A/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
     "tsmcWeight": 0,
     "tsmcShares": 0,
-    "tsmcHeadroomYi": 3.6,
+    "tsmcHeadroomYi": 3.7,
     "holdings": [
       [
         "GOOG",
@@ -13495,8 +13141,8 @@ export const etfs = [
     "newPositions": [],
     "exits": [],
     "pricePath": [
-      17.51,
-      17.51
+      17.8,
+      17.8
     ]
   },
   {
@@ -13507,16 +13153,16 @@ export const etfs = [
     "theme": "主動收益",
     "fundType": "國外成分證券主動式交易所交易基金(債券)",
     "aum": 10.6,
-    "nav": 10.0289,
-    "price": 10.04,
-    "premium": 0.11,
+    "nav": 10.0165,
+    "price": 10.03,
+    "premium": 0.13,
     "fee": 0.65,
     "managementFee": 0.65,
     "custodyFee": 0.1,
     "totalExpenseRatio": null,
     "dividend": "月配",
     "dividendFrequency": "monthly",
-    "holders": 4504,
+    "holders": 4455,
     "manager": "游陳達",
     "launchDate": "2025-10-14",
     "trackingIndex": "不適用",
@@ -13528,7 +13174,7 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00983D/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
@@ -14093,8 +13739,8 @@ export const etfs = [
     "newPositions": [],
     "exits": [],
     "pricePath": [
-      10.04,
-      10.04
+      10.03,
+      10.03
     ]
   },
   {
@@ -14105,16 +13751,16 @@ export const etfs = [
     "theme": "主動收益",
     "fundType": "國外成分證券主動式交易所交易基金(債券)",
     "aum": 8.2,
-    "nav": 9.8636,
-    "price": 9.87,
-    "premium": 0.06,
+    "nav": 9.8583,
+    "price": 9.88,
+    "premium": 0.22,
     "fee": 0.55,
     "managementFee": 0.55,
     "custodyFee": 0.1,
     "totalExpenseRatio": null,
     "dividend": "月配",
     "dividendFrequency": "monthly",
-    "holders": 2963,
+    "holders": 2958,
     "manager": "黃詩紋",
     "launchDate": "2025-10-14",
     "trackingIndex": "不適用",
@@ -14126,7 +13772,7 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "pocket",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00982D/active",
     "comparisonFromDate": "2026-05-20",
     "comparisonToDate": "2026-05-21",
@@ -14589,8 +14235,8 @@ export const etfs = [
     "newPositions": [],
     "exits": [],
     "pricePath": [
-      9.87,
-      9.87
+      9.88,
+      9.88
     ]
   },
   {
@@ -14601,16 +14247,16 @@ export const etfs = [
     "theme": "海外股票",
     "fundType": "國外成分證券主動式交易所交易基金(股票)",
     "aum": 6.3,
-    "nav": 14.64,
-    "price": 14.67,
-    "premium": 0.21,
+    "nav": 14.66,
+    "price": 14.85,
+    "premium": 1.29,
     "fee": 1,
     "managementFee": 1,
     "custodyFee": 0.25,
     "totalExpenseRatio": null,
     "dividend": "年配",
     "dividendFrequency": "annual",
-    "holders": 5123,
+    "holders": 5163,
     "manager": "蘇聖峰",
     "launchDate": "2025-08-27",
     "trackingIndex": "不適用",
@@ -14622,276 +14268,353 @@ export const etfs = [
       "return5Y": null
     },
     "holdingsSource": "issuer-official",
-    "dataDate": "2026-05-22",
+    "dataDate": "2026-05-25",
     "sourceUrl": "https://www.etfinfo.tw/etf/00986A/active",
-    "comparisonFromDate": "2026-05-21",
-    "comparisonToDate": "2026-05-22",
-    "tsmcWeight": 7.6715,
+    "comparisonFromDate": "2026-05-22",
+    "comparisonToDate": "2026-05-25",
+    "tsmcWeight": 7.7423,
     "tsmcShares": 22000,
     "tsmcHeadroomYi": 1.1,
     "holdings": [
       [
         "GOOGL US",
         "Alphabet 公司",
-        8.8445,
+        8.6984,
         4500
       ],
       [
         "AVGO US",
         "博通公司",
-        8.2338,
+        8.0619,
         3900
-      ],
-      [
-        "NVDA US",
-        "輝達",
-        7.9055,
-        7000
       ],
       [
         "2330",
         "台積電",
-        7.6715,
+        7.7423,
         22000
+      ],
+      [
+        "NVDA US",
+        "輝達",
+        7.6617,
+        7000
       ],
       [
         "MU US",
         "美光科技公司",
-        7.3985,
+        7.6,
         2000
       ],
       [
         "LITE US",
         "魯門特姆控股公司",
-        4.8257,
+        5.2902,
         1100
       ],
       [
         "AMZN US",
         "AMAZON. COM INC",
-        4.0179,
+        4.0158,
         3000
       ],
       [
         "GEV US",
         "奇異維諾瓦公司",
-        3.6243,
+        3.6433,
         700
       ],
       [
         "IFX GY",
         "英飛凌科技股份有限公司",
-        3.1854,
+        3.1519,
         8000
-      ],
-      [
-        "CRWD US",
-        "Crowdstrike控股公司",
-        3.0818,
-        938
       ],
       [
         "LRCX US",
         "科林研發股份有限公司",
-        2.9833,
+        3.0457,
         2021
+      ],
+      [
+        "CRWD US",
+        "Crowdstrike控股公司",
+        3.0318,
+        938
       ],
       [
         "COHR US",
         "連貫公司",
-        2.3553,
+        2.4502,
         1300
-      ],
-      [
-        "WMT UN",
-        "沃爾瑪公司",
-        2.2494,
-        3400
       ],
       [
         "ENR GY",
         "Siemens Energy AG",
-        2.2476,
+        2.2131,
         2200
       ],
       [
         "HWM US",
         "Howmet航太公司",
-        2.2441,
+        2.203,
         1700
       ],
       [
         "MSFT US",
         "Microsoft Corp",
-        2.1279,
+        2.0897,
         1000
+      ],
+      [
+        "WMT UN",
+        "沃爾瑪公司",
+        2.0566,
+        3400
       ],
       [
         "ETN US",
         "伊頓公開有限公司",
-        1.9188,
+        1.9023,
         1000
-      ],
-      [
-        "CAT US",
-        "Caterpillar Inc",
-        1.5434,
-        350
-      ],
-      [
-        "GLEN LN",
-        "嘉能可公司",
-        1.5319,
-        40000
-      ],
-      [
-        "4062 JT",
-        "Ibiden Co Ltd",
-        1.4915,
-        3000
-      ],
-      [
-        "SU FP",
-        "施奈德電機公司",
-        1.4732,
-        950
       ],
       [
         "AMD US",
         "超微半導體公司",
-        1.3572,
-        600
+        1.7934,
+        800
+      ],
+      [
+        "4062 JT",
+        "Ibiden Co Ltd",
+        1.681,
+        3000
+      ],
+      [
+        "GLEN LN",
+        "嘉能可公司",
+        1.5381,
+        40000
+      ],
+      [
+        "CAT US",
+        "Caterpillar Inc",
+        1.5112,
+        350
+      ],
+      [
+        "GS US",
+        "高盛集團",
+        1.4782,
+        300
+      ],
+      [
+        "SU FP",
+        "施奈德電機公司",
+        1.4564,
+        950
       ],
       [
         "NET US",
         "Cloudflare公司",
-        1.2743,
+        1.2724,
         1200
       ],
       [
         "8306 JT",
         "三菱UFJ金融集團公司",
-        1.1558,
+        1.1537,
         12000
-      ],
-      [
-        "BWXT US",
-        "BWX科技股份有限公司",
-        1.1266,
-        1100
       ],
       [
         "6501 JT",
         "日立製作所有限公司",
-        1.0921,
+        1.1242,
         7000
       ],
       [
-        "GS US",
-        "高盛集團",
-        0.9927,
-        200
+        "BWXT US",
+        "BWX科技股份有限公司",
+        1.1108,
+        1100
       ],
       [
         "VRTX US",
         "福泰製藥公司",
-        0.9789,
+        0.9728,
         450
       ],
       [
         "SNDK US",
         "晟碟公司（德拉瓦州）",
-        0.4926,
-        70
+        0.769,
+        100
+      ],
+      [
+        "TSLA US",
+        "特斯拉公司",
+        0.4167,
+        200
+      ],
+      [
+        "6981 JT",
+        "村田製作所有限公司",
+        0.3585,
+        1700
       ]
     ],
-    "holdingsCount": 29,
+    "holdingsCount": 31,
     "topHoldings": [
       [
         "GOOGL US",
         "Alphabet 公司",
-        8.8445
+        8.6984
       ],
       [
         "AVGO US",
         "博通公司",
-        8.2338
-      ],
-      [
-        "NVDA US",
-        "輝達",
-        7.9055
+        8.0619
       ],
       [
         "2330",
         "台積電",
-        7.6715
+        7.7423
+      ],
+      [
+        "NVDA US",
+        "輝達",
+        7.6617
       ],
       [
         "MU US",
         "美光科技公司",
-        7.3985
+        7.6
       ]
     ],
-    "adds": [],
+    "adds": [
+      [
+        "6981 JT",
+        "村田製作所有限公司",
+        1700,
+        0.3585,
+        {
+          "industry": "未分類",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3585,
+          "oldWeight": 0,
+          "weightDelta": 0.3585,
+          "flowYi": 0.02
+        }
+      ],
+      [
+        "TSLA US",
+        "特斯拉公司",
+        200,
+        0.4167,
+        {
+          "industry": "未分類",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.4167,
+          "oldWeight": 0,
+          "weightDelta": 0.4167,
+          "flowYi": 0.03
+        }
+      ]
+    ],
     "cuts": [],
-    "flowChanges": [],
-    "newPositions": [],
+    "flowChanges": [
+      [
+        "TSLA US",
+        "特斯拉公司",
+        200,
+        0.4167,
+        {
+          "industry": "未分類",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.4167,
+          "oldWeight": 0,
+          "weightDelta": 0.4167,
+          "flowYi": 0.03
+        }
+      ],
+      [
+        "6981 JT",
+        "村田製作所有限公司",
+        1700,
+        0.3585,
+        {
+          "industry": "未分類",
+          "type": "added",
+          "typeLabel": "新增",
+          "newWeight": 0.3585,
+          "oldWeight": 0,
+          "weightDelta": 0.3585,
+          "flowYi": 0.02
+        }
+      ]
+    ],
+    "newPositions": [
+      "6981 JT 村田製作所有限公司",
+      "TSLA US 特斯拉公司"
+    ],
     "exits": [],
     "pricePath": [
-      14.67,
-      14.67
+      14.85,
+      14.85
     ]
   }
 ];
 
 export const watchlist = [
   {
-    "code": "4958",
-    "name": "臻鼎-KY",
-    "reason": "3 檔加碼、0 檔減碼，最大權重 3.18%",
-    "sector": "共識加碼"
-  },
-  {
-    "code": "2454",
-    "name": "聯發科",
-    "reason": "3 檔加碼、0 檔減碼，最大權重 6.51%",
-    "sector": "共識加碼"
-  },
-  {
     "code": "8046",
     "name": "南電",
-    "reason": "3 檔加碼、1 檔減碼，最大權重 2.76%",
+    "reason": "2 檔加碼、3 檔減碼，最大權重 3.53%",
+    "sector": "共識減碼"
+  },
+  {
+    "code": "3711",
+    "name": "日月光投控",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 3.86%",
+    "sector": "共識加碼"
+  },
+  {
+    "code": "2368",
+    "name": "金像電",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 3.83%",
     "sector": "共識加碼"
   },
   {
     "code": "2327",
     "name": "國巨*",
-    "reason": "2 檔加碼、1 檔減碼，最大權重 3.03%",
+    "reason": "2 檔加碼、1 檔減碼，最大權重 3.13%",
     "sector": "共識加碼"
   },
   {
-    "code": "6139",
-    "name": "亞翔",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 4.03%",
+    "code": "3081",
+    "name": "聯亞",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 0.94%",
     "sector": "共識加碼"
   },
   {
-    "code": "3037",
-    "name": "欣興",
-    "reason": "2 檔加碼、1 檔減碼，最大權重 5.41%",
+    "code": "MU US",
+    "name": "MICRON TECHNOLOGY INC",
+    "reason": "2 檔加碼、0 檔減碼，最大權重 5.44%",
     "sector": "共識加碼"
   },
   {
-    "code": "2467",
-    "name": "志聖",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 0.40%",
+    "code": "2344",
+    "name": "華邦電",
+    "reason": "1 檔加碼、1 檔減碼，最大權重 2.24%",
     "sector": "共識加碼"
   },
   {
-    "code": "3105",
-    "name": "穩懋半導體",
-    "reason": "2 檔加碼、0 檔減碼，最大權重 2.53%",
+    "code": "2377",
+    "name": "微星",
+    "reason": "1 檔加碼、0 檔減碼，最大權重 1.34%",
     "sector": "共識加碼"
   }
 ];
@@ -14904,7 +14627,7 @@ export const reports = [
     "tone": "交易清單",
     "items": [
       "追蹤 25 檔主動股票 ETF",
-      "持股資料日 2026-05-22",
+      "持股資料日 2026-05-25",
       "標記台積電權重與折溢價異常"
     ]
   },
