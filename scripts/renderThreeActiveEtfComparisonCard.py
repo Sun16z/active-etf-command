@@ -198,10 +198,24 @@ const output = {{
     const number = (value) => Number(value || 0);
     const byAbsLots = [...rows]
       .filter((row) => number(row.deltaLots) !== 0)
-      .sort((a, b) => Math.abs(number(b.deltaLots)) - Math.abs(number(a.deltaLots)));
-    const byAbsValue = [...rows]
-      .filter((row) => number(row.estimatedValueYi) !== 0)
-      .sort((a, b) => Math.abs(number(b.estimatedValueYi)) - Math.abs(number(a.estimatedValueYi)));
+      .sort((a, b) => {{
+        const aw = Math.abs(number(a.weightDelta));
+        const bw = Math.abs(number(b.weightDelta));
+        if (bw !== aw) return bw - aw;
+        const av = Math.abs(number(a.estimatedValueYi));
+        const bv = Math.abs(number(b.estimatedValueYi));
+        if (bv !== av) return bv - av;
+        return Math.abs(number(b.deltaLots)) - Math.abs(number(a.deltaLots));
+      }});
+    const byAbsWeight = [...rows]
+      .filter((row) => number(row.weightDelta) !== 0 || number(row.estimatedValueYi) !== 0)
+      .sort((a, b) => {{
+        const aw = Math.abs(number(a.weightDelta));
+        const bw = Math.abs(number(b.weightDelta));
+        if (bw !== aw) return bw - aw;
+        return Math.abs(number(b.estimatedValueYi)) - Math.abs(number(a.estimatedValueYi));
+      }});
+    const byAbsValue = byAbsWeight;
     const netYi = byAbsValue.reduce((sum, row) => sum + number(row.estimatedValueYi), 0);
     const buyYi = byAbsValue.filter((row) => number(row.estimatedValueYi) > 0).reduce((sum, row) => sum + number(row.estimatedValueYi), 0);
     const sellYi = byAbsValue.filter((row) => number(row.estimatedValueYi) < 0).reduce((sum, row) => sum + number(row.estimatedValueYi), 0);
@@ -313,7 +327,7 @@ def draw_row(
     draw.text((x, y), arrow, font=fonts.body_bold, fill=color)
     draw.text((x + 34, y), name[:8], font=fonts.body_bold, fill=PALETTE["ink"])
     if prefer_lots:
-        value = format_signed_int(delta_lots, "張")
+        value = f"{format_signed_int(delta_lots, '張')}（{format_signed(weight_delta, 3, '%')}）"
     else:
         if abs(value_yi) >= 0.05:
             value = format_signed(value_yi, 1, "億")
@@ -371,11 +385,6 @@ def draw_column(
     cursor += 12
 
     section_title, rows = pick_main_rows(item)
-    pill_w = 206
-    pill_x = x + (width - pill_w) // 2
-    rounded(draw, (pill_x, cursor - 4, pill_x + pill_w, cursor + 34), color, radius=18)
-    draw_center(draw, cursor - 1, section_title, fonts.section, PALETTE["white"], pill_x, pill_x + pill_w)
-    cursor += 54
     prefer_lots = section_title.endswith("張數")
     if rows:
         for row in rows[:5]:
@@ -384,7 +393,7 @@ def draw_column(
         cursor = draw_wrapped(draw, (x + 28, cursor), "今日未揭露可比對異動", fonts.body_bold, PALETTE["muted"], width - 56)
 
     if not prefer_lots:
-        draw.text((x + 28, cursor + 2), "● 張數未動，觀察權重與市值漂移", font=fonts.tiny, fill=color)
+        draw.text((x + 28, cursor + 2), "● 今日無張數變動，改列權重變動", font=fonts.tiny, fill=color)
         cursor += 34
     elif item.get("valueChanges"):
         value_hint = item["valueChanges"][0]
@@ -398,7 +407,7 @@ def draw_column(
     draw.line((x + 22, y + 496, x + width - 22, y + 496), fill=PALETTE["line"], width=1)
     metric_y = y + 516
     metric_right = x + width - 28
-    metric_y = draw_metric(draw, x + 28, metric_y, "◆", "淨加碼", format_signed(float(flow.get("netYi") or 0), 1, "億"), fonts, color, metric_right)
+    metric_y = draw_metric(draw, x + 28, metric_y, "◆", "配置變動估算", format_signed(float(flow.get("netYi") or 0), 1, "億"), fonts, color, metric_right)
     metric_y = draw_metric(draw, x + 28, metric_y, "◼", "規模", f"{float(universe.get('aum') or 0):,.1f}億", fonts, color, metric_right)
     metric_y = draw_metric(draw, x + 28, metric_y, "◇", "NAV/溢價", f"{float(universe.get('nav') or 0):.2f} / {format_signed(float(universe.get('premium') or 0), 2, '%')}", fonts, color, metric_right)
 
@@ -468,6 +477,21 @@ def draw_signal_box(
     draw_wrapped(draw, (x0 + 100, y0 + 58), body, fonts.tiny, PALETTE["ink"], x1 - x0 - 120, line_gap=3, max_lines=2)
 
 
+def draw_signal_box_large(
+    draw: ImageDraw.ImageDraw,
+    box: tuple[int, int, int, int],
+    title: str,
+    body: str,
+    fonts: FontSet,
+    accent: str,
+) -> None:
+    rounded(draw, box, "#FFFFFF", "#AEBCCA", width=2, radius=10)
+    x0, y0, x1, _ = box
+    rounded(draw, (x0 + 18, y0 + 16, x1 - 18, y0 + 56), accent, radius=14)
+    draw_center(draw, y0 + 20, title, fonts.section, PALETTE["white"], x0 + 18, x1 - 18)
+    draw_wrapped(draw, (x0 + 28, y0 + 70), body, fonts.tiny, PALETTE["ink"], x1 - x0 - 56, line_gap=4, max_lines=7)
+
+
 def render_card(data: dict[str, Any], output: Path, content: dict[str, Any] | None = None) -> None:
     fonts = make_fonts()
     image = Image.new("RGB", (WIDTH, HEIGHT), PALETTE["white"])
@@ -483,7 +507,7 @@ def render_card(data: dict[str, Any], output: Path, content: dict[str, Any] | No
     to_label = format_month_day(sorted(to_dates)[-1] if to_dates else report_date)
 
     draw_center(draw, 18, str(card_content.get("title") or "三檔主動式ETF比一比"), fonts.title, PALETTE["navy"])
-    date_text = f"{from_label} → {to_label}"
+    date_text = f"{from_label}-{to_label} 趨勢"
     date_w = text_width(draw, date_text, fonts.big_number)
     date_suffix = str(card_content.get("dateSuffix") or "今日換股實錄")
     suffix_w = text_width(draw, date_suffix, fonts.subtitle)
@@ -498,9 +522,7 @@ def render_card(data: dict[str, Any], output: Path, content: dict[str, Any] | No
         PALETTE["ink"],
     )
 
-    strip = str(card_content.get("marketStrip") or f"{format_month_day(report_date)} 正式資料 {meta.get('rowCount', 0):,} 筆，{meta.get('etfCount', 0)} 檔；三檔皆官網核對通過")
-    rounded(draw, (170, 197, 910, 235), PALETTE["navy"], radius=18)
-    draw_center(draw, 200, strip, fonts.section, PALETTE["white"], 170, 910)
+    # The blue status strip is intentionally removed to keep the card cleaner.
 
     x_positions = [30, 375, 720]
     colors = [PALETTE["blue"], PALETTE["teal"], PALETTE["orange"]]
@@ -511,23 +533,18 @@ def render_card(data: dict[str, Any], output: Path, content: dict[str, Any] | No
     draw_center(draw, 1044, "三檔共同訊號", fonts.subtitle, PALETTE["white"], 407, 673)
 
     sig = consensus(data)
-    buy_names = "、".join(item["name"] for item in sig["buys"][:4]) or "資料不足"
-    sell_names = "、".join(item["name"] for item in sig["sells"][:3]) or "資料不足"
-    signal_defaults = [
-        {"icon": "square", "title": "科技股仍是主軸", "body": f"共同訊號集中在 {buy_names}", "color": PALETTE["blue"]},
-        {"icon": "bars", "title": "PCB / AI硬體成焦點", "body": "台光電、欣興、金像電、南電與臻鼎持續出現", "color": PALETTE["teal"]},
-        {"icon": "diamond", "title": "金融股換出訊號", "body": f"賣壓集中在 {sell_names}", "color": "#A34800"},
-        {"icon": "circle", "title": "關鍵差異", "body": "981A大額淨加碼；991A權重漂移；403A換手最明顯", "color": PALETTE["orange"]},
-    ]
-    signal_overrides = card_content.get("signals") if isinstance(card_content.get("signals"), list) else []
-    signals = []
-    for index, default in enumerate(signal_defaults):
-        override = signal_overrides[index] if index < len(signal_overrides) and isinstance(signal_overrides[index], dict) else {}
-        signals.append({**default, **override})
-    draw_signal_box(draw, (30, 1095, 520, 1186), signals[0]["icon"], signals[0]["title"], signals[0]["body"], fonts, signals[0]["color"])
-    draw_signal_box(draw, (560, 1095, 1050, 1186), signals[1]["icon"], signals[1]["title"], signals[1]["body"], fonts, signals[1]["color"])
-    draw_signal_box(draw, (30, 1200, 520, 1290), signals[2]["icon"], signals[2]["title"], signals[2]["body"], fonts, signals[2]["color"])
-    draw_signal_box(draw, (560, 1200, 1050, 1290), signals[3]["icon"], signals[3]["title"], signals[3]["body"], fonts, signals[3]["color"])
+    overrides = card_content.get("consensusBuys") if isinstance(card_content.get("consensusBuys"), list) else []
+    buy_items = overrides or sig["buys"]
+    buy_lines: list[str] = []
+    for item in buy_items[:8]:
+        name = str(item.get("name") or "")
+        value = float(item.get("value") or 0)
+        etfs = sorted(list(item.get("buyEtfs") or []))
+        if not name or not etfs:
+            continue
+        buy_lines.append(f"{name} {format_signed(value, 2, '億')}（{'/'.join(etfs)}）")
+    buy_body = "\n".join(buy_lines) if buy_lines else "資料不足"
+    draw_signal_box_large(draw, (30, 1095, 1050, 1290), "共識權重上修（股票｜估算｜ETF）", buy_body, fonts, PALETTE["blue"])
 
     foot = str(card_content.get("footnote") or (
         f"資料整理：依 {from_label}、{to_label} 原始持股權益與官網 PCF 計算；"
