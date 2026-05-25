@@ -6,7 +6,7 @@ export const snapshotMeta = {
   "sourceUrl": "https://www.etfinfo.tw/etf",
   "sourceNote": "Live import from each ETF active page: latestMarket, holdings, latestDiff.",
   "scope": "all",
-  "generatedAt": "2026-05-25T09:34:34.433Z",
+  "generatedAt": "2026-05-25T09:35:29.122Z",
   "failedCodes": []
 };
 

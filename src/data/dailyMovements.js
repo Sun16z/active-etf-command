@@ -1,5 +1,5 @@
 export const dailyMovementMeta = {
-  "generatedAt": "2026-05-25T09:34:53.063Z",
+  "generatedAt": "2026-05-25T09:35:46.121Z",
   "reportDate": "2026-05-25",
   "asOf": "2026-05-25",
   "latestCapturedDate": "2026-05-25",
