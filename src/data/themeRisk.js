@@ -1,5 +1,5 @@
 export const themeRiskMeta = {
-  "generatedAt": "2026-05-25T09:32:59.713Z",
+  "generatedAt": "2026-05-25T09:34:55.264Z",
   "asOf": "2026-05-25",
   "source": "Yahoo Finance 日線 + 主動 ETF 每日持股異動",
   "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart",

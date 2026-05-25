@@ -79,7 +79,7 @@ const officialSources = {
   },
   "00981A": {
     issuer: "統一投信",
-    pageUrl: "https://www.ezmoney.com.tw/ETF/Transaction/PCF?fundCode=61YTW",
+    pageUrl: "https://www.ezmoney.com.tw/ETF/Transaction/PCF?fundCode=49YTW",
     fundCode: "49YTW",
     apiUrl: "https://www.ezmoney.com.tw/ETF/Transaction/GetPCF",
   },
