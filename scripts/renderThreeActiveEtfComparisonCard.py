@@ -99,7 +99,8 @@ def draw_center(
     x0: int = 0,
     x1: int = WIDTH,
 ) -> None:
-    draw.text(((x0 + x1 - text_width(draw, text, font)) / 2, y), text, font=font, fill=fill)
+    x = (x0 + x1 - text_width(draw, text, font)) / 2
+    draw.text((int(round(x)), int(round(y))), text, font=font, fill=fill)
 
 
 def wrap_text(
@@ -141,7 +142,7 @@ def draw_wrapped(
     x, y = xy
     lines = wrap_text(draw, text, font, max_width, max_lines)
     for line in lines:
-        draw.text((x, y), line, font=font, fill=fill)
+        draw.text((int(round(x)), int(round(y))), line, font=font, fill=fill)
         y += text_height(draw, line, font) + line_gap
     return y
 
@@ -511,7 +512,7 @@ def render_card(data: dict[str, Any], output: Path, content: dict[str, Any] | No
     date_w = text_width(draw, date_text, fonts.big_number)
     date_suffix = str(card_content.get("dateSuffix") or "今日換股實錄")
     suffix_w = text_width(draw, date_suffix, fonts.subtitle)
-    date_x = (WIDTH - date_w - suffix_w - 24) / 2
+    date_x = int(round((WIDTH - date_w - suffix_w - 24) / 2))
     draw.text((date_x, 85), date_text, font=fonts.big_number, fill=PALETTE["red"])
     draw.text((date_x + date_w + 18, 100), date_suffix, font=fonts.subtitle, fill="#000000")
     draw_center(
