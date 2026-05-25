@@ -12,6 +12,47 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
+def fetch_pages_daily_meta(site_url: str, timeout_sec: int) -> dict[str, str]:
+    try:
+        with urlopen(site_url, timeout=timeout_sec) as resp:
+            html_text = resp.read().decode("utf-8", errors="ignore")
+    except Exception as exc:
+        return {"ok": "false", "error": f"fetch_html_failed: {exc!r}"}
+
+    marker = "assets/daily-movements-"
+    idx = html_text.find(marker)
+    if idx < 0:
+        return {"ok": "false", "error": "daily_movements_asset_not_found"}
+
+    end = html_text.find(".js", idx)
+    if end < 0:
+        return {"ok": "false", "error": "daily_movements_asset_parse_failed"}
+
+    asset_path = html_text[idx : end + 3]
+    asset_url = site_url.rstrip("/") + "/" + asset_path.lstrip("/")
+
+    try:
+        with urlopen(asset_url, timeout=timeout_sec) as resp:
+            js_text = resp.read().decode("utf-8", errors="ignore")
+    except Exception as exc:
+        return {"ok": "false", "error": f"fetch_asset_failed: {exc!r}", "assetUrl": asset_url}
+
+    def extract(key: str) -> str:
+        needle = f'{key}:"'
+        j = js_text.find(needle)
+        if j < 0:
+            return ""
+        j += len(needle)
+        k = js_text.find('"', j)
+        if k < 0:
+            return ""
+        return js_text[j:k]
+
+    report_date = extract("reportDate")
+    as_of = extract("asOf")
+    return {"ok": "true", "assetUrl": asset_url, "reportDate": report_date, "asOf": as_of}
+
+
 @dataclass(frozen=True)
 class TelegramConfig:
     token: str
@@ -99,11 +140,12 @@ def main() -> None:
     parser.add_argument("--root", default=str(Path(__file__).resolve().parents[1]), help="Project root")
     parser.add_argument(
         "--telegram-env",
-        default="/Users/justin/Documents/chatgpt/tw_shortterm_screener/telegram.env",
+        default="/Users/justin/tw_shortterm_screener_runtime/telegram.env",
         help="Path to telegram.env (expects TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID)",
     )
     parser.add_argument("--site-url", default="https://sun16z.github.io/active-etf-command/")
     parser.add_argument("--commit", default="", help="Git commit SHA (optional)")
+    parser.add_argument("--verify-pages", action="store_true", help="Fetch GitHub Pages and verify data dates.")
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
@@ -143,13 +185,29 @@ def main() -> None:
     commit = args.commit.strip()
     commit_line = f"\n<b>Commit</b>: <code>{commit[:12]}</code>" if commit else ""
 
+    pages_verification = ""
+    if args.verify_pages:
+        pages = fetch_pages_daily_meta(args.site_url, cfg.timeout_sec)
+        if pages.get("ok") == "true":
+            pages_report_date = pages.get("reportDate") or ""
+            pages_as_of = pages.get("asOf") or ""
+            status = "ok" if pages_report_date == report_date and pages_as_of == as_of else "stale"
+            pages_verification = (
+                "\n"
+                f"<b>PagesVerify</b>: <code>{status}</code>\n"
+                f"<b>Pages reportDate</b>: <code>{pages_report_date or '-'}</code>\n"
+                f"<b>Pages asOf</b>: <code>{pages_as_of or '-'}</code>"
+            )
+        else:
+            pages_verification = "\n" f"<b>PagesVerify</b>: <code>failed</code>\n" f"<b>PagesError</b>: <code>{pages.get('error','')}</code>"
+
     text = (
         "<b>Active ETF Command｜網站資料已更新</b>\n"
         f"<b>reportDate</b>: <code>{report_date}</code>\n"
         f"<b>asOf</b>: <code>{as_of}</code>\n"
         f"<b>dailyMovements</b>: <code>{row_count}</code> rows, <code>{etf_count}</code> ETFs\n"
         f"<b>nextPCF</b>: <code>{next_pcf_rows}</code> rows (excluded from today compare)\n"
-        f"<b>Pages</b>: {args.site_url}{commit_line}\n\n"
+        f"<b>Pages</b>: {args.site_url}{commit_line}{pages_verification}\n\n"
         "<b>Outputs</b>\n"
         f"{'\n'.join(output_lines)}\n\n"
         "<b>Warnings</b>\n"
