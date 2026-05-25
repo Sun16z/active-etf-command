@@ -39,6 +39,14 @@ http://127.0.0.1:5176/
 npm run refresh:data
 ```
 
+每日全流程（資料刷新 → build → push → Pages 驗證 → Telegram）：
+
+```bash
+./scripts/run_full_daily_update.sh
+```
+
+備註：此腳本會檢查 `outputs/daily_publish/<reportDate>/` 是否已存在由 ChatGPT 產出的文章與三欄圖卡，缺任一檔案會停止並回報缺失路徑。
+
 匯出核心資料庫快照（手動）：
 
 ```bash
