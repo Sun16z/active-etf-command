@@ -39,6 +39,9 @@ commit_sha="$(git rev-parse HEAD)"
 log "step4 telegram site update"
 python3 scripts/sendActiveEtfSiteUpdateTelegram.py --commit "$commit_sha" --verify-pages
 
+log "step5 generate publish package (article+card)"
+python3 scripts/generateActiveEtfDailyPublishPackage.py
+
 out_dir="$PROJECT_ROOT/outputs/daily_publish/$report_date"
 article="$out_dir/active_etf_chatgpt_article_${report_date}.md"
 card="$out_dir/active_etf_chatgpt_three_column_card_${report_date}.png"

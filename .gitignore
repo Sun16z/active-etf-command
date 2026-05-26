@@ -5,3 +5,5 @@ dist/
 .env.local
 npm-debug.log*
 outputs/
+__pycache__/
+*.pyc
