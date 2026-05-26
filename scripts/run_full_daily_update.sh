@@ -14,7 +14,10 @@ log() {
 log "step1 refresh:data"
 ./scripts/run_daily_refresh.sh
 
-report_date="$(node -e "import('./outputs/core_db/latest/daily_movements.json',{assert:{type:'json'}}).then(m=>console.log(m.default.meta.reportDate)).catch(()=>process.exit(1))" 2>/dev/null || true)"
+report_date="$(
+  node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('outputs/core_db/latest/daily_movements.json','utf8'));process.stdout.write(String((j&&j.meta&&(j.meta.reportDate||j.meta.asOf))||''));" \
+    2>/dev/null || true
+)"
 if [[ -z "${report_date:-}" ]]; then
   log "error: cannot read outputs/core_db/latest/daily_movements.json meta.reportDate"
   exit 2
@@ -53,4 +56,3 @@ log "step5 telegram publish (article+card)"
 python3 scripts/sendActiveEtfDailyPublishTelegram.py --date "$report_date"
 
 log "done (reportDate=$report_date commit=${commit_sha:0:12})"
-
