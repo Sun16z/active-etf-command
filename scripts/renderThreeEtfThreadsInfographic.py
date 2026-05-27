@@ -33,19 +33,14 @@ LIGHT = {
     "00403A": "#FFF0E8",
 }
 QUOTES = {
-    "00981A": "把資金往欣興與部分電子鏈補位，同時降低台光電、緯穎與華通的短線曝險。",
-    "00991A": "新增台灣晶技提高電子零組件曝險，並讓欣興成為今日權重上修核心。",
-    "00403A": "把新增資金往聯電、景碩與欣興配置，並同步降低台積電單一大型權重。",
+    "00981A": "把資金往聯電、日月光與欣興補位，同時降低京元電子與華通的短線曝險。",
+    "00991A": "小幅加碼台灣晶技、緯穎與奇鋐，並降低金像電在籃子裡的比重。",
+    "00403A": "新增環球晶並加碼聯發科、健策與台達電，把資金集中到半導體鏈。",
 }
 TAGS = {
-    "00981A": "加碼欣興，減華通；AI鏈權重轉弱",
-    "00991A": "新增台灣晶技，權重轉向欣興",
-    "00403A": "加碼聯電與景碩，台積電權重下修",
-}
-NOTES = {
-    "00981A": "換股｜欣興+1,254、華通-2,475、優群清倉",
-    "00991A": "換股｜台灣晶技+4,000、永豐金清倉",
-    "00403A": "換股｜聯電+4,200、景碩+800、國泰金清倉",
+    "00981A": "加碼聯電與日月光，減京元電子",
+    "00991A": "台灣晶技續加碼，金像電減碼",
+    "00403A": "新增環球晶，加碼聯發科與健策",
 }
 NAME_ALIASES = {
     "台灣積體": "台積電",
@@ -125,6 +120,14 @@ def lots(value: float) -> str:
     return f"{prefix}{int(round(value)):,}"
 
 
+def md(value: str) -> str:
+    try:
+        _, month, day = str(value).split("-")
+        return f"{int(month)}/{int(day)}"
+    except Exception:
+        return str(value)
+
+
 def wrap(draw: ImageDraw.ImageDraw, text: str, font_obj: ImageFont.FreeTypeFont, max_w: int, max_lines: int) -> list[str]:
     lines: list[str] = []
     current = ""
@@ -171,7 +174,30 @@ def core_rows(core: dict[str, Any], code: str, report_date: str) -> list[dict[st
 
 
 def pick_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    share_rows = [row for row in rows if number(row.get("deltaLots")) != 0]
+    if share_rows:
+        return sorted(share_rows, key=lambda row: number(row.get("newWeight")), reverse=True)[:5]
     return sorted(rows, key=lambda row: abs(number(row.get("estimatedValueYi"))), reverse=True)[:5]
+
+
+def row_action(row: dict[str, Any]) -> str:
+    label = str(row.get("typeLabel") or row.get("type") or "")
+    name = normalize_name(str(row.get("stockName") or ""))
+    delta = number(row.get("deltaLots"))
+    if label in {"新增", "剔除", "刪除", "removed", "added"}:
+        if delta > 0:
+            return f"{name}新增"
+        return f"{name}清倉"
+    prefix = "+" if delta > 0 else ""
+    return f"{name}{prefix}{int(round(delta))}"
+
+
+def build_note(rows: list[dict[str, Any]]) -> str:
+    share_rows = [row for row in rows if number(row.get("deltaLots")) != 0]
+    if not share_rows:
+        return "今日零張數變動，僅列權重變動"
+    notable = sorted(share_rows, key=lambda row: abs(number(row.get("estimatedValueYi"))), reverse=True)[:2]
+    return "換股｜" + "、".join(row_action(row) for row in notable)
 
 
 def consensus(core: dict[str, Any], report_date: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
@@ -240,14 +266,14 @@ def draw_column(
         arrow_color = GREEN if value >= 0 else RED
         name = normalize_name(str(row.get("stockName") or ""))
         draw.text((x + 18, yy), arrow, font=F["row"], fill=arrow_color)
-        draw.text((x + 50, yy), name[:6], font=F["row"], fill=INK)
+        draw.text((x + 50, yy), name[:4], font=F["row"], fill=INK)
         draw_right(draw, x + w - 148, yy, lots(number(row.get("deltaLots"))), F["num"], INK)
         draw_right(draw, x + w - 12, yy, signed(value, 2, "億"), F["num"], arrow_color)
 
     note_y = y + 410
     draw_pill(draw, (x + 12, note_y, x + w - 12, note_y + 68), light, "#C7D4DD")
     draw.text((x + 28, note_y + 16), "●", font=F["small"], fill=color)
-    note_lines = wrap(draw, NOTES[code], F["small"], w - 70, 2)
+    note_lines = wrap(draw, build_note(rows_all[code]), F["small"], w - 70, 2)
     for i, line in enumerate(note_lines):
         draw.text((x + 52, note_y + 13 + i * 23), line, font=F["small"], fill=color)
 
@@ -280,12 +306,14 @@ core = json.loads((ROOT / "outputs/core_db/latest/daily_movements.json").read_te
 universe = load_universe()
 report = str(core["meta"]["reportDate"])
 rows_all = {code: core_rows(core, code, report) for code in COLORS}
+from_dates = sorted({str(row.get("fromDate") or "") for rows in rows_all.values() for row in rows if row.get("fromDate")})
+range_text = f"{md(from_dates[-1])} → {md(report)}" if from_dates else md(report)
 
 img = Image.new("RGB", (W, H), BG)
 draw = ImageDraw.Draw(img)
 draw_center(draw, 28, "三檔主動式ETF比一比", F["title"], INK)
 date_y = 102
-date_text = "5/25 → 5/26"
+date_text = range_text
 date_x = (W - (text_w(draw, date_text, F["date"]) + text_w(draw, " 趨勢 ｜ 今日換股實錄", F["date"]))) // 2
 draw.text((date_x, date_y), date_text, font=F["date"], fill="#C8312A")
 draw.text((date_x + text_w(draw, date_text, F["date"]) + 16, date_y), "趨勢", font=F["date"], fill=INK)
@@ -320,19 +348,20 @@ for base_x, items, start_rank in [(42, left_items, 1), (586, right_items, 5)]:
 draw_center(
     draw,
     block_y + 206,
-    "※ 共同下修｜台光電 -14.69億・台積電 -11.72億・緯穎 -11.34億・國巨 -9.65億",
+    "※ 共同下修｜" + "・".join(f"{item['name']} {signed(number(item['value']), 2, '億')}" for item in downs[:4]) if downs else "※ 共同下修｜今日無兩檔以上同向下修",
     F["cons_small"],
     "#D0D0D0",
     36,
     W - 36,
 )
 
-footer = "資料整理：依 5/25→5/26 原始持股權益與官網 PCF 計算 / 經理人想法為持股變化推測 / 來源：投信官網優先，ETF資訊網備援"
+footer = f"資料整理：依 {range_text} 原始持股權益與官網 PCF 計算 / 經理人想法為持股變化推測 / 來源：投信官網優先，ETF資訊網備援"
 draw.text((32, 1308), footer, font=F["footer"], fill="#666666")
 draw_right(draw, W - 36, 1308, "@justin_hsieh_", F["small"], INK)
 
 out_dir = ROOT / "outputs/daily_publish" / report
 out_dir.mkdir(parents=True, exist_ok=True)
-out = out_dir / f"three_etf_threads_infographic_{report}_local_v1.png"
+existing = sorted(out_dir.glob(f"three_etf_threads_infographic_{report}_local_v*.png"))
+out = out_dir / f"three_etf_threads_infographic_{report}_local_v{len(existing) + 1}.png"
 img.save(out)
 print(json.dumps({"ok": True, "output": str(out), "reportDate": report}, ensure_ascii=False))
