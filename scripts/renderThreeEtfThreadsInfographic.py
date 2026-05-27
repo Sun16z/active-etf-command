@@ -63,8 +63,8 @@ def font(path: str, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size)
 
 
-FONT_BOLD = "/System/Library/Fonts/STHeiti Medium.ttc"
-FONT_REG = "/System/Library/Fonts/STHeiti Light.ttc"
+FONT_BOLD = "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/4a418d1fa4860652a3241e8ee457806c8557fc64.asset/AssetData/Yuanti.ttc"
+FONT_REG = "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/4a418d1fa4860652a3241e8ee457806c8557fc64.asset/AssetData/Yuanti.ttc"
 F = {
     "title": font(FONT_BOLD, 54),
     "date": font(FONT_BOLD, 36),
@@ -348,7 +348,7 @@ for base_x, items, start_rank in [(42, left_items, 1), (586, right_items, 5)]:
 draw_center(
     draw,
     block_y + 206,
-    "※ 共同下修｜" + "・".join(f"{item['name']} {signed(number(item['value']), 2, '億')}" for item in downs[:4]) if downs else "※ 共同下修｜今日無兩檔以上同向下修",
+    "※ 共同下修｜" + " / ".join(f"{item['name']} {signed(number(item['value']), 2, '億')}" for item in downs[:4]) if downs else "※ 共同下修｜今日無兩檔以上同向下修",
     F["cons_small"],
     "#D0D0D0",
     36,
