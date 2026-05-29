@@ -1,6 +1,6 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-05-28T23:11:28.373Z",
+    "generatedAt": "2026-05-29T01:37:11.589Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": 87.1,
@@ -12,7 +12,7 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-05-28T23:11:28.373Z",
+    "generatedAt": "2026-05-29T01:37:11.588Z",
     "summary": {
       "score": 87.1,
       "label": "高壓力",
@@ -32,7 +32,7 @@ export const macroRiskData = {
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
         "asOf": "2026-05-27",
-        "checkedAt": "2026-05-28T23:11:13.932Z",
+        "checkedAt": "2026-05-29T01:37:11.588Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-05-28T23:11:28.373Z",
+        "checkedAt": "2026-05-29T01:37:11.588Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,11 +74,11 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-05-28T23:11:28.373Z",
+        "checkedAt": "2026-05-29T01:37:11.588Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
-        "explain": "This operation was aborted"
+        "explain": "FRED BAMLH0A0HYM2 HTTP 404"
       }
     ],
     "sourceHealth": {
