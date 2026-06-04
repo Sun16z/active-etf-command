@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-06-04T18:38:56.475Z",
+    "generatedAt": "2026-06-04T21:02:05.476Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 93.4,
+      "score": 87.6,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -12,9 +12,9 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-04T18:38:56.475Z",
+    "generatedAt": "2026-06-04T21:02:05.476Z",
     "summary": {
-      "score": 93.4,
+      "score": 87.6,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -26,13 +26,13 @@
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$39.22T，約 30 交易日變化 +$288.6B",
-        "score": 93.4,
+        "value": "$39.20T，約 30 交易日變化 +$216.5B",
+        "score": 87.6,
         "label": "高壓力",
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
-        "asOf": "2026-06-02",
-        "checkedAt": "2026-06-04T18:38:41.880Z",
+        "asOf": "2026-06-03",
+        "checkedAt": "2026-06-04T21:01:50.862Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -44,7 +44,7 @@
           },
           {
             "label": "政府內部持有",
-            "value": "$7.62T"
+            "value": "$7.61T"
           }
         ]
       },
@@ -58,7 +58,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-04T18:38:56.475Z",
+        "checkedAt": "2026-06-04T21:02:05.476Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,7 +74,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-04T18:38:56.475Z",
+        "checkedAt": "2026-06-04T21:02:05.476Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
