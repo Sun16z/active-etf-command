@@ -1,9 +1,9 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-06-05T18:38:44.078Z",
+    "generatedAt": "2026-06-05T20:41:59.586Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 87.6,
+      "score": 90.1,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -12,9 +12,9 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-05T18:38:44.078Z",
+    "generatedAt": "2026-06-05T20:41:59.586Z",
     "summary": {
-      "score": 87.6,
+      "score": 90.1,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -26,13 +26,13 @@ export const macroRiskData = {
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$39.20T，約 30 交易日變化 +$216.5B",
-        "score": 87.6,
+        "value": "$39.23T，約 30 交易日變化 +$246.2B",
+        "score": 90.1,
         "label": "高壓力",
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
-        "asOf": "2026-06-03",
-        "checkedAt": "2026-06-05T18:38:29.472Z",
+        "asOf": "2026-06-04",
+        "checkedAt": "2026-06-05T20:41:45.023Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -40,11 +40,11 @@ export const macroRiskData = {
         "components": [
           {
             "label": "公眾持有債務",
-            "value": "$31.60T"
+            "value": "$31.61T"
           },
           {
             "label": "政府內部持有",
-            "value": "$7.61T"
+            "value": "$7.62T"
           }
         ]
       },
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-05T18:38:44.078Z",
+        "checkedAt": "2026-06-05T20:41:59.586Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,7 +74,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-05T18:38:44.078Z",
+        "checkedAt": "2026-06-05T20:41:59.586Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
