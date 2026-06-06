@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-05T23:47:35.809Z",
+    "generatedAt": "2026-06-06T01:43:35.143Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -32,12 +32,12 @@
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-05T23:47:35.809Z",
+      "checkedAt": "2026-06-06T01:43:35.143Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-06-05T23:47:35.808Z",
+    "generatedAt": "2026-06-06T01:43:35.142Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -66,7 +66,7 @@
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-05T23:47:35.809Z",
+      "checkedAt": "2026-06-06T01:43:35.143Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
