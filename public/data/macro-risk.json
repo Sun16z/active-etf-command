@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-08T01:43:55.566Z",
+    "generatedAt": "2026-06-08T06:33:16.588Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": 90.1,
@@ -12,7 +12,7 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-08T01:43:55.566Z",
+    "generatedAt": "2026-06-08T06:33:16.588Z",
     "summary": {
       "score": 90.1,
       "label": "高壓力",
@@ -32,7 +32,7 @@
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
         "asOf": "2026-06-04",
-        "checkedAt": "2026-06-08T01:43:41.326Z",
+        "checkedAt": "2026-06-08T06:33:01.986Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -58,7 +58,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-08T01:43:55.566Z",
+        "checkedAt": "2026-06-08T06:33:16.588Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,7 +74,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-08T01:43:55.566Z",
+        "checkedAt": "2026-06-08T06:33:16.588Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
