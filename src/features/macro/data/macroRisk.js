@@ -1,9 +1,9 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-06-09T17:56:31.078Z",
+    "generatedAt": "2026-06-09T20:30:11.150Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 89.6,
+      "score": 89.4,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -12,9 +12,9 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-09T17:56:31.078Z",
+    "generatedAt": "2026-06-09T20:30:11.150Z",
     "summary": {
-      "score": 89.6,
+      "score": 89.4,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -26,13 +26,13 @@ export const macroRiskData = {
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$39.22T，約 30 交易日變化 +$240.3B",
-        "score": 89.6,
+        "value": "$39.23T，約 30 交易日變化 +$237.6B",
+        "score": 89.4,
         "label": "高壓力",
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
-        "asOf": "2026-06-05",
-        "checkedAt": "2026-06-09T17:56:16.551Z",
+        "asOf": "2026-06-08",
+        "checkedAt": "2026-06-09T20:29:56.507Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -44,7 +44,7 @@ export const macroRiskData = {
           },
           {
             "label": "政府內部持有",
-            "value": "$7.62T"
+            "value": "$7.63T"
           }
         ]
       },
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-09T17:56:31.078Z",
+        "checkedAt": "2026-06-09T20:30:11.150Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,7 +74,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-09T17:56:31.078Z",
+        "checkedAt": "2026-06-09T20:30:11.150Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
