@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-09T20:29:55.978Z",
+    "generatedAt": "2026-06-09T22:23:57.766Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -32,12 +32,12 @@
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-09T20:29:55.978Z",
+      "checkedAt": "2026-06-09T22:23:57.766Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-06-09T20:29:55.978Z",
+    "generatedAt": "2026-06-09T22:23:57.765Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -66,7 +66,7 @@
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-09T20:29:55.978Z",
+      "checkedAt": "2026-06-09T22:23:57.766Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
@@ -386,12 +386,12 @@
         "cik": "0000320193",
         "theme": "消費電子",
         "status": "error",
-        "error": "SEC submissions 0000320193 HTTP 429 after retries",
+        "error": "fetch failed",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "SEC submissions 0000320193 HTTP 429 after retries"
+          "error": "fetch failed"
         }
       },
       {
