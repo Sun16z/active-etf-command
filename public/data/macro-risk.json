@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-10T09:10:47.109Z",
+    "generatedAt": "2026-06-10T12:46:05.354Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": null,
@@ -12,7 +12,7 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-10T09:10:47.109Z",
+    "generatedAt": "2026-06-10T12:46:05.354Z",
     "summary": {
       "score": null,
       "label": "資料不足",
@@ -32,7 +32,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-10T09:10:47.109Z",
+        "checkedAt": "2026-06-10T12:46:05.354Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -48,7 +48,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-10T09:10:47.109Z",
+        "checkedAt": "2026-06-10T12:46:05.354Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -64,7 +64,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-10T09:10:47.109Z",
+        "checkedAt": "2026-06-10T12:46:05.354Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
