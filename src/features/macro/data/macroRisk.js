@@ -1,9 +1,9 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-06-15T18:27:07.273Z",
+    "generatedAt": "2026-06-15T21:45:54.391Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 93.2,
+      "score": 90.8,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -12,9 +12,9 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-15T18:27:07.273Z",
+    "generatedAt": "2026-06-15T21:45:54.391Z",
     "summary": {
-      "score": 93.2,
+      "score": 90.8,
       "label": "高壓力",
       "tone": "strong-down",
       "meaning": "宏觀壓力或大資金防守很強",
@@ -26,13 +26,13 @@ export const macroRiskData = {
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$39.22T，約 30 交易日變化 +$285.3B",
-        "score": 93.2,
+        "value": "$39.21T，約 30 交易日變化 +$256.3B",
+        "score": 90.8,
         "label": "高壓力",
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
-        "asOf": "2026-06-11",
-        "checkedAt": "2026-06-15T18:26:52.624Z",
+        "asOf": "2026-06-12",
+        "checkedAt": "2026-06-15T21:45:39.775Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -40,7 +40,7 @@ export const macroRiskData = {
         "components": [
           {
             "label": "公眾持有債務",
-            "value": "$31.59T"
+            "value": "$31.58T"
           },
           {
             "label": "政府內部持有",
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-15T18:27:07.273Z",
+        "checkedAt": "2026-06-15T21:45:54.391Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -74,7 +74,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-15T18:27:07.273Z",
+        "checkedAt": "2026-06-15T21:45:54.391Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
