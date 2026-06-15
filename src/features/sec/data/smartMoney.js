@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-06-15T07:10:22.848Z",
+    "generatedAt": "2026-06-15T13:36:16.771Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -26,18 +26,18 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2026-08-14（60 天）",
+        "note": "下一個 13F 截止 2026-08-14（59 天）",
         "next13fDeadline": "2026-08-14",
-        "next13fDeadlineDays": 60,
+        "next13fDeadlineDays": 59,
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-15T07:10:22.848Z",
+      "checkedAt": "2026-06-15T13:36:16.771Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-06-15T07:10:22.847Z",
+    "generatedAt": "2026-06-15T13:36:16.770Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -60,13 +60,13 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2026-08-14（60 天）",
+        "note": "下一個 13F 截止 2026-08-14（59 天）",
         "next13fDeadline": "2026-08-14",
-        "next13fDeadlineDays": 60,
+        "next13fDeadlineDays": 59,
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-15T07:10:22.848Z",
+      "checkedAt": "2026-06-15T13:36:16.771Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
