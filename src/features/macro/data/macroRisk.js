@@ -1,6 +1,6 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-06-16T07:54:30.640Z",
+    "generatedAt": "2026-06-16T12:44:02.995Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": null,
@@ -12,7 +12,7 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-06-16T07:54:30.640Z",
+    "generatedAt": "2026-06-16T12:44:02.995Z",
     "summary": {
       "score": null,
       "label": "資料不足",
@@ -32,7 +32,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-16T07:54:30.640Z",
+        "checkedAt": "2026-06-16T12:44:02.995Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -48,7 +48,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-16T07:54:30.640Z",
+        "checkedAt": "2026-06-16T12:44:02.995Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -64,7 +64,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-06-16T07:54:30.640Z",
+        "checkedAt": "2026-06-16T12:44:02.995Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
