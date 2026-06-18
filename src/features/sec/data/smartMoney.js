@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-06-18T06:40:13.561Z",
+    "generatedAt": "2026-06-18T11:10:19.599Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -32,12 +32,12 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-18T06:40:13.561Z",
+      "checkedAt": "2026-06-18T11:10:19.599Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-06-18T06:40:13.560Z",
+    "generatedAt": "2026-06-18T11:10:19.598Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -66,7 +66,7 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-18T06:40:13.561Z",
+      "checkedAt": "2026-06-18T11:10:19.599Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
@@ -358,12 +358,12 @@ export const secSmartMoneyData = {
         "cik": "0001045810",
         "theme": "AI GPU",
         "status": "error",
-        "error": "SEC submissions 0001045810 HTTP 429 after retries",
+        "error": "fetch failed",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "SEC submissions 0001045810 HTTP 429 after retries"
+          "error": "fetch failed"
         }
       },
       {
