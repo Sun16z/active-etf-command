@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-06-18T11:10:19.599Z",
+    "generatedAt": "2026-06-18T14:33:06.889Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -26,18 +26,18 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2026-08-14（57 天）",
+        "note": "下一個 13F 截止 2026-08-14（56 天）",
         "next13fDeadline": "2026-08-14",
-        "next13fDeadlineDays": 57,
+        "next13fDeadlineDays": 56,
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-18T11:10:19.599Z",
+      "checkedAt": "2026-06-18T14:33:06.889Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-06-18T11:10:19.598Z",
+    "generatedAt": "2026-06-18T14:33:06.888Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -60,13 +60,13 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2026-08-14（57 天）",
+        "note": "下一個 13F 截止 2026-08-14（56 天）",
         "next13fDeadline": "2026-08-14",
-        "next13fDeadlineDays": 57,
+        "next13fDeadlineDays": 56,
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-06-18T11:10:19.599Z",
+      "checkedAt": "2026-06-18T14:33:06.889Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
@@ -358,12 +358,12 @@ export const secSmartMoneyData = {
         "cik": "0001045810",
         "theme": "AI GPU",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001045810 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001045810 HTTP 429 after retries"
         }
       },
       {
