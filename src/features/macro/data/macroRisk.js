@@ -1,27 +1,53 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-07-10T08:04:27.122Z",
+    "generatedAt": "2026-07-10T11:28:49.128Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 13.9,
-      "label": "低壓力",
-      "tone": "up",
-      "meaning": "壓力尚低",
-      "highest": "美國高收益信用利差",
+      "score": 40.6,
+      "label": "觀察",
+      "tone": "neutral",
+      "meaning": "中性觀察",
+      "highest": "美國國債水位",
       "interpretation": "分數越高代表宏觀壓力、信用壓力或大資金防守越強；此區偏向提前示警，需搭配價格趨勢確認。"
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-07-10T08:04:27.122Z",
+    "generatedAt": "2026-07-10T11:28:49.128Z",
     "summary": {
-      "score": 13.9,
-      "label": "低壓力",
-      "tone": "up",
-      "meaning": "壓力尚低",
-      "highest": "美國高收益信用利差",
+      "score": 40.6,
+      "label": "觀察",
+      "tone": "neutral",
+      "meaning": "中性觀察",
+      "highest": "美國國債水位",
       "interpretation": "分數越高代表宏觀壓力、信用壓力或大資金防守越強；此區偏向提前示警，需搭配價格趨勢確認。"
     },
     "indicators": [
+      {
+        "id": "us-debt",
+        "name": "美國國債水位",
+        "category": "主權債務",
+        "value": "$39.39T，約 30 交易日變化 +$324.2B",
+        "score": 97.2,
+        "label": "高壓力",
+        "tone": "strong-down",
+        "meaning": "宏觀壓力或大資金防守很強",
+        "asOf": "2026-07-08",
+        "checkedAt": "2026-07-10T11:28:49.127Z",
+        "cadence": "每日或交易日更新",
+        "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
+        "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
+        "explain": "總債務水位與近期增加速度偏高時，利率、財政與市場估值壓力會升高。",
+        "components": [
+          {
+            "label": "公眾持有債務",
+            "value": "$31.70T"
+          },
+          {
+            "label": "政府內部持有",
+            "value": "$7.70T"
+          }
+        ]
+      },
       {
         "id": "hy-oas",
         "name": "美國高收益信用利差",
@@ -32,7 +58,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-08",
-        "checkedAt": "2026-07-10T08:04:27.121Z",
+        "checkedAt": "2026-07-10T11:28:48.781Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -48,7 +74,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-03",
-        "checkedAt": "2026-07-10T08:04:27.122Z",
+        "checkedAt": "2026-07-10T11:28:48.781Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -64,7 +90,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-03",
-        "checkedAt": "2026-07-10T08:04:27.122Z",
+        "checkedAt": "2026-07-10T11:28:48.781Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -80,31 +106,15 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-07-10T08:04:27.122Z",
+        "checkedAt": "2026-07-10T11:28:49.127Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
         "explain": "Berkshire SEC submissions HTTP 403"
-      },
-      {
-        "id": "us-debt",
-        "name": "美國國債水位",
-        "category": "主權債務",
-        "value": "資料抓取失敗",
-        "score": null,
-        "label": "資料不足",
-        "tone": "neutral",
-        "meaning": "資料不足",
-        "asOf": null,
-        "checkedAt": "2026-07-10T08:04:27.122Z",
-        "cadence": "依來源更新",
-        "sourceLabel": "資料不足，無法確認",
-        "sourceUrl": null,
-        "explain": "fetch failed"
       }
     ],
     "sourceHealth": {
-      "parsed": 3,
+      "parsed": 4,
       "total": 5
     }
   }
