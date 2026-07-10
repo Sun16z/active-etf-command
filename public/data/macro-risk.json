@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T04:24:12.111Z",
+    "generatedAt": "2026-07-10T08:04:27.122Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
       "score": 13.9,
@@ -12,7 +12,7 @@
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-07-10T04:24:12.111Z",
+    "generatedAt": "2026-07-10T08:04:27.122Z",
     "summary": {
       "score": 13.9,
       "label": "低壓力",
@@ -32,7 +32,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-08",
-        "checkedAt": "2026-07-10T04:24:12.110Z",
+        "checkedAt": "2026-07-10T08:04:27.121Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -48,7 +48,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-03",
-        "checkedAt": "2026-07-10T04:24:12.110Z",
+        "checkedAt": "2026-07-10T08:04:27.122Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -64,7 +64,7 @@
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-07-03",
-        "checkedAt": "2026-07-10T04:24:12.110Z",
+        "checkedAt": "2026-07-10T08:04:27.122Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -80,7 +80,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-07-10T04:24:12.110Z",
+        "checkedAt": "2026-07-10T08:04:27.122Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
@@ -96,7 +96,7 @@
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-07-10T04:24:12.110Z",
+        "checkedAt": "2026-07-10T08:04:27.122Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
