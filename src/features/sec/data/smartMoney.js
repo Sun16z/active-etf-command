@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-07-15T15:10:58.153Z",
+    "generatedAt": "2026-07-15T16:54:16.955Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -32,12 +32,12 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-07-15T15:10:58.153Z",
+      "checkedAt": "2026-07-15T16:54:16.955Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-07-15T15:10:58.152Z",
+    "generatedAt": "2026-07-15T16:54:16.954Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -66,7 +66,7 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-06-30",
         "next13fQuarter": "2Q"
       },
-      "checkedAt": "2026-07-15T15:10:58.153Z",
+      "checkedAt": "2026-07-15T16:54:16.955Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
@@ -133,7 +133,7 @@ export const secSmartMoneyData = {
         "cik": "0001006438",
         "style": "機會型 / 週期",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001006438 HTTP 429 after retries",
         "totalValue": 0,
         "holdingCount": 0,
         "topHoldings": [],
