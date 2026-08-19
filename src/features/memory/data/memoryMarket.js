@@ -1,6 +1,6 @@
 export const memoryMarketData = {
   "meta": {
-    "generatedAt": "2026-08-18T23:45:45.376Z",
+    "generatedAt": "2026-08-19T00:08:07.959Z",
     "source": "us-market-radar memoryMarket pipeline",
     "summary": {
       "status": "pass",
@@ -23,7 +23,7 @@ export const memoryMarketData = {
     }
   },
   "memoryMarket": {
-    "generatedAt": "2026-08-18T23:45:44.696Z",
+    "generatedAt": "2026-08-19T00:08:07.226Z",
     "summary": {
       "status": "pass",
       "score": 69.5,
@@ -48,9 +48,9 @@ export const memoryMarketData = {
         "id": "hbm",
         "label": "HBM",
         "rank": 1,
-        "score": 74.2,
+        "score": 74.1,
         "tone": "up",
-        "metric": "代理20日 -4.81%",
+        "metric": "代理20日 -4.88%",
         "detail": "AI 訓練與推論 decode 的高頻寬核心，供應商往 HBM4 / HBM4e 競爭。",
         "components": [
           "HBM3e",
@@ -239,7 +239,7 @@ export const memoryMarketData = {
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-08-18T10:10:00.000Z",
-        "checkedAt": "2026-08-18T23:45:44.696Z"
+        "checkedAt": "2026-08-19T00:08:07.226Z"
       },
       {
         "id": "dram-ddr5-contract",
@@ -380,7 +380,7 @@ export const memoryMarketData = {
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-06-30T03:00:00.000Z",
-        "checkedAt": "2026-08-18T23:45:44.696Z"
+        "checkedAt": "2026-08-19T00:08:07.226Z"
       },
       {
         "id": "dram-ddr4-spot",
@@ -521,7 +521,7 @@ export const memoryMarketData = {
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-08-18T10:10:00.000Z",
-        "checkedAt": "2026-08-18T23:45:44.696Z"
+        "checkedAt": "2026-08-19T00:08:07.226Z"
       },
       {
         "id": "dram-ddr4-contract",
@@ -662,7 +662,7 @@ export const memoryMarketData = {
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-06-30T03:00:00.000Z",
-        "checkedAt": "2026-08-18T23:45:44.696Z"
+        "checkedAt": "2026-08-19T00:08:07.226Z"
       },
       {
         "id": "nand-contract",
@@ -803,7 +803,7 @@ export const memoryMarketData = {
         "sourceLabel": "TrendForce NAND Flash Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "sourceAsOf": "2026-06-30T02:00:00.000Z",
-        "checkedAt": "2026-08-18T23:45:44.696Z"
+        "checkedAt": "2026-08-19T00:08:07.226Z"
       }
     ],
     "chartSeries": [
@@ -816,39 +816,39 @@ export const memoryMarketData = {
         "points": [
           {
             "time": "2026-05-20T20:00:00.000Z",
-            "value": 99.29
+            "value": 101.64
           },
           {
             "time": "2026-05-21T20:00:00.000Z",
-            "value": 106.95
+            "value": 109.56
           },
           {
             "time": "2026-05-22T20:00:00.000Z",
-            "value": 105.92
+            "value": 108.52
           },
           {
             "time": "2026-05-26T20:00:00.000Z",
-            "value": 116.2
+            "value": 118.93
           },
           {
             "time": "2026-05-27T20:00:00.000Z",
-            "value": 122.33
+            "value": 125.29
           },
           {
             "time": "2026-05-28T20:00:00.000Z",
-            "value": 122.54
+            "value": 125.54
           },
           {
             "time": "2026-05-29T20:00:00.000Z",
-            "value": 126.86
+            "value": 129.94
           },
           {
             "time": "2026-06-01T20:00:00.000Z",
-            "value": 133.05
+            "value": 136.2
           },
           {
             "time": "2026-06-02T20:00:00.000Z",
-            "value": 135.48
+            "value": 138.65
           },
           {
             "time": "2026-06-03T20:00:00.000Z",
@@ -856,127 +856,127 @@ export const memoryMarketData = {
           },
           {
             "time": "2026-06-04T20:00:00.000Z",
-            "value": 130.72
+            "value": 133.8
           },
           {
             "time": "2026-06-05T20:00:00.000Z",
-            "value": 116.96
+            "value": 119.75
           },
           {
             "time": "2026-06-08T20:00:00.000Z",
-            "value": 115.54
+            "value": 118.1
           },
           {
             "time": "2026-06-09T20:00:00.000Z",
-            "value": 122.88
+            "value": 125.83
           },
           {
             "time": "2026-06-10T20:00:00.000Z",
-            "value": 115.42
-          },
-          {
-            "time": "2026-06-11T20:00:00.000Z",
-            "value": 121.89
-          },
-          {
-            "time": "2026-06-12T20:00:00.000Z",
-            "value": 124.66
-          },
-          {
-            "time": "2026-06-15T20:00:00.000Z",
-            "value": 135.4
-          },
-          {
-            "time": "2026-06-16T20:00:00.000Z",
-            "value": 135.3
-          },
-          {
-            "time": "2026-06-17T20:00:00.000Z",
-            "value": 140.13
-          },
-          {
-            "time": "2026-06-18T20:00:00.000Z",
-            "value": 149.55
-          },
-          {
-            "time": "2026-06-19T20:00:00.000Z",
-            "value": 141.86
-          },
-          {
-            "time": "2026-06-22T20:00:00.000Z",
-            "value": 156.99
-          },
-          {
-            "time": "2026-06-23T20:00:00.000Z",
-            "value": 137.71
-          },
-          {
-            "time": "2026-06-24T20:00:00.000Z",
-            "value": 140.51
-          },
-          {
-            "time": "2026-06-25T20:00:00.000Z",
-            "value": 156.15
-          },
-          {
-            "time": "2026-06-26T20:00:00.000Z",
-            "value": 144.09
-          },
-          {
-            "time": "2026-06-29T20:00:00.000Z",
-            "value": 144.02
-          },
-          {
-            "time": "2026-06-30T20:00:00.000Z",
-            "value": 145.38
-          },
-          {
-            "time": "2026-07-01T20:00:00.000Z",
-            "value": 135.66
-          },
-          {
-            "time": "2026-07-02T20:00:00.000Z",
-            "value": 122.03
-          },
-          {
-            "time": "2026-07-03T20:00:00.000Z",
-            "value": 124.32
-          },
-          {
-            "time": "2026-07-06T20:00:00.000Z",
-            "value": 128.79
-          },
-          {
-            "time": "2026-07-07T20:00:00.000Z",
-            "value": 121.17
-          },
-          {
-            "time": "2026-07-08T20:00:00.000Z",
             "value": 118.15
           },
           {
+            "time": "2026-06-11T20:00:00.000Z",
+            "value": 124.68
+          },
+          {
+            "time": "2026-06-12T20:00:00.000Z",
+            "value": 127.54
+          },
+          {
+            "time": "2026-06-15T20:00:00.000Z",
+            "value": 138.45
+          },
+          {
+            "time": "2026-06-16T20:00:00.000Z",
+            "value": 138.46
+          },
+          {
+            "time": "2026-06-17T20:00:00.000Z",
+            "value": 143.45
+          },
+          {
+            "time": "2026-06-18T20:00:00.000Z",
+            "value": 153.09
+          },
+          {
+            "time": "2026-06-19T20:00:00.000Z",
+            "value": 148.09
+          },
+          {
+            "time": "2026-06-22T20:00:00.000Z",
+            "value": 160.78
+          },
+          {
+            "time": "2026-06-23T20:00:00.000Z",
+            "value": 141.03
+          },
+          {
+            "time": "2026-06-24T20:00:00.000Z",
+            "value": 143.94
+          },
+          {
+            "time": "2026-06-25T20:00:00.000Z",
+            "value": 159.94
+          },
+          {
+            "time": "2026-06-26T20:00:00.000Z",
+            "value": 147.58
+          },
+          {
+            "time": "2026-06-29T20:00:00.000Z",
+            "value": 147.43
+          },
+          {
+            "time": "2026-06-30T20:00:00.000Z",
+            "value": 148.83
+          },
+          {
+            "time": "2026-07-01T20:00:00.000Z",
+            "value": 138.98
+          },
+          {
+            "time": "2026-07-02T20:00:00.000Z",
+            "value": 124.89
+          },
+          {
+            "time": "2026-07-03T20:00:00.000Z",
+            "value": 129.79
+          },
+          {
+            "time": "2026-07-06T20:00:00.000Z",
+            "value": 131.88
+          },
+          {
+            "time": "2026-07-07T20:00:00.000Z",
+            "value": 124.07
+          },
+          {
+            "time": "2026-07-08T20:00:00.000Z",
+            "value": 120.88
+          },
+          {
             "time": "2026-07-09T20:00:00.000Z",
-            "value": 123.03
+            "value": 125.88
           },
           {
             "time": "2026-07-10T20:00:00.000Z",
-            "value": 122.94
+            "value": 125.79
           },
           {
             "time": "2026-07-13T20:00:00.000Z",
-            "value": 111.32
+            "value": 113.75
           },
           {
             "time": "2026-07-14T20:00:00.000Z",
-            "value": 115.61
+            "value": 118.13
           },
           {
             "time": "2026-07-15T20:00:00.000Z",
-            "value": 115.58
+            "value": 118.32
           },
           {
             "time": "2026-07-16T20:00:00.000Z",
-            "value": 105.51
+            "value": 107.94
           },
           {
             "time": "2026-07-17T20:00:00.000Z",
@@ -984,83 +984,83 @@ export const memoryMarketData = {
           },
           {
             "time": "2026-07-20T20:00:00.000Z",
-            "value": 104.13
+            "value": 106.46
           },
           {
             "time": "2026-07-21T20:00:00.000Z",
-            "value": 112.84
+            "value": 115.27
           },
           {
             "time": "2026-07-22T20:00:00.000Z",
-            "value": 112.49
+            "value": 114.92
           },
           {
             "time": "2026-07-23T20:00:00.000Z",
-            "value": 116.44
+            "value": 118.98
           },
           {
             "time": "2026-07-24T20:00:00.000Z",
-            "value": 107.67
+            "value": 110
           },
           {
             "time": "2026-07-27T20:00:00.000Z",
-            "value": 107.73
+            "value": 110.14
           },
           {
             "time": "2026-07-28T20:00:00.000Z",
-            "value": 95.42
+            "value": 97.47
           },
           {
             "time": "2026-07-29T20:00:00.000Z",
-            "value": 87.75
+            "value": 89.63
           },
           {
             "time": "2026-07-30T20:00:00.000Z",
-            "value": 93.79
+            "value": 95.57
           },
           {
             "time": "2026-07-31T20:00:00.000Z",
-            "value": 103.81
+            "value": 106.11
           },
           {
             "time": "2026-08-03T20:00:00.000Z",
-            "value": 98.96
+            "value": 101.06
           },
           {
             "time": "2026-08-04T20:00:00.000Z",
-            "value": 102.57
+            "value": 104.68
           },
           {
             "time": "2026-08-05T20:00:00.000Z",
-            "value": 104.25
+            "value": 106.48
           },
           {
             "time": "2026-08-06T20:00:00.000Z",
-            "value": 97.56
+            "value": 99.56
           },
           {
             "time": "2026-08-07T20:00:00.000Z",
-            "value": 95.53
+            "value": 97.45
           },
           {
             "time": "2026-08-10T20:00:00.000Z",
-            "value": 94.74
+            "value": 96.67
           },
           {
             "time": "2026-08-11T20:00:00.000Z",
-            "value": 95.86
+            "value": 97.8
           },
           {
             "time": "2026-08-12T20:00:00.000Z",
-            "value": 100.94
+            "value": 103
           },
           {
             "time": "2026-08-13T20:00:00.000Z",
-            "value": 106.16
+            "value": 108.33
           },
           {
             "time": "2026-08-14T20:00:00.000Z",
-            "value": 109.17
+            "value": 111.41
           },
           {
             "time": "2026-08-17T20:00:00.000Z",
@@ -1068,7 +1068,7 @@ export const memoryMarketData = {
           },
           {
             "time": "2026-08-18T20:00:00.000Z",
-            "value": 107.41
+            "value": 109.65
           }
         ],
         "sourceLabel": "Yahoo Finance supplier basket",
@@ -1408,7 +1408,7 @@ export const memoryMarketData = {
         "score": 34,
         "severity": "low",
         "tone": "up",
-        "metric": "價 3.29% / 股 -4.81%",
+        "metric": "價 3.29% / 股 -4.88%",
         "meaning": "沒有頂部確認警訊。",
         "sourceLabel": "TrendForce + Yahoo Finance",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
@@ -1421,7 +1421,7 @@ export const memoryMarketData = {
         "label": "TrendForce HBM Market Bulletin",
         "url": "https://www.trendforce.com/research/download/RP260513PF3",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-05-12T16:00:00.000Z",
         "note": "Monthly HBM bulletin; public page shows highlights, full PDF requires purchase or membership"
       },
@@ -1430,7 +1430,7 @@ export const memoryMarketData = {
         "label": "TrendForce DRAM Spot Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-08-18T10:10:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1439,7 +1439,7 @@ export const memoryMarketData = {
         "label": "TrendForce DRAM Contract Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-06-30T03:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1448,7 +1448,7 @@ export const memoryMarketData = {
         "label": "TrendForce NAND Flash Contract Price",
         "url": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-06-30T02:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1457,7 +1457,7 @@ export const memoryMarketData = {
         "label": "TrendForce Memory Wall Insight",
         "url": "https://www.trendforce.com.tw/insights/memory-wall",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-01-15T16:00:00.000Z",
         "note": "HBM / DDR5 / AI inference chain thesis"
       },
@@ -1466,7 +1466,7 @@ export const memoryMarketData = {
         "label": "TrendForce 2Q26 Memory Price Forecast",
         "url": "https://www.trendforce.com/presscenter/news/20260331-12995.html",
         "status": "pass",
-        "checkedAt": "2026-08-18T23:45:44.696Z",
+        "checkedAt": "2026-08-19T00:08:07.226Z",
         "sourceAsOf": "2026-03-30T16:00:00.000Z",
         "note": "DRAM 58-63% QoQ; NAND 70-75% QoQ forecast context"
       }
