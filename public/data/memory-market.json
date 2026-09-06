@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-06T13:18:58.369Z",
+    "generatedAt": "2026-09-06T16:27:01.191Z",
     "source": "us-market-radar memoryMarket pipeline",
     "summary": {
       "status": "pass",
@@ -23,7 +23,7 @@
     }
   },
   "memoryMarket": {
-    "generatedAt": "2026-09-06T13:18:57.379Z",
+    "generatedAt": "2026-09-06T16:27:00.391Z",
     "summary": {
       "status": "pass",
       "score": 73.5,
@@ -239,7 +239,7 @@
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-09-04T10:10:00.000Z",
-        "checkedAt": "2026-09-06T13:18:57.379Z"
+        "checkedAt": "2026-09-06T16:27:00.391Z"
       },
       {
         "id": "dram-ddr5-contract",
@@ -380,7 +380,7 @@
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-07-31T07:00:00.000Z",
-        "checkedAt": "2026-09-06T13:18:57.379Z"
+        "checkedAt": "2026-09-06T16:27:00.391Z"
       },
       {
         "id": "dram-ddr4-spot",
@@ -521,7 +521,7 @@
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-09-04T10:10:00.000Z",
-        "checkedAt": "2026-09-06T13:18:57.379Z"
+        "checkedAt": "2026-09-06T16:27:00.391Z"
       },
       {
         "id": "dram-ddr4-contract",
@@ -662,7 +662,7 @@
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-07-31T07:00:00.000Z",
-        "checkedAt": "2026-09-06T13:18:57.379Z"
+        "checkedAt": "2026-09-06T16:27:00.391Z"
       },
       {
         "id": "nand-contract",
@@ -803,7 +803,7 @@
         "sourceLabel": "TrendForce NAND Flash Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "sourceAsOf": "2026-07-31T01:00:00.000Z",
-        "checkedAt": "2026-09-06T13:18:57.379Z"
+        "checkedAt": "2026-09-06T16:27:00.391Z"
       }
     ],
     "chartSeries": [
@@ -1421,7 +1421,7 @@
         "label": "TrendForce HBM Market Bulletin",
         "url": "https://www.trendforce.com/research/download/RP260513PF3",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-05-12T16:00:00.000Z",
         "note": "Monthly HBM bulletin; public page shows highlights, full PDF requires purchase or membership"
       },
@@ -1430,7 +1430,7 @@
         "label": "TrendForce DRAM Spot Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-09-04T10:10:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1439,7 +1439,7 @@
         "label": "TrendForce DRAM Contract Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-07-31T07:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1448,7 +1448,7 @@
         "label": "TrendForce NAND Flash Contract Price",
         "url": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-07-31T01:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1457,7 +1457,7 @@
         "label": "TrendForce Memory Wall Insight",
         "url": "https://www.trendforce.com.tw/insights/memory-wall",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-01-15T16:00:00.000Z",
         "note": "HBM / DDR5 / AI inference chain thesis"
       },
@@ -1466,7 +1466,7 @@
         "label": "TrendForce 2Q26 Memory Price Forecast",
         "url": "https://www.trendforce.com/presscenter/news/20260331-12995.html",
         "status": "pass",
-        "checkedAt": "2026-09-06T13:18:57.379Z",
+        "checkedAt": "2026-09-06T16:27:00.391Z",
         "sourceAsOf": "2026-03-30T16:00:00.000Z",
         "note": "DRAM 58-63% QoQ; NAND 70-75% QoQ forecast context"
       }
