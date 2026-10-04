@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generatedAt": "2026-10-04T17:12:01.717Z",
+    "generatedAt": "2026-10-04T20:20:10.159Z",
     "source": "us-market-radar memoryMarket pipeline",
     "summary": {
-      "status": "warning",
+      "status": "pass",
       "score": 70.9,
       "label": "記憶體循環偏多",
       "headline": "HBM 是 AI 主線，DRAM / NAND 是供給排擠與資料中心擴張的放大器。",
       "interpretation": "優先看 HBM 供應商、封裝產能與 HBM4 進度；DDR5 與 NAND 價格代表 AI demand 擴散到通用伺服器與儲存鏈。",
-      "cycleRiskScore": 58,
-      "cycleRiskLabel": "需注意背離",
-      "cycleRiskTone": "down",
-      "topCycleAlert": "部分來源需要人工複核",
-      "failedSources": 1,
+      "cycleRiskScore": 34,
+      "cycleRiskLabel": "暫無崩盤背離",
+      "cycleRiskTone": "up",
+      "topCycleAlert": "尚未出現價格/股價崩盤背離",
+      "failedSources": 0,
       "proxySymbols": [
         "000660.KS",
         "MU",
@@ -23,18 +23,18 @@
     }
   },
   "memoryMarket": {
-    "generatedAt": "2026-10-04T17:11:49.686Z",
+    "generatedAt": "2026-10-04T20:20:08.577Z",
     "summary": {
-      "status": "warning",
+      "status": "pass",
       "score": 70.9,
       "label": "記憶體循環偏多",
       "headline": "HBM 是 AI 主線，DRAM / NAND 是供給排擠與資料中心擴張的放大器。",
       "interpretation": "優先看 HBM 供應商、封裝產能與 HBM4 進度；DDR5 與 NAND 價格代表 AI demand 擴散到通用伺服器與儲存鏈。",
-      "cycleRiskScore": 58,
-      "cycleRiskLabel": "需注意背離",
-      "cycleRiskTone": "down",
-      "topCycleAlert": "部分來源需要人工複核",
-      "failedSources": 1,
+      "cycleRiskScore": 34,
+      "cycleRiskLabel": "暫無崩盤背離",
+      "cycleRiskTone": "up",
+      "topCycleAlert": "尚未出現價格/股價崩盤背離",
+      "failedSources": 0,
       "proxySymbols": [
         "000660.KS",
         "MU",
@@ -239,7 +239,7 @@
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-10-02T10:10:00.000Z",
-        "checkedAt": "2026-10-04T17:11:49.686Z"
+        "checkedAt": "2026-10-04T20:20:08.577Z"
       },
       {
         "id": "dram-ddr5-contract",
@@ -380,7 +380,7 @@
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-08-31T06:00:00.000Z",
-        "checkedAt": "2026-10-04T17:11:49.686Z"
+        "checkedAt": "2026-10-04T20:20:08.577Z"
       },
       {
         "id": "dram-ddr4-spot",
@@ -521,7 +521,7 @@
         "sourceLabel": "TrendForce DRAM Spot Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-10-02T10:10:00.000Z",
-        "checkedAt": "2026-10-04T17:11:49.686Z"
+        "checkedAt": "2026-10-04T20:20:08.577Z"
       },
       {
         "id": "dram-ddr4-contract",
@@ -662,7 +662,7 @@
         "sourceLabel": "TrendForce DRAM Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "sourceAsOf": "2026-08-31T06:00:00.000Z",
-        "checkedAt": "2026-10-04T17:11:49.686Z"
+        "checkedAt": "2026-10-04T20:20:08.577Z"
       },
       {
         "id": "nand-contract",
@@ -803,7 +803,7 @@
         "sourceLabel": "TrendForce NAND Flash Contract Price",
         "sourceUrl": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "sourceAsOf": "2026-08-31T10:00:00.000Z",
-        "checkedAt": "2026-10-04T17:11:49.686Z"
+        "checkedAt": "2026-10-04T20:20:08.577Z"
       }
     ],
     "chartSeries": [
@@ -1402,17 +1402,17 @@
     ],
     "cycleAlerts": [
       {
-        "id": "source-warning",
-        "title": "部分來源需要人工複核",
-        "body": "1 個資料源未達 pass；警示分數會保守處理，避免把 fallback 當成真實轉折。",
-        "score": 58,
-        "severity": "medium",
-        "tone": "neutral",
-        "metric": "1 source warnings",
-        "meaning": "資料品質警示，需回看來源頁。",
-        "sourceLabel": "TrendForce HBM Market Bulletin",
-        "sourceUrl": "https://www.trendforce.com/research/download/RP260513PF3",
-        "asOf": "2026-10-04T17:11:49.686Z"
+        "id": "cycle-stable",
+        "title": "尚未出現價格/股價崩盤背離",
+        "body": "目前公開價格與供應商代理沒有同時觸發轉弱條件；仍需持續看 TrendForce 更新、HBM 供應商指引與代理股價斜率。",
+        "score": 34,
+        "severity": "low",
+        "tone": "up",
+        "metric": "價 0.86% / 股 6.62%",
+        "meaning": "沒有頂部確認警訊。",
+        "sourceLabel": "TrendForce + Yahoo Finance",
+        "sourceUrl": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
+        "asOf": "2026-10-02T20:00:00.000Z"
       }
     ],
     "sources": [
@@ -1420,17 +1420,17 @@
         "id": "trendforce-hbm-bulletin",
         "label": "TrendForce HBM Market Bulletin",
         "url": "https://www.trendforce.com/research/download/RP260513PF3",
-        "status": "warning",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "status": "pass",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-05-12T16:00:00.000Z",
-        "note": "HBM bulletin fetch failed: This operation was aborted"
+        "note": "Monthly HBM bulletin; public page shows highlights, full PDF requires purchase or membership"
       },
       {
         "id": "trendforce-dram-spot",
         "label": "TrendForce DRAM Spot Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-10-02T10:10:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1439,7 +1439,7 @@
         "label": "TrendForce DRAM Contract Price",
         "url": "https://www.trendforce.com.tw/price/dram/mobileDram_contract",
         "status": "pass",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-08-31T06:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1448,7 +1448,7 @@
         "label": "TrendForce NAND Flash Contract Price",
         "url": "https://www.trendforce.com.tw/price/flash/pcc_oem_ssd_contract",
         "status": "pass",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-08-31T10:00:00.000Z",
         "note": "TrendForce public price table"
       },
@@ -1457,7 +1457,7 @@
         "label": "TrendForce Memory Wall Insight",
         "url": "https://www.trendforce.com.tw/insights/memory-wall",
         "status": "pass",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-01-15T16:00:00.000Z",
         "note": "HBM / DDR5 / AI inference chain thesis"
       },
@@ -1466,7 +1466,7 @@
         "label": "TrendForce 2Q26 Memory Price Forecast",
         "url": "https://www.trendforce.com/presscenter/news/20260331-12995.html",
         "status": "pass",
-        "checkedAt": "2026-10-04T17:11:49.686Z",
+        "checkedAt": "2026-10-04T20:20:08.577Z",
         "sourceAsOf": "2026-03-30T16:00:00.000Z",
         "note": "DRAM 58-63% QoQ; NAND 70-75% QoQ forecast context"
       }
