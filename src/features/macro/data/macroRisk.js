@@ -1,9 +1,9 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-10-22T17:47:39.332Z",
+    "generatedAt": "2026-10-22T20:58:46.231Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 52.5,
+      "score": 53.2,
       "label": "觀察",
       "tone": "neutral",
       "meaning": "中性觀察",
@@ -12,9 +12,9 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-10-22T17:47:39.332Z",
+    "generatedAt": "2026-10-22T20:58:46.231Z",
     "summary": {
-      "score": 52.5,
+      "score": 53.2,
       "label": "觀察",
       "tone": "neutral",
       "meaning": "中性觀察",
@@ -26,13 +26,13 @@ export const macroRiskData = {
         "id": "us-debt",
         "name": "美國國債水位",
         "category": "主權債務",
-        "value": "$40.44T，約 30 交易日變化 +$263.9B",
-        "score": 97.8,
+        "value": "$40.41T，約 30 交易日變化 +$301.2B",
+        "score": 100,
         "label": "高壓力",
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
-        "asOf": "2026-10-20",
-        "checkedAt": "2026-10-22T17:47:39.332Z",
+        "asOf": "2026-10-21",
+        "checkedAt": "2026-10-22T20:58:46.231Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -44,7 +44,7 @@ export const macroRiskData = {
           },
           {
             "label": "政府內部持有",
-            "value": "$7.87T"
+            "value": "$7.85T"
           }
         ]
       },
@@ -58,7 +58,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-10-16",
-        "checkedAt": "2026-10-22T17:47:39.105Z",
+        "checkedAt": "2026-10-22T20:58:45.909Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -74,7 +74,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-10-21",
-        "checkedAt": "2026-10-22T17:47:39.104Z",
+        "checkedAt": "2026-10-22T20:58:45.908Z",
         "cadence": "每日，收盤資料",
         "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
         "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
@@ -90,7 +90,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-10-16",
-        "checkedAt": "2026-10-22T17:47:39.105Z",
+        "checkedAt": "2026-10-22T20:58:45.909Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
@@ -106,7 +106,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-10-22T17:47:39.332Z",
+        "checkedAt": "2026-10-22T20:58:46.231Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
