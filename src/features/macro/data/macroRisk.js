@@ -1,9 +1,9 @@
 export const macroRiskData = {
   "meta": {
-    "generatedAt": "2026-11-17T12:05:30.327Z",
+    "generatedAt": "2026-11-17T21:05:46.239Z",
     "source": "us-market-radar macroRisk pipeline",
     "summary": {
-      "score": 46.2,
+      "score": 46.8,
       "label": "觀察",
       "tone": "neutral",
       "meaning": "中性觀察",
@@ -12,9 +12,9 @@ export const macroRiskData = {
     }
   },
   "macroRisk": {
-    "generatedAt": "2026-11-17T12:05:30.327Z",
+    "generatedAt": "2026-11-17T21:05:46.239Z",
     "summary": {
-      "score": 46.2,
+      "score": 46.8,
       "label": "觀察",
       "tone": "neutral",
       "meaning": "中性觀察",
@@ -32,7 +32,7 @@ export const macroRiskData = {
         "tone": "strong-down",
         "meaning": "宏觀壓力或大資金防守很強",
         "asOf": "2026-11-13",
-        "checkedAt": "2026-11-17T12:05:30.326Z",
+        "checkedAt": "2026-11-17T21:05:46.238Z",
         "cadence": "每日或交易日更新",
         "sourceLabel": "U.S. Treasury FiscalData Debt to the Penny",
         "sourceUrl": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
@@ -49,6 +49,22 @@ export const macroRiskData = {
         ]
       },
       {
+        "id": "hy-oas",
+        "name": "美國高收益信用利差",
+        "category": "信貸風險",
+        "value": "3.34% / 5期 +0 / 20期 +0.05",
+        "score": 24.3,
+        "label": "低壓力",
+        "tone": "up",
+        "meaning": "壓力尚低",
+        "asOf": "2026-11-16",
+        "checkedAt": "2026-11-17T21:05:46.216Z",
+        "cadence": "每日，收盤資料",
+        "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
+        "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+        "explain": "高收益債利差擴大代表市場要求更高違約風險補償，是股市轉弱常見前置信號之一。"
+      },
+      {
         "id": "nfci",
         "name": "芝加哥 Fed 金融條件",
         "category": "金融壓力",
@@ -58,27 +74,11 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-11-06",
-        "checkedAt": "2026-11-17T12:05:30.205Z",
+        "checkedAt": "2026-11-17T21:05:46.216Z",
         "cadence": "每週",
         "sourceLabel": "FRED Chicago Fed NFCI (NFCI)",
         "sourceUrl": "https://fred.stlouisfed.org/series/NFCI",
         "explain": "NFCI 高於常態代表金融條件收緊；由負值往上走代表壓力升溫。"
-      },
-      {
-        "id": "hy-oas",
-        "name": "美國高收益信用利差",
-        "category": "信貸風險",
-        "value": "3.23% / 5期 -0.19 / 20期 -0.08",
-        "score": 21.7,
-        "label": "低壓力",
-        "tone": "up",
-        "meaning": "壓力尚低",
-        "asOf": "2026-11-13",
-        "checkedAt": "2026-11-17T12:05:30.205Z",
-        "cadence": "每日，收盤資料",
-        "sourceLabel": "FRED ICE BofA US High Yield OAS (BAMLH0A0HYM2)",
-        "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-        "explain": "高收益債利差擴大代表市場要求更高違約風險補償，是股市轉弱常見前置信號之一。"
       },
       {
         "id": "stlfsi",
@@ -90,7 +90,7 @@ export const macroRiskData = {
         "tone": "up",
         "meaning": "壓力尚低",
         "asOf": "2026-11-06",
-        "checkedAt": "2026-11-17T12:05:30.205Z",
+        "checkedAt": "2026-11-17T21:05:46.216Z",
         "cadence": "每週",
         "sourceLabel": "FRED St. Louis Fed FSI (STLFSI4)",
         "sourceUrl": "https://fred.stlouisfed.org/series/STLFSI4",
@@ -106,7 +106,7 @@ export const macroRiskData = {
         "tone": "neutral",
         "meaning": "資料不足",
         "asOf": null,
-        "checkedAt": "2026-11-17T12:05:30.327Z",
+        "checkedAt": "2026-11-17T21:05:46.238Z",
         "cadence": "依來源更新",
         "sourceLabel": "資料不足，無法確認",
         "sourceUrl": null,
