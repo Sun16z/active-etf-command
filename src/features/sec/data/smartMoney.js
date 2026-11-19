@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-11-19T09:39:03.323Z",
+    "generatedAt": "2026-11-19T18:49:56.970Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -26,18 +26,18 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2027-02-15（88 天）",
+        "note": "下一個 13F 截止 2027-02-15（87 天）",
         "next13fDeadline": "2027-02-15",
-        "next13fDeadlineDays": 88,
+        "next13fDeadlineDays": 87,
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-19T09:39:03.323Z",
+      "checkedAt": "2026-11-19T18:49:56.970Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-11-19T09:39:03.322Z",
+    "generatedAt": "2026-11-19T18:49:56.969Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -60,13 +60,13 @@ export const secSmartMoneyData = {
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2027-02-15（88 天）",
+        "note": "下一個 13F 截止 2027-02-15（87 天）",
         "next13fDeadline": "2027-02-15",
-        "next13fDeadlineDays": 88,
+        "next13fDeadlineDays": 87,
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-19T09:39:03.323Z",
+      "checkedAt": "2026-11-19T18:49:56.970Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
@@ -329,7 +329,7 @@ export const secSmartMoneyData = {
         "cik": "0001423053",
         "style": "多策略 / 做市",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001423053 HTTP 429 after retries",
         "totalValue": 0,
         "holdingCount": 0,
         "topHoldings": [],
@@ -343,7 +343,7 @@ export const secSmartMoneyData = {
         "cik": "0001273087",
         "style": "多經理人",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001273087 HTTP 429 after retries",
         "totalValue": 0,
         "holdingCount": 0,
         "topHoldings": [],
@@ -358,12 +358,12 @@ export const secSmartMoneyData = {
         "cik": "0001045810",
         "theme": "AI GPU",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001045810 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001045810 HTTP 429 after retries"
         }
       },
       {
@@ -372,12 +372,12 @@ export const secSmartMoneyData = {
         "cik": "0001318605",
         "theme": "EV / AI",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001318605 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001318605 HTTP 429 after retries"
         }
       },
       {
@@ -414,12 +414,12 @@ export const secSmartMoneyData = {
         "cik": "0001326801",
         "theme": "AI ads",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001326801 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001326801 HTTP 429 after retries"
         }
       },
       {
@@ -428,12 +428,12 @@ export const secSmartMoneyData = {
         "cik": "0001652044",
         "theme": "Search / AI",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001652044 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001652044 HTTP 429 after retries"
         }
       },
       {
@@ -456,12 +456,12 @@ export const secSmartMoneyData = {
         "cik": "0001730168",
         "theme": "ASIC / 網通",
         "status": "error",
-        "error": "fetch failed",
+        "error": "SEC submissions 0001730168 HTTP 429 after retries",
         "transactionCount": 0,
         "transactions": [],
         "activist": {
           "status": "error",
-          "error": "fetch failed"
+          "error": "SEC submissions 0001730168 HTTP 429 after retries"
         }
       },
       {
