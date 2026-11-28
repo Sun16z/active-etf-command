@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-28T05:09:52.571Z",
+    "generatedAt": "2026-11-28T14:22:08.399Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -26,18 +26,18 @@
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2027-02-15（79 天）",
+        "note": "下一個 13F 截止 2027-02-15（78 天）",
         "next13fDeadline": "2027-02-15",
-        "next13fDeadlineDays": 79,
+        "next13fDeadlineDays": 78,
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-28T05:09:52.571Z",
+      "checkedAt": "2026-11-28T14:22:08.399Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-11-28T05:09:52.570Z",
+    "generatedAt": "2026-11-28T14:22:08.398Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -60,13 +60,13 @@
       "freshness": {
         "status": "pass",
         "label": "正常",
-        "note": "下一個 13F 截止 2027-02-15（79 天）",
+        "note": "下一個 13F 截止 2027-02-15（78 天）",
         "next13fDeadline": "2027-02-15",
-        "next13fDeadlineDays": 79,
+        "next13fDeadlineDays": 78,
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-28T05:09:52.571Z",
+      "checkedAt": "2026-11-28T14:22:08.399Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
