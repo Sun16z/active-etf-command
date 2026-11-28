@@ -1,6 +1,6 @@
 export const secSmartMoneyData = {
   "meta": {
-    "generatedAt": "2026-11-27T23:53:40.666Z",
+    "generatedAt": "2026-11-28T05:09:52.571Z",
     "sourceMode": "live-sec",
     "seedPath": null,
     "source": "SEC EDGAR Smart Money import",
@@ -32,12 +32,12 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-27T23:53:40.666Z",
+      "checkedAt": "2026-11-28T05:09:52.571Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     }
   },
   "smartMoney": {
-    "generatedAt": "2026-11-27T23:53:40.665Z",
+    "generatedAt": "2026-11-28T05:09:52.570Z",
     "summary": {
       "status": "fail",
       "trackedFunds": 20,
@@ -66,7 +66,7 @@ export const secSmartMoneyData = {
         "next13fReportDate": "2026-12-31",
         "next13fQuarter": "4Q"
       },
-      "checkedAt": "2026-11-27T23:53:40.666Z",
+      "checkedAt": "2026-11-28T05:09:52.571Z",
       "note": "13F 為季度延遲資料；Form 4 較接近即時，但需解讀交易代碼與 10b5-1。"
     },
     "funds": [
